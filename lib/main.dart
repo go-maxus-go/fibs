@@ -67,7 +67,7 @@ class _QuizPageState extends State<QuizPage> {
   String? _currentCorrectAnswer;
   List<String> _options = <String>[];
   QuizDirection? _direction;
-  int _correctCount = 0;
+  int _correctStreak = 0;
   bool _isLoading = true;
   bool _isChecking = false;
   bool _answersRevealed = false;
@@ -158,13 +158,14 @@ class _QuizPageState extends State<QuizPage> {
     final bool isCorrect = selected == _currentCorrectAnswer;
     if (!isCorrect) {
       setState(() {
+        _correctStreak = 0;
         _wrongSelections.add(selected);
       });
       return;
     }
 
     setState(() {
-      _correctCount += 1;
+      _correctStreak += 1;
       _isChecking = true;
       _correctSelection = selected;
     });
@@ -214,7 +215,7 @@ class _QuizPageState extends State<QuizPage> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Text(
-              'Correct: $_correctCount',
+              'Streak: $_correctStreak',
               style: Theme.of(context).textTheme.titleMedium,
             ),
             const SizedBox(height: 20),
