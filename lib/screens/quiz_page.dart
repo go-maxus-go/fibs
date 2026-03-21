@@ -67,7 +67,7 @@ class _QuizPageState extends State<QuizPage> {
       spdLang = 'en';
       textToSpeak = text.split('(').first.trim();
     }
-    
+
     if (Platform.isLinux) {
       try {
         await Process.run('spd-say', <String>['-l', spdLang, textToSpeak]);
@@ -324,7 +324,9 @@ class _QuizPageState extends State<QuizPage> {
                       const SizedBox(width: 24),
                       IconButton(
                         icon: Icon(
-                          _isWordHidden ? Icons.visibility_off : Icons.visibility,
+                          _isWordHidden
+                              ? Icons.visibility_off
+                              : Icons.visibility,
                         ),
                         tooltip: _isWordHidden ? 'Show word' : 'Hide word',
                         onPressed: () {
@@ -340,8 +342,12 @@ class _QuizPageState extends State<QuizPage> {
                       ),
                       const SizedBox(width: 24),
                       IconButton(
-                        icon: Icon(_autoRevealAnswers ? Icons.bolt : Icons.touch_app),
-                        tooltip: _autoRevealAnswers ? 'Disable auto-reveal' : 'Enable auto-reveal',
+                        icon: Icon(
+                          _autoRevealAnswers ? Icons.bolt : Icons.touch_app,
+                        ),
+                        tooltip: _autoRevealAnswers
+                            ? 'Disable auto-reveal'
+                            : 'Enable auto-reveal',
                         onPressed: () {
                           setState(() {
                             _autoRevealAnswers = !_autoRevealAnswers;
