@@ -1,0 +1,602 @@
+[
+    {
+        "de": "gut",
+        "en": "good",
+        "ru": "\u0445\u043e\u0440\u043e\u0448\u0438\u0439",
+        "index": 1
+    },
+    {
+        "de": "ganz",
+        "en": "whole",
+        "ru": "\u0446\u0435\u043b\u044b\u0439",
+        "index": 2
+    },
+    {
+        "de": "neu",
+        "en": "new",
+        "ru": "\u043d\u043e\u0432\u044b\u0439",
+        "index": 3
+    },
+    {
+        "de": "gro\u00df",
+        "en": "large",
+        "ru": "\u0431\u043e\u043b\u044c\u0448\u043e\u0439",
+        "index": 4
+    },
+    {
+        "de": "alt",
+        "en": "old",
+        "ru": "\u0441\u0442\u0430\u0440\u044b\u0439",
+        "index": 5
+    },
+    {
+        "de": "klein",
+        "en": "small",
+        "ru": "\u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0439",
+        "index": 6
+    },
+    {
+        "de": "jung",
+        "en": "young",
+        "ru": "\u043c\u043e\u043b\u043e\u0434\u043e\u0439",
+        "index": 7
+    },
+    {
+        "de": "hoch",
+        "en": "high",
+        "ru": "\u0432\u044b\u0441\u043e\u043a\u0438\u0439",
+        "index": 8
+    },
+    {
+        "de": "erst",
+        "en": "first",
+        "ru": "\u043f\u0435\u0440\u0432\u044b\u0439",
+        "index": 9
+    },
+    {
+        "de": "lang",
+        "en": "long",
+        "ru": "\u0434\u043b\u0438\u043d\u043d\u044b\u0439",
+        "index": 10
+    },
+    {
+        "de": "weit",
+        "en": "far",
+        "ru": "\u0434\u0430\u043b\u0435\u043a\u0438\u0439",
+        "index": 11
+    },
+    {
+        "de": "sp\u00e4t",
+        "en": "late",
+        "ru": "\u043f\u043e\u0437\u0434\u043d\u0438\u0439",
+        "index": 12
+    },
+    {
+        "de": "wichtig",
+        "en": "important",
+        "ru": "\u0432\u0430\u0436\u043d\u044b\u0439",
+        "index": 13
+    },
+    {
+        "de": "nahe",
+        "en": "near",
+        "ru": "\u0431\u043b\u0438\u0437\u043a\u0438\u0439",
+        "index": 14
+    },
+    {
+        "de": "richtig",
+        "en": "correct",
+        "ru": "\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439",
+        "index": 15
+    },
+    {
+        "de": "schlecht",
+        "en": "bad",
+        "ru": "\u043f\u043b\u043e\u0445\u043e\u0439",
+        "index": 16
+    },
+    {
+        "de": "kurz",
+        "en": "short",
+        "ru": "\u043a\u043e\u0440\u043e\u0442\u043a\u0438\u0439",
+        "index": 17
+    },
+    {
+        "de": "stark",
+        "en": "strong",
+        "ru": "\u0441\u0438\u043b\u044c\u043d\u044b\u0439",
+        "index": 18
+    },
+    {
+        "de": "sch\u00f6n",
+        "en": "beautiful",
+        "ru": "\u043a\u0440\u0430\u0441\u0438\u0432\u044b\u0439",
+        "index": 19
+    },
+    {
+        "de": "schnell",
+        "en": "fast",
+        "ru": "\u0431\u044b\u0441\u0442\u0440\u044b\u0439",
+        "index": 20
+    },
+    {
+        "de": "frei",
+        "en": "free",
+        "ru": "\u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439",
+        "index": 21
+    },
+    {
+        "de": "eigen",
+        "en": "own",
+        "ru": "\u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 22
+    },
+    {
+        "de": "bekannt",
+        "en": "well-known",
+        "ru": "\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439",
+        "index": 23
+    },
+    {
+        "de": "schwer",
+        "en": "heavy",
+        "ru": "\u0442\u044f\u0436\u0435\u043b\u044b\u0439",
+        "index": 24
+    },
+    {
+        "de": "einfach",
+        "en": "simple",
+        "ru": "\u043f\u0440\u043e\u0441\u0442\u043e\u0439",
+        "index": 25
+    },
+    {
+        "de": "m\u00f6glich",
+        "en": "possible",
+        "ru": "\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u044b\u0439",
+        "index": 26
+    },
+    {
+        "de": "gleich",
+        "en": "same",
+        "ru": "\u043e\u0434\u0438\u043d\u0430\u043a\u043e\u0432\u044b\u0439",
+        "index": 27
+    },
+    {
+        "de": "fr\u00fch",
+        "en": "early",
+        "ru": "\u0440\u0430\u043d\u043d\u0438\u0439",
+        "index": 28
+    },
+    {
+        "de": "klar",
+        "en": "clear",
+        "ru": "\u044f\u0441\u043d\u044b\u0439",
+        "index": 29
+    },
+    {
+        "de": "sicher",
+        "en": "sure",
+        "ru": "\u0443\u0432\u0435\u0440\u0435\u043d\u043d\u044b\u0439",
+        "index": 30
+    },
+    {
+        "de": "best",
+        "en": "best",
+        "ru": "\u043b\u0443\u0447\u0448\u0438\u0439",
+        "index": 31
+    },
+    {
+        "de": "n\u00e4chst",
+        "en": "next",
+        "ru": "\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439",
+        "index": 32
+    },
+    {
+        "de": "direkt",
+        "en": "direct",
+        "ru": "\u043f\u0440\u044f\u043c\u043e\u0439",
+        "index": 33
+    },
+    {
+        "de": "letzter",
+        "en": "last",
+        "ru": "\u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0439",
+        "index": 34
+    },
+    {
+        "de": "verschieden",
+        "en": "different",
+        "ru": "\u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0439",
+        "index": 35
+    },
+    {
+        "de": "offen",
+        "en": "open",
+        "ru": "\u043e\u0442\u043a\u0440\u044b\u0442\u044b\u0439",
+        "index": 36
+    },
+    {
+        "de": "voll",
+        "en": "full",
+        "ru": "\u043f\u043e\u043b\u043d\u044b\u0439",
+        "index": 37
+    },
+    {
+        "de": "besonder",
+        "en": "special",
+        "ru": "\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u044b\u0439",
+        "index": 38
+    },
+    {
+        "de": "gewiss",
+        "en": "certain",
+        "ru": "\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 39
+    },
+    {
+        "de": "politisch",
+        "en": "political",
+        "ru": "\u043f\u043e\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 40
+    },
+    {
+        "de": "gemeinsam",
+        "en": "common",
+        "ru": "\u043e\u0431\u0449\u0438\u0439",
+        "index": 41
+    },
+    {
+        "de": "\u00f6ffentlich",
+        "en": "public",
+        "ru": "\u043f\u0443\u0431\u043b\u0438\u0447\u043d\u044b\u0439",
+        "index": 42
+    },
+    {
+        "de": "leicht",
+        "en": "light",
+        "ru": "\u043b\u0435\u0433\u043a\u0438\u0439",
+        "index": 43
+    },
+    {
+        "de": "hart",
+        "en": "hard",
+        "ru": "\u0436\u0435\u0441\u0442\u043a\u0438\u0439",
+        "index": 44
+    },
+    {
+        "de": "schwarz",
+        "en": "black",
+        "ru": "\u0447\u0435\u0440\u043d\u044b\u0439",
+        "index": 45
+    },
+    {
+        "de": "wei\u00df",
+        "en": "white",
+        "ru": "\u0431\u0435\u043b\u044b\u0439",
+        "index": 46
+    },
+    {
+        "de": "rot",
+        "en": "red",
+        "ru": "\u043a\u0440\u0430\u0441\u043d\u044b\u0439",
+        "index": 47
+    },
+    {
+        "de": "blau",
+        "en": "blue",
+        "ru": "\u0441\u0438\u043d\u0438\u0439",
+        "index": 48
+    },
+    {
+        "de": "gr\u00fcn",
+        "en": "green",
+        "ru": "\u0437\u0435\u043b\u0435\u043d\u044b\u0439",
+        "index": 49
+    },
+    {
+        "de": "tief",
+        "en": "deep",
+        "ru": "\u0433\u043b\u0443\u0431\u043e\u043a\u0438\u0439",
+        "index": 50
+    },
+    {
+        "de": "einzeln",
+        "en": "individual",
+        "ru": "\u043e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 51
+    },
+    {
+        "de": "echt",
+        "en": "real",
+        "ru": "\u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u0439",
+        "index": 52
+    },
+    {
+        "de": "falsch",
+        "en": "false",
+        "ru": "\u043b\u043e\u0436\u043d\u044b\u0439",
+        "index": 53
+    },
+    {
+        "de": "fremd",
+        "en": "foreign",
+        "ru": "\u0447\u0443\u0436\u043e\u0439",
+        "index": 54
+    },
+    {
+        "de": "sozial",
+        "en": "social",
+        "ru": "\u0441\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 55
+    },
+    {
+        "de": "wirtschaftlich",
+        "en": "economic",
+        "ru": "\u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 56
+    },
+    {
+        "de": "allgemein",
+        "en": "general",
+        "ru": "\u043e\u0431\u0449\u0438\u0439",
+        "index": 57
+    },
+    {
+        "de": "komplett",
+        "en": "complete",
+        "ru": "\u043f\u043e\u043b\u043d\u044b\u0439",
+        "index": 58
+    },
+    {
+        "de": "modern",
+        "en": "modern",
+        "ru": "\u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439",
+        "index": 59
+    },
+    {
+        "de": "international",
+        "en": "international",
+        "ru": "\u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439",
+        "index": 60
+    },
+    {
+        "de": "aktuell",
+        "en": "current",
+        "ru": "\u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 61
+    },
+    {
+        "de": "notwendig",
+        "en": "necessary",
+        "ru": "\u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0439",
+        "index": 62
+    },
+    {
+        "de": "fest",
+        "en": "solid",
+        "ru": "\u0442\u0432\u0435\u0440\u0434\u044b\u0439",
+        "index": 63
+    },
+    {
+        "de": "\u00e4hnlich",
+        "en": "similar",
+        "ru": "\u043f\u043e\u0445\u043e\u0436\u0438\u0439",
+        "index": 64
+    },
+    {
+        "de": "warm",
+        "en": "warm",
+        "ru": "\u0442\u0435\u043f\u043b\u044b\u0439",
+        "index": 65
+    },
+    {
+        "de": "kalt",
+        "en": "cold",
+        "ru": "\u0445\u043e\u043b\u043e\u0434\u043d\u044b\u0439",
+        "index": 66
+    },
+    {
+        "de": "dunkel",
+        "en": "dark",
+        "ru": "\u0442\u0435\u043c\u043d\u044b\u0439",
+        "index": 67
+    },
+    {
+        "de": "hell",
+        "en": "bright",
+        "ru": "\u0441\u0432\u0435\u0442\u043b\u044b\u0439",
+        "index": 68
+    },
+    {
+        "de": "interessant",
+        "en": "interesting",
+        "ru": "\u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u044b\u0439",
+        "index": 69
+    },
+    {
+        "de": "ruhig",
+        "en": "quiet",
+        "ru": "\u0442\u0438\u0445\u0438\u0439",
+        "index": 70
+    },
+    {
+        "de": "wild",
+        "en": "wild",
+        "ru": "\u0434\u0438\u043a\u0438\u0439",
+        "index": 71
+    },
+    {
+        "de": "reich",
+        "en": "rich",
+        "ru": "\u0431\u043e\u0433\u0430\u0442\u044b\u0439",
+        "index": 72
+    },
+    {
+        "de": "arm",
+        "en": "poor",
+        "ru": "\u0431\u0435\u0434\u043d\u044b\u0439",
+        "index": 73
+    },
+    {
+        "de": "stolz",
+        "en": "proud",
+        "ru": "\u0433\u043e\u0440\u0434\u044b\u0439",
+        "index": 74
+    },
+    {
+        "de": "traurig",
+        "en": "sad",
+        "ru": "\u0433\u0440\u0443\u0441\u0442\u043d\u044b\u0439",
+        "index": 75
+    },
+    {
+        "de": "froh",
+        "en": "glad",
+        "ru": "\u0440\u0430\u0434\u043e\u0441\u0442\u043d\u044b\u0439",
+        "index": 76
+    },
+    {
+        "de": "gl\u00fccklich",
+        "en": "happy",
+        "ru": "\u0441\u0447\u0430\u0441\u0442\u043b\u0438\u0432\u044b\u0439",
+        "index": 77
+    },
+    {
+        "de": "krank",
+        "en": "sick",
+        "ru": "\u0431\u043e\u043b\u044c\u043d\u043e\u0439",
+        "index": 78
+    },
+    {
+        "de": "gesund",
+        "en": "healthy",
+        "ru": "\u0437\u0434\u043e\u0440\u043e\u0432\u044b\u0439",
+        "index": 79
+    },
+    {
+        "de": "breit",
+        "en": "wide",
+        "ru": "\u0448\u0438\u0440\u043e\u043a\u0438\u0439",
+        "index": 80
+    },
+    {
+        "de": "schmal",
+        "en": "narrow",
+        "ru": "\u0443\u0437\u043a\u0438\u0439",
+        "index": 81
+    },
+    {
+        "de": "teuer",
+        "en": "expensive",
+        "ru": "\u0434\u043e\u0440\u043e\u0433\u043e\u0439",
+        "index": 82
+    },
+    {
+        "de": "billig",
+        "en": "cheap",
+        "ru": "\u0434\u0435\u0448\u0435\u0432\u044b\u0439",
+        "index": 83
+    },
+    {
+        "de": "leer",
+        "en": "empty",
+        "ru": "\u043f\u0443\u0441\u0442\u043e\u0439",
+        "index": 84
+    },
+    {
+        "de": "scharf",
+        "en": "sharp",
+        "ru": "\u043e\u0441\u0442\u0440\u044b\u0439",
+        "index": 85
+    },
+    {
+        "de": "laut",
+        "en": "loud",
+        "ru": "\u0433\u0440\u043e\u043c\u043a\u0438\u0439",
+        "index": 86
+    },
+    {
+        "de": "leise",
+        "en": "quiet",
+        "ru": "\u0442\u0438\u0445\u0438\u0439",
+        "index": 87
+    },
+    {
+        "de": "hart",
+        "en": "hard",
+        "ru": "\u0442\u0432\u0435\u0440\u0434\u044b\u0439",
+        "index": 88
+    },
+    {
+        "de": "weich",
+        "en": "soft",
+        "ru": "\u043c\u044f\u0433\u043a\u0438\u0439",
+        "index": 89
+    },
+    {
+        "de": "s\u00fc\u00df",
+        "en": "sweet",
+        "ru": "\u0441\u043b\u0430\u0434\u043a\u0438\u0439",
+        "index": 90
+    },
+    {
+        "de": "sauer",
+        "en": "sour",
+        "ru": "\u043a\u0438\u0441\u043b\u044b\u0439",
+        "index": 91
+    },
+    {
+        "de": "sauber",
+        "en": "clean",
+        "ru": "\u0447\u0438\u0441\u0442\u044b\u0439",
+        "index": 92
+    },
+    {
+        "de": "schmutzig",
+        "en": "dirty",
+        "ru": "\u0433\u0440\u044f\u0437\u043d\u044b\u0439",
+        "index": 93
+    },
+    {
+        "de": "dick",
+        "en": "thick",
+        "ru": "\u0442\u043e\u043b\u0441\u0442\u044b\u0439",
+        "index": 94
+    },
+    {
+        "de": "d\u00fcnn",
+        "en": "thin",
+        "ru": "\u0442\u043e\u043d\u043a\u0438\u0439",
+        "index": 95
+    },
+    {
+        "de": "klug",
+        "en": "smart",
+        "ru": "\u0443\u043c\u043d\u044b\u0439",
+        "index": 96
+    },
+    {
+        "de": "dumm",
+        "en": "stupid",
+        "ru": "\u0433\u043b\u0443\u043f\u044b\u0439",
+        "index": 97
+    },
+    {
+        "de": "m\u00fcde",
+        "en": "tired",
+        "ru": "\u0443\u0441\u0442\u0430\u043b\u044b\u0439",
+        "index": 98
+    },
+    {
+        "de": "wach",
+        "en": "awake",
+        "ru": "\u0431\u043e\u0434\u0440\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439",
+        "index": 99
+    },
+    {
+        "de": "fertig",
+        "en": "finished",
+        "ru": "\u0433\u043e\u0442\u043e\u0432\u044b\u0439",
+        "index": 100
+    }
+]
