@@ -1,4 +1,5 @@
 import 'package:path/path.dart' as path;
+import 'package:sqflite/sqflite.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 import '../models/word_entry.dart';
 import '../models/word_group.dart';
@@ -52,6 +53,13 @@ class QuizDatabase {
         PRIMARY KEY(group_name, word_index)
       )
     ''');
+  }
+
+  Future<void> resetDatabase() async {
+    final Database db = await database;
+    await db.execute('DROP TABLE IF EXISTS group_stats');
+    await db.execute('DROP TABLE IF EXISTS words');
+    await _createTables(db);
   }
 
   Future<List<WordEntry>> upsertAndLoadWords(
@@ -138,16 +146,21 @@ class QuizDatabase {
     return rows.first['streak'] as int;
   }
 
+  Future<int> getLearnedCount(WordGroup group) async {
+    final Database db = await database;
+    final List<Map<String, Object?>> result = await db.rawQuery(
+      'SELECT COUNT(*) as count FROM words WHERE group_name = ? AND streak >= 1',
+      <Object>[group.dbKey],
+    );
+    return Sqflite.firstIntValue(result) ?? 0;
+  }
+
   Future<void> setStreak(WordGroup group, int streak) async {
     final Database db = await database;
-    await db.insert(
-      'group_stats',
-      <String, Object>{
-        'group_name': group.dbKey,
-        'streak': streak,
-      },
-      conflictAlgorithm: ConflictAlgorithm.replace,
-    );
+    await db.insert('group_stats', <String, Object>{
+      'group_name': group.dbKey,
+      'streak': streak,
+    }, conflictAlgorithm: ConflictAlgorithm.replace);
   }
 
   Future<void> incrementSeen(WordGroup group, int wordIndex) async {

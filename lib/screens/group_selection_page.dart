@@ -24,6 +24,7 @@ class _GroupSelectionView extends StatefulWidget {
 class _GroupSelectionViewState extends State<_GroupSelectionView> {
   bool _isPreparing = true;
   String? _error;
+  final Map<WordGroup, int> _learnedCounts = <WordGroup, int>{};
 
   @override
   void initState() {
@@ -39,6 +40,8 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
           throw StateError('Need at least 4 words in ${group.assetPath}.');
         }
         await QuizDatabase.instance.upsertAndLoadWords(group, words);
+        final int count = await QuizDatabase.instance.getLearnedCount(group);
+        _learnedCounts[group] = count;
       }
       if (!mounted) {
         return;
@@ -55,6 +58,22 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
         _error = 'Could not prepare local database.';
       });
     }
+  }
+
+  Future<void> _navigateToQuiz(WordGroup group) async {
+    await Navigator.of(context).push(
+      MaterialPageRoute<void>(
+        builder: (_) => QuizPage(group: group),
+      ),
+    );
+    if (!mounted) {
+      return;
+    }
+    // Refresh counts when returning
+    final int count = await QuizDatabase.instance.getLearnedCount(group);
+    setState(() {
+      _learnedCounts[group] = count;
+    });
   }
 
   @override
@@ -97,55 +116,117 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
     }
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Choose Word Group')),
+      appBar: AppBar(
+        title: const Text('Choose Word Group'),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(Icons.refresh),
+            tooltip: 'Reset Progress',
+            onPressed: () async {
+              final bool? confirm = await showDialog<bool>(
+                context: context,
+                builder: (BuildContext context) {
+                  return AlertDialog(
+                    title: const Text('Reset Progress'),
+                    content: const Text('Are you sure you want to wipe all progress?'),
+                    actions: <Widget>[
+                      TextButton(
+                        onPressed: () => Navigator.of(context).pop(false),
+                        child: const Text('Cancel'),
+                      ),
+                      TextButton(
+                        onPressed: () => Navigator.of(context).pop(true),
+                        child: const Text('Reset'),
+                      ),
+                    ],
+                  );
+                },
+              );
+
+              if (confirm == true && mounted) {
+                setState(() {
+                  _isPreparing = true;
+                });
+                await QuizDatabase.instance.resetDatabase();
+                await _prepareDatabase();
+              }
+            },
+          ),
+        ],
+      ),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).push(
-                  MaterialPageRoute<QuizPage>(
-                    builder: (_) => const QuizPage(group: WordGroup.nouns),
-                  ),
-                );
-              },
-              style: ElevatedButton.styleFrom(
-                padding: const EdgeInsets.symmetric(vertical: 18),
-              ),
-              child: const Text('Nouns'),
+            _GroupButton(
+              label: 'Nouns',
+              group: WordGroup.nouns,
+              learnedCount: _learnedCounts[WordGroup.nouns] ?? 0,
+              onPressed: () => _navigateToQuiz(WordGroup.nouns),
             ),
             const SizedBox(height: 12),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).push(
-                  MaterialPageRoute<QuizPage>(
-                    builder: (_) => const QuizPage(group: WordGroup.verbs),
-                  ),
-                );
-              },
-              style: ElevatedButton.styleFrom(
-                padding: const EdgeInsets.symmetric(vertical: 18),
-              ),
-              child: const Text('Verbs'),
+            _GroupButton(
+              label: 'Verbs',
+              group: WordGroup.verbs,
+              learnedCount: _learnedCounts[WordGroup.verbs] ?? 0,
+              onPressed: () => _navigateToQuiz(WordGroup.verbs),
             ),
             const SizedBox(height: 12),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).push(
-                  MaterialPageRoute<QuizPage>(
-                    builder: (_) => const QuizPage(group: WordGroup.objectives),
-                  ),
-                );
-              },
-              style: ElevatedButton.styleFrom(
-                padding: const EdgeInsets.symmetric(vertical: 18),
-              ),
-              child: const Text('Objectives'),
+            _GroupButton(
+              label: 'Objectives',
+              group: WordGroup.objectives,
+              learnedCount: _learnedCounts[WordGroup.objectives] ?? 0,
+              onPressed: () => _navigateToQuiz(WordGroup.objectives),
             ),
           ],
         ),
+      ),
+    );
+  }
+}
+
+class _GroupButton extends StatelessWidget {
+  const _GroupButton({
+    required this.label,
+    required this.group,
+    required this.learnedCount,
+    required this.onPressed,
+  });
+
+  final String label;
+  final WordGroup group;
+  final int learnedCount;
+  final VoidCallback onPressed;
+
+  @override
+  Widget build(BuildContext context) {
+    return ElevatedButton(
+      onPressed: onPressed,
+      style: ElevatedButton.styleFrom(
+        padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 16),
+      ),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          Text(label),
+          if (learnedCount > 0)
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+              decoration: BoxDecoration(
+                color: Colors.green.withOpacity(0.2),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Text(
+                '$learnedCount learned',
+                style: const TextStyle(
+                  fontSize: 12,
+                  color: Colors.green,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+        ],
       ),
     );
   }
