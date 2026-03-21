@@ -16,29 +16,42 @@ class QuizDatabase {
     final String dbPath = path.join(await getDatabasesPath(), 'quiz_state.db');
     _db = await openDatabase(
       dbPath,
-      version: 1,
+      version: 2,
       onCreate: (Database db, int version) async {
-        await db.execute('''
-          CREATE TABLE group_stats (
-            group_name TEXT PRIMARY KEY,
-            streak INTEGER NOT NULL DEFAULT 0
-          )
-        ''');
-        await db.execute('''
-          CREATE TABLE words (
-            group_name TEXT NOT NULL,
-            word_index INTEGER NOT NULL,
-            de TEXT NOT NULL,
-            en TEXT NOT NULL,
-            ru TEXT NOT NULL,
-            seen_count INTEGER NOT NULL DEFAULT 0,
-            correct_count INTEGER NOT NULL DEFAULT 0,
-            PRIMARY KEY(group_name, word_index)
-          )
-        ''');
+        await _createTables(db);
+      },
+      onUpgrade: (Database db, int oldVersion, int newVersion) async {
+        if (oldVersion < 2) {
+          await db.execute('DROP TABLE IF EXISTS group_stats');
+          await db.execute('DROP TABLE IF EXISTS words');
+          await _createTables(db);
+        }
       },
     );
     return _db!;
+  }
+
+  Future<void> _createTables(Database db) async {
+    await db.execute('''
+      CREATE TABLE group_stats (
+        group_name TEXT PRIMARY KEY,
+        streak INTEGER NOT NULL DEFAULT 0
+      )
+    ''');
+    await db.execute('''
+      CREATE TABLE words (
+        group_name TEXT NOT NULL,
+        word_index INTEGER NOT NULL,
+        de TEXT NOT NULL,
+        en TEXT NOT NULL,
+        ru TEXT NOT NULL,
+        seen_count INTEGER NOT NULL DEFAULT 0,
+        correct_count INTEGER NOT NULL DEFAULT 0,
+        streak INTEGER NOT NULL DEFAULT 0,
+        queue_index INTEGER NOT NULL DEFAULT 0,
+        PRIMARY KEY(group_name, word_index)
+      )
+    ''');
   }
 
   Future<List<WordEntry>> upsertAndLoadWords(
@@ -50,8 +63,8 @@ class QuizDatabase {
     for (final WordEntry word in jsonWords) {
       batch.rawInsert(
         '''
-        INSERT INTO words (group_name, word_index, de, en, ru, seen_count, correct_count)
-        VALUES (?, ?, ?, ?, ?, 0, 0)
+        INSERT INTO words (group_name, word_index, de, en, ru, seen_count, correct_count, streak, queue_index)
+        VALUES (?, ?, ?, ?, ?, 0, 0, 0, ?)
         ON CONFLICT(group_name, word_index) DO UPDATE SET
           de = excluded.de,
           en = excluded.en,
@@ -63,6 +76,7 @@ class QuizDatabase {
           word.de,
           word.en,
           word.ru,
+          word.index, // initially, queue_index matches word_index
         ],
       );
     }
@@ -86,8 +100,27 @@ class QuizDatabase {
       return word.copyWith(
         seenCount: row['seen_count'] as int,
         correctCount: row['correct_count'] as int,
+        streak: row['streak'] as int,
+        queueIndex: row['queue_index'] as int,
       );
     }).toList();
+  }
+
+  Future<void> updateQueue(WordGroup group, List<WordEntry> queue) async {
+    final Database db = await database;
+    final Batch batch = db.batch();
+    for (int i = 0; i < queue.length; i++) {
+      final WordEntry word = queue[i];
+      batch.rawUpdate(
+        '''
+        UPDATE words
+        SET queue_index = ?, streak = ?
+        WHERE group_name = ? AND word_index = ?
+        ''',
+        <Object>[i, word.streak, group.dbKey, word.index],
+      );
+    }
+    await batch.commit(noResult: true);
   }
 
   Future<int> getStreak(WordGroup group) async {

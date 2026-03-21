@@ -24,6 +24,8 @@ class _QuizPageState extends State<QuizPage> {
   final Random _random = Random();
 
   List<WordEntry> _words = <WordEntry>[];
+  List<WordEntry> _activeQueue = <WordEntry>[];
+
   String? _currentPrompt;
   String? _currentCorrectAnswer;
   WordEntry? _currentWord;
@@ -33,6 +35,7 @@ class _QuizPageState extends State<QuizPage> {
   bool _isLoading = true;
   bool _isChecking = false;
   bool _answersRevealed = false;
+  bool _madeMistakeOnCurrent = false;
   final Set<String> _wrongSelections = <String>{};
   String? _correctSelection;
   String? _errorMessage;
@@ -55,11 +58,15 @@ class _QuizPageState extends State<QuizPage> {
           .upsertAndLoadWords(widget.group, words);
       final int storedStreak = await QuizDatabase.instance.getStreak(widget.group);
 
+      persistedWords.sort((WordEntry a, WordEntry b) => 
+        (a.queueIndex ?? a.index).compareTo(b.queueIndex ?? b.index));
+
       if (!mounted) {
         return;
       }
       setState(() {
-        _words = persistedWords;
+        _words = List<WordEntry>.from(persistedWords);
+        _activeQueue = List<WordEntry>.from(persistedWords);
         _correctStreak = storedStreak;
         _isLoading = false;
       });
@@ -73,11 +80,11 @@ class _QuizPageState extends State<QuizPage> {
   }
 
   Future<void> _nextQuestion() async {
-    if (_words.length < 4) {
+    if (_activeQueue.isEmpty) {
       return;
     }
 
-    final WordEntry chosen = _words[_random.nextInt(_words.length)];
+    final WordEntry chosen = _activeQueue.first;
     final QuizDirection direction = _random.nextBool()
         ? QuizDirection.germanToEnRu
         : QuizDirection.enRuToGerman;
@@ -114,6 +121,7 @@ class _QuizPageState extends State<QuizPage> {
       _options = optionsWithIdk;
       _isChecking = false;
       _answersRevealed = false;
+      _madeMistakeOnCurrent = false;
       _wrongSelections.clear();
       _correctSelection = null;
     });
@@ -129,23 +137,49 @@ class _QuizPageState extends State<QuizPage> {
       setState(() {
         _correctStreak = 0;
         _wrongSelections.add(selected);
+        _madeMistakeOnCurrent = true;
       });
       await QuizDatabase.instance.setStreak(widget.group, 0);
       return;
     }
 
     setState(() {
-      _correctStreak += 1;
+      if (!_madeMistakeOnCurrent) {
+        _correctStreak += 1;
+      }
       _isChecking = true;
       _correctSelection = selected;
     });
-    if (_currentWord != null) {
+
+    if (_currentWord != null && !_madeMistakeOnCurrent) {
       await QuizDatabase.instance.incrementCorrect(widget.group, _currentWord!.index);
     }
     await QuizDatabase.instance.setStreak(widget.group, _correctStreak);
 
-    Future<void>.delayed(const Duration(seconds: 1), () {
+    Future<void>.delayed(const Duration(seconds: 1), () async {
       if (mounted) {
+        if (_activeQueue.isNotEmpty) {
+          final WordEntry word = _activeQueue.removeAt(0);
+          
+          WordEntry updatedWord;
+          if (!_madeMistakeOnCurrent) {
+            final int streak = word.streak + 1;
+            updatedWord = word.copyWith(streak: streak);
+            int insertIndex = 5 + (10 * streak);
+            if (insertIndex > _activeQueue.length) {
+              insertIndex = _activeQueue.length;
+            }
+            _activeQueue.insert(insertIndex, updatedWord);
+          } else {
+            updatedWord = word.copyWith(streak: 0);
+            int insertIndex = 5;
+            if (insertIndex > _activeQueue.length) {
+              insertIndex = _activeQueue.length;
+            }
+            _activeQueue.insert(insertIndex, updatedWord);
+          }
+          await QuizDatabase.instance.updateQueue(widget.group, _activeQueue);
+        }
         _nextQuestion();
       }
     });

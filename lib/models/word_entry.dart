@@ -6,6 +6,8 @@ class WordEntry {
     required this.ru,
     this.seenCount = 0,
     this.correctCount = 0,
+    this.streak = 0,
+    this.queueIndex,
   });
 
   final int index;
@@ -14,6 +16,8 @@ class WordEntry {
   final String ru;
   final int seenCount;
   final int correctCount;
+  final int streak;
+  final int? queueIndex;
 
   String get enRu => '$en ($ru)';
 
@@ -29,6 +33,8 @@ class WordEntry {
   WordEntry copyWith({
     int? seenCount,
     int? correctCount,
+    int? streak,
+    int? queueIndex,
   }) {
     return WordEntry(
       index: index,
@@ -37,6 +43,8 @@ class WordEntry {
       ru: ru,
       seenCount: seenCount ?? this.seenCount,
       correctCount: correctCount ?? this.correctCount,
+      streak: streak ?? this.streak,
+      queueIndex: queueIndex ?? this.queueIndex,
     );
   }
 }
