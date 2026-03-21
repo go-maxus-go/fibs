@@ -225,61 +225,79 @@ class _QuizPageState extends State<QuizPage> {
             Text(
               'Streak: $_correctStreak',
               style: Theme.of(context).textTheme.titleMedium,
-            ),
-            const SizedBox(height: 20),
-            Text(
-              direction == QuizDirection.germanToEnRu
-                  ? 'Pick the right English (Russian):'
-                  : 'Pick the right German word:',
-              style: Theme.of(context).textTheme.titleLarge,
-            ),
-            const SizedBox(height: 10),
-            Text(
-              promptWord,
-              style: Theme.of(context).textTheme.headlineMedium,
               textAlign: TextAlign.center,
             ),
-            const SizedBox(height: 24),
-            if (!_answersRevealed)
-              Expanded(
-                child: InkWell(
-                  borderRadius: BorderRadius.circular(16),
-                  onTap: () {
-                    setState(() {
-                      _answersRevealed = true;
-                    });
-                  },
-                  child: Ink(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(16),
-                      color: Theme.of(context).colorScheme.surfaceContainerHighest,
-                    ),
-                    child: Center(
-                      child: Text(
-                        'Tap to show answers',
-                        style: Theme.of(context).textTheme.titleLarge,
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Text(
+                    direction == QuizDirection.germanToEnRu
+                        ? 'Pick the right English (Russian):'
+                        : 'Pick the right German word:',
+                    style: Theme.of(context).textTheme.titleLarge,
+                    textAlign: TextAlign.center,
+                  ),
+                  const SizedBox(height: 10),
+                  Text(
+                    promptWord,
+                    style: Theme.of(context).textTheme.headlineMedium,
+                    textAlign: TextAlign.center,
+                  ),
+                ],
+              ),
+            ),
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: <Widget>[
+                  if (!_answersRevealed)
+                    Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 24),
+                        child: InkWell(
+                          borderRadius: BorderRadius.circular(16),
+                          onTap: () {
+                            setState(() {
+                              _answersRevealed = true;
+                            });
+                          },
+                          child: Ink(
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(16),
+                              color: Theme.of(context).colorScheme.surfaceContainerHighest,
+                            ),
+                            child: Center(
+                              child: Text(
+                                'Tap to show answers',
+                                style: Theme.of(context).textTheme.titleLarge,
+                              ),
+                            ),
+                          ),
+                        ),
                       ),
-                    ),
-                  ),
-                ),
-              )
-            else
-              for (final String option in _options)
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 12),
-                  child: ElevatedButton(
-                    onPressed: () => _onOptionTap(option),
-                    style: ElevatedButton.styleFrom(
-                      padding: const EdgeInsets.symmetric(vertical: 14),
-                      backgroundColor: _correctSelection == option
-                          ? Colors.green
-                          : _wrongSelections.contains(option)
-                          ? Colors.red
-                          : null,
-                    ),
-                    child: Text(option),
-                  ),
-                ),
+                    )
+                  else
+                    for (final String option in _options)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 12),
+                        child: ElevatedButton(
+                          onPressed: () => _onOptionTap(option),
+                          style: ElevatedButton.styleFrom(
+                            padding: const EdgeInsets.symmetric(vertical: 14),
+                            backgroundColor: _correctSelection == option
+                                ? Colors.green
+                                : _wrongSelections.contains(option)
+                                ? Colors.red
+                                : null,
+                          ),
+                          child: Text(option),
+                        ),
+                      ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
