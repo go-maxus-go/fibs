@@ -298,30 +298,17 @@ class _QuizPageState extends State<QuizPage> {
                           ),
                           textAlign: TextAlign.center,
                         ),
-                  const SizedBox(height: 32),
+                ],
+              ),
+            ),
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: <Widget>[
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      IconButton(
-                        icon: const Icon(Icons.volume_up, size: 24),
-                        tooltip: 'Pronounce word',
-                        onPressed: () => _pronounce(promptWord, direction),
-                      ),
-                      const SizedBox(width: 32),
-                      IconButton(
-                        icon: const Icon(Icons.copy, size: 20),
-                        tooltip: 'Copy word',
-                        onPressed: () {
-                          Clipboard.setData(ClipboardData(text: promptWord));
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                              content: Text('Copied to clipboard'),
-                              duration: Duration(seconds: 1),
-                            ),
-                          );
-                        },
-                      ),
-                      const SizedBox(width: 32),
                       IconButton(
                         icon: Icon(
                           _isWordHidden
@@ -357,16 +344,29 @@ class _QuizPageState extends State<QuizPage> {
                           });
                         },
                       ),
+                      const SizedBox(width: 32),
+                      IconButton(
+                        icon: const Icon(Icons.copy, size: 20),
+                        tooltip: 'Copy word',
+                        onPressed: () {
+                          Clipboard.setData(ClipboardData(text: promptWord));
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('Copied to clipboard'),
+                              duration: Duration(seconds: 1),
+                            ),
+                          );
+                        },
+                      ),
+                      const SizedBox(width: 32),
+                      IconButton(
+                        icon: const Icon(Icons.volume_up, size: 24),
+                        tooltip: 'Pronounce word',
+                        onPressed: () => _pronounce(promptWord, direction),
+                      ),
                     ],
                   ),
-                ],
-              ),
-            ),
-            Expanded(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: <Widget>[
+                  const SizedBox(height: 32),
                   if (!_answersRevealed)
                     Expanded(
                       child: Padding(
