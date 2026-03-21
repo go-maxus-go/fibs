@@ -58,6 +58,8 @@ class QuizPage extends StatefulWidget {
 }
 
 class _QuizPageState extends State<QuizPage> {
+  static const String _idkOption = "I don't know";
+
   final Random _random = Random();
 
   List<WordEntry> _words = <WordEntry>[];
@@ -68,6 +70,9 @@ class _QuizPageState extends State<QuizPage> {
   int _correctCount = 0;
   bool _isLoading = true;
   bool _isChecking = false;
+  bool _answersRevealed = false;
+  final Set<String> _wrongSelections = <String>{};
+  String? _correctSelection;
   String? _errorMessage;
 
   @override
@@ -126,6 +131,10 @@ class _QuizPageState extends State<QuizPage> {
     }
 
     final List<String> shuffled = options.toList()..shuffle(_random);
+    final List<String> optionsWithIdk = <String>[
+      ...shuffled,
+      _idkOption,
+    ];
 
     setState(() {
       _direction = direction;
@@ -133,8 +142,11 @@ class _QuizPageState extends State<QuizPage> {
           ? chosen.de
           : chosen.enRu;
       _currentCorrectAnswer = correctAnswer;
-      _options = shuffled;
+      _options = optionsWithIdk;
       _isChecking = false;
+      _answersRevealed = false;
+      _wrongSelections.clear();
+      _correctSelection = null;
     });
   }
 
@@ -145,25 +157,19 @@ class _QuizPageState extends State<QuizPage> {
 
     final bool isCorrect = selected == _currentCorrectAnswer;
     if (!isCorrect) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Try again.')),
-      );
+      setState(() {
+        _wrongSelections.add(selected);
+      });
       return;
     }
 
     setState(() {
       _correctCount += 1;
       _isChecking = true;
+      _correctSelection = selected;
     });
 
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text('Correct!'),
-        duration: Duration(milliseconds: 450),
-      ),
-    );
-
-    Future<void>.delayed(const Duration(milliseconds: 500), () {
+    Future<void>.delayed(const Duration(seconds: 1), () {
       if (mounted) {
         _nextQuestion();
       }
@@ -225,17 +231,46 @@ class _QuizPageState extends State<QuizPage> {
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 24),
-            for (final String option in _options)
-              Padding(
-                padding: const EdgeInsets.only(bottom: 12),
-                child: ElevatedButton(
-                  onPressed: () => _onOptionTap(option),
-                  style: ElevatedButton.styleFrom(
-                    padding: const EdgeInsets.symmetric(vertical: 14),
+            if (!_answersRevealed)
+              Expanded(
+                child: InkWell(
+                  borderRadius: BorderRadius.circular(16),
+                  onTap: () {
+                    setState(() {
+                      _answersRevealed = true;
+                    });
+                  },
+                  child: Ink(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(16),
+                      color: Theme.of(context).colorScheme.surfaceContainerHighest,
+                    ),
+                    child: Center(
+                      child: Text(
+                        'Tap to show answers',
+                        style: Theme.of(context).textTheme.titleLarge,
+                      ),
+                    ),
                   ),
-                  child: Text(option),
                 ),
-              ),
+              )
+            else
+              for (final String option in _options)
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 12),
+                  child: ElevatedButton(
+                    onPressed: () => _onOptionTap(option),
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(vertical: 14),
+                      backgroundColor: _correctSelection == option
+                          ? Colors.green
+                          : _wrongSelections.contains(option)
+                          ? Colors.red
+                          : null,
+                    ),
+                    child: Text(option),
+                  ),
+                ),
           ],
         ),
       ),
