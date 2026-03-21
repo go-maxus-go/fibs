@@ -1,0 +1,6001 @@
+[
+    {
+      "de": "Das Jahr",
+      "en": "Year",
+      "ru": "\u0413\u043e\u0434",
+      "index": 1
+    },
+    {
+      "de": "Die Zeit",
+      "en": "Time",
+      "ru": "\u0412\u0440\u0435\u043c\u044f",
+      "index": 2
+    },
+    {
+      "de": "Der Mensch",
+      "en": "Human",
+      "ru": "\u0427\u0435\u043b\u043e\u0432\u0435\u043a",
+      "index": 3
+    },
+    {
+      "de": "Der Tag",
+      "en": "Day",
+      "ru": "\u0414\u0435\u043d\u044c",
+      "index": 4
+    },
+    {
+      "de": "Die Frau",
+      "en": "Woman",
+      "ru": "\u0416\u0435\u043d\u0449\u0438\u043d\u0430",
+      "index": 5
+    },
+    {
+      "de": "Der Mann",
+      "en": "Man",
+      "ru": "\u041c\u0443\u0436\u0447\u0438\u043d\u0430",
+      "index": 6
+    },
+    {
+      "de": "Das Kind",
+      "en": "Child",
+      "ru": "\u0420\u0435\u0431\u0435\u043d\u043e\u043a",
+      "index": 7
+    },
+    {
+      "de": "Das Land",
+      "en": "Country",
+      "ru": "\u0421\u0442\u0440\u0430\u043d\u0430",
+      "index": 8
+    },
+    {
+      "de": "Die Hand",
+      "en": "Hand",
+      "ru": "\u0420\u0443\u043a\u0430",
+      "index": 9
+    },
+    {
+      "de": "Die Stadt",
+      "en": "City",
+      "ru": "\u0413\u043e\u0440\u043e\u0434",
+      "index": 10
+    },
+    {
+      "de": "Der Herr",
+      "en": "Lord/Gentleman",
+      "ru": "\u0413\u043e\u0441\u043f\u043e\u0434\u0438\u043d",
+      "index": 11
+    },
+    {
+      "de": "Das Auge",
+      "en": "Eye",
+      "ru": "\u0413\u043b\u0430\u0437",
+      "index": 12
+    },
+    {
+      "de": "Das Wort",
+      "en": "Word",
+      "ru": "\u0421\u043b\u043e\u0432\u043e",
+      "index": 13
+    },
+    {
+      "de": "Das Beispiel",
+      "en": "Example",
+      "ru": "\u041f\u0440\u0438\u043c\u0435\u0440",
+      "index": 14
+    },
+    {
+      "de": "Die Arbeit",
+      "en": "Work",
+      "ru": "\u0420\u0430\u0431\u043e\u0442\u0430",
+      "index": 15
+    },
+    {
+      "de": "Das Ende",
+      "en": "End",
+      "ru": "\u041a\u043e\u043d\u0435\u0446",
+      "index": 16
+    },
+    {
+      "de": "Der Weg",
+      "en": "Way/Path",
+      "ru": "\u041f\u0443\u0442\u044c",
+      "index": 17
+    },
+    {
+      "de": "Die Welt",
+      "en": "World",
+      "ru": "\u041c\u0438\u0440",
+      "index": 18
+    },
+    {
+      "de": "Die Frage",
+      "en": "Question",
+      "ru": "\u0412\u043e\u043f\u0440\u043e\u0441",
+      "index": 19
+    },
+    {
+      "de": "Das Haus",
+      "en": "House",
+      "ru": "\u0414\u043e\u043c",
+      "index": 20
+    },
+    {
+      "de": "Der Fall",
+      "en": "Case",
+      "ru": "\u0421\u043b\u0443\u0447\u0430\u0439",
+      "index": 21
+    },
+    {
+      "de": "Die Leute",
+      "en": "People",
+      "ru": "\u041b\u044e\u0434\u0438",
+      "index": 22
+    },
+    {
+      "de": "Das Mal",
+      "en": "Time/Instance",
+      "ru": "\u0420\u0430\u0437",
+      "index": 23
+    },
+    {
+      "de": "Das Leben",
+      "en": "Life",
+      "ru": "\u0416\u0438\u0437\u043d\u044c",
+      "index": 24
+    },
+    {
+      "de": "Der Grund",
+      "en": "Reason/Ground",
+      "ru": "\u041f\u0440\u0438\u0447\u0438\u043d\u0430",
+      "index": 25
+    },
+    {
+      "de": "Die Seite",
+      "en": "Page/Side",
+      "ru": "\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430",
+      "index": 26
+    },
+    {
+      "de": "Das Gesicht",
+      "en": "Face",
+      "ru": "\u041b\u0438\u0446\u043e",
+      "index": 27
+    },
+    {
+      "de": "Der Vater",
+      "en": "Father",
+      "ru": "\u041e\u0442\u0435\u0446",
+      "index": 28
+    },
+    {
+      "de": "Die Mutter",
+      "en": "Mother",
+      "ru": "\u041c\u0430\u0442\u044c",
+      "index": 29
+    },
+    {
+      "de": "Die Geschichte",
+      "en": "History/Story",
+      "ru": "\u0418\u0441\u0442\u043e\u0440\u0438\u044f",
+      "index": 30
+    },
+    {
+      "de": "Der Teil",
+      "en": "Part",
+      "ru": "\u0427\u0430\u0441\u0442\u044c",
+      "index": 31
+    },
+    {
+      "de": "Das Problem",
+      "en": "Problem",
+      "ru": "\u041f\u0440\u043e\u0431\u043b\u0435\u043c\u0430",
+      "index": 32
+    },
+    {
+      "de": "Das Recht",
+      "en": "Right/Law",
+      "ru": "\u041f\u0440\u0430\u0432\u043e",
+      "index": 33
+    },
+    {
+      "de": "Der Bereich",
+      "en": "Area/Field",
+      "ru": "\u041e\u0431\u043b\u0430\u0441\u0442\u044c",
+      "index": 34
+    },
+    {
+      "de": "Der Monat",
+      "en": "Month",
+      "ru": "\u041c\u0435\u0441\u044f\u0446",
+      "index": 35
+    },
+    {
+      "de": "Die Woche",
+      "en": "Week",
+      "ru": "\u041d\u0435\u0434\u0435\u043b\u044f",
+      "index": 36
+    },
+    {
+      "de": "Der Kopf",
+      "en": "Head",
+      "ru": "\u0413\u043e\u043b\u043e\u0432\u0430",
+      "index": 37
+    },
+    {
+      "de": "Das Wasser",
+      "en": "Water",
+      "ru": "\u0412\u043e\u0434\u0430",
+      "index": 38
+    },
+    {
+      "de": "Die Art",
+      "en": "Kind/Type",
+      "ru": "\u0412\u0438\u0434",
+      "index": 39
+    },
+    {
+      "de": "Die Million",
+      "en": "Million",
+      "ru": "\u041c\u0438\u043b\u043b\u0438\u043e\u043d",
+      "index": 40
+    },
+    {
+      "de": "Das Ziel",
+      "en": "Goal/Target",
+      "ru": "\u0426\u0435\u043b\u044c",
+      "index": 41
+    },
+    {
+      "de": "Der Staat",
+      "en": "State",
+      "ru": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e",
+      "index": 42
+    },
+    {
+      "de": "Die Gruppe",
+      "en": "Group",
+      "ru": "\u0413\u0440\u0443\u043f\u043f\u0430",
+      "index": 43
+    },
+    {
+      "de": "Die Nacht",
+      "en": "Night",
+      "ru": "\u041d\u043e\u0447\u044c",
+      "index": 44
+    },
+    {
+      "de": "Die Form",
+      "en": "Form/Shape",
+      "ru": "\u0424\u043e\u0440\u043c\u0430",
+      "index": 45
+    },
+    {
+      "de": "Die Entwicklung",
+      "en": "Development",
+      "ru": "\u0420\u0430\u0437\u0432\u0438\u0442\u0438\u0435",
+      "index": 46
+    },
+    {
+      "de": "Der Punkt",
+      "en": "Point",
+      "ru": "\u0422\u043e\u0447\u043a\u0430",
+      "index": 47
+    },
+    {
+      "de": "Die Gesellschaft",
+      "en": "Society/Company",
+      "ru": "\u041e\u0431\u0449\u0435\u0441\u0442\u0432\u043e",
+      "index": 48
+    },
+    {
+      "de": "Die Uhr",
+      "en": "Clock/Watch",
+      "ru": "\u0427\u0430\u0441\u044b",
+      "index": 49
+    },
+    {
+      "de": "Das Geld",
+      "en": "Money",
+      "ru": "\u0414\u0435\u043d\u044c\u0433\u0438",
+      "index": 50
+    },
+    {
+      "de": "Der Euro",
+      "en": "Euro",
+      "ru": "\u0415\u0432\u0440\u043e",
+      "index": 51
+    },
+    {
+      "de": "Die Hand",
+      "en": "Hand",
+      "ru": "\u0420\u0443\u043a\u0430",
+      "index": 52
+    },
+    {
+      "de": "Die Schule",
+      "en": "School",
+      "ru": "\u0428\u043a\u043e\u043b\u0430",
+      "index": 53
+    },
+    {
+      "de": "Die Universit\u00e4t",
+      "en": "University",
+      "ru": "\u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442",
+      "index": 54
+    },
+    {
+      "de": "Der Abend",
+      "en": "Evening",
+      "ru": "\u0412\u0435\u0447\u0435\u0440",
+      "index": 55
+    },
+    {
+      "de": "Die Hilfe",
+      "en": "Help",
+      "ru": "\u041f\u043e\u043c\u043e\u0449\u044c",
+      "index": 56
+    },
+    {
+      "de": "Der Blick",
+      "en": "View/Glance",
+      "ru": "\u0412\u0437\u0433\u043b\u044f\u0434",
+      "index": 57
+    },
+    {
+      "de": "Die Million",
+      "en": "Million",
+      "ru": "\u041c\u0438\u043b\u043b\u0438\u043e\u043d",
+      "index": 58
+    },
+    {
+      "de": "Die Politik",
+      "en": "Politics",
+      "ru": "\u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0430",
+      "index": 59
+    },
+    {
+      "de": "Das Thema",
+      "en": "Topic/Theme",
+      "ru": "\u0422\u0435\u043c\u0430",
+      "index": 60
+    },
+    {
+      "de": "Die Aufgabe",
+      "en": "Task/Exercise",
+      "ru": "\u0417\u0430\u0434\u0430\u0447\u0430",
+      "index": 61
+    },
+    {
+      "de": "Das Buch",
+      "en": "Book",
+      "ru": "\u041a\u043d\u0438\u0433\u0430",
+      "index": 62
+    },
+    {
+      "de": "Die Bildung",
+      "en": "Education",
+      "ru": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435",
+      "index": 63
+    },
+    {
+      "de": "Der Platz",
+      "en": "Place/Square",
+      "ru": "\u041c\u0435\u0441\u0442\u043e",
+      "index": 64
+    },
+    {
+      "de": "Der Morgen",
+      "en": "Morning",
+      "ru": "\u0423\u0442\u0440\u043e",
+      "index": 65
+    },
+    {
+      "de": "Die Zukunft",
+      "en": "Future",
+      "ru": "\u0411\u0443\u0434\u0443\u0449\u0435\u0435",
+      "index": 66
+    },
+    {
+      "de": "Die Musik",
+      "en": "Music",
+      "ru": "\u041c\u0443\u0437\u044b\u043a\u0430",
+      "index": 67
+    },
+    {
+      "de": "Die Information",
+      "en": "Information",
+      "ru": "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f",
+      "index": 68
+    },
+    {
+      "de": "Das Bild",
+      "en": "Picture/Image",
+      "ru": "\u041a\u0430\u0440\u0442\u0438\u043d\u0430",
+      "index": 69
+    },
+    {
+      "de": "Der Tisch",
+      "en": "Table",
+      "ru": "\u0421\u0442\u043e\u043b",
+      "index": 70
+    },
+    {
+      "de": "Das Fenster",
+      "en": "Window",
+      "ru": "\u041e\u043a\u043d\u043e",
+      "index": 71
+    },
+    {
+      "de": "Die T\u00fcr",
+      "en": "Door",
+      "ru": "\u0414\u0432\u0435\u0440\u044c",
+      "index": 72
+    },
+    {
+      "de": "Die Luft",
+      "en": "Air",
+      "ru": "\u0412\u043e\u0437\u0434\u0443\u0445",
+      "index": 73
+    },
+    {
+      "de": "Der Name",
+      "en": "Name",
+      "ru": "\u0418\u043c\u044f",
+      "index": 74
+    },
+    {
+      "de": "Die Meinung",
+      "en": "Opinion",
+      "ru": "\u041c\u043d\u0435\u043d\u0438\u0435",
+      "index": 75
+    },
+    {
+      "de": "Die Erfahrung",
+      "en": "Experience",
+      "ru": "\u041e\u043f\u044b\u0442",
+      "index": 76
+    },
+    {
+      "de": "Die Reise",
+      "en": "Journey/Trip",
+      "ru": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435",
+      "index": 77
+    },
+    {
+      "de": "Der Preis",
+      "en": "Price/Prize",
+      "ru": "\u0426\u0435\u043d\u0430",
+      "index": 78
+    },
+    {
+      "de": "Der Krieg",
+      "en": "War",
+      "ru": "\u0412\u043e\u0439\u043d\u0430",
+      "index": 79
+    },
+    {
+      "de": "Die Liebe",
+      "en": "Love",
+      "ru": "\u041b\u044e\u0431\u043e\u0432\u044c",
+      "index": 80
+    },
+    {
+      "de": "Die Stadt",
+      "en": "City",
+      "ru": "\u0413\u043e\u0440\u043e\u0434",
+      "index": 81
+    },
+    {
+      "de": "Die Freiheit",
+      "en": "Freedom",
+      "ru": "\u0421\u0432\u043e\u0431\u043e\u0434\u0430",
+      "index": 82
+    },
+    {
+      "de": "Der K\u00f6rper",
+      "en": "Body",
+      "ru": "\u0422\u0435\u043b\u043e",
+      "index": 83
+    },
+    {
+      "de": "Die Kirche",
+      "en": "Church",
+      "ru": "\u0426\u0435\u0440\u043a\u043e\u0432\u044c",
+      "index": 84
+    },
+    {
+      "de": "Das Licht",
+      "en": "Light",
+      "ru": "\u0421\u0432\u0435\u0442",
+      "index": 85
+    },
+    {
+      "de": "Die Hoffnung",
+      "en": "Hope",
+      "ru": "\u041d\u0430\u0434\u0435\u0436\u0434\u0430",
+      "index": 86
+    },
+    {
+      "de": "Die Sonne",
+      "en": "Sun",
+      "ru": "\u0421\u043e\u043b\u043d\u0446\u0435",
+      "index": 87
+    },
+    {
+      "de": "Die Stimme",
+      "en": "Voice",
+      "ru": "\u0413\u043e\u043b\u043e\u0441",
+      "index": 88
+    },
+    {
+      "de": "Der Freund",
+      "en": "Friend",
+      "ru": "\u0414\u0440\u0443\u0433",
+      "index": 89
+    },
+    {
+      "de": "Der Film",
+      "en": "Film/Movie",
+      "ru": "\u0424\u0438\u043b\u044c\u043c",
+      "index": 90
+    },
+    {
+      "de": "Der Sport",
+      "en": "Sport",
+      "ru": "\u0421\u043f\u043e\u0440\u0442",
+      "index": 91
+    },
+    {
+      "de": "Das Haus",
+      "en": "House",
+      "ru": "\u0414\u043e\u043c",
+      "index": 92
+    },
+    {
+      "de": "Das Auto",
+      "en": "Car",
+      "ru": "\u041c\u0430\u0448\u0438\u043d\u0430",
+      "index": 93
+    },
+    {
+      "de": "Die Technik",
+      "en": "Technique/Technology",
+      "ru": "\u0422\u0435\u0445\u043d\u0438\u043a\u0430",
+      "index": 94
+    },
+    {
+      "de": "Das Projekt",
+      "en": "Project",
+      "ru": "\u041f\u0440\u043e\u0435\u043a\u0442",
+      "index": 95
+    },
+    {
+      "de": "Der Erfolg",
+      "en": "Success",
+      "ru": "\u0423\u0441\u043f\u0435\u0445",
+      "index": 96
+    },
+    {
+      "de": "Die Seite",
+      "en": "Side/Page",
+      "ru": "\u0421\u0442\u043e\u0440\u043e\u043d\u0430",
+      "index": 97
+    },
+    {
+      "de": "Die Sprache",
+      "en": "Language",
+      "ru": "\u042f\u0437\u044b\u043a",
+      "index": 98
+    },
+    {
+      "de": "Die Gesundheit",
+      "en": "Health",
+      "ru": "\u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435",
+      "index": 99
+    },
+    {
+      "de": "Das Gericht",
+      "en": "Court/Dish",
+      "ru": "\u0421\u0443\u0434",
+      "index": 100
+    },
+    {
+      "de": "Die Natur",
+      "en": "Nature",
+      "ru": "\u041f\u0440\u0438\u0440\u043e\u0434\u0430",
+      "index": 101
+    },
+    {
+      "de": "Der Baum",
+      "en": "Tree",
+      "ru": "\u0414\u0435\u0440\u0435\u0432\u043e",
+      "index": 102
+    },
+    {
+      "de": "Die Zahl",
+      "en": "Number",
+      "ru": "\u0427\u0438\u0441\u043b\u043e",
+      "index": 103
+    },
+    {
+      "de": "Der Raum",
+      "en": "Room/Space",
+      "ru": "\u041f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u043e",
+      "index": 104
+    },
+    {
+      "de": "Das System",
+      "en": "System",
+      "ru": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430",
+      "index": 105
+    },
+    {
+      "de": "Die Kultur",
+      "en": "Culture",
+      "ru": "\u041a\u0443\u043b\u044c\u0442\u0443\u0440\u0430",
+      "index": 106
+    },
+    {
+      "de": "Das Interesse",
+      "en": "Interest",
+      "ru": "\u0418\u043d\u0442\u0435\u0440\u0435\u0441",
+      "index": 107
+    },
+    {
+      "de": "Die Sicherheit",
+      "en": "Security",
+      "ru": "\u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c",
+      "index": 108
+    },
+    {
+      "de": "Der Schutz",
+      "en": "Protection",
+      "ru": "\u0417\u0430\u0449\u0438\u0442\u0430",
+      "index": 109
+    },
+    {
+      "de": "Die Richtung",
+      "en": "Direction",
+      "ru": "\u041d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "index": 110
+    },
+    {
+      "de": "Die Wirtschaft",
+      "en": "Economy",
+      "ru": "\u042d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0430",
+      "index": 111
+    },
+    {
+      "de": "Die Forschung",
+      "en": "Research",
+      "ru": "\u0418\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435",
+      "index": 112
+    },
+    {
+      "de": "Das Programm",
+      "en": "Program",
+      "ru": "\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430",
+      "index": 113
+    },
+    {
+      "de": "Der Markt",
+      "en": "Market",
+      "ru": "\u0420\u044b\u043d\u043e\u043a",
+      "index": 114
+    },
+    {
+      "de": "Der Betrieb",
+      "en": "Operation/Company",
+      "ru": "\u041f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435",
+      "index": 115
+    },
+    {
+      "de": "Die Branche",
+      "en": "Industry/Branch",
+      "ru": "\u041e\u0442\u0440\u0430\u0441\u043b\u044c",
+      "index": 116
+    },
+    {
+      "de": "Die L\u00f6sung",
+      "en": "Solution",
+      "ru": "\u0420\u0435\u0448\u0435\u043d\u0438\u0435",
+      "index": 117
+    },
+    {
+      "de": "Die Hilfe",
+      "en": "Help",
+      "ru": "\u041f\u043e\u043c\u043e\u0449\u044c",
+      "index": 118
+    },
+    {
+      "de": "Das Ergebnis",
+      "en": "Result",
+      "ru": "\u0420\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442",
+      "index": 119
+    },
+    {
+      "de": "Die Qualit\u00e4t",
+      "en": "Quality",
+      "ru": "\u041a\u0430\u0447\u0435\u0441\u0442\u0432\u043e",
+      "index": 120
+    },
+    {
+      "de": "Die Energie",
+      "en": "Energy",
+      "ru": "\u042d\u043d\u0435\u0440\u0433\u0438\u044f",
+      "index": 121
+    },
+    {
+      "de": "Der Kunde",
+      "en": "Customer/Client",
+      "ru": "\u041a\u043b\u0438\u0435\u043d\u0442",
+      "index": 122
+    },
+    {
+      "de": "Der Vertrag",
+      "en": "Contract",
+      "ru": "\u0414\u043e\u0433\u043e\u0432\u043e\u0440",
+      "index": 123
+    },
+    {
+      "de": "Die Leistung",
+      "en": "Performance",
+      "ru": "\u0414\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u0435",
+      "index": 124
+    },
+    {
+      "de": "Die Verantwortung",
+      "en": "Responsibility",
+      "ru": "\u041e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u044c",
+      "index": 125
+    },
+    {
+      "de": "Der Mitarbeiter",
+      "en": "Employee",
+      "ru": "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+      "index": 126
+    },
+    {
+      "de": "Die Chance",
+      "en": "Chance",
+      "ru": "\u0428\u0430\u043d\u0441",
+      "index": 127
+    },
+    {
+      "de": "Die Ver\u00e4nderung",
+      "en": "Change",
+      "ru": "\u0418\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435",
+      "index": 128
+    },
+    {
+      "de": "Das Angebot",
+      "en": "Offer",
+      "ru": "\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+      "index": 129
+    },
+    {
+      "de": "Der Kontakt",
+      "en": "Contact",
+      "ru": "\u041a\u043e\u043d\u0442\u0430\u043a\u0442",
+      "index": 130
+    },
+    {
+      "de": "Die Kontrolle",
+      "en": "Control",
+      "ru": "\u041a\u043e\u043d\u0442\u0440\u043e\u043b\u044c",
+      "index": 131
+    },
+    {
+      "de": "Die Planung",
+      "en": "Planning",
+      "ru": "\u041f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "index": 132
+    },
+    {
+      "de": "Der Wunsch",
+      "en": "Wish/Desire",
+      "ru": "\u0416\u0435\u043b\u0430\u043d\u0438\u0435",
+      "index": 133
+    },
+    {
+      "de": "Die Angst",
+      "en": "Fear",
+      "ru": "\u0421\u0442\u0440\u0430\u0445",
+      "index": 134
+    },
+    {
+      "de": "Die Freude",
+      "en": "Joy",
+      "ru": "\u0420\u0430\u0434\u043e\u0441\u0442\u044c",
+      "index": 135
+    },
+    {
+      "de": "Das Gef\u00fchl",
+      "en": "Feeling",
+      "ru": "\u0427\u0443\u0432\u0441\u0442\u0432\u043e",
+      "index": 136
+    },
+    {
+      "de": "Der Schmerz",
+      "en": "Pain",
+      "ru": "\u0411\u043e\u043b\u044c",
+      "index": 137
+    },
+    {
+      "de": "Der Traum",
+      "en": "Dream",
+      "ru": "\u041c\u0435\u0447\u0442\u0430",
+      "index": 138
+    },
+    {
+      "de": "Die Tat",
+      "en": "Deed/Action",
+      "ru": "\u041f\u043e\u0441\u0442\u0443\u043f\u043e\u043a",
+      "index": 139
+    },
+    {
+      "de": "Die Kraft",
+      "en": "Power/Strength",
+      "ru": "\u0421\u0438\u043b\u0430",
+      "index": 140
+    },
+    {
+      "de": "Die Ruhe",
+      "en": "Rest/Silence",
+      "ru": "\u041f\u043e\u043a\u043e\u0439",
+      "index": 141
+    },
+    {
+      "de": "Der Geruch",
+      "en": "Smell",
+      "ru": "\u0417\u0430\u043f\u0430\u0445",
+      "index": 142
+    },
+    {
+      "de": "Das Ger\u00e4t",
+      "en": "Device",
+      "ru": "\u0423\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e",
+      "index": 143
+    },
+    {
+      "de": "Das Geb\u00e4ude",
+      "en": "Building",
+      "ru": "\u0417\u0434\u0430\u043d\u0438\u0435",
+      "index": 144
+    },
+    {
+      "de": "Die Stra\u00dfe",
+      "en": "Street/Road",
+      "ru": "\u0423\u043b\u0438\u0446\u0430",
+      "index": 145
+    },
+    {
+      "de": "Der Berg",
+      "en": "Mountain",
+      "ru": "\u0413\u043e\u0440\u0430",
+      "index": 146
+    },
+    {
+      "de": "Das Meer",
+      "en": "Sea",
+      "ru": "\u041c\u043e\u0440\u0435",
+      "index": 147
+    },
+    {
+      "de": "Der Fluss",
+      "en": "River",
+      "ru": "\u0420\u0435\u043a\u0430",
+      "index": 148
+    },
+    {
+      "de": "Die Insel",
+      "en": "Island",
+      "ru": "\u041e\u0441\u0442\u0440\u043e\u0432",
+      "index": 149
+    },
+    {
+      "de": "Das Wetter",
+      "en": "Weather",
+      "ru": "\u041f\u043e\u0433\u043e\u0434\u0430",
+      "index": 150
+    },
+    {
+      "de": "Der Wind",
+      "en": "Wind",
+      "ru": "\u0412\u0435\u0442\u0435\u0440",
+      "index": 151
+    },
+    {
+      "de": "Der Regen",
+      "en": "Rain",
+      "ru": "\u0414\u043e\u0436\u0434\u044c",
+      "index": 152
+    },
+    {
+      "de": "Der Schnee",
+      "en": "Snow",
+      "ru": "\u0421\u043d\u0435\u0433",
+      "index": 153
+    },
+    {
+      "de": "Die Blume",
+      "en": "Flower",
+      "ru": "\u0426\u0432\u0435\u0442\u043e\u043a",
+      "index": 154
+    },
+    {
+      "de": "Das Tier",
+      "en": "Animal",
+      "ru": "\u0416\u0438\u0432\u043e\u0442\u043d\u043e\u0435"
+    },
+    {
+      "de": "Der Hund",
+      "en": "Dog",
+      "ru": "\u0421\u043e\u0431\u0430\u043a\u0430",
+      "index": 156
+    },
+    {
+      "de": "Die Katze",
+      "en": "Cat",
+      "ru": "\u041a\u043e\u0448\u043a\u0430",
+      "index": 157
+    },
+    {
+      "de": "Der Vogel",
+      "en": "Bird",
+      "ru": "\u041f\u0442\u0438\u0446\u0430",
+      "index": 158
+    },
+    {
+      "de": "Das Pferd",
+      "en": "Horse",
+      "ru": "\u041b\u043e\u0448\u0430\u0434\u044c",
+      "index": 159
+    },
+    {
+      "de": "Der Fisch",
+      "en": "Fish",
+      "ru": "\u0420\u044b\u0431\u0430",
+      "index": 160
+    },
+    {
+      "de": "Die Kleidung",
+      "en": "Clothing",
+      "ru": "\u041e\u0434\u0435\u0436\u0434\u0430",
+      "index": 161
+    },
+    {
+      "de": "Der Schuh",
+      "en": "Shoe",
+      "ru": "\u041e\u0431\u0443\u0432\u044c",
+      "index": 162
+    },
+    {
+      "de": "Die Tasche",
+      "en": "Bag/Pocket",
+      "ru": "\u0421\u0443\u043c\u043a\u0430",
+      "index": 163
+    },
+    {
+      "de": "Das Essen",
+      "en": "Food/Meal",
+      "ru": "\u0415\u0434\u0430",
+      "index": 164
+    },
+    {
+      "de": "Das Trinken",
+      "en": "Drink",
+      "ru": "\u041f\u0438\u0442\u044c\u0435",
+      "index": 165
+    },
+    {
+      "de": "Das Brot",
+      "en": "Bread",
+      "ru": "\u0425\u043b\u0435\u0431",
+      "index": 166
+    },
+    {
+      "de": "Der Kaffee",
+      "en": "Coffee",
+      "ru": "\u041a\u043e\u0444\u0435",
+      "index": 167
+    },
+    {
+      "de": "Der Tee",
+      "en": "Tea",
+      "ru": "\u0427\u0430\u0439",
+      "index": 168
+    },
+    {
+      "de": "Die Milch",
+      "en": "Milk",
+      "ru": "\u041c\u043e\u043b\u043e\u043a\u043e",
+      "index": 169
+    },
+    {
+      "de": "Das Fleisch",
+      "en": "Meat",
+      "ru": "\u041c\u044f\u0441\u043e",
+      "index": 170
+    },
+    {
+      "de": "Das Obst",
+      "en": "Fruit",
+      "ru": "\u0424\u0440\u0443\u043a\u0442\u044b",
+      "index": 171
+    },
+    {
+      "de": "Das Gem\u00fcse",
+      "en": "Vegetables",
+      "ru": "\u041e\u0432\u043e\u0449\u0438",
+      "index": 172
+    },
+    {
+      "de": "Der Wein",
+      "en": "Wine",
+      "ru": "\u0412\u0438\u043d\u043e",
+      "index": 173
+    },
+    {
+      "de": "Das Bier",
+      "en": "Beer",
+      "ru": "\u041f\u0438\u0432\u043e",
+      "index": 174
+    },
+    {
+      "de": "Der K\u00f6rper",
+      "en": "Body",
+      "ru": "\u0422\u0435\u043b\u043e",
+      "index": 175
+    },
+    {
+      "de": "Das Herz",
+      "en": "Heart",
+      "ru": "\u0421\u0435\u0440\u0434\u0446\u0435",
+      "index": 176
+    },
+    {
+      "de": "Der Arm",
+      "en": "Arm",
+      "ru": "\u0420\u0443\u043a\u0430",
+      "index": 177
+    },
+    {
+      "de": "Das Bein",
+      "en": "Leg",
+      "ru": "\u041d\u043e\u0433\u0430",
+      "index": 178
+    },
+    {
+      "de": "Der Finger",
+      "en": "Finger",
+      "ru": "\u041f\u0430\u043b\u0435\u0446",
+      "index": 179
+    },
+    {
+      "de": "Der Fu\u00df",
+      "en": "Foot",
+      "ru": "\u0421\u0442\u0443\u043f\u043d\u044f",
+      "index": 180
+    },
+    {
+      "de": "Der Mund",
+      "en": "Mouth",
+      "ru": "\u0420\u043e\u0442",
+      "index": 181
+    },
+    {
+      "de": "Die Nase",
+      "en": "Nose",
+      "ru": "\u041d\u043e\u0441",
+      "index": 182
+    },
+    {
+      "de": "Das Ohr",
+      "en": "Ear",
+      "ru": "\u0423\u0445\u043e",
+      "index": 183
+    },
+    {
+      "de": "Das Haar",
+      "en": "Hair",
+      "ru": "\u0412\u043e\u043b\u043e\u0441\u044b",
+      "index": 184
+    },
+    {
+      "de": "Die Haut",
+      "en": "Skin",
+      "ru": "\u041a\u043e\u0436\u0430",
+      "index": 185
+    },
+    {
+      "de": "Die Familie",
+      "en": "Family",
+      "ru": "\u0421\u0435\u043c\u044c\u044f",
+      "index": 186
+    },
+    {
+      "de": "Die Eltern",
+      "en": "Parents",
+      "ru": "\u0420\u043e\u0434\u0438\u0442\u0435\u043b\u0438",
+      "index": 187
+    },
+    {
+      "de": "Der Bruder",
+      "en": "Brother",
+      "ru": "\u0411\u0440\u0430\u0442",
+      "index": 188
+    },
+    {
+      "de": "Die Schwester",
+      "en": "Sister",
+      "ru": "\u0421\u0435\u0441\u0442\u0440\u0430",
+      "index": 189
+    },
+    {
+      "de": "Der Sohn",
+      "en": "Son",
+      "ru": "\u0421\u044b\u043d",
+      "index": 190
+    },
+    {
+      "de": "Die Tochter",
+      "en": "\u5973\u513f",
+      "ru": "\u0414\u043e\u0447\u044c",
+      "index": 191
+    },
+    {
+      "de": "Das Baby",
+      "en": "Baby",
+      "ru": "\u041c\u043b\u0430\u0434\u0435\u043d\u0435\u0446",
+      "index": 192
+    },
+    {
+      "de": "Der Onkel",
+      "en": "Uncle",
+      "ru": "\u0414\u044f\u0434\u044f",
+      "index": 193
+    },
+    {
+      "de": "Die Tante",
+      "en": "Aunt",
+      "ru": "\u0422\u0435\u0442\u044f",
+      "index": 194
+    },
+    {
+      "de": "Die Gro\u00dfmutter",
+      "en": "Grandmother",
+      "ru": "\u0411\u0430\u0431\u0443\u0448\u043a\u0430",
+      "index": 195
+    },
+    {
+      "de": "Der Gro\u00dfvater",
+      "en": "Grandfather",
+      "ru": "\u0414\u0435\u0434\u0443\u0448\u043a\u0430",
+      "index": 196
+    },
+    {
+      "de": "Die Ferien",
+      "en": "Vacation/Holidays",
+      "ru": "\u041a\u0430\u043d\u0438\u043a\u0443\u043b\u044b",
+      "index": 197
+    },
+    {
+      "de": "Die Arbeit",
+      "en": "Work/Job",
+      "ru": "\u0420\u0430\u0431\u043e\u0442\u0430",
+      "index": 198
+    },
+    {
+      "de": "Der Beruf",
+      "en": "Profession",
+      "ru": "\u041f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u044f",
+      "index": 199
+    },
+    {
+      "de": "Die Stelle",
+      "en": "Position/Job",
+      "ru": "\u041c\u0435\u0441\u0442\u043e",
+      "index": 200
+    },
+    {
+      "de": "Der Chef",
+      "en": "Boss",
+      "ru": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u0438\u043a",
+      "index": 201
+    },
+    {
+      "de": "Die Karriere",
+      "en": "Career",
+      "ru": "\u041a\u0430\u0440\u044c\u0435\u0440\u0430",
+      "index": 202
+    },
+    {
+      "de": "Das B\u00fcro",
+      "en": "Office",
+      "ru": "\u041e\u0444\u0438\u0441",
+      "index": 203
+    },
+    {
+      "de": "Die Fabrik",
+      "en": "Factory",
+      "ru": "\u0424\u0430\u0431\u0440\u0438\u043a\u0430",
+      "index": 204
+    },
+    {
+      "de": "Die Werkstatt",
+      "en": "Workshop",
+      "ru": "\u041c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u0430\u044f",
+      "index": 205
+    },
+    {
+      "de": "Das Gesch\u00e4ft",
+      "en": "Business/Shop",
+      "ru": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d",
+      "index": 206
+    },
+    {
+      "de": "Der Laden",
+      "en": "Shop/Store",
+      "ru": "\u041b\u0430\u0432\u043a\u0430",
+      "index": 207
+    },
+    {
+      "de": "Der Supermarkt",
+      "en": "Supermarket",
+      "ru": "\u0421\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442",
+      "index": 208
+    },
+    {
+      "de": "Das Krankenhaus",
+      "en": "Hospital",
+      "ru": "\u0411\u043e\u043b\u044c\u043d\u0438\u0446\u0430",
+      "index": 209
+    },
+    {
+      "de": "Die Apotheke",
+      "en": "Pharmacy",
+      "ru": "\u0410\u043f\u0442\u0435\u043a\u0430",
+      "index": 210
+    },
+    {
+      "de": "Der Arzt",
+      "en": "Doctor",
+      "ru": "\u0412\u0440\u0430\u0447",
+      "index": 211
+    },
+    {
+      "de": "Die Medizin",
+      "en": "Medicine",
+      "ru": "\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0430",
+      "index": 212
+    },
+    {
+      "de": "Die Krankheit",
+      "en": "Disease/Illness",
+      "ru": "\u0411\u043e\u043b\u0435\u0437\u043d\u044c",
+      "index": 213
+    },
+    {
+      "de": "Das Medikament",
+      "en": "Medication",
+      "ru": "\u041b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u043e",
+      "index": 214
+    },
+    {
+      "de": "Die Therapie",
+      "en": "Therapy",
+      "ru": "\u0422\u0435\u0440\u0430\u043f\u0438\u044f",
+      "index": 215
+    },
+    {
+      "de": "Der Patient",
+      "en": "Patient",
+      "ru": "\u041f\u0430\u0446\u0438\u0435\u043d\u0442",
+      "index": 216
+    },
+    {
+      "de": "Der Sportler",
+      "en": "Athlete",
+      "ru": "\u0421\u043f\u043e\u0440\u0442\u0441\u043c\u0435\u043d",
+      "index": 217
+    },
+    {
+      "de": "Das Spiel",
+      "en": "Game",
+      "ru": "\u0418\u0433\u0440\u0430",
+      "index": 218
+    },
+    {
+      "de": "Die Mannschaft",
+      "en": "Team",
+      "ru": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430",
+      "index": 219
+    },
+    {
+      "de": "Der Wettbewerb",
+      "en": "Competition",
+      "ru": "\u0421\u043e\u0440\u0435\u0432\u043d\u043e\u0432\u0430\u043d\u0438\u0435",
+      "index": 220
+    },
+    {
+      "de": "Das Training",
+      "en": "Training",
+      "ru": "\u0422\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0430",
+      "index": 221
+    },
+    {
+      "de": "Die Fitness",
+      "en": "Fitness",
+      "ru": "\u0424\u0438\u0442\u043d\u0435\u0441",
+      "index": 222
+    },
+    {
+      "de": "Das Stadion",
+      "en": "Stadium",
+      "ru": "\u0421\u0442\u0430\u0434\u0438\u043e\u043d",
+      "index": 223
+    },
+    {
+      "de": "Der Ball",
+      "en": "Ball",
+      "ru": "\u041c\u044f\u0447",
+      "index": 224
+    },
+    {
+      "de": "Der Sieg",
+      "en": "Victory",
+      "ru": "\u041f\u043e\u0431\u0435\u0434\u0430",
+      "index": 225
+    },
+    {
+      "de": "Der Verlierer",
+      "en": "Loser",
+      "ru": "\u041f\u0440\u043e\u0438\u0433\u0440\u0430\u0432\u0448\u0438\u0439",
+      "index": 226
+    },
+    {
+      "de": "Die Kunst",
+      "en": "Art",
+      "ru": "\u0418\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u043e",
+      "index": 227
+    },
+    {
+      "de": "Der K\u00fcnstler",
+      "en": "Artist",
+      "ru": "\u0425\u0443\u0434\u043e\u0436\u043d\u0438\u043a",
+      "index": 228
+    },
+    {
+      "de": "Die Galerie",
+      "en": "Gallery",
+      "ru": "\u0413\u0430\u043b\u0435\u0440\u0435\u044f",
+      "index": 229
+    },
+    {
+      "de": "Das Museum",
+      "en": "Museum",
+      "ru": "\u041c\u0443\u0437\u0435\u0439",
+      "index": 230
+    },
+    {
+      "de": "Das Theater",
+      "en": "Theater",
+      "ru": "\u0422\u0435\u0430\u0442\u0440",
+      "index": 231
+    },
+    {
+      "de": "Das Konzert",
+      "en": "Concert",
+      "ru": "\u041a\u043e\u043d\u0446\u0435\u0440\u0442",
+      "index": 232
+    },
+    {
+      "de": "Der Autor",
+      "en": "Author",
+      "ru": "\u0410\u0432\u0442\u043e\u0440",
+      "index": 233
+    },
+    {
+      "de": "Der Roman",
+      "en": "Novel",
+      "ru": "\u0420\u043e\u043c\u0430\u043d",
+      "index": 234
+    },
+    {
+      "de": "Das Gedicht",
+      "en": "Poem",
+      "ru": "\u0421\u0442\u0438\u0445\u043e\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u0435",
+      "index": 235
+    },
+    {
+      "de": "Die Literatur",
+      "en": "Literature",
+      "ru": "\u041b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430",
+      "index": 236
+    },
+    {
+      "de": "Die Zeitung",
+      "en": "Newspaper",
+      "ru": "\u0413\u0430\u0437\u0435\u0442\u0430",
+      "index": 237
+    },
+    {
+      "de": "Die Nachricht",
+      "en": "News/Message",
+      "ru": "\u041d\u043e\u0432\u043e\u0441\u0442\u044c",
+      "index": 238
+    },
+    {
+      "de": "Das Radio",
+      "en": "Radio",
+      "ru": "\u0420\u0430\u0434\u0438\u043e",
+      "index": 239
+    },
+    {
+      "de": "Das Fernsehen",
+      "en": "Television",
+      "ru": "\u0422\u0435\u043b\u0435\u0432\u0438\u0434\u0435\u043d\u0438\u0435",
+      "index": 240
+    },
+    {
+      "de": "Die Werbung",
+      "en": "Advertising",
+      "ru": "\u0420\u0435\u043a\u043b\u0430\u043c\u0430",
+      "index": 241
+    },
+    {
+      "de": "Das Internet",
+      "en": "Internet",
+      "ru": "\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442",
+      "index": 242
+    },
+    {
+      "de": "Der Computer",
+      "en": "Computer",
+      "ru": "\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440",
+      "index": 243
+    },
+    {
+      "de": "Die Software",
+      "en": "Software",
+      "ru": "\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435",
+      "index": 244
+    },
+    {
+      "de": "Das Telefon",
+      "en": "Telephone",
+      "ru": "\u0422\u0435\u043b\u0435\u0444\u043e\u043d",
+      "index": 245
+    },
+    {
+      "de": "Das Handy",
+      "en": "Mobile phone",
+      "ru": "\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0439 \u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+      "index": 246
+    },
+    {
+      "de": "Die E-Mail",
+      "en": "Email",
+      "ru": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u0430\u044f \u043f\u043e\u0447\u0442\u0430",
+      "index": 247
+    },
+    {
+      "de": "Die Website",
+      "en": "Website",
+      "ru": "\u0421\u0430\u0439\u0442",
+      "index": 248
+    },
+    {
+      "de": "Die Datei",
+      "en": "File",
+      "ru": "\u0424\u0430\u0439\u043b",
+      "index": 249
+    },
+    {
+      "de": "Der Nutzer",
+      "en": "User",
+      "ru": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c",
+      "index": 250
+    },
+    {
+      "de": "Die Umwelt",
+      "en": "Environment",
+      "ru": "\u041e\u043a\u0440\u0443\u0436\u0430\u044e\u0449\u0430\u044f \u0441\u0440\u0435\u0434\u0430",
+      "index": 251
+    },
+    {
+      "de": "Das Klima",
+      "en": "Climate",
+      "ru": "\u041a\u043b\u0438\u043c\u0430\u0442",
+      "index": 252
+    },
+    {
+      "de": "Die Energie",
+      "en": "Energy",
+      "ru": "\u042d\u043d\u0435\u0440\u0433\u0438\u044f",
+      "index": 253
+    },
+    {
+      "de": "Der M\u00fcll",
+      "en": "Trash/Waste",
+      "ru": "\u041c\u0443\u0441\u043e\u0440",
+      "index": 254
+    },
+    {
+      "de": "Das Recycling",
+      "en": "Recycling",
+      "ru": "\u041f\u0435\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u043a\u0430",
+      "index": 255
+    },
+    {
+      "de": "Die Wald",
+      "en": "Forest",
+      "ru": "\u041b\u0435\u0441",
+      "index": 256
+    },
+    {
+      "de": "Die Pflanze",
+      "en": "Plant",
+      "ru": "\u0420\u0430\u0441\u0442\u0435\u043d\u0438\u0435",
+      "index": 257
+    },
+    {
+      "de": "Die Ressource",
+      "en": "Resource",
+      "ru": "\u0420\u0435\u0441\u0443\u0440\u0441",
+      "index": 258
+    },
+    {
+      "de": "Der Verkehr",
+      "en": "Traffic",
+      "ru": "\u0414\u0432\u0438\u0436\u0435\u043d\u0438\u0435",
+      "index": 259
+    },
+    {
+      "de": "Die Bahn",
+      "en": "Train/Railway",
+      "ru": "\u041f\u043e\u0435\u0437\u0434",
+      "index": 260
+    },
+    {
+      "de": "Der Bus",
+      "en": "Bus",
+      "ru": "\u0410\u0432\u0442\u043e\u0431\u0443\u0441",
+      "index": 261
+    },
+    {
+      "de": "Das Flugzeug",
+      "en": "Airplane",
+      "ru": "\u0421\u0430\u043c\u043e\u043b\u0435\u0442",
+      "index": 262
+    },
+    {
+      "de": "Das Schiff",
+      "en": "Ship",
+      "ru": "\u041a\u043e\u0440\u0430\u0431\u043b\u044c",
+      "index": 263
+    },
+    {
+      "de": "Das Fahrrad",
+      "en": "Bicycle",
+      "ru": "\u0412\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434",
+      "index": 264
+    },
+    {
+      "de": "Die Reise",
+      "en": "Journey/Trip",
+      "ru": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435",
+      "index": 265
+    },
+    {
+      "de": "Das Hotel",
+      "en": "Hotel",
+      "ru": "\u041e\u0442\u0435\u043b\u044c",
+      "index": 266
+    },
+    {
+      "de": "Die Grenze",
+      "en": "Border",
+      "ru": "\u0413\u0440\u0430\u043d\u0438\u0446\u0430",
+      "index": 267
+    },
+    {
+      "de": "Die Politik",
+      "en": "Politics",
+      "ru": "\u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0430",
+      "index": 268
+    },
+    {
+      "de": "Die Regierung",
+      "en": "Government",
+      "ru": "\u041f\u0440\u0430\u0432\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e",
+      "index": 269
+    },
+    {
+      "de": "Das Parlament",
+      "en": "Parliament",
+      "ru": "\u041f\u0430\u0440\u043b\u0430\u043c\u0435\u043d\u0442",
+      "index": 270
+    },
+    {
+      "de": "Das Gesetz",
+      "en": "Law",
+      "ru": "\u0417\u0430\u043a\u043e\u043d",
+      "index": 271
+    },
+    {
+      "de": "Die Wahl",
+      "en": "Election/Choice",
+      "ru": "\u0412\u044b\u0431\u043e\u0440\u044b",
+      "index": 272
+    },
+    {
+      "de": "Die Partei",
+      "en": "Party",
+      "ru": "\u041f\u0430\u0440\u0442\u0438\u044f",
+      "index": 273
+    },
+    {
+      "de": "Die Krise",
+      "en": "Crisis",
+      "ru": "\u041a\u0440\u0438\u0437\u0438\u0441",
+      "index": 274
+    },
+    {
+      "de": "Die Gerechtigkeit",
+      "en": "Justice",
+      "ru": "\u0421\u043f\u0440\u0430\u0432\u0435\u0434\u043b\u0438\u0432\u043e\u0441\u0442\u044c",
+      "index": 275
+    },
+    {
+      "de": "Die Sicherheit",
+      "en": "Security",
+      "ru": "\u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c",
+      "index": 276
+    },
+    {
+      "de": "Der Friede",
+      "en": "Peace",
+      "ru": "\u041c\u0438\u0440",
+      "index": 277
+    },
+    {
+      "de": "Die Gefahr",
+      "en": "Danger",
+      "ru": "\u041e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c",
+      "index": 278
+    },
+    {
+      "de": "Der Unfall",
+      "en": "Accident",
+      "ru": "\u0410\u0432\u0430\u0440\u0438\u044f",
+      "index": 279
+    },
+    {
+      "de": "Die Gewalt",
+      "en": "Violence",
+      "ru": "\u041d\u0430\u0441\u0438\u043b\u0438\u0435",
+      "index": 280
+    },
+    {
+      "de": "Die Strafe",
+      "en": "Punishment",
+      "ru": "\u041d\u0430\u043a\u0430\u0437\u0430\u043d\u0438\u0435",
+      "index": 281
+    },
+    {
+      "de": "Das Dorf",
+      "en": "Village",
+      "ru": "\u0414\u0435\u0440\u0435\u0432\u043d\u044f",
+      "index": 282
+    },
+    {
+      "de": "Die Wohnung",
+      "en": "Apartment",
+      "ru": "\u041a\u0432\u0430\u0440\u0442\u0438\u0440\u0430",
+      "index": 283
+    },
+    {
+      "de": "Das Zimmer",
+      "en": "Room",
+      "ru": "\u041a\u043e\u043c\u043d\u0430\u0442\u0430",
+      "index": 284
+    },
+    {
+      "de": "Die K\u00fcche",
+      "en": "Kitchen",
+      "ru": "\u041a\u0443\u0445\u043d\u044f",
+      "index": 285
+    },
+    {
+      "de": "Das Bad",
+      "en": "Bath/Bathroom",
+      "ru": "\u0412\u0430\u043d\u043d\u0430\u044f",
+      "index": 286
+    },
+    {
+      "de": "Der Garten",
+      "en": "Garden",
+      "ru": "\u0421\u0430\u0434",
+      "index": 287
+    },
+    {
+      "de": "Die Wand",
+      "en": "Wall",
+      "ru": "\u0421\u0442\u0435\u043d\u0430",
+      "index": 288
+    },
+    {
+      "de": "Der Boden",
+      "en": "Floor/Ground",
+      "ru": "\u041f\u043e\u043b",
+      "index": 289
+    },
+    {
+      "de": "Das Dach",
+      "en": "Roof",
+      "ru": "\u041a\u0440\u044b\u0448\u0430",
+      "index": 290
+    },
+    {
+      "de": "Der Stuhl",
+      "en": "Chair",
+      "ru": "\u0421\u0442\u0443\u043b",
+      "index": 291
+    },
+    {
+      "de": "Das Bett",
+      "en": "Bed",
+      "ru": "\u041a\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 292
+    },
+    {
+      "de": "Der Schrank",
+      "en": "Closet/Cabinet",
+      "ru": "\u0428\u043a\u0430\u0444",
+      "index": 293
+    },
+    {
+      "de": "Das Licht",
+      "en": "Light",
+      "ru": "\u0421\u0432\u0435\u0442",
+      "index": 294
+    },
+    {
+      "de": "Die Lampe",
+      "en": "Lamp",
+      "ru": "\u041b\u0430\u043c\u043f\u0430",
+      "index": 295
+    },
+    {
+      "de": "Der Spiegel",
+      "en": "Mirror",
+      "ru": "\u0417\u0435\u0440\u043a\u0430\u043b\u043e",
+      "index": 296
+    },
+    {
+      "de": "Die Heizung",
+      "en": "Heating",
+      "ru": "\u041e\u0442\u043e\u043f\u043b\u0435\u043d\u0438\u0435",
+      "index": 297
+    },
+    {
+      "de": "Der Schl\u00fcssel",
+      "en": "Key",
+      "ru": "\u041a\u043b\u044e\u0447",
+      "index": 298
+    },
+    {
+      "de": "Das Schloss",
+      "en": "Castle/Lock",
+      "ru": "\u0417\u0430\u043c\u043e\u043a",
+      "index": 299
+    },
+    {
+      "de": "Die Geschichte",
+      "en": "History",
+      "ru": "\u0418\u0441\u0442\u043e\u0440\u0438\u044f",
+      "index": 300
+    },
+    {
+      "de": "Das Wissen",
+      "en": "Knowledge",
+      "ru": "\u0417\u043d\u0430\u043d\u0438\u0435",
+      "index": 301
+    },
+    {
+      "de": "Die Wissenschaft",
+      "en": "Science",
+      "ru": "\u041d\u0430\u0443\u043a\u0430",
+      "index": 302
+    },
+    {
+      "de": "Der Gedanke",
+      "en": "Thought",
+      "ru": "\u041c\u044b\u0441\u043b\u044c",
+      "index": 303
+    },
+    {
+      "de": "Die Idee",
+      "en": "Idea",
+      "ru": "\u0418\u0434\u0435\u044f",
+      "index": 304
+    },
+    {
+      "de": "Die Wahrheit",
+      "en": "Truth",
+      "ru": "\u0418\u0441\u0442\u0438\u043d\u0430",
+      "index": 305
+    },
+    {
+      "de": "Der Fehler",
+      "en": "Error/Mistake",
+      "ru": "\u041e\u0448\u0438\u0431\u043a\u0430",
+      "index": 306
+    },
+    {
+      "de": "Die L\u00fcge",
+      "en": "Lie",
+      "ru": "\u041b\u043e\u0436\u044c",
+      "index": 307
+    },
+    {
+      "de": "Der Gott",
+      "en": "God",
+      "ru": "\u0411\u043e\u0433",
+      "index": 308
+    },
+    {
+      "de": "Die Seele",
+      "en": "Soul",
+      "ru": "\u0414\u0443\u0448\u0430",
+      "index": 309
+    },
+    {
+      "de": "Der Glaube",
+      "en": "Faith/Belief",
+      "ru": "\u0412\u0435\u0440\u0430",
+      "index": 310
+    },
+    {
+      "de": "Der Geist",
+      "en": "Spirit/Mind",
+      "ru": "\u0414\u0443\u0445",
+      "index": 311
+    },
+    {
+      "de": "Der Wert",
+      "en": "Value",
+      "ru": "\u0417\u043d\u0430\u0447\u0435\u043d\u0438\u0435",
+      "index": 312
+    },
+    {
+      "de": "Die Moral",
+      "en": "Morality",
+      "ru": "\u041c\u043e\u0440\u0430\u043b\u044c",
+      "index": 313
+    },
+    {
+      "de": "Die Pflicht",
+      "en": "Duty",
+      "ru": "\u0414\u043e\u043b\u0433",
+      "index": 314
+    },
+    {
+      "de": "Das Leben",
+      "en": "Life",
+      "ru": "\u0416\u0438\u0437\u043d\u044c",
+      "index": 315
+    },
+    {
+      "de": "Der Tod",
+      "en": "Death",
+      "ru": "\u0421\u043c\u0435\u0440\u0442\u044c",
+      "index": 316
+    },
+    {
+      "de": "Die Geburt",
+      "en": "Birth",
+      "ru": "\u0420\u043e\u0436\u0434\u0435\u043d\u0438\u0435",
+      "index": 317
+    },
+    {
+      "de": "Das Alter",
+      "en": "Age",
+      "ru": "\u0412\u043e\u0437\u0440\u0430\u0441\u0442",
+      "index": 318
+    },
+    {
+      "de": "Die Jugend",
+      "en": "Youth",
+      "ru": "\u042e\u043d\u043e\u0441\u0442\u044c",
+      "index": 319
+    },
+    {
+      "de": "Die Kindheit",
+      "en": "Childhood",
+      "ru": "\u0414\u0435\u0442\u0441\u0442\u0432\u043e",
+      "index": 320
+    },
+    {
+      "de": "Die Hochzeit",
+      "en": "Wedding",
+      "ru": "\u0421\u0432\u0430\u0434\u044c\u0431\u0430",
+      "index": 321
+    },
+    {
+      "de": "Die Scheidung",
+      "en": "Divorce",
+      "ru": "\u0420\u0430\u0437\u0432\u043e\u0434",
+      "index": 322
+    },
+    {
+      "de": "Die Beziehung",
+      "en": "Relationship",
+      "ru": "\u041e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044f",
+      "index": 323
+    },
+    {
+      "de": "Die Freundschaft",
+      "en": "Friendship",
+      "ru": "\u0414\u0440\u0443\u0436\u0431\u0430",
+      "index": 324
+    },
+    {
+      "de": "Der Nachbar",
+      "en": "Neighbor",
+      "ru": "\u0421\u043e\u0441\u0435\u0434",
+      "index": 325
+    },
+    {
+      "de": "Der Kollege",
+      "en": "Colleague",
+      "ru": "\u041a\u043e\u043b\u043b\u0435\u0433\u0430",
+      "index": 326
+    },
+    {
+      "de": "Der Fremde",
+      "en": "Stranger",
+      "ru": "\u0427\u0443\u0436\u0430\u043a",
+      "index": 327
+    },
+    {
+      "de": "Der Gast",
+      "en": "Guest",
+      "ru": "\u0413\u043e\u0441\u0442\u044c",
+      "index": 328
+    },
+    {
+      "de": "Der Feind",
+      "en": "Enemy",
+      "ru": "\u0412\u0440\u0430\u0433",
+      "index": 329
+    },
+    {
+      "de": "Die Menge",
+      "en": "Amount/Crowd",
+      "ru": "\u0422\u043e\u043b\u043f\u0430",
+      "index": 330
+    },
+    {
+      "de": "Die \u00d6ffentlichkeit",
+      "en": "Public",
+      "ru": "\u041e\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u044c",
+      "index": 331
+    },
+    {
+      "de": "Der B\u00fcrger",
+      "en": "Citizen",
+      "ru": "\u0413\u0440\u0430\u0436\u0434\u0430\u043d\u0438\u043d",
+      "index": 332
+    },
+    {
+      "de": "Das Volk",
+      "en": "People/Nation",
+      "ru": "\u041d\u0430\u0440\u043e\u0434",
+      "index": 333
+    },
+    {
+      "de": "Die Nation",
+      "en": "Nation",
+      "ru": "\u041d\u0430\u0446\u0438\u044f",
+      "index": 334
+    },
+    {
+      "de": "Die Gesellschaft",
+      "en": "Society",
+      "ru": "\u041e\u0431\u0449\u0435\u0441\u0442\u0432\u043e",
+      "index": 335
+    },
+    {
+      "de": "Die Heimat",
+      "en": "Homeland",
+      "ru": "\u0420\u043e\u0434\u0438\u043d\u0430",
+      "index": 336
+    },
+    {
+      "de": "Die Fremde",
+      "en": "Foreign lands",
+      "ru": "\u0427\u0443\u0436\u0431\u0438\u043d\u0430",
+      "index": 337
+    },
+    {
+      "de": "Der Ort",
+      "en": "Place/Location",
+      "ru": "\u041c\u0435\u0441\u0442\u043e",
+      "index": 338
+    },
+    {
+      "de": "Die Lage",
+      "en": "Situation/Location",
+      "ru": "\u041f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+      "index": 339
+    },
+    {
+      "de": "Die Umgebung",
+      "en": "Surroundings",
+      "ru": "\u041e\u043a\u0440\u0443\u0436\u0435\u043d\u0438\u0435",
+      "index": 340
+    },
+    {
+      "de": "Die Entfernung",
+      "en": "Distance",
+      "ru": "\u0420\u0430\u0441\u0441\u0442\u043e\u044f\u043d\u0438\u0435",
+      "index": 341
+    },
+    {
+      "de": "Die N\u00e4he",
+      "en": "Closeness/Proximity",
+      "ru": "\u0411\u043b\u0438\u0437\u043e\u0441\u0442\u044c",
+      "index": 342
+    },
+    {
+      "de": "Die Breite",
+      "en": "Width",
+      "ru": "\u0428\u0438\u0440\u0438\u043d\u0430",
+      "index": 343
+    },
+    {
+      "de": "Die H\u00f6he",
+      "en": "Height",
+      "ru": "\u0412\u044b\u0441\u043e\u0442\u0430",
+      "index": 344
+    },
+    {
+      "de": "Die Tiefe",
+      "en": "Depth",
+      "ru": "\u0413\u043b\u0443\u0431\u0438\u043d\u0430",
+      "index": 345
+    },
+    {
+      "de": "Die Gr\u00f6\u00dfe",
+      "en": "Size",
+      "ru": "\u0420\u0430\u0437\u043c\u0435\u0440",
+      "index": 346
+    },
+    {
+      "de": "Das Gewicht",
+      "en": "Weight",
+      "ru": "\u0412\u0435\u0441",
+      "index": 347
+    },
+    {
+      "de": "Das St\u00fcck",
+      "en": "Piece",
+      "ru": "\u041a\u0443\u0441\u043e\u043a",
+      "index": 348
+    },
+    {
+      "de": "Die H\u00e4lfte",
+      "en": "Half",
+      "ru": "\u041f\u043e\u043b\u043e\u0432\u0438\u043d\u0430",
+      "index": 349
+    },
+    {
+      "de": "Das Drittel",
+      "en": "Third",
+      "ru": "\u0422\u0440\u0435\u0442\u044c",
+      "index": 350
+    },
+    {
+      "de": "Die Summe",
+      "en": "Sum",
+      "ru": "\u0421\u0443\u043c\u043c\u0430",
+      "index": 351
+    },
+    {
+      "de": "Der Durchschnitt",
+      "en": "Average",
+      "ru": "\u0421\u0440\u0435\u0434\u043d\u0435\u0435",
+      "index": 352
+    },
+    {
+      "de": "Die Form",
+      "en": "Form",
+      "ru": "\u0424\u043e\u0440\u043c\u0430",
+      "index": 353
+    },
+    {
+      "de": "Der Kreis",
+      "en": "Circle",
+      "ru": "\u041a\u0440\u0443\u0433",
+      "index": 354
+    },
+    {
+      "de": "Das Quadrat",
+      "en": "Square",
+      "ru": "\u041a\u0432\u0430\u0434\u0440\u0430\u0442",
+      "index": 355
+    },
+    {
+      "de": "Die Linie",
+      "en": "Line",
+      "ru": "\u041b\u0438\u043d\u0438\u044f",
+      "index": 356
+    },
+    {
+      "de": "Der Winkel",
+      "en": "Angle",
+      "ru": "\u0423\u0433\u043e\u043b",
+      "index": 357
+    },
+    {
+      "de": "Die Farbe",
+      "en": "Color",
+      "ru": "\u0426\u0432\u0435\u0442",
+      "index": 358
+    },
+    {
+      "de": "Das Blau",
+      "en": "Blue",
+      "ru": "\u0421\u0438\u043d\u0438\u0439",
+      "index": 359
+    },
+    {
+      "de": "Das Rot",
+      "en": "Red",
+      "ru": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439",
+      "index": 360
+    },
+    {
+      "de": "Das Gr\u00fcn",
+      "en": "Green",
+      "ru": "\u0417\u0435\u043b\u0435\u043d\u044b\u0439",
+      "index": 361
+    },
+    {
+      "de": "Das Gelb",
+      "en": "Yellow",
+      "ru": "\u0416\u0435\u043b\u0442\u044b\u0439",
+      "index": 362
+    },
+    {
+      "de": "Das Schwarz",
+      "en": "Black",
+      "ru": "\u0427\u0435\u0440\u043d\u044b\u0439",
+      "index": 363
+    },
+    {
+      "de": "Das Wei\u00df",
+      "en": "White",
+      "ru": "\u0411\u0435\u043b\u044b\u0439",
+      "index": 364
+    },
+    {
+      "de": "Das Material",
+      "en": "Material",
+      "ru": "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b",
+      "index": 365
+    },
+    {
+      "de": "Das Holz",
+      "en": "Wood",
+      "ru": "\u0414\u0435\u0440\u0435\u0432\u043e",
+      "index": 366
+    },
+    {
+      "de": "Das Metall",
+      "en": "Metal",
+      "ru": "\u041c\u0435\u0442\u0430\u043b\u043b",
+      "index": 367
+    },
+    {
+      "de": "Das Glas",
+      "en": "Glass",
+      "ru": "\u0421\u0442\u0435\u043a\u043b\u043e",
+      "index": 368
+    },
+    {
+      "de": "Das Plastik",
+      "en": "Plastic",
+      "ru": "\u041f\u043b\u0430\u0441\u0442\u0438\u043a",
+      "index": 369
+    },
+    {
+      "de": "Das Papier",
+      "en": "Paper",
+      "ru": "\u0411\u0443\u043c\u0430\u0433\u0430",
+      "index": 370
+    },
+    {
+      "de": "Der Stoff",
+      "en": "Fabric/Matter",
+      "ru": "\u041c\u0430\u0442\u0435\u0440\u0438\u044f",
+      "index": 371
+    },
+    {
+      "de": "Der Stein",
+      "en": "Stone",
+      "ru": "\u041a\u0430\u043c\u0435\u043d\u044c",
+      "index": 372
+    },
+    {
+      "de": "Die Erde",
+      "en": "Earth/Ground",
+      "ru": "\u0417\u0435\u043c\u043b\u044f",
+      "index": 373
+    },
+    {
+      "de": "Der Sand",
+      "en": "Sand",
+      "ru": "\u041f\u0435\u0441\u043e\u043a",
+      "index": 374
+    },
+    {
+      "de": "Das Gas",
+      "en": "Gas",
+      "ru": "\u0413\u0430\u0437",
+      "index": 375
+    },
+    {
+      "de": "Das Feuer",
+      "en": "Fire",
+      "ru": "\u041e\u0433\u043e\u043d\u044c",
+      "index": 376
+    },
+    {
+      "de": "Die W\u00e4rme",
+      "en": "Heat/Warmth",
+      "ru": "\u0422\u0435\u043f\u043b\u043e",
+      "index": 377
+    },
+    {
+      "de": "Die K\u00e4lte",
+      "en": "Cold",
+      "ru": "\u0425\u043e\u043b\u043e\u0434",
+      "index": 378
+    },
+    {
+      "de": "Die Temperatur",
+      "en": "Temperature",
+      "ru": "\u0422\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430",
+      "index": 379
+    },
+    {
+      "de": "Die Geschwindigkeit",
+      "en": "Speed",
+      "ru": "\u0421\u043a\u043e\u0440\u043e\u0441\u0442\u044c",
+      "index": 380
+    },
+    {
+      "de": "Die Bewegung",
+      "en": "Movement",
+      "ru": "\u0414\u0432\u0438\u0436\u0435\u043d\u0438\u0435",
+      "index": 381
+    },
+    {
+      "de": "Die Richtung",
+      "en": "Direction",
+      "ru": "\u041d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "index": 382
+    },
+    {
+      "de": "Der Stillstand",
+      "en": "Standstill",
+      "ru": "\u041e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
+      "index": 383
+    },
+    {
+      "de": "Der Anfang",
+      "en": "Beginning",
+      "ru": "\u041d\u0430\u0447\u0430\u043b\u043e",
+      "index": 384
+    },
+    {
+      "de": "Die Mitte",
+      "en": "Middle",
+      "ru": "\u0421\u0435\u0440\u0435\u0434\u0438\u043d\u0430",
+      "index": 385
+    },
+    {
+      "de": "Das Ende",
+      "en": "End",
+      "ru": "\u041a\u043e\u043d\u0435\u0446",
+      "index": 386
+    },
+    {
+      "de": "Die Dauer",
+      "en": "Duration",
+      "ru": "\u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c",
+      "index": 387
+    },
+    {
+      "de": "Die Phase",
+      "en": "Phase",
+      "ru": "\u0424\u0430\u0437\u0430",
+      "index": 388
+    },
+    {
+      "de": "Der Zeitraum",
+      "en": "Period of time",
+      "ru": "\u041f\u0435\u0440\u0438\u043e\u0434",
+      "index": 389
+    },
+    {
+      "de": "Der Moment",
+      "en": "Moment",
+      "ru": "\u041c\u043e\u043c\u0435\u043d\u0442",
+      "index": 390
+    },
+    {
+      "de": "Die Sekunde",
+      "en": "Second",
+      "ru": "\u0421\u0435\u043a\u0443\u043d\u0434\u0430",
+      "index": 391
+    },
+    {
+      "de": "Die Minute",
+      "en": "Minute",
+      "ru": "\u041c\u0438\u043d\u0443\u0442\u0430",
+      "index": 392
+    },
+    {
+      "de": "Die Stunde",
+      "en": "Hour",
+      "ru": "\u0427\u0430\u0441",
+      "index": 393
+    },
+    {
+      "de": "Die Tageszeit",
+      "en": "Time of day",
+      "ru": "\u0412\u0440\u0435\u043c\u044f \u0441\u0443\u0442\u043e\u043a",
+      "index": 394
+    },
+    {
+      "de": "Die Jahreszeit",
+      "en": "Season",
+      "ru": "\u0412\u0440\u0435\u043c\u044f \u0433\u043e\u0434\u0430",
+      "index": 395
+    },
+    {
+      "de": "Der Fr\u00fchling",
+      "en": "Spring",
+      "ru": "\u0412\u0435\u0441\u043d\u0430",
+      "index": 396
+    },
+    {
+      "de": "Der Sommer",
+      "en": "Summer",
+      "ru": "\u041b\u0435\u0442\u043e",
+      "index": 397
+    },
+    {
+      "de": "Der Herbst",
+      "en": "Autumn",
+      "ru": "\u041e\u0441\u0435\u043d\u044c",
+      "index": 398
+    },
+    {
+      "de": "Der Winter",
+      "en": "Winter",
+      "ru": "\u0417\u0438\u043c\u0430",
+      "index": 399
+    },
+    {
+      "de": "Die Feier",
+      "en": "Celebration",
+      "ru": "\u041f\u0440\u0430\u0437\u0434\u043d\u043e\u0432\u0430\u043d\u0438\u0435",
+      "index": 400
+    },
+    {
+      "de": "Das Fest",
+      "en": "Festival",
+      "ru": "\u041f\u0440\u0430\u0437\u0434\u043d\u0438\u043a",
+      "index": 401
+    },
+    {
+      "de": "Das Geschenk",
+      "en": "Gift",
+      "ru": "\u041f\u043e\u0434\u0430\u0440\u043e\u043a",
+      "index": 402
+    },
+    {
+      "de": "Der Gast",
+      "en": "Guest",
+      "ru": "\u0413\u043e\u0441\u0442\u044c",
+      "index": 403
+    },
+    {
+      "de": "Die Einladung",
+      "en": "Invitation",
+      "ru": "\u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435",
+      "index": 404
+    },
+    {
+      "de": "Der Geburtstag",
+      "en": "Birthday",
+      "ru": "\u0414\u0435\u043d\u044c \u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044f",
+      "index": 405
+    },
+    {
+      "de": "Die Stimmung",
+      "en": "Mood/Atmosphere",
+      "ru": "\u041d\u0430\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u0435",
+      "index": 406
+    },
+    {
+      "de": "Der Humor",
+      "en": "Humor",
+      "ru": "\u042e\u043c\u043e\u0440",
+      "index": 407
+    },
+    {
+      "de": "Das Lachen",
+      "en": "Laughter",
+      "ru": "\u0421\u043c\u0435\u0445",
+      "index": 408
+    },
+    {
+      "de": "Die Tr\u00e4ne",
+      "en": "Tear",
+      "ru": "\u0421\u043b\u0435\u0437\u0430",
+      "index": 409
+    },
+    {
+      "de": "Der Stress",
+      "en": "Stress",
+      "ru": "\u0421\u0442\u0440\u0435\u0441\u0441",
+      "index": 410
+    },
+    {
+      "de": "Die Geduld",
+      "en": "Patience",
+      "ru": "\u0422\u0435\u0440\u043f\u0435\u043d\u0438\u0435",
+      "index": 411
+    },
+    {
+      "de": "Die Neugier",
+      "en": "Curiosity",
+      "ru": "\u041b\u044e\u0431\u043e\u043f\u044b\u0442\u0441\u0442\u0432\u043e",
+      "index": 412
+    },
+    {
+      "de": "Das Vertrauen",
+      "en": "Trust",
+      "ru": "\u0414\u043e\u0432\u0435\u0440\u0438\u0435",
+      "index": 413
+    },
+    {
+      "de": "Der Respekt",
+      "en": "Respect",
+      "ru": "\u0423\u0432\u0430\u0436\u0435\u043d\u0438\u0435",
+      "index": 414
+    },
+    {
+      "de": "Der Stolz",
+      "en": "Pride",
+      "ru": "\u0413\u043e\u0440\u0434\u043e\u0441\u0442\u044c",
+      "index": 415
+    },
+    {
+      "de": "Der Zorn",
+      "en": "Anger/Wrath",
+      "ru": "\u0413\u043d\u0435\u0432",
+      "index": 416
+    },
+    {
+      "de": "Der Hass",
+      "en": "Hate",
+      "ru": "\u041d\u0435\u043d\u0430\u0432\u0438\u0441\u0442\u044c",
+      "index": 417
+    },
+    {
+      "de": "Die Eifersucht",
+      "en": "Jealousy",
+      "ru": "\u0420\u0435\u0432\u043d\u043e\u0441\u0442\u044c",
+      "index": 418
+    },
+    {
+      "de": "Die Schuld",
+      "en": "Guilt",
+      "ru": "\u0412\u0438\u043d\u0430",
+      "index": 419
+    },
+    {
+      "de": "Das Gewissen",
+      "en": "Conscience",
+      "ru": "\u0421\u043e\u0432\u0435\u0441\u0442\u044c",
+      "index": 420
+    },
+    {
+      "de": "Die Schande",
+      "en": "Shame",
+      "ru": "\u041f\u043e\u0437\u043e\u0440",
+      "index": 421
+    },
+    {
+      "de": "Die Ehre",
+      "en": "Honor",
+      "ru": "\u0427\u0435\u0441\u0442\u044c",
+      "index": 422
+    },
+    {
+      "de": "Der Mut",
+      "en": "Courage",
+      "ru": "\u041c\u0443\u0436\u0435\u0441\u0442\u0432\u043e",
+      "index": 423
+    },
+    {
+      "de": "Die Gefahr",
+      "en": "Danger",
+      "ru": "\u041e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c",
+      "index": 424
+    },
+    {
+      "de": "Die Rettung",
+      "en": "Rescue",
+      "ru": "\u0421\u043f\u0430\u0441\u0435\u043d\u0438\u0435",
+      "index": 425
+    },
+    {
+      "de": "Der Held",
+      "en": "Hero",
+      "ru": "\u0413\u0435\u0440\u043e\u0439",
+      "index": 426
+    },
+    {
+      "de": "Die Flucht",
+      "en": "Escape/Flight",
+      "ru": "\u041f\u043e\u0431\u0435\u0433",
+      "index": 427
+    },
+    {
+      "de": "Das Abenteuer",
+      "en": "Adventure",
+      "ru": "\u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435",
+      "index": 428
+    },
+    {
+      "de": "Das Geheimnis",
+      "en": "Secret",
+      "ru": "\u0422\u0430\u0439\u043d\u0430",
+      "index": 429
+    },
+    {
+      "de": "Das Symbol",
+      "en": "Symbol",
+      "ru": "\u0421\u0438\u043c\u0432\u043e\u043b",
+      "index": 430
+    },
+    {
+      "de": "Das Zeichen",
+      "en": "Sign",
+      "ru": "\u0417\u043d\u0430\u043a",
+      "index": 431
+    },
+    {
+      "de": "Die Bedeutung",
+      "en": "Meaning",
+      "ru": "\u0417\u043d\u0430\u0447\u0435\u043d\u0438\u0435",
+      "index": 432
+    },
+    {
+      "de": "Der Ausdruck",
+      "en": "Expression",
+      "ru": "\u0412\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+      "index": 433
+    },
+    {
+      "de": "Der Begriff",
+      "en": "Term/Concept",
+      "ru": "\u041f\u043e\u043d\u044f\u0442\u0438\u0435",
+      "index": 434
+    },
+    {
+      "de": "Die Definition",
+      "en": "Definition",
+      "ru": "\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435",
+      "index": 435
+    },
+    {
+      "de": "Der Kontext",
+      "en": "Context",
+      "ru": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442",
+      "index": 436
+    },
+    {
+      "de": "Die Analyse",
+      "en": "Analysis",
+      "ru": "\u0410\u043d\u0430\u043b\u0438\u0437",
+      "index": 437
+    },
+    {
+      "de": "Die Methode",
+      "en": "Method",
+      "ru": "\u041c\u0435\u0442\u043e\u0434",
+      "index": 438
+    },
+    {
+      "de": "Die Theorie",
+      "en": "Theory",
+      "ru": "\u0422\u0435\u043e\u0440\u0438\u044f",
+      "index": 439
+    },
+    {
+      "de": "Die Praxis",
+      "en": "Practice",
+      "ru": "\u041f\u0440\u0430\u043a\u0442\u0438\u043a\u0430",
+      "index": 440
+    },
+    {
+      "de": "Der Test",
+      "en": "Test",
+      "ru": "\u0422\u0435\u0441\u0442",
+      "index": 441
+    },
+    {
+      "de": "Die Pr\u00fcfung",
+      "en": "Exam",
+      "ru": "\u042d\u043a\u0437\u0430\u043c\u0435\u043d",
+      "index": 442
+    },
+    {
+      "de": "Das Zertifikat",
+      "en": "Certificate",
+      "ru": "\u0421\u0435\u0440\u0442\u0438\u0444\u0438\u043a\u0430\u0442",
+      "index": 443
+    },
+    {
+      "de": "Der Erfolg",
+      "en": "Success",
+      "ru": "\u0423\u0441\u043f\u0435\u0445",
+      "index": 444
+    },
+    {
+      "de": "Das Risiko",
+      "en": "Risk",
+      "ru": "\u0420\u0438\u0441\u043a",
+      "index": 445
+    },
+    {
+      "de": "Der Vorteil",
+      "en": "Advantage",
+      "ru": "\u041f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u043e",
+      "index": 446
+    },
+    {
+      "de": "Der Nachteil",
+      "en": "Disadvantage",
+      "ru": "\u041d\u0435\u0434\u043e\u0441\u0442\u0430\u0442\u043e\u043a",
+      "index": 447
+    },
+    {
+      "de": "Der Unterschied",
+      "en": "Difference",
+      "ru": "\u0420\u0430\u0437\u043d\u0438\u0446\u0430",
+      "index": 448
+    },
+    {
+      "de": "Der Vergleich",
+      "en": "Comparison",
+      "ru": "\u0421\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0435",
+      "index": 449
+    },
+    {
+      "de": "Der Zusammenhang",
+      "en": "Connection",
+      "ru": "\u0421\u0432\u044f\u0437\u044c",
+      "index": 450
+    },
+    {
+      "de": "Die Struktur",
+      "en": "Structure",
+      "ru": "\u0421\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430",
+      "index": 451
+    },
+    {
+      "de": "Das Modell",
+      "en": "Model",
+      "ru": "\u041c\u043e\u0434\u0435\u043b\u044c",
+      "index": 452
+    },
+    {
+      "de": "Die Funktion",
+      "en": "Function",
+      "ru": "\u0424\u0443\u043d\u043a\u0446\u0438\u044f",
+      "index": 453
+    },
+    {
+      "de": "Das Element",
+      "en": "Element",
+      "ru": "\u042d\u043b\u0435\u043c\u0435\u043d\u0442",
+      "index": 454
+    },
+    {
+      "de": "Der Faktor",
+      "en": "Factor",
+      "ru": "\u0424\u0430\u043a\u0442\u043e\u0440",
+      "index": 455
+    },
+    {
+      "de": "Die Ursache",
+      "en": "Cause",
+      "ru": "\u041f\u0440\u0438\u0447\u0438\u043d\u0430",
+      "index": 456
+    },
+    {
+      "de": "Die Wirkung",
+      "en": "Effect",
+      "ru": "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u0435",
+      "index": 457
+    },
+    {
+      "de": "Die Folge",
+      "en": "Consequence",
+      "ru": "\u0421\u043b\u0435\u0434\u0441\u0442\u0432\u0438\u0435",
+      "index": 458
+    },
+    {
+      "de": "Die Bedingung",
+      "en": "Condition",
+      "ru": "\u0423\u0441\u043b\u043e\u0432\u0438\u0435",
+      "index": 459
+    },
+    {
+      "de": "Die Erwartung",
+      "en": "Expectation",
+      "ru": "\u041e\u0436\u0438\u0434\u0430\u043d\u0438\u0435",
+      "index": 460
+    },
+    {
+      "de": "Der Zweck",
+      "en": "Purpose",
+      "ru": "\u0426\u0435\u043b\u044c",
+      "index": 461
+    },
+    {
+      "de": "Die Absicht",
+      "en": "Intention",
+      "ru": "\u041d\u0430\u043c\u0435\u0440\u0435\u043d\u0438\u0435",
+      "index": 462
+    },
+    {
+      "de": "Die Strategie",
+      "en": "Strategy",
+      "ru": "\u0421\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f",
+      "index": 463
+    },
+    {
+      "de": "Der Plan",
+      "en": "Plan",
+      "ru": "\u041f\u043b\u0430\u043d",
+      "index": 464
+    },
+    {
+      "de": "Die Umsetzung",
+      "en": "Implementation",
+      "ru": "\u0420\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f",
+      "index": 465
+    },
+    {
+      "de": "Der Fortschritt",
+      "en": "Progress",
+      "ru": "\u041f\u0440\u043e\u0433\u0440\u0435\u0441\u0441",
+      "index": 466
+    },
+    {
+      "de": "Die Erfahrung",
+      "en": "Experience",
+      "ru": "\u041e\u043f\u044b\u0442",
+      "index": 467
+    },
+    {
+      "de": "Die Kritik",
+      "en": "Criticism",
+      "ru": "\u041a\u0440\u0438\u0442\u0438\u043a\u0430",
+      "index": 468
+    },
+    {
+      "de": "Der Vorschlag",
+      "en": "Suggestion",
+      "ru": "\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+      "index": 469
+    },
+    {
+      "de": "Die Entscheidung",
+      "en": "Decision",
+      "ru": "\u0420\u0435\u0448\u0435\u043d\u0438\u0435",
+      "index": 470
+    },
+    {
+      "de": "Die Auswahl",
+      "en": "Selection/Choice",
+      "ru": "\u0412\u044b\u0431\u043e\u0440",
+      "index": 471
+    },
+    {
+      "de": "Die Vorbereitung",
+      "en": "Preparation",
+      "ru": "\u041f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430",
+      "index": 472
+    },
+    {
+      "de": "Die Durchf\u00fchrung",
+      "en": "Execution",
+      "ru": "\u0412\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435",
+      "index": 473
+    },
+    {
+      "de": "Der Bericht",
+      "en": "Report",
+      "ru": "\u041e\u0442\u0447\u0435\u0442",
+      "index": 474
+    },
+    {
+      "de": "Das Dokument",
+      "en": "Document",
+      "ru": "\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442",
+      "index": 475
+    },
+    {
+      "de": "Die Liste",
+      "en": "List",
+      "ru": "\u0421\u043f\u0438\u0441\u043e\u043a",
+      "index": 476
+    },
+    {
+      "de": "Die Nummer",
+      "en": "Number",
+      "ru": "\u041d\u043e\u043c\u0435\u0440",
+      "index": 477
+    },
+    {
+      "de": "Die Adresse",
+      "en": "Address",
+      "ru": "\u0410\u0434\u0440\u0435\u0441",
+      "index": 478
+    },
+    {
+      "de": "Die Unterschrift",
+      "en": "Signature",
+      "ru": "\u041f\u043e\u0434\u043f\u0438\u0441\u044c",
+      "index": 479
+    },
+    {
+      "de": "Der Termin",
+      "en": "Appointment",
+      "ru": "\u0412\u0441\u0442\u0440\u0435\u0447\u0430",
+      "index": 480
+    },
+    {
+      "de": "Die Versp\u00e4tung",
+      "en": "Delay",
+      "ru": "\u041e\u043f\u043e\u0437\u0434\u0430\u043d\u0438\u0435",
+      "index": 481
+    },
+    {
+      "de": "Die Absage",
+      "en": "Cancellation",
+      "ru": "\u041e\u0442\u043a\u0430\u0437",
+      "index": 482
+    },
+    {
+      "de": "Die Best\u00e4tigung",
+      "en": "Confirmation",
+      "ru": "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435",
+      "index": 483
+    },
+    {
+      "de": "Die Antwort",
+      "en": "Answer",
+      "ru": "\u041e\u0442\u0432\u0435\u0442",
+      "index": 484
+    },
+    {
+      "de": "Der Brief",
+      "en": "Letter",
+      "ru": "\u041f\u0438\u0441\u044c\u043c\u043e",
+      "index": 485
+    },
+    {
+      "de": "Die Post",
+      "en": "Post/Mail",
+      "ru": "\u041f\u043e\u0447\u0442\u0430",
+      "index": 486
+    },
+    {
+      "de": "Das Paket",
+      "en": "Package",
+      "ru": "\u041f\u043e\u0441\u044b\u043b\u043a\u0430",
+      "index": 487
+    },
+    {
+      "de": "Der Kasten",
+      "en": "Box/Crate",
+      "ru": "\u042f\u0449\u0438\u043a",
+      "index": 488
+    },
+    {
+      "de": "Der Inhalt",
+      "en": "Content",
+      "ru": "\u0421\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u0435",
+      "index": 489
+    },
+    {
+      "de": "Die Form",
+      "en": "Form",
+      "ru": "\u0424\u043e\u0440\u043c\u0430",
+      "index": 490
+    },
+    {
+      "de": "Das Detail",
+      "en": "Detail",
+      "ru": "\u0414\u0435\u0442\u0430\u043b\u044c",
+      "index": 491
+    },
+    {
+      "de": "Die \u00dcbersicht",
+      "en": "Overview",
+      "ru": "\u041e\u0431\u0437\u043e\u0440",
+      "index": 492
+    },
+    {
+      "de": "Der Hintergrund",
+      "en": "Background",
+      "ru": "\u0424\u043e\u043d",
+      "index": 493
+    },
+    {
+      "de": "Der Vordergrund",
+      "en": "Foreground",
+      "ru": "\u041f\u0435\u0440\u0435\u0434\u043d\u0438\u0439 \u043f\u043b\u0430\u043d",
+      "index": 494
+    },
+    {
+      "de": "Die Mitte",
+      "en": "Middle",
+      "ru": "\u0421\u0435\u0440\u0435\u0434\u0438\u043d\u0430",
+      "index": 495
+    },
+    {
+      "de": "Der Rand",
+      "en": "Edge/Margin",
+      "ru": "\u041a\u0440\u0430\u0439",
+      "index": 496
+    },
+    {
+      "de": "Die Ecke",
+      "en": "Corner",
+      "ru": "\u0423\u0433\u043e\u043b",
+      "index": 497
+    },
+    {
+      "de": "Die Fl\u00e4che",
+      "en": "Surface/Area",
+      "ru": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c",
+      "index": 498
+    },
+    {
+      "de": "Die Tiefe",
+      "en": "Depth",
+      "ru": "\u0413\u043b\u0443\u0431\u0438\u043d\u0430",
+      "index": 499
+    },
+    {
+      "de": "Der Raum",
+      "en": "Space",
+      "ru": "\u041f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u043e",
+      "index": 500
+    },
+    {
+      "de": "Die Bank",
+      "en": "Bank",
+      "ru": "\u0411\u0430\u043d\u043a",
+      "index": 501
+    },
+    {
+      "de": "Die Karte",
+      "en": "Card",
+      "ru": "\u041a\u0430\u0440\u0442\u0430",
+      "index": 502
+    },
+    {
+      "de": "Der Zug",
+      "en": "Train",
+      "ru": "\u041f\u043e\u0435\u0437\u0434",
+      "index": 503
+    },
+    {
+      "de": "Das Kleid",
+      "en": "Dress",
+      "ru": "\u041f\u043b\u0430\u0442\u044c\u0435",
+      "index": 504
+    },
+    {
+      "de": "Die Flasche",
+      "en": "Bottle",
+      "ru": "\u0411\u0443\u0442\u044b\u043b\u043a\u0430",
+      "index": 505
+    },
+    {
+      "de": "Der Himmel",
+      "en": "Sky",
+      "ru": "\u041d\u0435\u0431\u043e",
+      "index": 506
+    },
+    {
+      "de": "Die Wolke",
+      "en": "Cloud",
+      "ru": "\u041e\u0431\u043b\u0430\u043a\u043e",
+      "index": 507
+    },
+    {
+      "de": "Der Stern",
+      "en": "Star",
+      "ru": "\u0417\u0432\u0435\u0437\u0434\u0430",
+      "index": 508
+    },
+    {
+      "de": "Der Mond",
+      "en": "Moon",
+      "ru": "\u041b\u0443\u043d\u0430",
+      "index": 509
+    },
+    {
+      "de": "Die Wiese",
+      "en": "Meadow",
+      "ru": "\u041b\u0443\u0433",
+      "index": 510
+    },
+    {
+      "de": "Das Blatt",
+      "en": "Leaf/Sheet",
+      "ru": "\u041b\u0438\u0441\u0442",
+      "index": 511
+    },
+    {
+      "de": "Das Gras",
+      "en": "Grass",
+      "ru": "\u0422\u0440\u0430\u0432\u0430",
+      "index": 512
+    },
+    {
+      "de": "Der Strand",
+      "en": "Beach",
+      "ru": "\u041f\u043b\u044f\u0436",
+      "index": 513
+    },
+    {
+      "de": "Der Ozean",
+      "en": "Ocean",
+      "ru": "\u041e\u043a\u0435\u0430\u043d",
+      "index": 514
+    },
+    {
+      "de": "Der See",
+      "en": "Lake",
+      "ru": "\u041e\u0437\u0435\u0440\u043e",
+      "index": 515
+    },
+    {
+      "de": "Der Bach",
+      "en": "Stream",
+      "ru": "\u0420\u0443\u0447\u0435\u0439",
+      "index": 516
+    },
+    {
+      "de": "Der H\u00fcgel",
+      "en": "Hill",
+      "ru": "\u0425\u043e\u043b\u043c",
+      "index": 517
+    },
+    {
+      "de": "Das Tal",
+      "en": "Valley",
+      "ru": "\u0414\u043e\u043b\u0438\u043d\u0430",
+      "index": 518
+    },
+    {
+      "de": "Der Blitz",
+      "en": "Lightning",
+      "ru": "\u041c\u043e\u043b\u043d\u0438\u044f",
+      "index": 519
+    },
+    {
+      "de": "Der Donner",
+      "en": "Thunder",
+      "ru": "\u0413\u0440\u043e\u043c",
+      "index": 520
+    },
+    {
+      "de": "Das Eis",
+      "en": "Ice",
+      "ru": "\u041b\u0435\u0434",
+      "index": 521
+    },
+    {
+      "de": "Der Sauerstoff",
+      "en": "Oxygen",
+      "ru": "\u041a\u0438\u0441\u043b\u043e\u0440\u043e\u0434",
+      "index": 522
+    },
+    {
+      "de": "Der Rauch",
+      "en": "Smoke",
+      "ru": "\u0414\u044b\u043c",
+      "index": 523
+    },
+    {
+      "de": "Der Staub",
+      "en": "Dust",
+      "ru": "\u041f\u044b\u043b\u044c",
+      "index": 524
+    },
+    {
+      "de": "Der Schmutz",
+      "en": "Dirt",
+      "ru": "\u0413\u0440\u044f\u0437\u044c",
+      "index": 525
+    },
+    {
+      "de": "Das Gold",
+      "en": "Gold",
+      "ru": "\u0417\u043e\u043b\u043e\u0442\u043e",
+      "index": 526
+    },
+    {
+      "de": "Das Silber",
+      "en": "Silver",
+      "ru": "\u0421\u0435\u0440\u0435\u0431\u0440\u043e",
+      "index": 527
+    },
+    {
+      "de": "Das Kupfer",
+      "en": "Copper",
+      "ru": "\u041c\u0435\u0434\u044c",
+      "index": 528
+    },
+    {
+      "de": "Das Eisen",
+      "en": "Iron",
+      "ru": "\u0416\u0435\u043b\u0435\u0437\u043e",
+      "index": 529
+    },
+    {
+      "de": "Der Kunststoff",
+      "en": "Plastic",
+      "ru": "\u041f\u043b\u0430\u0441\u0442\u0438\u043a",
+      "index": 530
+    },
+    {
+      "de": "Die Baumwolle",
+      "en": "Cotton",
+      "ru": "\u0425\u043b\u043e\u043f\u043e\u043a",
+      "index": 531
+    },
+    {
+      "de": "Die Seide",
+      "en": "Silk",
+      "ru": "\u0428\u0435\u043b\u043a",
+      "index": 532
+    },
+    {
+      "de": "Leder",
+      "en": "Leather",
+      "ru": "\u041a\u043e\u0436\u0430",
+      "index": 533
+    },
+    {
+      "de": "Der Knochen",
+      "en": "Bone",
+      "ru": "\u041a\u043e\u0441\u0442\u044c",
+      "index": 534
+    },
+    {
+      "de": "Das Blut",
+      "en": "Blood",
+      "ru": "\u041a\u0440\u043e\u0432\u044c",
+      "index": 535
+    },
+    {
+      "de": "Das Gehirn",
+      "en": "Brain",
+      "ru": "\u041c\u043e\u0437\u0433",
+      "index": 536
+    },
+    {
+      "de": "Der Muskel",
+      "en": "Muscle",
+      "ru": "\u041c\u0443\u0441\u043a\u0443\u043b",
+      "index": 537
+    },
+    {
+      "de": "Der Nerv",
+      "en": "Nerve",
+      "ru": "\u041d\u0435\u0440\u0432",
+      "index": 538
+    },
+    {
+      "de": "Das Organ",
+      "en": "Organ",
+      "ru": "\u041e\u0440\u0433\u0430\u043d",
+      "index": 539
+    },
+    {
+      "de": "Die Lunge",
+      "en": "Lung",
+      "ru": "\u041b\u0435\u0433\u043a\u043e\u0435",
+      "index": 540
+    },
+    {
+      "de": "Die Leber",
+      "en": "Liver",
+      "ru": "\u041f\u0435\u0447\u0435\u043d\u044c",
+      "index": 541
+    },
+    {
+      "de": "Die Niere",
+      "en": "Kidney",
+      "ru": "\u041f\u043e\u0447\u043a\u0430",
+      "index": 542
+    },
+    {
+      "de": "Der Hals",
+      "en": "Neck/Throat",
+      "ru": "\u0428\u0435\u044f",
+      "index": 543
+    },
+    {
+      "de": "Die Schulter",
+      "en": "Shoulder",
+      "ru": "\u041f\u043b\u0435\u0447\u043e",
+      "index": 544
+    },
+    {
+      "de": "Die Brust",
+      "en": "Chest",
+      "ru": "\u0413\u0440\u0443\u0434\u044c",
+      "index": 545
+    },
+    {
+      "de": "Der Bauch",
+      "en": "Belly",
+      "ru": "\u0416\u0438\u0432\u043e\u0442",
+      "index": 546
+    },
+    {
+      "de": "Der Ellenbogen",
+      "en": "Elbow",
+      "ru": "\u041b\u043e\u043a\u043e\u0442\u044c",
+      "index": 547
+    },
+    {
+      "de": "Das Handgelenk",
+      "en": "Wrist",
+      "ru": "\u0417\u0430\u043f\u044f\u0441\u0442\u044c\u0435",
+      "index": 548
+    },
+    {
+      "de": "Der Zeh",
+      "en": "Toe",
+      "ru": "\u041f\u0430\u043b\u0435\u0446 \u043d\u043e\u0433\u0438",
+      "index": 549
+    },
+    {
+      "de": "Die Stirn",
+      "en": "Forehead",
+      "ru": "\u041b\u043e\u0431",
+      "index": 550
+    },
+    {
+      "de": "Die Backe",
+      "en": "Cheek",
+      "ru": "\u0429\u0435\u043a\u0430",
+      "index": 551
+    },
+    {
+      "de": "Das Kinn",
+      "en": "Chin",
+      "ru": "\u041f\u043e\u0434\u0431\u043e\u0440\u043e\u0434\u043e\u043a",
+      "index": 552
+    },
+    {
+      "de": "Der Bart",
+      "en": "Beard",
+      "ru": "\u0411\u043e\u0440\u043e\u0434\u0430",
+      "index": 553
+    },
+    {
+      "de": "Die Augenbraue",
+      "en": "Eyebrow",
+      "ru": "\u0411\u0440\u043e\u0432\u044c",
+      "index": 554
+    },
+    {
+      "de": "Der Zahn",
+      "en": "Tooth",
+      "ru": "\u0417\u0443\u0431",
+      "index": 555
+    },
+    {
+      "de": "Die Zunge",
+      "en": "Tongue",
+      "ru": "\u042f\u0437\u044b\u043a",
+      "index": 556
+    },
+    {
+      "de": "Der Rhythmus",
+      "en": "Rhythm",
+      "ru": "\u0420\u0438\u0442\u043c",
+      "index": 557
+    },
+    {
+      "de": "Der Pinsel",
+      "en": "Brush",
+      "ru": "\u041a\u0438\u0441\u0442\u044c",
+      "index": 558
+    },
+    {
+      "de": "Der Stift",
+      "en": "Pen",
+      "ru": "\u0420\u0443\u0447\u043a\u0430",
+      "index": 559
+    },
+    {
+      "de": "Die Feder",
+      "en": "Feather/Pen",
+      "ru": "\u041f\u0435\u0440\u043e",
+      "index": 560
+    },
+    {
+      "de": "Der Buchstabe",
+      "en": "Letter (Alphabet)",
+      "ru": "\u0411\u0443\u043a\u0432\u0430",
+      "index": 561
+    },
+    {
+      "de": "Die Ziffer",
+      "en": "Digit",
+      "ru": "\u0426\u0438\u0444\u0440\u0430",
+      "index": 562
+    },
+    {
+      "de": "Das Viereck",
+      "en": "Square",
+      "ru": "\u0427\u0435\u0442\u044b\u0440\u0435\u0445\u0443\u0433\u043e\u043b\u044c\u043d\u0438\u043a",
+      "index": 563
+    },
+    {
+      "de": "Das Dreieck",
+      "en": "Triangle",
+      "ru": "\u0422\u0440\u0435\u0443\u0433\u043e\u043b\u044c\u043d\u0438\u043a",
+      "index": 564
+    },
+    {
+      "de": "Das Jahrzehnt",
+      "en": "Decade",
+      "ru": "\u0414\u0435\u0441\u044f\u0442\u0438\u043b\u0435\u0442\u0438\u0435",
+      "index": 565
+    },
+    {
+      "de": "Das Jahrhundert",
+      "en": "Century",
+      "ru": "\u0412\u0435\u043a",
+      "index": 566
+    },
+    {
+      "de": "Das Jahrtausend",
+      "en": "Millennium",
+      "ru": "\u0422\u044b\u0441\u044f\u0447\u0435\u043b\u0435\u0442\u0438\u0435",
+      "index": 567
+    },
+    {
+      "de": "Der Vormittag",
+      "en": "Morning (late)",
+      "ru": "\u041f\u0435\u0440\u0432\u0430\u044f \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0430 \u0434\u043d\u044f",
+      "index": 568
+    },
+    {
+      "de": "Der Mittag",
+      "en": "Noon",
+      "ru": "\u041f\u043e\u043b\u0434\u0435\u043d\u044c",
+      "index": 569
+    },
+    {
+      "de": "Die Mitternacht",
+      "en": "Midnight",
+      "ru": "\u041f\u043e\u043b\u043d\u043e\u0447\u044c",
+      "index": 570
+    },
+    {
+      "de": "Die Gegenwart",
+      "en": "Present",
+      "ru": "\u041d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u0435",
+      "index": 571
+    },
+    {
+      "de": "Die Vergangenheit",
+      "en": "Past",
+      "ru": "\u041f\u0440\u043e\u0448\u043b\u043e\u0435",
+      "index": 572
+    },
+    {
+      "de": "Das Schicksal",
+      "en": "Fate",
+      "ru": "\u0421\u0443\u0434\u044c\u0431\u0430",
+      "index": 573
+    },
+    {
+      "de": "Das Gl\u00fcck",
+      "en": "Happiness/Luck",
+      "ru": "\u0421\u0447\u0430\u0441\u0442\u044c\u0435",
+      "index": 574
+    },
+    {
+      "de": "Das Pech",
+      "en": "Bad luck",
+      "ru": "\u041d\u0435\u0443\u0434\u0430\u0447\u0430",
+      "index": 575
+    },
+    {
+      "de": "Der Spa\u00df",
+      "en": "Fun",
+      "ru": "\u0412\u0435\u0441\u0435\u043b\u044c\u0435",
+      "index": 576
+    },
+    {
+      "de": "Das L\u00e4cheln",
+      "en": "Smile",
+      "ru": "\u0423\u043b\u044b\u0431\u043a\u0430",
+      "index": 577
+    },
+    {
+      "de": "Die Trauer",
+      "en": "Grief/Mourning",
+      "ru": "\u0422\u0440\u0430\u0443\u0440",
+      "index": 578
+    },
+    {
+      "de": "Die Sorge",
+      "en": "Worry/Care",
+      "ru": "\u0417\u0430\u0431\u043e\u0442\u0430",
+      "index": 579
+    },
+    {
+      "de": "Die Wut",
+      "en": "Anger/Fury",
+      "ru": "\u042f\u0440\u043e\u0441\u0442\u044c",
+      "index": 580
+    },
+    {
+      "de": "Der Zweifel",
+      "en": "Doubt",
+      "ru": "\u0421\u043e\u043c\u043d\u0435\u043d\u0438\u0435",
+      "index": 581
+    },
+    {
+      "de": "Das R\u00e4tsel",
+      "en": "Riddle",
+      "ru": "\u0417\u0430\u0433\u0430\u0434\u043a\u0430",
+      "index": 582
+    },
+    {
+      "de": "Die Erinnerung",
+      "en": "Memory",
+      "ru": "\u0412\u043e\u0441\u043f\u043e\u043c\u0438\u043d\u0430\u043d\u0438\u0435",
+      "index": 583
+    },
+    {
+      "de": "Die Fantasie",
+      "en": "Imagination",
+      "ru": "\u0424\u0430\u043d\u0442\u0430\u0437\u0438\u044f",
+      "index": 584
+    },
+    {
+      "de": "Die Vernunft",
+      "en": "Reason",
+      "ru": "\u0420\u0430\u0437\u0443\u043c",
+      "index": 585
+    },
+    {
+      "de": "Der Wille",
+      "en": "Will",
+      "ru": "\u0412\u043e\u043b\u044f",
+      "index": 586
+    },
+    {
+      "de": "Die Macht",
+      "en": "Power/Might",
+      "ru": "\u0412\u043b\u0430\u0441\u0442\u044c",
+      "index": 587
+    },
+    {
+      "de": "Die Niederlage",
+      "en": "Defeat",
+      "ru": "\u041f\u043e\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+      "index": 588
+    },
+    {
+      "de": "Die S\u00fcnde",
+      "en": "Sin",
+      "ru": "\u0413\u0440\u0435\u0445",
+      "index": 589
+    },
+    {
+      "de": "Das Opfer",
+      "en": "Victim",
+      "ru": "\u0416\u0435\u0440\u0442\u0432\u0430",
+      "index": 590
+    },
+    {
+      "de": "Die Schuld",
+      "en": "Debt/Guilt",
+      "ru": "\u0414\u043e\u043b\u0433",
+      "index": 591
+    },
+    {
+      "de": "Der Prozess",
+      "en": "Process",
+      "ru": "\u041f\u0440\u043e\u0446\u0435\u0441\u0441",
+      "index": 592
+    },
+    {
+      "de": "Der Zustand",
+      "en": "Condition",
+      "ru": "\u0421\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435",
+      "index": 593
+    },
+    {
+      "de": "Die Eigenschaft",
+      "en": "Property",
+      "ru": "\u0421\u0432\u043e\u0439\u0441\u0442\u0432\u043e",
+      "index": 594
+    },
+    {
+      "de": "Die Firma",
+      "en": "Company",
+      "ru": "\u0424\u0438\u0440\u043c\u0430",
+      "index": 595
+    },
+    {
+      "de": "Das Unternehmen",
+      "en": "Enterprise",
+      "ru": "\u041f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0435",
+      "index": 596
+    },
+    {
+      "de": "Der Arbeitsplatz",
+      "en": "Workplace",
+      "ru": "\u0420\u0430\u0431\u043e\u0447\u0435\u0435 \u043c\u0435\u0441\u0442\u043e",
+      "index": 597
+    },
+    {
+      "de": "Die Nachfrage",
+      "en": "Demand",
+      "ru": "\u0421\u043f\u0440\u043e\u0441",
+      "index": 598
+    },
+    {
+      "de": "Die Steuer",
+      "en": "Tax",
+      "ru": "\u041d\u0430\u043b\u043e\u0433",
+      "index": 599
+    },
+    {
+      "de": "Das Budget",
+      "en": "Budget",
+      "ru": "\u0411\u044e\u0434\u0436\u0435\u0442",
+      "index": 600
+    },
+    {
+      "de": "Das Konto",
+      "en": "Account",
+      "ru": "\u0421\u0447\u0435\u0442",
+      "index": 601
+    },
+    {
+      "de": "Die Rechnung",
+      "en": "Bill/Invoice",
+      "ru": "\u0421\u0447\u0435\u0442",
+      "index": 602
+    },
+    {
+      "de": "Die Versicherung",
+      "en": "Insurance",
+      "ru": "\u0421\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u0435",
+      "index": 603
+    },
+    {
+      "de": "Die Kommunikation",
+      "en": "Communication",
+      "ru": "\u0421\u0432\u044f\u0437\u044c",
+      "index": 604
+    },
+    {
+      "de": "Die Diskussion",
+      "en": "Discussion",
+      "ru": "\u0414\u0438\u0441\u043a\u0443\u0441\u0441\u0438\u044f",
+      "index": 605
+    },
+    {
+      "de": "Das Gespr\u00e4ch",
+      "en": "Conversation",
+      "ru": "\u0420\u0430\u0437\u0433\u043e\u0432\u043e\u0440",
+      "index": 606
+    },
+    {
+      "de": "Die Beschreibung",
+      "en": "Description",
+      "ru": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+      "index": 607
+    },
+    {
+      "de": "Die Erkl\u00e4rung",
+      "en": "Explanation",
+      "ru": "\u041e\u0431\u044a\u044f\u0441\u043d\u0435\u043d\u0438\u0435",
+      "index": 608
+    },
+    {
+      "de": "Das Versprechen",
+      "en": "Promise",
+      "ru": "\u041e\u0431\u0435\u0449\u0430\u043d\u0438\u0435",
+      "index": 609
+    },
+    {
+      "de": "Der Rat",
+      "en": "Advice",
+      "ru": "\u0421\u043e\u0432\u0435\u0442",
+      "index": 610
+    },
+    {
+      "de": "Der Befehl",
+      "en": "Command",
+      "ru": "\u041f\u0440\u0438\u043a\u0430\u0437",
+      "index": 611
+    },
+    {
+      "de": "Die Bitte",
+      "en": "Request/Plea",
+      "ru": "\u041f\u0440\u043e\u0441\u044c\u0431\u0430",
+      "index": 612
+    },
+    {
+      "de": "Das Lob",
+      "en": "Praise",
+      "ru": "\u041f\u043e\u0445\u0432\u0430\u043b\u0430",
+      "index": 613
+    },
+    {
+      "de": "Die Tradition",
+      "en": "Tradition",
+      "ru": "\u0422\u0440\u0430\u0434\u0438\u0446\u0438\u044f",
+      "index": 614
+    },
+    {
+      "de": "Der Opa",
+      "en": "Grandpa",
+      "ru": "\u0414\u0435\u0434\u0443\u0448\u043a\u0430",
+      "index": 615
+    },
+    {
+      "de": "Die Oma",
+      "en": "Grandma",
+      "ru": "\u0411\u0430\u0431\u0443\u0448\u043a\u0430",
+      "index": 616
+    },
+    {
+      "de": "Das M\u00e4dchen",
+      "en": "Girl",
+      "ru": "\u0414\u0435\u0432\u043e\u0447\u043a\u0430",
+      "index": 617
+    },
+    {
+      "de": "Der Junge",
+      "en": "Boy",
+      "ru": "\u041c\u0430\u043b\u044c\u0447\u0438\u043a",
+      "index": 618
+    },
+    {
+      "de": "Der Partner",
+      "en": "Partner",
+      "ru": "\u041f\u0430\u0440\u0442\u043d\u0435\u0440",
+      "index": 619
+    },
+    {
+      "de": "Die Party",
+      "en": "Party",
+      "ru": "\u0412\u0435\u0447\u0435\u0440\u0438\u043d\u043a\u0430",
+      "index": 620
+    },
+    {
+      "de": "Der Pass",
+      "en": "Passport",
+      "ru": "\u041f\u0430\u0441\u043f\u043e\u0440\u0442",
+      "index": 621
+    },
+    {
+      "de": "Die Pause",
+      "en": "Break/Pause",
+      "ru": "\u041f\u0435\u0440\u0435\u0440\u044b\u0432",
+      "index": 622
+    },
+    {
+      "de": "Die Perle",
+      "en": "Pearl",
+      "ru": "\u0416\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430",
+      "index": 623
+    },
+    {
+      "de": "Die Person",
+      "en": "Person",
+      "ru": "\u041b\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+      "index": 624
+    },
+    {
+      "de": "Das Personal",
+      "en": "Staff",
+      "ru": "\u041f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+      "index": 625
+    },
+    {
+      "de": "Die Perspektive",
+      "en": "Perspective",
+      "ru": "\u041f\u0435\u0440\u0441\u043f\u0435\u043a\u0442\u0438\u0432\u0430",
+      "index": 626
+    },
+    {
+      "de": "Die Pest",
+      "en": "Plague",
+      "ru": "\u0427\u0443\u043c\u0430",
+      "index": 627
+    },
+    {
+      "de": "Das Ph\u00e4nomen",
+      "en": "Phenomenon",
+      "ru": "\u0424\u0435\u043d\u043e\u043c\u0435\u043d",
+      "index": 628
+    },
+    {
+      "de": "Die Philosophie",
+      "en": "Philosophy",
+      "ru": "\u0424\u0438\u043b\u043e\u0441\u043e\u0444\u0438\u044f",
+      "index": 629
+    },
+    {
+      "de": "Die Physik",
+      "en": "Physics",
+      "ru": "\u0424\u0438\u0437\u0438\u043a\u0430",
+      "index": 630
+    },
+    {
+      "de": "Das Picknick",
+      "en": "Picnic",
+      "ru": "\u041f\u0438\u043a\u043d\u0438\u043a",
+      "index": 631
+    },
+    {
+      "de": "Die Pille",
+      "en": "Pill",
+      "ru": "\u041f\u0438\u043b\u044e\u043b\u044f",
+      "index": 632
+    },
+    {
+      "de": "Der Pilot",
+      "en": "Pilot",
+      "ru": "\u041f\u0438\u043b\u043e\u0442",
+      "index": 633
+    },
+    {
+      "de": "Der Pilz",
+      "en": "Mushroom",
+      "ru": "\u0413\u0440\u0438\u0431",
+      "index": 634
+    },
+    {
+      "de": "Das Plakat",
+      "en": "Poster",
+      "ru": "\u041f\u043b\u0430\u043a\u0430\u0442",
+      "index": 635
+    },
+    {
+      "de": "Der Planet",
+      "en": "Planet",
+      "ru": "\u041f\u043b\u0430\u043d\u0435\u0442\u0430",
+      "index": 636
+    },
+    {
+      "de": "Die Polizei",
+      "en": "Police",
+      "ru": "\u041f\u043e\u043b\u0438\u0446\u0438\u044f",
+      "index": 637
+    },
+    {
+      "de": "Die Portion",
+      "en": "Portion",
+      "ru": "\u041f\u043e\u0440\u0446\u0438\u044f",
+      "index": 638
+    },
+    {
+      "de": "Das Potential",
+      "en": "Potential",
+      "ru": "\u041f\u043e\u0442\u0435\u043d\u0446\u0438\u0430\u043b",
+      "index": 639
+    },
+    {
+      "de": "Die Pracht",
+      "en": "Splendor",
+      "ru": "\u0412\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u0438\u0435",
+      "index": 640
+    },
+    {
+      "de": "Der Pr\u00e4sident",
+      "en": "President",
+      "ru": "\u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442",
+      "index": 641
+    },
+    {
+      "de": "Die Presse",
+      "en": "Press",
+      "ru": "\u041f\u0440\u0435\u0441\u0441\u0430",
+      "index": 642
+    },
+    {
+      "de": "Das Prinzip",
+      "en": "Principle",
+      "ru": "\u041f\u0440\u0438\u043d\u0446\u0438\u043f",
+      "index": 643
+    },
+    {
+      "de": "Das Produkt",
+      "en": "Product",
+      "ru": "\u041f\u0440\u043e\u0434\u0443\u043a\u0442",
+      "index": 644
+    },
+    {
+      "de": "Die Produktion",
+      "en": "Production",
+      "ru": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e",
+      "index": 645
+    },
+    {
+      "de": "Das Profil",
+      "en": "Profile",
+      "ru": "\u041f\u0440\u043e\u0444\u0438\u043b\u044c",
+      "index": 646
+    },
+    {
+      "de": "Der Profit",
+      "en": "Profit",
+      "ru": "\u041f\u0440\u0438\u0431\u044b\u043b\u044c",
+      "index": 647
+    },
+    {
+      "de": "Das Publikum",
+      "en": "Audience",
+      "ru": "\u041f\u0443\u0431\u043b\u0438\u043a\u0430",
+      "index": 648
+    },
+    {
+      "de": "Die Puppe",
+      "en": "Doll",
+      "ru": "\u041a\u0443\u043a\u043b\u0430",
+      "index": 649
+    },
+    {
+      "de": "Das Quartier",
+      "en": "Quarter/Lodging",
+      "ru": "\u041a\u0432\u0430\u0440\u0442\u0430\u043b",
+      "index": 650
+    },
+    {
+      "de": "Die Quelle",
+      "en": "Source",
+      "ru": "\u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+      "index": 651
+    },
+    {
+      "de": "Das Rad",
+      "en": "Wheel",
+      "ru": "\u041a\u043e\u043b\u0435\u0441\u043e",
+      "index": 652
+    },
+    {
+      "de": "Der Rahmen",
+      "en": "Frame",
+      "ru": "\u0420\u0430\u043c\u0430",
+      "index": 653
+    },
+    {
+      "de": "Die Rakete",
+      "en": "Rocket",
+      "ru": "\u0420\u0430\u043a\u0435\u0442\u0430",
+      "index": 654
+    },
+    {
+      "de": "Der Rang",
+      "en": "Rank",
+      "ru": "\u0420\u0430\u043d\u0433",
+      "index": 655
+    },
+    {
+      "de": "Der Rasen",
+      "en": "Lawn",
+      "ru": "\u0413\u0430\u0437\u043e\u043d",
+      "index": 656
+    },
+    {
+      "de": "Das Rathaus",
+      "en": "City hall",
+      "ru": "\u0420\u0430\u0442\u0443\u0448\u0430",
+      "index": 657
+    },
+    {
+      "de": "Der R\u00e4uber",
+      "en": "Robber",
+      "ru": "\u0420\u0430\u0437\u0431\u043e\u0439\u043d\u0438\u043a",
+      "index": 658
+    },
+    {
+      "de": "Die Reaktion",
+      "en": "Reaction",
+      "ru": "\u0420\u0435\u0430\u043a\u0446\u0438\u044f",
+      "index": 659
+    },
+    {
+      "de": "Die Rede",
+      "en": "Speech",
+      "ru": "\u0420\u0435\u0447\u044c",
+      "index": 660
+    },
+    {
+      "de": "Die Reform",
+      "en": "Reform",
+      "ru": "\u0420\u0435\u0444\u043e\u0440\u043c\u0430",
+      "index": 661
+    },
+    {
+      "de": "Die Regel",
+      "en": "Rule",
+      "ru": "\u041f\u0440\u0430\u0432\u0438\u043b\u043e",
+      "index": 662
+    },
+    {
+      "de": "Die Region",
+      "en": "Region",
+      "ru": "\u0420\u0435\u0433\u0438\u043e\u043d",
+      "index": 663
+    },
+    {
+      "de": "Das Register",
+      "en": "Register",
+      "ru": "\u0420\u0435\u0433\u0438\u0441\u0442\u0440",
+      "index": 664
+    },
+    {
+      "de": "Das Reh",
+      "en": "Deer",
+      "ru": "\u041a\u043e\u0441\u0443\u043b\u044f",
+      "index": 665
+    },
+    {
+      "de": "Die Reife",
+      "en": "Maturity",
+      "ru": "\u0417\u0440\u0435\u043b\u043e\u0441\u0442\u044c",
+      "index": 666
+    },
+    {
+      "de": "Der Reifen",
+      "en": "Tire",
+      "ru": "\u0428\u0438\u043d\u0430",
+      "index": 667
+    },
+    {
+      "de": "Die Reihe",
+      "en": "Row/Series",
+      "ru": "\u0420\u044f\u0434",
+      "index": 668
+    },
+    {
+      "de": "Die Reinigung",
+      "en": "Cleaning",
+      "ru": "\u0427\u0438\u0441\u0442\u043a\u0430",
+      "index": 669
+    },
+    {
+      "de": "Der Reiter",
+      "en": "Rider",
+      "ru": "\u0412\u0441\u0430\u0434\u043d\u0438\u043a",
+      "index": 670
+    },
+    {
+      "de": "Die Reklame",
+      "en": "Advertisement",
+      "ru": "\u0420\u0435\u043a\u043b\u0430\u043c\u0430",
+      "index": 671
+    },
+    {
+      "de": "Die Religion",
+      "en": "Religion",
+      "ru": "\u0420\u0435\u043b\u0438\u0433\u0438\u044f",
+      "index": 672
+    },
+    {
+      "de": "Die Reparatur",
+      "en": "Repair",
+      "ru": "\u0420\u0435\u043c\u043e\u043d\u0442",
+      "index": 673
+    },
+    {
+      "de": "Die Reportage",
+      "en": "Reportage",
+      "ru": "\u0420\u0435\u043f\u043e\u0440\u0442\u0430\u0436",
+      "index": 674
+    },
+    {
+      "de": "Die Reserve",
+      "en": "Reserve",
+      "ru": "\u0417\u0430\u043f\u0430\u0441",
+      "index": 675
+    },
+    {
+      "de": "Das Restaurant",
+      "en": "Restaurant",
+      "ru": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+      "index": 676
+    },
+    {
+      "de": "Die Revolution",
+      "en": "Revolution",
+      "ru": "\u0420\u0435\u0432\u043e\u043b\u044e\u0446\u0438\u044f",
+      "index": 677
+    },
+    {
+      "de": "Das Rezept",
+      "en": "Recipe",
+      "ru": "\u0420\u0435\u0446\u0435\u043f\u0442",
+      "index": 678
+    },
+    {
+      "de": "Der Richter",
+      "en": "Judge",
+      "ru": "\u0421\u0443\u0434\u044c\u044f",
+      "index": 679
+    },
+    {
+      "de": "Das Rind",
+      "en": "Cattle/Beef",
+      "ru": "\u0413\u043e\u0432\u044f\u0434\u0438\u043d\u0430",
+      "index": 680
+    },
+    {
+      "de": "Der Ring",
+      "en": "Ring",
+      "ru": "\u041a\u043e\u043b\u044c\u0446\u043e",
+      "index": 681
+    },
+    {
+      "de": "Der Rock",
+      "en": "Skirt",
+      "ru": "\u042e\u0431\u043a\u0430",
+      "index": 682
+    },
+    {
+      "de": "Die Rolle",
+      "en": "Role",
+      "ru": "\u0420\u043e\u043b\u044c",
+      "index": 683
+    },
+    {
+      "de": "Die Rose",
+      "en": "Rose",
+      "ru": "\u0420\u043e\u0437\u0430",
+      "index": 684
+    },
+    {
+      "de": "Das Ross",
+      "en": "Steed",
+      "ru": "\u041a\u043e\u043d\u044c",
+      "index": 685
+    },
+    {
+      "de": "Der R\u00fccken",
+      "en": "Back",
+      "ru": "\u0421\u043f\u0438\u043d\u0430",
+      "index": 686
+    },
+    {
+      "de": "Die R\u00fcckkehr",
+      "en": "Return",
+      "ru": "\u0412\u043e\u0437\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u0435",
+      "index": 687
+    },
+    {
+      "de": "Die R\u00fccksicht",
+      "en": "Consideration",
+      "ru": "\u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435",
+      "index": 688
+    },
+    {
+      "de": "Der Ruf",
+      "en": "Reputation/Call",
+      "ru": "\u0417\u043e\u0432",
+      "index": 689
+    },
+    {
+      "de": "Die Runde",
+      "en": "Round",
+      "ru": "\u0420\u0430\u0443\u043d\u0434",
+      "index": 690
+    },
+    {
+      "de": "Der Saal",
+      "en": "Hall",
+      "ru": "\u0417\u0430\u043b",
+      "index": 691
+    },
+    {
+      "de": "Die Saat",
+      "en": "Seed",
+      "ru": "\u041f\u043e\u0441\u0435\u0432",
+      "index": 692
+    },
+    {
+      "de": "Die Sabotage",
+      "en": "Sabotage",
+      "ru": "\u0421\u0430\u0431\u043e\u0442\u0430\u0436",
+      "index": 693
+    },
+    {
+      "de": "Die Sache",
+      "en": "Thing",
+      "ru": "\u0412\u0435\u0449\u044c",
+      "index": 694
+    },
+    {
+      "de": "Der Sack",
+      "en": "Sack",
+      "ru": "\u041c\u0435\u0448\u043e\u043a",
+      "index": 695
+    },
+    {
+      "de": "Der Saft",
+      "en": "Juice",
+      "ru": "\u0421\u043e\u043a",
+      "index": 696
+    },
+    {
+      "de": "Die Sage",
+      "en": "Saga/Legend",
+      "ru": "\u041b\u0435\u0433\u0435\u043d\u0434\u0430",
+      "index": 697
+    },
+    {
+      "de": "Die Sahne",
+      "en": "Cream",
+      "ru": "\u0421\u043b\u0438\u0432\u043a\u0438",
+      "index": 698
+    },
+    {
+      "de": "Die Saison",
+      "en": "Season",
+      "ru": "\u0421\u0435\u0437\u043e\u043d",
+      "index": 699
+    },
+    {
+      "de": "Der Salat",
+      "en": "Salad",
+      "ru": "\u0421\u0430\u043b\u0430\u0442",
+      "index": 700
+    },
+    {
+      "de": "Der Salon",
+      "en": "Salon",
+      "ru": "\u0421\u0430\u043b\u043e\u043d",
+      "index": 701
+    },
+    {
+      "de": "Das Salz",
+      "en": "Salt",
+      "ru": "\u0421\u043e\u043b\u044c",
+      "index": 702
+    },
+    {
+      "de": "Die Sammlung",
+      "en": "Collection",
+      "ru": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+      "index": 703
+    },
+    {
+      "de": "Der Samstag",
+      "en": "Saturday",
+      "ru": "\u0421\u0443\u0431\u0431\u043e\u0442\u0430",
+      "index": 704
+    },
+    {
+      "de": "Der Sarg",
+      "en": "Coffin",
+      "ru": "\u0413\u0440\u043e\u0431",
+      "index": 705
+    },
+    {
+      "de": "Der Satellit",
+      "en": "Satellite",
+      "ru": "\u0421\u043f\u0443\u0442\u043d\u0438\u043a",
+      "index": 706
+    },
+    {
+      "de": "Der Satz",
+      "en": "Sentence",
+      "ru": "\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+      "index": 707
+    },
+    {
+      "de": "Die Sau",
+      "en": "Sow",
+      "ru": "\u0421\u0432\u0438\u043d\u044c\u044f",
+      "index": 708
+    },
+    {
+      "de": "Die Sauberkeit",
+      "en": "Cleanliness",
+      "ru": "\u0427\u0438\u0441\u0442\u043e\u0442\u0430",
+      "index": 709
+    },
+    {
+      "de": "Die S\u00e4ule",
+      "en": "Column/Pillar",
+      "ru": "\u041a\u043e\u043b\u043e\u043d\u043d\u0430",
+      "index": 710
+    },
+    {
+      "de": "Die Szene",
+      "en": "Scene",
+      "ru": "\u0421\u0446\u0435\u043d\u0430",
+      "index": 711
+    },
+    {
+      "de": "Das Schaf",
+      "en": "Sheep",
+      "ru": "\u041e\u0432\u0446\u0430",
+      "index": 712
+    },
+    {
+      "de": "Der Schakal",
+      "en": "Jackal",
+      "ru": "\u0428\u0430\u043a\u0430\u043b",
+      "index": 713
+    },
+    {
+      "de": "Die Schale",
+      "en": "Shell/Bowl",
+      "ru": "\u041e\u0431\u043e\u043b\u043e\u0447\u043a\u0430",
+      "index": 714
+    },
+    {
+      "de": "Der Schall",
+      "en": "Sound",
+      "ru": "\u0417\u0432\u0443\u043a",
+      "index": 715
+    },
+    {
+      "de": "Der Schatten",
+      "en": "Shadow",
+      "ru": "\u0422\u0435\u043d\u044c",
+      "index": 716
+    },
+    {
+      "de": "Der Schatz",
+      "en": "Treasure",
+      "ru": "\u0421\u043e\u043a\u0440\u043e\u0432\u0438\u0449\u0435",
+      "index": 717
+    },
+    {
+      "de": "Der Schaum",
+      "en": "Foam",
+      "ru": "\u041f\u0435\u043d\u0430",
+      "index": 718
+    },
+    {
+      "de": "Das Schaufenster",
+      "en": "Showcase",
+      "ru": "\u0412\u0438\u0442\u0440\u0438\u043d\u0430",
+      "index": 719
+    },
+    {
+      "de": "Der Schauspieler",
+      "en": "Actor",
+      "ru": "\u0410\u043a\u0442\u0435\u0440",
+      "index": 720
+    },
+    {
+      "de": "Der Scheck",
+      "en": "Check",
+      "ru": "\u0427\u0435\u043a",
+      "index": 721
+    },
+    {
+      "de": "Die Scheibe",
+      "en": "Disk/Slice",
+      "ru": "\u0414\u0438\u0441\u043a",
+      "index": 722
+    },
+    {
+      "de": "Der Schein",
+      "en": "Appearance/Light",
+      "ru": "\u0421\u0432\u0435\u0442",
+      "index": 723
+    },
+    {
+      "de": "Die Schere",
+      "en": "Scissors",
+      "ru": "\u041d\u043e\u0436\u043d\u0438\u0446\u044b",
+      "index": 724
+    },
+    {
+      "de": "Das Schicksal",
+      "en": "Fate",
+      "ru": "\u0421\u0443\u0434\u044c\u0431\u0430",
+      "index": 725
+    },
+    {
+      "de": "Das Schild",
+      "en": "Sign/Shield",
+      "ru": "\u0429\u0438\u0442",
+      "index": 726
+    },
+    {
+      "de": "Das Schilf",
+      "en": "Reed",
+      "ru": "\u0422\u0440\u043e\u0441\u0442\u043d\u0438\u043a",
+      "index": 727
+    },
+    {
+      "de": "Der Schimmel",
+      "en": "Mold",
+      "ru": "\u041f\u043b\u0435\u0441\u0435\u043d\u044c",
+      "index": 728
+    },
+    {
+      "de": "Der Schinken",
+      "en": "Ham",
+      "ru": "\u0412\u0435\u0442\u0447\u0438\u043d\u0430",
+      "index": 729
+    },
+    {
+      "de": "Die Schlacht",
+      "en": "Battle",
+      "ru": "\u0411\u0438\u0442\u0432\u0430",
+      "index": 730
+    },
+    {
+      "de": "Der Schlaf",
+      "en": "Sleep",
+      "ru": "\u0421\u043e\u043d",
+      "index": 731
+    },
+    {
+      "de": "Das Schlafzimmer",
+      "en": "Bedroom",
+      "ru": "\u0421\u043f\u0430\u043b\u044c\u043d\u044f",
+      "index": 732
+    },
+    {
+      "de": "Der Schlag",
+      "en": "Blow/Hit",
+      "ru": "\u0423\u0434\u0430\u0440",
+      "index": 733
+    },
+    {
+      "de": "Die Schlange",
+      "en": "Snake/Line",
+      "ru": "\u0417\u043c\u0435\u044f",
+      "index": 734
+    },
+    {
+      "de": "Die Schl\u00e4fe",
+      "en": "Temple (Head)",
+      "ru": "\u0412\u0438\u0441\u043e\u043a",
+      "index": 735
+    },
+    {
+      "de": "Die Schleife",
+      "en": "Loop/Bow",
+      "ru": "\u041f\u0435\u0442\u043b\u044f",
+      "index": 736
+    },
+    {
+      "de": "Der Schluck",
+      "en": "Sip/Gulp",
+      "ru": "\u0413\u043b\u043e\u0442\u043e\u043a",
+      "index": 737
+    },
+    {
+      "de": "Der Schluss",
+      "en": "End/Conclusion",
+      "ru": "\u0412\u044b\u0432\u043e\u0434",
+      "index": 738
+    },
+    {
+      "de": "Der Schmetterling",
+      "en": "Butterfly",
+      "ru": "\u0411\u0430\u0431\u043e\u0447\u043a\u0430",
+      "index": 739
+    },
+    {
+      "de": "Der Schmied",
+      "en": "Blacksmith",
+      "ru": "\u041a\u0443\u0437\u043d\u0435\u0446",
+      "index": 740
+    },
+    {
+      "de": "Der Schmuck",
+      "en": "Jewelry",
+      "ru": "\u0423\u043a\u0440\u0430\u0448\u0435\u043d\u0438\u0435",
+      "index": 741
+    },
+    {
+      "de": "Der Schmutz",
+      "en": "Dirt",
+      "ru": "\u0413\u0440\u044f\u0437\u044c",
+      "index": 742
+    },
+    {
+      "de": "Der Schnabel",
+      "en": "Beak",
+      "ru": "\u041a\u043b\u044e\u0432",
+      "index": 743
+    },
+    {
+      "de": "Die Schnecke",
+      "en": "Snail",
+      "ru": "\u0423\u043b\u0438\u0442\u043a\u0430",
+      "index": 744
+    },
+    {
+      "de": "Der Schneider",
+      "en": "Tailor",
+      "ru": "\u041f\u043e\u0440\u0442\u043d\u043e\u0439",
+      "index": 745
+    },
+    {
+      "de": "Der Schnitt",
+      "en": "Cut",
+      "ru": "\u0420\u0430\u0437\u0440\u0435\u0437",
+      "index": 746
+    },
+    {
+      "de": "Die Schnur",
+      "en": "String/Cord",
+      "ru": "\u0428\u043d\u0443\u0440",
+      "index": 747
+    },
+    {
+      "de": "Die Schokolade",
+      "en": "Chocolate",
+      "ru": "\u0428\u043e\u043a\u043e\u043b\u0430\u0434",
+      "index": 748
+    },
+    {
+      "de": "Die Schraube",
+      "en": "Screw",
+      "ru": "\u0412\u0438\u043d\u0442",
+      "index": 749
+    },
+    {
+      "de": "Der Schrei",
+      "en": "Scream",
+      "ru": "\u041a\u0440\u0438\u043a",
+      "index": 750
+    },
+    {
+      "de": "Das Schreiben",
+      "en": "Writing",
+      "ru": "\u041f\u0438\u0441\u044c\u043c\u043e",
+      "index": 751
+    },
+    {
+      "de": "Der Schreibtisch",
+      "en": "Desk",
+      "ru": "\u041f\u0438\u0441\u044c\u043c\u0435\u043d\u043d\u044b\u0439 \u0441\u0442\u043e\u043b",
+      "index": 752
+    },
+    {
+      "de": "Der Schritt",
+      "en": "Step",
+      "ru": "\u0428\u0430\u0433",
+      "index": 753
+    },
+    {
+      "de": "Die Schrift",
+      "en": "Script/Writing",
+      "ru": "\u0428\u0440\u0438\u0444\u0442",
+      "index": 754
+    },
+    {
+      "de": "Der Schriftsteller",
+      "en": "Writer",
+      "ru": "\u041f\u0438\u0441\u0430\u0442\u0435\u043b\u044c",
+      "index": 755
+    },
+    {
+      "de": "Die Schulter",
+      "en": "Shoulder",
+      "ru": "\u041f\u043b\u0435\u0447\u043e",
+      "index": 756
+    },
+    {
+      "de": "Der Schuss",
+      "en": "Shot",
+      "ru": "\u0412\u044b\u0441\u0442\u0440\u0435\u043b",
+      "index": 757
+    },
+    {
+      "de": "Der Schuster",
+      "en": "Shoemaker",
+      "ru": "\u0421\u0430\u043f\u043e\u0436\u043d\u0438\u043a",
+      "index": 758
+    },
+    {
+      "de": "Der Sch\u00fctze",
+      "en": "Archer/Shooter",
+      "ru": "\u0421\u0442\u0440\u0435\u043b\u043e\u043a",
+      "index": 759
+    },
+    {
+      "de": "Die Schwalbe",
+      "en": "Swallow (Bird)",
+      "ru": "\u041b\u0430\u0441\u0442\u043e\u0447\u043a\u0430",
+      "index": 760
+    },
+    {
+      "de": "Der Schwamm",
+      "en": "Sponge",
+      "ru": "\u0413\u0443\u0431\u043a\u0430",
+      "index": 761
+    },
+    {
+      "de": "Der Schwan",
+      "en": "Swan",
+      "ru": "\u041b\u0435\u0431\u0435\u0434\u044c",
+      "index": 762
+    },
+    {
+      "de": "Die Schwangerschaft",
+      "en": "Pregnancy",
+      "ru": "\u0411\u0435\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0441\u0442\u044c",
+      "index": 763
+    },
+    {
+      "de": "Der Schwanz",
+      "en": "Tail",
+      "ru": "\u0425\u0432\u043e\u0441\u0442",
+      "index": 764
+    },
+    {
+      "de": "Der Schwarm",
+      "en": "Swarm",
+      "ru": "\u0420\u043e\u0439",
+      "index": 765
+    },
+    {
+      "de": "Das Schwein",
+      "en": "Pig",
+      "ru": "\u0421\u0432\u0438\u043d\u044c\u044f",
+      "index": 766
+    },
+    {
+      "de": "Der Schwei\u00df",
+      "en": "Sweat",
+      "ru": "\u041f\u043e\u0442",
+      "index": 767
+    },
+    {
+      "de": "Die Schwelle",
+      "en": "Threshold",
+      "ru": "\u041f\u043e\u0440\u043e\u0433",
+      "index": 768
+    },
+    {
+      "de": "Die Schwierigkeit",
+      "en": "Difficulty",
+      "ru": "\u0422\u0440\u0443\u0434\u043d\u043e\u0441\u0442\u044c",
+      "index": 769
+    },
+    {
+      "de": "Das Schwimmbad",
+      "en": "Swimming pool",
+      "ru": "\u0411\u0430\u0441\u0441\u0435\u0439\u043d",
+      "index": 770
+    },
+    {
+      "de": "Der See",
+      "en": "Lake",
+      "ru": "\u041e\u0437\u0435\u0440\u043e",
+      "index": 771
+    },
+    {
+      "de": "Der Segen",
+      "en": "Blessing",
+      "ru": "\u0411\u043b\u0430\u0433\u043e\u0441\u043b\u043e\u0432\u0435\u043d\u0438\u0435",
+      "index": 772
+    },
+    {
+      "de": "Die Sehensw\u00fcrdigkeit",
+      "en": "Sights/Attraction",
+      "ru": "\u0414\u043e\u0441\u0442\u043e\u043f\u0440\u0438\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c",
+      "index": 773
+    },
+    {
+      "de": "Die Seife",
+      "en": "Soap",
+      "ru": "\u041c\u044b\u043b\u043e",
+      "index": 774
+    },
+    {
+      "de": "Das Seil",
+      "en": "Rope",
+      "ru": "\u0412\u0435\u0440\u0435\u0432\u043a\u0430",
+      "index": 775
+    },
+    {
+      "de": "Der Sekt",
+      "en": "Sparkling wine",
+      "ru": "\u0418\u0433\u0440\u0438\u0441\u0442\u043e\u0435 \u0432\u0438\u043d\u043e",
+      "index": 776
+    },
+    {
+      "de": "Der Sektor",
+      "en": "Sector",
+      "ru": "\u0421\u0435\u043a\u0442\u043e\u0440",
+      "index": 777
+    },
+    {
+      "de": "Die Sekte",
+      "en": "Sect",
+      "ru": "\u0421\u0435\u043a\u0442\u0430",
+      "index": 778
+    },
+    {
+      "de": "Die Selbst\u00e4ndigkeit",
+      "en": "Independence",
+      "ru": "\u041d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c",
+      "index": 779
+    },
+    {
+      "de": "Der Sender",
+      "en": "Transmitter/Station",
+      "ru": "\u0421\u0442\u0430\u043d\u0446\u0438\u044f",
+      "index": 780
+    },
+    {
+      "de": "Die Sendung",
+      "en": "Program/Broadcast",
+      "ru": "\u041f\u0435\u0440\u0435\u0434\u0430\u0447\u0430",
+      "index": 781
+    },
+    {
+      "de": "Der Senf",
+      "en": "Mustard",
+      "ru": "\u0413\u043e\u0440\u0447\u0438\u0446\u0430",
+      "index": 782
+    },
+    {
+      "de": "Die Serie",
+      "en": "Series",
+      "ru": "\u0421\u0435\u0440\u0438\u044f",
+      "index": 783
+    },
+    {
+      "de": "Der Service",
+      "en": "Service",
+      "ru": "\u0421\u0435\u0440\u0432\u0438\u0441",
+      "index": 784
+    },
+    {
+      "de": "Der Sessel",
+      "en": "Armchair",
+      "ru": "\u041a\u0440\u0435\u0441\u043b\u043e",
+      "index": 785
+    },
+    {
+      "de": "Die Seuche",
+      "en": "Epidemic/Plague",
+      "ru": "\u042d\u043f\u0438\u0434\u0435\u043c\u0438\u044f",
+      "index": 786
+    },
+    {
+      "de": "Die Sicht",
+      "en": "View/Sight",
+      "ru": "\u0412\u0438\u0434",
+      "index": 787
+    },
+    {
+      "de": "Das Signal",
+      "en": "Signal",
+      "ru": "\u0421\u0438\u0433\u043d\u0430\u043b",
+      "index": 788
+    },
+    {
+      "de": "Das Silber",
+      "en": "Silver",
+      "ru": "\u0421\u0435\u0440\u0435\u0431\u0440\u043e",
+      "index": 789
+    },
+    {
+      "de": "Das Singen",
+      "en": "Singing",
+      "ru": "\u041f\u0435\u043d\u0438\u0435",
+      "index": 790
+    },
+    {
+      "de": "Der Sinn",
+      "en": "Sense/Meaning",
+      "ru": "\u0421\u043c\u044b\u0441\u043b",
+      "index": 791
+    },
+    {
+      "de": "Die Situation",
+      "en": "Situation",
+      "ru": "\u0421\u0438\u0442\u0443\u0430\u0446\u0438\u044f",
+      "index": 792
+    },
+    {
+      "de": "Die Skala",
+      "en": "Scale",
+      "ru": "\u0428\u043a\u0430\u043b\u0430",
+      "index": 793
+    },
+    {
+      "de": "Das Skelett",
+      "en": "Skeleton",
+      "ru": "\u0421\u043a\u0435\u043b\u0435\u0442",
+      "index": 794
+    },
+    {
+      "de": "Die Skizze",
+      "en": "Sketch",
+      "ru": "\u042d\u0441\u043a\u0438\u0437",
+      "index": 795
+    },
+    {
+      "de": "Der Sklave",
+      "en": "Slave",
+      "ru": "\u0420\u0430\u0431",
+      "index": 796
+    },
+    {
+      "de": "Das Sofa",
+      "en": "Sofa",
+      "ru": "\u0414\u0438\u0432\u0430\u043d",
+      "index": 797
+    },
+    {
+      "de": "Der Soldat",
+      "en": "Soldier",
+      "ru": "\u0421\u043e\u043b\u0434\u0430\u0442",
+      "index": 798
+    },
+    {
+      "de": "Die Solidarit\u00e4t",
+      "en": "Solidarity",
+      "ru": "\u0421\u043e\u043b\u0438\u0434\u0430\u0440\u043d\u043e\u0441\u0442\u044c",
+      "index": 799
+    },
+    {
+      "de": "Der Sonntag",
+      "en": "Sunday",
+      "ru": "\u0412\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435",
+      "index": 800
+    },
+    {
+      "de": "Die Sorge",
+      "en": "Worry",
+      "ru": "\u0422\u0440\u0435\u0432\u043e\u0433\u0430",
+      "index": 801
+    },
+    {
+      "de": "Die So\u00dfe",
+      "en": "Sauce",
+      "ru": "\u0421\u043e\u0443\u0441",
+      "index": 802
+    },
+    {
+      "de": "Das Souvenir",
+      "en": "Souvenir",
+      "ru": "\u0421\u0443\u0432\u0435\u043d\u0438\u0440",
+      "index": 803
+    },
+    {
+      "de": "Die Sozialhilfe",
+      "en": "Social welfare",
+      "ru": "\u0421\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u043f\u043e\u043c\u043e\u0449\u044c",
+      "index": 804
+    },
+    {
+      "de": "Der Spalt",
+      "en": "Gap/Crack",
+      "ru": "\u0429\u0435\u043b\u044c",
+      "index": 805
+    },
+    {
+      "de": "Der Spaziergang",
+      "en": "Walk/Stroll",
+      "ru": "\u041f\u0440\u043e\u0433\u0443\u043b\u043a\u0430",
+      "index": 806
+    },
+    {
+      "de": "Der Speichel",
+      "en": "Saliva",
+      "ru": "\u0421\u043b\u044e\u043d\u0430",
+      "index": 807
+    },
+    {
+      "de": "Der Speicher",
+      "en": "Storage/Memory",
+      "ru": "\u041f\u0430\u043c\u044f\u0442\u044c",
+      "index": 808
+    },
+    {
+      "de": "Die Speise",
+      "en": "Dish/Food",
+      "ru": "\u0411\u043b\u044e\u0434\u043e",
+      "index": 809
+    },
+    {
+      "de": "Das Spielzeug",
+      "en": "Toy",
+      "ru": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430",
+      "index": 810
+    },
+    {
+      "de": "Die Spinne",
+      "en": "Spider",
+      "ru": "\u041f\u0430\u0443\u043a",
+      "index": 811
+    },
+    {
+      "de": "Die Spitze",
+      "en": "Tip/Top",
+      "ru": "\u0412\u0435\u0440\u0448\u0438\u043d\u0430",
+      "index": 812
+    },
+    {
+      "de": "Die Spritze",
+      "en": "Syringe/Injection",
+      "ru": "\u0428\u043f\u0440\u0438\u0446",
+      "index": 813
+    },
+    {
+      "de": "Der Spruch",
+      "en": "Saying",
+      "ru": "\u0418\u0437\u0440\u0435\u0447\u0435\u043d\u0438\u0435",
+      "index": 814
+    },
+    {
+      "de": "Der Sprung",
+      "en": "Jump",
+      "ru": "\u041f\u0440\u044b\u0436\u043e\u043a",
+      "index": 815
+    },
+    {
+      "de": "Die Spur",
+      "en": "Track/Trace",
+      "ru": "\u0421\u043b\u0435\u0434",
+      "index": 816
+    },
+    {
+      "de": "Der Stahl",
+      "en": "Steel",
+      "ru": "\u0421\u0442\u0430\u043b\u044c",
+      "index": 817
+    },
+    {
+      "de": "Der Stall",
+      "en": "Stable/Stall",
+      "ru": "\u041a\u043e\u043d\u044e\u0448\u043d\u044f",
+      "index": 818
+    },
+    {
+      "de": "Der Stamm",
+      "en": "Trunk/Tribe",
+      "ru": "\u0421\u0442\u0432\u043e\u043b",
+      "index": 819
+    },
+    {
+      "de": "Der Stand",
+      "en": "Status/Stand",
+      "ru": "\u0421\u0442\u0435\u043d\u0434",
+      "index": 820
+    },
+    {
+      "de": "Der Standard",
+      "en": "Standard",
+      "ru": "\u0421\u0442\u0430\u043d\u0434\u0430\u0440\u0442",
+      "index": 821
+    },
+    {
+      "de": "Der Standort",
+      "en": "Location",
+      "ru": "\u0420\u0430\u0441\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+      "index": 822
+    },
+    {
+      "de": "Der Star",
+      "en": "Star (Famous)",
+      "ru": "\u0417\u0432\u0435\u0437\u0434\u0430",
+      "index": 823
+    },
+    {
+      "de": "Die St\u00e4rke",
+      "en": "Strength",
+      "ru": "\u0421\u0438\u043b\u0430",
+      "index": 824
+    },
+    {
+      "de": "Die Station",
+      "en": "Station",
+      "ru": "\u0421\u0442\u0430\u043d\u0446\u0438\u044f",
+      "index": 825
+    },
+    {
+      "de": "Die Statistik",
+      "en": "Statistics",
+      "ru": "\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430",
+      "index": 826
+    },
+    {
+      "de": "Die Statue",
+      "en": "Statue",
+      "ru": "\u0421\u0442\u0430\u0442\u0443\u044f",
+      "index": 827
+    },
+    {
+      "de": "Der Staub",
+      "en": "Dust",
+      "ru": "\u041f\u044b\u043b\u044c",
+      "index": 828
+    },
+    {
+      "de": "Das Staunen",
+      "en": "Astonishment",
+      "ru": "\u0418\u0437\u0443\u043c\u043b\u0435\u043d\u0438\u0435",
+      "index": 829
+    },
+    {
+      "de": "Der Stecker",
+      "en": "Plug",
+      "ru": "\u0428\u0442\u0435\u043a\u0435\u0440",
+      "index": 830
+    },
+    {
+      "de": "Der Stempel",
+      "en": "Stamp",
+      "ru": "\u0428\u0442\u0430\u043c\u043f",
+      "index": 831
+    },
+    {
+      "de": "Der Stern",
+      "en": "Star",
+      "ru": "\u0417\u0432\u0435\u0437\u0434\u0430",
+      "index": 832
+    },
+    {
+      "de": "Die Steuer",
+      "en": "Tax",
+      "ru": "\u041d\u0430\u043b\u043e\u0433",
+      "index": 833
+    },
+    {
+      "de": "Der Stich",
+      "en": "Stitch/Sting",
+      "ru": "\u0423\u043a\u043e\u043b",
+      "index": 834
+    },
+    {
+      "de": "Der Stiefel",
+      "en": "Boot",
+      "ru": "\u0421\u0430\u043f\u043e\u0433",
+      "index": 835
+    },
+    {
+      "de": "Der Stil",
+      "en": "Style",
+      "ru": "\u0421\u0442\u0438\u043b\u044c",
+      "index": 836
+    },
+    {
+      "de": "Der Stock",
+      "en": "Stick/Floor",
+      "ru": "\u041f\u0430\u043b\u043a\u0430",
+      "index": 837
+    },
+    {
+      "de": "Die St\u00f6rung",
+      "en": "Disturbance",
+      "ru": "\u041f\u043e\u043c\u0435\u0445\u0430",
+      "index": 838
+    },
+    {
+      "de": "Der Strand",
+      "en": "Beach",
+      "ru": "\u041f\u043b\u044f\u0436",
+      "index": 839
+    },
+    {
+      "de": "Die Strecke",
+      "en": "Route/Distance",
+      "ru": "\u041c\u0430\u0440\u0448\u0440\u0443\u0442",
+      "index": 840
+    },
+    {
+      "de": "Der Streik",
+      "en": "Strike",
+      "ru": "\u0417\u0430\u0431\u0430\u0441\u0442\u043e\u0432\u043a\u0430",
+      "index": 841
+    },
+    {
+      "de": "Der Streit",
+      "en": "Quarrel/Dispute",
+      "ru": "\u0421\u043f\u043e\u0440",
+      "index": 842
+    },
+    {
+      "de": "Die Studie",
+      "en": "Study",
+      "ru": "\u0418\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435",
+      "index": 843
+    },
+    {
+      "de": "Das Studium",
+      "en": "Studies",
+      "ru": "\u0423\u0447\u0435\u0431\u0430",
+      "index": 844
+    },
+    {
+      "de": "Die Stufe",
+      "en": "Step/Level",
+      "ru": "\u0421\u0442\u0443\u043f\u0435\u043d\u044c",
+      "index": 845
+    },
+    {
+      "de": "Der Sturm",
+      "en": "Storm",
+      "ru": "\u0428\u0442\u043e\u0440\u043c",
+      "index": 846
+    },
+    {
+      "de": "Die Substanz",
+      "en": "Substance",
+      "ru": "\u0421\u0443\u0431\u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+      "index": 847
+    },
+    {
+      "de": "Der Suchbegriff",
+      "en": "Search term",
+      "ru": "\u041f\u043e\u0438\u0441\u043a\u043e\u0432\u044b\u0439 \u0437\u0430\u043f\u0440\u043e\u0441",
+      "index": 848
+    },
+    {
+      "de": "Der Sumpf",
+      "en": "Swamp",
+      "ru": "\u0411\u043e\u043b\u043e\u0442\u043e",
+      "index": 849
+    },
+    {
+      "de": "Die S\u00fcnde",
+      "en": "Sin",
+      "ru": "\u0413\u0440\u0435\u0445",
+      "index": 850
+    },
+    {
+      "de": "Die Suppe",
+      "en": "Soup",
+      "ru": "\u0421\u0443\u043f",
+      "index": 851
+    },
+    {
+      "de": "Die Symmetrie",
+      "en": "Symmetry",
+      "ru": "\u0421\u0438\u043c\u043c\u0435\u0442\u0440\u0438\u044f",
+      "index": 852
+    },
+    {
+      "de": "Die Sympathie",
+      "en": "Sympathy",
+      "ru": "\u0421\u0438\u043c\u043f\u0430\u0442\u0438\u044f",
+      "index": 853
+    },
+    {
+      "de": "Das Symptom",
+      "en": "Symptom",
+      "ru": "\u0421\u0438\u043c\u043f\u0442\u043e\u043c",
+      "index": 854
+    },
+    {
+      "de": "Die Tabelle",
+      "en": "Table/Chart",
+      "ru": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430",
+      "index": 855
+    },
+    {
+      "de": "Die Tabletten",
+      "en": "Tablets",
+      "ru": "\u0422\u0430\u0431\u043b\u0435\u0442\u043a\u0438",
+      "index": 856
+    },
+    {
+      "de": "Die Tafel",
+      "en": "Blackboard",
+      "ru": "\u0414\u043e\u0441\u043a\u0430",
+      "index": 857
+    },
+    {
+      "de": "Das Tagebuch",
+      "en": "Diary",
+      "ru": "\u0414\u043d\u0435\u0432\u043d\u0438\u043a",
+      "index": 858
+    },
+    {
+      "de": "Das Talent",
+      "en": "Talent",
+      "ru": "\u0422\u0430\u043b\u0430\u043d\u0442",
+      "index": 859
+    },
+    {
+      "de": "Der Tanz",
+      "en": "Dance",
+      "ru": "\u0422\u0430\u043d\u0435\u0446",
+      "index": 860
+    },
+    {
+      "de": "Die Tasse",
+      "en": "Cup",
+      "ru": "\u0427\u0430\u0448\u043a\u0430",
+      "index": 861
+    },
+    {
+      "de": "Die T\u00e4tigkeit",
+      "en": "Activity",
+      "ru": "\u0414\u0435\u044f\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c",
+      "index": 862
+    },
+    {
+      "de": "Die Tatsache",
+      "en": "Fact",
+      "ru": "\u0424\u0430\u043a\u0442",
+      "index": 863
+    },
+    {
+      "de": "Die Taube",
+      "en": "Dove/Pigeon",
+      "ru": "\u0413\u043e\u043b\u0443\u0431\u044c",
+      "index": 864
+    },
+    {
+      "de": "Das Tauchen",
+      "en": "Diving",
+      "ru": "\u0414\u0430\u0439\u0432\u0438\u043d\u0433",
+      "index": 865
+    },
+    {
+      "de": "Das Team",
+      "en": "Team",
+      "ru": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430",
+      "index": 866
+    },
+    {
+      "de": "Die Technologie",
+      "en": "Technology",
+      "ru": "\u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f",
+      "index": 867
+    },
+    {
+      "de": "Der Teer",
+      "en": "Tar",
+      "ru": "\u0414\u0435\u0433\u043e\u0442\u044c",
+      "index": 868
+    },
+    {
+      "de": "Die Teilnahme",
+      "en": "Participation",
+      "ru": "\u0423\u0447\u0430\u0441\u0442\u0438\u0435",
+      "index": 869
+    },
+    {
+      "de": "Der Teller",
+      "en": "Plate",
+      "ru": "\u0422\u0430\u0440\u0435\u043b\u043a\u0430",
+      "index": 870
+    },
+    {
+      "de": "Der Tempel",
+      "en": "Temple",
+      "ru": "\u0425\u0440\u0430\u043c",
+      "index": 871
+    },
+    {
+      "de": "Das Tempo",
+      "en": "Tempo/Speed",
+      "ru": "\u0422\u0435\u043c\u043f",
+      "index": 872
+    },
+    {
+      "de": "Die Tendenz",
+      "en": "Tendency",
+      "ru": "\u0422\u0435\u043d\u0434\u0435\u043d\u0446\u0438\u044f",
+      "index": 873
+    },
+    {
+      "de": "Der Teppich",
+      "en": "Carpet",
+      "ru": "\u041a\u043e\u0432\u0435\u0440",
+      "index": 874
+    },
+    {
+      "de": "Die Terrasse",
+      "en": "Terrace",
+      "ru": "\u0422\u0435\u0440\u0440\u0430\u0441\u0430",
+      "index": 875
+    },
+    {
+      "de": "Der Terror",
+      "en": "Terror",
+      "ru": "\u0422\u0435\u0440\u0440\u043e\u0440",
+      "index": 876
+    },
+    {
+      "de": "Der Text",
+      "en": "Text",
+      "ru": "\u0422\u0435\u043a\u0441\u0442",
+      "index": 877
+    },
+    {
+      "de": "Die Tinte",
+      "en": "Ink",
+      "ru": "\u0427\u0435\u0440\u043d\u0438\u043b\u0430",
+      "index": 878
+    },
+    {
+      "de": "Der Titel",
+      "en": "Title",
+      "ru": "\u0417\u0430\u0433\u043e\u043b\u043e\u0432\u043e\u043a",
+      "index": 879
+    },
+    {
+      "de": "Die Toleranz",
+      "en": "Tolerance",
+      "ru": "\u0422\u043e\u043b\u0435\u0440\u0430\u043d\u0442\u043d\u043e\u0441\u0442\u044c",
+      "index": 880
+    },
+    {
+      "de": "Die Tomate",
+      "en": "Tomato",
+      "ru": "\u041f\u043e\u043c\u0438\u0434\u043e\u0440",
+      "index": 881
+    },
+    {
+      "de": "Der Ton",
+      "en": "Tone/Sound",
+      "ru": "\u0422\u043e\u043d",
+      "index": 882
+    },
+    {
+      "de": "Der Topf",
+      "en": "Pot",
+      "ru": "\u0413\u043e\u0440\u0448\u043e\u043a",
+      "index": 883
+    },
+    {
+      "de": "Das Tor",
+      "en": "Gate",
+      "ru": "\u0412\u043e\u0440\u043e\u0442\u0430",
+      "index": 884
+    },
+    {
+      "de": "Die Tortur",
+      "en": "Torture",
+      "ru": "\u041f\u044b\u0442\u043a\u0430",
+      "index": 885
+    },
+    {
+      "de": "Die Tour",
+      "en": "Tour",
+      "ru": "\u0422\u0443\u0440",
+      "index": 886
+    },
+    {
+      "de": "Die Tradition",
+      "en": "Tradition",
+      "ru": "\u0422\u0440\u0430\u0434\u0438\u0446\u0438\u044f",
+      "index": 887
+    },
+    {
+      "de": "Der Transport",
+      "en": "Transport",
+      "ru": "\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442",
+      "index": 888
+    },
+    {
+      "de": "Die Treppe",
+      "en": "Stairs",
+      "ru": "\u041b\u0435\u0441\u0442\u043d\u0438\u0446\u0430",
+      "index": 889
+    },
+    {
+      "de": "Die Treue",
+      "en": "Loyalty",
+      "ru": "\u0412\u0435\u0440\u043d\u043e\u0441\u0442\u044c",
+      "index": 890
+    },
+    {
+      "de": "Der Trick",
+      "en": "Trick",
+      "ru": "\u0422\u0440\u044e\u043a",
+      "index": 891
+    },
+    {
+      "de": "Der Trieb",
+      "en": "Impulse/Drive",
+      "ru": "\u0418\u043d\u0441\u0442\u0438\u043d\u043a\u0442",
+      "index": 892
+    },
+    {
+      "de": "Das Trinkgeld",
+      "en": "Tip",
+      "ru": "\u0427\u0430\u0435\u0432\u044b\u0435",
+      "index": 893
+    },
+    {
+      "de": "Der Tritt",
+      "en": "Step/Kick",
+      "ru": "\u0423\u0434\u0430\u0440 \u043d\u043e\u0433\u043e\u0439",
+      "index": 894
+    },
+    {
+      "de": "Der Triumph",
+      "en": "Triumph",
+      "ru": "\u0422\u0440\u0438\u0443\u043c\u0444",
+      "index": 895
+    },
+    {
+      "de": "Die Trommel",
+      "en": "Drum",
+      "ru": "\u0411\u0430\u0440\u0430\u0431\u0430\u043d",
+      "index": 896
+    },
+    {
+      "de": "Die Trompete",
+      "en": "Trumpet",
+      "ru": "\u0422\u0440\u0443\u0431\u0430",
+      "index": 897
+    },
+    {
+      "de": "Der Tropfen",
+      "en": "Drop",
+      "ru": "\u041a\u0430\u043f\u043b\u044f",
+      "index": 898
+    },
+    {
+      "de": "Der Trost",
+      "en": "Comfort",
+      "ru": "\u0423\u0442\u0435\u0448\u0435\u043d\u0438\u0435",
+      "index": 899
+    },
+    {
+      "de": "Der Turm",
+      "en": "Tower",
+      "ru": "\u0411\u0430\u0448\u043d\u044f",
+      "index": 900
+    },
+    {
+      "de": "Die T\u00fcte",
+      "en": "Bag",
+      "ru": "\u041f\u0430\u043a\u0435\u0442",
+      "index": 901
+    },
+    {
+      "de": "Der Typ",
+      "en": "Type/Guy",
+      "ru": "\u0422\u0438\u043f",
+      "index": 902
+    },
+    {
+      "de": "Das Ufer",
+      "en": "Shore",
+      "ru": "\u0411\u0435\u0440\u0435\u0433",
+      "index": 903
+    },
+    {
+      "de": "Die Umfrage",
+      "en": "Survey",
+      "ru": "\u041e\u043f\u0440\u043e\u0441",
+      "index": 904
+    },
+    {
+      "de": "Die Umkehr",
+      "en": "Reversal",
+      "ru": "\u0420\u0430\u0437\u0432\u043e\u0440\u043e\u0442",
+      "index": 905
+    },
+    {
+      "de": "Der Umlauf",
+      "en": "Circulation",
+      "ru": "\u0422\u0438\u0440\u0430\u0436",
+      "index": 906
+    },
+    {
+      "de": "Der Umsatz",
+      "en": "Turnover",
+      "ru": "\u041e\u0431\u043e\u0440\u043e\u0442",
+      "index": 907
+    },
+    {
+      "de": "Die Umschulung",
+      "en": "Retraining",
+      "ru": "\u041f\u0435\u0440\u0435\u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430",
+      "index": 908
+    },
+    {
+      "de": "Der Umzug",
+      "en": "Move/Relocation",
+      "ru": "\u041f\u0435\u0440\u0435\u0435\u0437\u0434",
+      "index": 909
+    },
+    {
+      "de": "Das Ungl\u00fcck",
+      "en": "Misfortune",
+      "ru": "\u041d\u0435\u0441\u0447\u0430\u0441\u0442\u044c\u0435",
+      "index": 910
+    },
+    {
+      "de": "Die Uniform",
+      "en": "Uniform",
+      "ru": "\u0423\u043d\u0438\u0444\u043e\u0440\u043c\u0430",
+      "index": 911
+    },
+    {
+      "de": "Die Union",
+      "en": "Union",
+      "ru": "\u0421\u043e\u044e\u0437",
+      "index": 912
+    },
+    {
+      "de": "Das Universum",
+      "en": "Universe",
+      "ru": "\u0412\u0441\u0435\u043b\u0435\u043d\u043d\u0430\u044f",
+      "index": 913
+    },
+    {
+      "de": "Der Unmut",
+      "en": "Displeasure",
+      "ru": "\u041d\u0435\u0434\u043e\u0432\u043e\u043b\u044c\u0441\u0442\u0432\u043e",
+      "index": 914
+    },
+    {
+      "de": "Der Unrat",
+      "en": "Garbage",
+      "ru": "\u041c\u0443\u0441\u043e\u0440",
+      "index": 915
+    },
+    {
+      "de": "Die Unruhe",
+      "en": "Unrest",
+      "ru": "\u0411\u0435\u0441\u043f\u043e\u043a\u043e\u0439\u0441\u0442\u0432\u043e",
+      "index": 916
+    },
+    {
+      "de": "Die Unschuld",
+      "en": "Innocence",
+      "ru": "\u041d\u0435\u0432\u0438\u043d\u043d\u043e\u0441\u0442\u044c",
+      "index": 917
+    },
+    {
+      "de": "Die Untersuchung",
+      "en": "Examination",
+      "ru": "\u041e\u0431\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435",
+      "index": 918
+    },
+    {
+      "de": "Die Unterwelt",
+      "en": "Underworld",
+      "ru": "\u041f\u0440\u0435\u0438\u0441\u043f\u043e\u0434\u043d\u044f\u044f",
+      "index": 919
+    },
+    {
+      "de": "Die Urkunde",
+      "en": "Document/Certificate",
+      "ru": "\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442",
+      "index": 920
+    },
+    {
+      "de": "Der Urlaub",
+      "en": "Vacation",
+      "ru": "\u041e\u0442\u043f\u0443\u0441\u043a",
+      "index": 921
+    },
+    {
+      "de": "Das Urteil",
+      "en": "Judgment",
+      "ru": "\u041f\u0440\u0438\u0433\u043e\u0432\u043e\u0440",
+      "index": 922
+    },
+    {
+      "de": "Die Vase",
+      "en": "Vase",
+      "ru": "\u0412\u0430\u0437\u0430",
+      "index": 923
+    },
+    {
+      "de": "Die Verbindung",
+      "en": "Connection",
+      "ru": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+      "index": 924
+    },
+    {
+      "de": "Der Verbrauch",
+      "en": "Consumption",
+      "ru": "\u041f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435",
+      "index": 925
+    },
+    {
+      "de": "Das Verbrechen",
+      "en": "Crime",
+      "ru": "\u041f\u0440\u0435\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u0435",
+      "index": 926
+    },
+    {
+      "de": "Der Verdacht",
+      "en": "Suspicion",
+      "ru": "\u041f\u043e\u0434\u043e\u0437\u0440\u0435\u043d\u0438\u0435",
+      "index": 927
+    },
+    {
+      "de": "Das Verdienst",
+      "en": "Merit/Earnings",
+      "ru": "\u0417\u0430\u0441\u043b\u0443\u0433\u0430",
+      "index": 928
+    },
+    {
+      "de": "Der Verein",
+      "en": "Association",
+      "ru": "\u041e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+      "index": 929
+    },
+    {
+      "de": "Das Verfahren",
+      "en": "Procedure",
+      "ru": "\u041f\u0440\u043e\u0446\u0435\u0434\u0443\u0440\u0430",
+      "index": 930
+    },
+    {
+      "de": "Die Verfassung",
+      "en": "Constitution",
+      "ru": "\u041a\u043e\u043d\u0441\u0442\u0438\u0442\u0443\u0446\u0438\u044f",
+      "index": 931
+    },
+    {
+      "de": "Die Vergangenheit",
+      "en": "Past",
+      "ru": "\u041f\u0440\u043e\u0448\u043b\u043e\u0435",
+      "index": 932
+    },
+    {
+      "de": "Das Vergn\u00fcgen",
+      "en": "Pleasure",
+      "ru": "\u0423\u0434\u043e\u0432\u043e\u043b\u044c\u0441\u0442\u0432\u0438\u0435",
+      "index": 933
+    },
+    {
+      "de": "Das Verh\u00e4ltnis",
+      "en": "Relationship",
+      "ru": "\u0421\u043e\u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0435",
+      "index": 934
+    },
+    {
+      "de": "Der Verkauf",
+      "en": "Sale",
+      "ru": "\u041f\u0440\u043e\u0434\u0430\u0436\u0430",
+      "index": 935
+    },
+    {
+      "de": "Der Verlag",
+      "en": "Publisher",
+      "ru": "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e",
+      "index": 936
+    },
+    {
+      "de": "Der Verlust",
+      "en": "Loss",
+      "ru": "\u041f\u043e\u0442\u0435\u0440\u044f",
+      "index": 937
+    },
+    {
+      "de": "Die Vermutung",
+      "en": "Guess",
+      "ru": "\u041f\u0440\u0435\u0434\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+      "index": 938
+    },
+    {
+      "de": "Die Vernunft",
+      "en": "Reason",
+      "ru": "\u0420\u0430\u0437\u0443\u043c",
+      "index": 939
+    },
+    {
+      "de": "Der Verrat",
+      "en": "Betrayal",
+      "ru": "\u041f\u0440\u0435\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e",
+      "index": 940
+    },
+    {
+      "de": "Die Versammlung",
+      "en": "Meeting",
+      "ru": "\u0421\u043e\u0431\u0440\u0430\u043d\u0438\u0435",
+      "index": 941
+    },
+    {
+      "de": "Die Versicherung",
+      "en": "Insurance",
+      "ru": "\u0421\u0442\u0440\u0430\u0445\u043e\u0432\u043a\u0430",
+      "index": 942
+    },
+    {
+      "de": "Der Verstand",
+      "en": "Mind/Intellect",
+      "ru": "\u0420\u0430\u0437\u0443\u043c",
+      "index": 943
+    },
+    {
+      "de": "Das Verst\u00e4ndnis",
+      "en": "Understanding",
+      "ru": "\u041f\u043e\u043d\u0438\u043c\u0430\u043d\u0438\u0435",
+      "index": 944
+    },
+    {
+      "de": "Der Versuch",
+      "en": "Attempt",
+      "ru": "\u041f\u043e\u043f\u044b\u0442\u043a\u0430",
+      "index": 945
+    },
+    {
+      "de": "Die Verteidigung",
+      "en": "Defense",
+      "ru": "\u041e\u0431\u043e\u0440\u043e\u043d\u0430",
+      "index": 946
+    },
+    {
+      "de": "Die Verwaltung",
+      "en": "Administration",
+      "ru": "\u0410\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f",
+      "index": 947
+    },
+    {
+      "de": "Die Verwandtschaft",
+      "en": "Kinship",
+      "ru": "\u0420\u043e\u0434\u0441\u0442\u0432\u043e",
+      "index": 948
+    },
+    {
+      "de": "Der Verweis",
+      "en": "Reference",
+      "ru": "\u0421\u0441\u044b\u043b\u043a\u0430",
+      "index": 949
+    },
+    {
+      "de": "Die Verz\u00f6gerung",
+      "en": "Delay",
+      "ru": "\u0417\u0430\u0434\u0435\u0440\u0436\u043a\u0430",
+      "index": 950
+    },
+    {
+      "de": "Der Verzug",
+      "en": "Default/Delay",
+      "ru": "\u041f\u0440\u043e\u0441\u0440\u043e\u0447\u043a\u0430",
+      "index": 951
+    },
+    {
+      "de": "Das Vieh",
+      "en": "Livestock",
+      "ru": "\u0421\u043a\u043e\u0442",
+      "index": 952
+    },
+    {
+      "de": "Das Viertel",
+      "en": "Quarter",
+      "ru": "\u0427\u0435\u0442\u0432\u0435\u0440\u0442\u044c",
+      "index": 953
+    },
+    {
+      "de": "Die Vollmacht",
+      "en": "Power of attorney",
+      "ru": "\u0414\u043e\u0432\u0435\u0440\u0435\u043d\u043d\u043e\u0441\u0442\u044c",
+      "index": 954
+    },
+    {
+      "de": "Der Vorabend",
+      "en": "Eve",
+      "ru": "\u041a\u0430\u043d\u0443\u043d",
+      "index": 955
+    },
+    {
+      "de": "Der Vortrag",
+      "en": "Lecture/Speech",
+      "ru": "\u0414\u043e\u043a\u043b\u0430\u0434",
+      "index": 956
+    },
+    {
+      "de": "Die Vorwahl",
+      "en": "Prefix",
+      "ru": "\u041a\u043e\u0434 \u0433\u043e\u0440\u043e\u0434\u0430",
+      "index": 957
+    },
+    {
+      "de": "Die Waage",
+      "en": "Scale",
+      "ru": "\u0412\u0435\u0441\u044b",
+      "index": 958
+    },
+    {
+      "de": "Die Wachsamkeit",
+      "en": "Vigilance",
+      "ru": "\u0411\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c",
+      "index": 959
+    },
+    {
+      "de": "Die Waffe",
+      "en": "Weapon",
+      "ru": "\u041e\u0440\u0443\u0436\u0438\u0435",
+      "index": 960
+    },
+    {
+      "de": "Der Wagen",
+      "en": "Car/Wagon",
+      "ru": "\u041f\u043e\u0432\u043e\u0437\u043a\u0430",
+      "index": 961
+    },
+    {
+      "de": "Der Wahn",
+      "en": "Delusion",
+      "ru": "\u0418\u043b\u043b\u044e\u0437\u0438\u044f",
+      "index": 962
+    },
+    {
+      "de": "Die Walze",
+      "en": "Roller",
+      "ru": "\u0412\u0430\u043b\u0438\u043a",
+      "index": 963
+    },
+    {
+      "de": "Die Wange",
+      "en": "Cheek",
+      "ru": "\u0429\u0435\u043a\u0430",
+      "index": 964
+    },
+    {
+      "de": "Die Ware",
+      "en": "Good/Product",
+      "ru": "\u0422\u043e\u0432\u0430\u0440",
+      "index": 965
+    },
+    {
+      "de": "Die Warnung",
+      "en": "Warning",
+      "ru": "\u041f\u0440\u0435\u0434\u0443\u043f\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435",
+      "index": 966
+    },
+    {
+      "de": "Das Watt",
+      "en": "Watt",
+      "ru": "\u0412\u0430\u0442\u0442",
+      "index": 967
+    },
+    {
+      "de": "Die Watte",
+      "en": "Cotton wool",
+      "ru": "\u0412\u0430\u0442\u0430",
+      "index": 968
+    },
+    {
+      "de": "Der Wechsel",
+      "en": "Change/Exchange",
+      "ru": "\u041e\u0431\u043c\u0435\u043d",
+      "index": 969
+    },
+    {
+      "de": "Der Wecker",
+      "en": "Alarm clock",
+      "ru": "\u0411\u0443\u0434\u0438\u043b\u044c\u043d\u0438\u043a",
+      "index": 970
+    },
+    {
+      "de": "Das Weh",
+      "en": "Pain/Woe",
+      "ru": "\u0413\u043e\u0440\u0435",
+      "index": 971
+    },
+    {
+      "de": "Die Wehmut",
+      "en": "Melancholy",
+      "ru": "\u0422\u043e\u0441\u043a\u0430",
+      "index": 972
+    },
+    {
+      "de": "Die Wehr",
+      "en": "Defense",
+      "ru": "\u041e\u0431\u043e\u0440\u043e\u043d\u0430",
+      "index": 973
+    },
+    {
+      "de": "Die Weide",
+      "en": "Pasture",
+      "ru": "\u041f\u0430\u0441\u0442\u0431\u0438\u0449\u0435",
+      "index": 974
+    },
+    {
+      "de": "Die Weigerung",
+      "en": "Refusal",
+      "ru": "\u041e\u0442\u043a\u0430\u0437",
+      "index": 975
+    },
+    {
+      "de": "Die Weihnachten",
+      "en": "Christmas",
+      "ru": "\u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e",
+      "index": 976
+    },
+    {
+      "de": "Die Weile",
+      "en": "While",
+      "ru": "\u0412\u0440\u0435\u043c\u044f",
+      "index": 977
+    },
+    {
+      "de": "Das Weinen",
+      "en": "Crying",
+      "ru": "\u041f\u043b\u0430\u0447",
+      "index": 978
+    },
+    {
+      "de": "Die Weise",
+      "en": "Manner/Way",
+      "ru": "\u0421\u043f\u043e\u0441\u043e\u0431",
+      "index": 979
+    },
+    {
+      "de": "Die Weisheit",
+      "en": "Wisdom",
+      "ru": "\u041c\u0443\u0434\u0440\u043e\u0441\u0442\u044c",
+      "index": 980
+    },
+    {
+      "de": "Die Weite",
+      "en": "Expanse",
+      "ru": "\u0428\u0438\u0440\u044c",
+      "index": 981
+    },
+    {
+      "de": "Die Welle",
+      "en": "Wave",
+      "ru": "\u0412\u043e\u043b\u043d\u0430",
+      "index": 982
+    },
+    {
+      "de": "Die Weltanschauung",
+      "en": "Worldview",
+      "ru": "\u041c\u0438\u0440\u043e\u0432\u043e\u0437\u0437\u0440\u0435\u043d\u0438\u0435",
+      "index": 983
+    },
+    {
+      "de": "Das Werk",
+      "en": "Work/Plant",
+      "ru": "\u0417\u0430\u0432\u043e\u0434",
+      "index": 984
+    },
+    {
+      "de": "Das Werkzeug",
+      "en": "Tool",
+      "ru": "\u0418\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442",
+      "index": 985
+    },
+    {
+      "de": "Das Wesen",
+      "en": "Being/Nature",
+      "ru": "\u0421\u0443\u0449\u0435\u0441\u0442\u0432\u043e",
+      "index": 986
+    },
+    {
+      "de": "Die Wespe",
+      "en": "Wasp",
+      "ru": "\u041e\u0441\u0430",
+      "index": 987
+    },
+    {
+      "de": "Der Westen",
+      "en": "West",
+      "ru": "\u0417\u0430\u043f\u0430\u0434",
+      "index": 988
+    },
+    {
+      "de": "Die Wichtigkeit",
+      "en": "Importance",
+      "ru": "\u0412\u0430\u0436\u043d\u043e\u0441\u0442\u044c",
+      "index": 989
+    },
+    {
+      "de": "Der Widerstand",
+      "en": "Resistance",
+      "ru": "\u0421\u043e\u043f\u0440\u043e\u0442\u0438\u0432\u043b\u0435\u043d\u0438\u0435",
+      "index": 990
+    },
+    {
+      "de": "Die Wiege",
+      "en": "Cradle",
+      "ru": "\u041a\u043e\u043b\u044b\u0431\u0435\u043b\u044c",
+      "index": 991
+    },
+    {
+      "de": "Die Wiese",
+      "en": "Meadow",
+      "ru": "\u041b\u0443\u0433",
+      "index": 992
+    },
+    {
+      "de": "Das Wild",
+      "en": "Game (Animal)",
+      "ru": "\u0414\u0438\u0447\u044c",
+      "index": 993
+    },
+    {
+      "de": "Der Wille",
+      "en": "Will",
+      "ru": "\u0416\u0435\u043b\u0430\u043d\u0438\u0435",
+      "index": 994
+    },
+    {
+      "de": "Der Witz",
+      "en": "Joke",
+      "ru": "\u0428\u0443\u0442\u043a\u0430",
+      "index": 995
+    },
+    {
+      "de": "Das Wochenende",
+      "en": "Weekend",
+      "ru": "\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435",
+      "index": 996
+    },
+    {
+      "de": "Die Wohlfahrt",
+      "en": "Welfare",
+      "ru": "\u0411\u043b\u0430\u0433\u043e\u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435",
+      "index": 997
+    },
+    {
+      "de": "Die W\u00f6lbung",
+      "en": "Curvature",
+      "ru": "\u0418\u0437\u0433\u0438\u0431",
+      "index": 998
+    },
+    {
+      "de": "Der Wolf",
+      "en": "Wolf",
+      "ru": "\u0412\u043e\u043b\u043a",
+      "index": 999
+    },
+    {
+      "de": "Die Wolke",
+      "en": "Cloud",
+      "ru": "\u0422\u0443\u0447\u0430",
+      "index": 1000
+    }
+  ]
