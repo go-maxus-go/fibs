@@ -39,6 +39,7 @@ class _QuizPageState extends State<QuizPage> {
   bool _answersRevealed = false;
   bool _madeMistakeOnCurrent = false;
   bool _isWordHidden = false;
+  bool _autoRevealAnswers = false;
   final Set<String> _wrongSelections = <String>{};
   String? _correctSelection;
   String? _errorMessage;
@@ -170,7 +171,7 @@ class _QuizPageState extends State<QuizPage> {
       _currentCorrectAnswer = correctAnswer;
       _options = optionsWithIdk;
       _isChecking = false;
-      _answersRevealed = false;
+      _answersRevealed = _autoRevealAnswers;
       _madeMistakeOnCurrent = false;
       _wrongSelections.clear();
       _correctSelection = null;
@@ -335,6 +336,19 @@ class _QuizPageState extends State<QuizPage> {
                               _direction != null) {
                             _pronounce(_currentPrompt!, _direction!);
                           }
+                        },
+                      ),
+                      const SizedBox(width: 24),
+                      IconButton(
+                        icon: Icon(_autoRevealAnswers ? Icons.bolt : Icons.touch_app),
+                        tooltip: _autoRevealAnswers ? 'Disable auto-reveal' : 'Enable auto-reveal',
+                        onPressed: () {
+                          setState(() {
+                            _autoRevealAnswers = !_autoRevealAnswers;
+                            if (_autoRevealAnswers) {
+                              _answersRevealed = true;
+                            }
+                          });
                         },
                       ),
                     ],
