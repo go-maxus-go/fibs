@@ -1,5 +1,7 @@
 import 'package:flutter/services.dart';
+import 'package:flutter_tts/flutter_tts.dart';
 import 'dart:math';
+import 'dart:io';
 import 'package:flutter/material.dart';
 import '../database/quiz_database.dart';
 import '../models/quiz_direction.dart';
@@ -20,6 +22,7 @@ class _QuizPageState extends State<QuizPage> {
   static const String _idkOption = "I don't know";
 
   final Random _random = Random();
+  final FlutterTts _flutterTts = FlutterTts();
 
   List<WordEntry> _words = <WordEntry>[];
   List<WordEntry> _activeQueue = <WordEntry>[];
@@ -42,6 +45,36 @@ class _QuizPageState extends State<QuizPage> {
   void initState() {
     super.initState();
     _loadWords();
+  }
+
+  @override
+  void dispose() {
+    if (!Platform.isLinux) {
+      _flutterTts.stop();
+    }
+    super.dispose();
+  }
+
+  Future<void> _pronounce(String text, QuizDirection direction) async {
+    String lang = 'de-DE';
+    String spdLang = 'de';
+    String textToSpeak = text;
+    if (direction == QuizDirection.enRuToGerman) {
+      lang = 'en-US';
+      spdLang = 'en';
+      textToSpeak = text.split('(').first.trim();
+    }
+    
+    if (Platform.isLinux) {
+      try {
+        await Process.run('spd-say', <String>['-l', spdLang, textToSpeak]);
+      } catch (e) {
+        debugPrint('Could not run spd-say: $e');
+      }
+    } else {
+      await _flutterTts.setLanguage(lang);
+      await _flutterTts.speak(textToSpeak);
+    }
   }
 
   int fibonacciIndex(int index) {
@@ -241,7 +274,11 @@ class _QuizPageState extends State<QuizPage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      const SizedBox(width: 48), // Spacer for centering
+                      IconButton(
+                        icon: const Icon(Icons.volume_up, size: 24),
+                        tooltip: 'Pronounce word',
+                        onPressed: () => _pronounce(promptWord, direction),
+                      ),
                       Expanded(
                         child: Text(
                           promptWord,
