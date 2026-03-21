@@ -130,6 +130,20 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
               ),
               child: const Text('Verbs'),
             ),
+            const SizedBox(height: 12),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute<QuizPage>(
+                    builder: (_) => const QuizPage(group: WordGroup.objectives),
+                  ),
+                );
+              },
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(vertical: 18),
+              ),
+              child: const Text('Objectives'),
+            ),
           ],
         ),
       ),

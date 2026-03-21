@@ -23,3 +23,4 @@ flutter:
   assets:
     - data/nouns.json
     - data/verbs.json
+    - data/objectives.json
