@@ -1,0 +1,4 @@
+enum QuizDirection {
+  germanToEnRu,
+  enRuToGerman,
+}
