@@ -298,7 +298,7 @@ class _QuizPageState extends State<QuizPage> {
                           ),
                           textAlign: TextAlign.center,
                         ),
-                  const SizedBox(height: 16),
+                  const SizedBox(height: 32),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
@@ -307,7 +307,7 @@ class _QuizPageState extends State<QuizPage> {
                         tooltip: 'Pronounce word',
                         onPressed: () => _pronounce(promptWord, direction),
                       ),
-                      const SizedBox(width: 24),
+                      const SizedBox(width: 32),
                       IconButton(
                         icon: const Icon(Icons.copy, size: 20),
                         tooltip: 'Copy word',
@@ -321,7 +321,7 @@ class _QuizPageState extends State<QuizPage> {
                           );
                         },
                       ),
-                      const SizedBox(width: 24),
+                      const SizedBox(width: 32),
                       IconButton(
                         icon: Icon(
                           _isWordHidden
@@ -340,10 +340,10 @@ class _QuizPageState extends State<QuizPage> {
                           }
                         },
                       ),
-                      const SizedBox(width: 24),
+                      const SizedBox(width: 32),
                       IconButton(
                         icon: Icon(
-                          _autoRevealAnswers ? Icons.bolt : Icons.touch_app,
+                          _autoRevealAnswers ? Icons.lock_open : Icons.lock,
                         ),
                         tooltip: _autoRevealAnswers
                             ? 'Disable auto-reveal'
