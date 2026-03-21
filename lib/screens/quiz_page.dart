@@ -1,3 +1,4 @@
+import 'dart:ui';
 import 'package:flutter/services.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'dart:math';
@@ -37,6 +38,7 @@ class _QuizPageState extends State<QuizPage> {
   bool _isChecking = false;
   bool _answersRevealed = false;
   bool _madeMistakeOnCurrent = false;
+  bool _isWordHidden = false;
   final Set<String> _wrongSelections = <String>{};
   String? _correctSelection;
   String? _errorMessage;
@@ -173,6 +175,10 @@ class _QuizPageState extends State<QuizPage> {
       _wrongSelections.clear();
       _correctSelection = null;
     });
+
+    if (_isWordHidden && _currentPrompt != null && _direction != null) {
+      _pronounce(_currentPrompt!, _direction!);
+    }
   }
 
   Future<void> _onOptionTap(String selected) async {
@@ -271,6 +277,27 @@ class _QuizPageState extends State<QuizPage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
+                  _isWordHidden
+                      ? ImageFiltered(
+                          imageFilter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
+                          child: Text(
+                            promptWord,
+                            style: const TextStyle(
+                              fontSize: 32,
+                              fontWeight: FontWeight.bold,
+                            ),
+                            textAlign: TextAlign.center,
+                          ),
+                        )
+                      : Text(
+                          promptWord,
+                          style: const TextStyle(
+                            fontSize: 32,
+                            fontWeight: FontWeight.bold,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                  const SizedBox(height: 16),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
@@ -279,16 +306,7 @@ class _QuizPageState extends State<QuizPage> {
                         tooltip: 'Pronounce word',
                         onPressed: () => _pronounce(promptWord, direction),
                       ),
-                      Expanded(
-                        child: Text(
-                          promptWord,
-                          style: const TextStyle(
-                            fontSize: 32,
-                            fontWeight: FontWeight.bold,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                      ),
+                      const SizedBox(width: 24),
                       IconButton(
                         icon: const Icon(Icons.copy, size: 20),
                         tooltip: 'Copy word',
@@ -300,6 +318,23 @@ class _QuizPageState extends State<QuizPage> {
                               duration: Duration(seconds: 1),
                             ),
                           );
+                        },
+                      ),
+                      const SizedBox(width: 24),
+                      IconButton(
+                        icon: Icon(
+                          _isWordHidden ? Icons.visibility_off : Icons.visibility,
+                        ),
+                        tooltip: _isWordHidden ? 'Show word' : 'Hide word',
+                        onPressed: () {
+                          setState(() {
+                            _isWordHidden = !_isWordHidden;
+                          });
+                          if (_isWordHidden &&
+                              _currentPrompt != null &&
+                              _direction != null) {
+                            _pronounce(_currentPrompt!, _direction!);
+                          }
                         },
                       ),
                     ],
