@@ -12,17 +12,27 @@ class WordEntry {
   const WordEntry({
     required this.de,
     required this.en,
+    required this.ru,
   });
 
   final String de;
   final String en;
+  final String ru;
+
+  String get enRu => '$en ($ru)';
 
   factory WordEntry.fromJson(Map<String, dynamic> json) {
     return WordEntry(
       de: (json['de'] as String?)?.trim() ?? '',
       en: (json['en'] as String?)?.trim() ?? '',
+      ru: (json['ru'] as String?)?.trim() ?? '',
     );
   }
+}
+
+enum QuizDirection {
+  germanToEnRu,
+  enRuToGerman,
 }
 
 class MainApp extends StatelessWidget {
@@ -51,8 +61,10 @@ class _QuizPageState extends State<QuizPage> {
   final Random _random = Random();
 
   List<WordEntry> _words = <WordEntry>[];
-  WordEntry? _currentWord;
+  String? _currentPrompt;
+  String? _currentCorrectAnswer;
   List<String> _options = <String>[];
+  QuizDirection? _direction;
   int _correctCount = 0;
   bool _isLoading = true;
   bool _isChecking = false;
@@ -70,7 +82,9 @@ class _QuizPageState extends State<QuizPage> {
       final List<dynamic> parsed = jsonDecode(raw) as List<dynamic>;
       final List<WordEntry> words = parsed
           .map((dynamic e) => WordEntry.fromJson(e as Map<String, dynamic>))
-          .where((WordEntry e) => e.de.isNotEmpty && e.en.isNotEmpty)
+          .where(
+            (WordEntry e) => e.de.isNotEmpty && e.en.isNotEmpty && e.ru.isNotEmpty,
+          )
           .toList();
 
       if (words.length < 4) {
@@ -96,27 +110,40 @@ class _QuizPageState extends State<QuizPage> {
     }
 
     final WordEntry chosen = _words[_random.nextInt(_words.length)];
-    final Set<String> options = <String>{chosen.en};
+    final QuizDirection direction = _random.nextBool()
+        ? QuizDirection.germanToEnRu
+        : QuizDirection.enRuToGerman;
+    final String correctAnswer = direction == QuizDirection.germanToEnRu
+        ? chosen.enRu
+        : chosen.de;
+    final Set<String> options = <String>{correctAnswer};
 
     while (options.length < 4) {
-      options.add(_words[_random.nextInt(_words.length)].en);
+      final WordEntry distractor = _words[_random.nextInt(_words.length)];
+      options.add(
+        direction == QuizDirection.germanToEnRu ? distractor.enRu : distractor.de,
+      );
     }
 
     final List<String> shuffled = options.toList()..shuffle(_random);
 
     setState(() {
-      _currentWord = chosen;
+      _direction = direction;
+      _currentPrompt = direction == QuizDirection.germanToEnRu
+          ? chosen.de
+          : chosen.enRu;
+      _currentCorrectAnswer = correctAnswer;
       _options = shuffled;
       _isChecking = false;
     });
   }
 
   void _onOptionTap(String selected) {
-    if (_currentWord == null || _isChecking) {
+    if (_currentCorrectAnswer == null || _isChecking) {
       return;
     }
 
-    final bool isCorrect = selected == _currentWord!.en;
+    final bool isCorrect = selected == _currentCorrectAnswer;
     if (!isCorrect) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Try again.')),
@@ -163,8 +190,9 @@ class _QuizPageState extends State<QuizPage> {
       );
     }
 
-    final WordEntry? word = _currentWord;
-    if (word == null) {
+    final String? promptWord = _currentPrompt;
+    final QuizDirection? direction = _direction;
+    if (promptWord == null || direction == null) {
       return const Scaffold(
         body: Center(child: Text('No word available.')),
       );
@@ -185,12 +213,14 @@ class _QuizPageState extends State<QuizPage> {
             ),
             const SizedBox(height: 20),
             Text(
-              'What is the translation of:',
+              direction == QuizDirection.germanToEnRu
+                  ? 'Pick the right English (Russian):'
+                  : 'Pick the right German word:',
               style: Theme.of(context).textTheme.titleLarge,
             ),
             const SizedBox(height: 10),
             Text(
-              word.de,
+              promptWord,
               style: Theme.of(context).textTheme.headlineMedium,
               textAlign: TextAlign.center,
             ),
