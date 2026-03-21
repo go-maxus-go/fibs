@@ -274,23 +274,14 @@ class _QuizPageState extends State<QuizPage> {
               style: Theme.of(context).textTheme.titleMedium,
               textAlign: TextAlign.center,
             ),
-            Expanded(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  _isWordHidden
-                      ? ImageFiltered(
-                          imageFilter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
-                          child: Text(
-                            promptWord,
-                            style: const TextStyle(
-                              fontSize: 32,
-                              fontWeight: FontWeight.bold,
-                            ),
-                            textAlign: TextAlign.center,
-                          ),
-                        )
-                      : Text(
+            const Spacer(),
+            Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                _isWordHidden
+                    ? ImageFiltered(
+                        imageFilter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
+                        child: Text(
                           promptWord,
                           style: const TextStyle(
                             fontSize: 32,
@@ -298,79 +289,112 @@ class _QuizPageState extends State<QuizPage> {
                           ),
                           textAlign: TextAlign.center,
                         ),
-                ],
-              ),
+                      )
+                    : Text(
+                        promptWord,
+                        style: const TextStyle(
+                          fontSize: 32,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+              ],
             ),
-            Expanded(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: <Widget>[
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      IconButton(
-                        icon: Icon(
-                          _isWordHidden
-                              ? Icons.visibility_off
-                              : Icons.visibility,
-                        ),
-                        tooltip: _isWordHidden ? 'Show word' : 'Hide word',
-                        onPressed: () {
-                          setState(() {
-                            _isWordHidden = !_isWordHidden;
-                          });
-                          if (_isWordHidden &&
-                              _currentPrompt != null &&
-                              _direction != null) {
-                            _pronounce(_currentPrompt!, _direction!);
-                          }
-                        },
+            const Spacer(),
+            Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    IconButton(
+                      icon: Icon(
+                        _isWordHidden ? Icons.visibility_off : Icons.visibility,
                       ),
-                      const SizedBox(width: 32),
-                      IconButton(
-                        icon: Icon(
-                          _autoRevealAnswers ? Icons.lock_open : Icons.lock,
-                        ),
-                        tooltip: _autoRevealAnswers
-                            ? 'Disable auto-reveal'
-                            : 'Enable auto-reveal',
-                        onPressed: () {
-                          setState(() {
-                            _autoRevealAnswers = !_autoRevealAnswers;
-                            if (_autoRevealAnswers) {
-                              _answersRevealed = true;
-                            }
-                          });
-                        },
+                      tooltip: _isWordHidden ? 'Show word' : 'Hide word',
+                      onPressed: () {
+                        setState(() {
+                          _isWordHidden = !_isWordHidden;
+                        });
+                        if (_isWordHidden &&
+                            _currentPrompt != null &&
+                            _direction != null) {
+                          _pronounce(_currentPrompt!, _direction!);
+                        }
+                      },
+                    ),
+                    const SizedBox(width: 32),
+                    IconButton(
+                      icon: Icon(
+                        _autoRevealAnswers ? Icons.lock_open : Icons.lock,
                       ),
-                      const SizedBox(width: 32),
-                      IconButton(
-                        icon: const Icon(Icons.copy, size: 20),
-                        tooltip: 'Copy word',
-                        onPressed: () {
-                          Clipboard.setData(ClipboardData(text: promptWord));
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                              content: Text('Copied to clipboard'),
-                              duration: Duration(seconds: 1),
+                      tooltip: _autoRevealAnswers
+                          ? 'Disable auto-reveal'
+                          : 'Enable auto-reveal',
+                      onPressed: () {
+                        setState(() {
+                          _autoRevealAnswers = !_autoRevealAnswers;
+                          _answersRevealed = _autoRevealAnswers;
+                        });
+                      },
+                    ),
+                    const SizedBox(width: 32),
+                    IconButton(
+                      icon: const Icon(Icons.copy, size: 20),
+                      tooltip: 'Copy word',
+                      onPressed: () {
+                        Clipboard.setData(ClipboardData(text: promptWord));
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(
+                            content: Text('Copied to clipboard'),
+                            duration: Duration(seconds: 1),
+                          ),
+                        );
+                      },
+                    ),
+                    const SizedBox(width: 32),
+                    IconButton(
+                      icon: const Icon(Icons.volume_up, size: 24),
+                      tooltip: 'Pronounce word',
+                      onPressed: () => _pronounce(promptWord, direction),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 32),
+                Stack(
+                  children: <Widget>[
+                    Opacity(
+                      opacity: _answersRevealed ? 1.0 : 0.0,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: <Widget>[
+                          for (final String option in _options)
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 12),
+                              child: ElevatedButton(
+                                onPressed: _answersRevealed
+                                    ? () => _onOptionTap(option)
+                                    : null,
+                                style: ElevatedButton.styleFrom(
+                                  padding: const EdgeInsets.symmetric(
+                                    vertical: 14,
+                                  ),
+                                  backgroundColor: _correctSelection == option
+                                      ? Colors.green
+                                      : _wrongSelections.contains(option)
+                                      ? Colors.red
+                                      : null,
+                                ),
+                                child: Text(option),
+                              ),
                             ),
-                          );
-                        },
+                        ],
                       ),
-                      const SizedBox(width: 32),
-                      IconButton(
-                        icon: const Icon(Icons.volume_up, size: 24),
-                        tooltip: 'Pronounce word',
-                        onPressed: () => _pronounce(promptWord, direction),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 32),
-                  if (!_answersRevealed)
-                    Expanded(
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 24),
+                    ),
+                    if (!_answersRevealed)
+                      Positioned.fill(
+                        bottom: 12,
                         child: InkWell(
                           borderRadius: BorderRadius.circular(16),
                           onTap: () {
@@ -394,26 +418,9 @@ class _QuizPageState extends State<QuizPage> {
                           ),
                         ),
                       ),
-                    )
-                  else
-                    for (final String option in _options)
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 12),
-                        child: ElevatedButton(
-                          onPressed: () => _onOptionTap(option),
-                          style: ElevatedButton.styleFrom(
-                            padding: const EdgeInsets.symmetric(vertical: 14),
-                            backgroundColor: _correctSelection == option
-                                ? Colors.green
-                                : _wrongSelections.contains(option)
-                                ? Colors.red
-                                : null,
-                          ),
-                          child: Text(option),
-                        ),
-                      ),
-                ],
-              ),
+                  ],
+                ),
+              ],
             ),
           ],
         ),
