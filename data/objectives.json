@@ -1,602 +1,6548 @@
 [
     {
-        "de": "gut",
-        "en": "good",
-        "ru": "\u0445\u043e\u0440\u043e\u0448\u0438\u0439",
+        "de": "Gut",
+        "en": "Good",
+        "ru": "\u0425\u043e\u0440\u043e\u0448\u0438\u0439",
         "index": 1
     },
     {
-        "de": "ganz",
-        "en": "whole",
-        "ru": "\u0446\u0435\u043b\u044b\u0439",
+        "de": "Gro\u00df",
+        "en": "Large",
+        "ru": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439",
         "index": 2
     },
     {
-        "de": "neu",
-        "en": "new",
-        "ru": "\u043d\u043e\u0432\u044b\u0439",
+        "de": "Klein",
+        "en": "Small",
+        "ru": "\u041c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0439",
         "index": 3
     },
     {
-        "de": "gro\u00df",
-        "en": "large",
-        "ru": "\u0431\u043e\u043b\u044c\u0448\u043e\u0439",
+        "de": "Neu",
+        "en": "New",
+        "ru": "\u041d\u043e\u0432\u044b\u0439",
         "index": 4
     },
     {
-        "de": "alt",
-        "en": "old",
-        "ru": "\u0441\u0442\u0430\u0440\u044b\u0439",
+        "de": "Alt",
+        "en": "Old",
+        "ru": "\u0421\u0442\u0430\u0440\u044b\u0439",
         "index": 5
     },
     {
-        "de": "klein",
-        "en": "small",
-        "ru": "\u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0439",
+        "de": "Hoch",
+        "en": "High",
+        "ru": "\u0412\u044b\u0441\u043e\u043a\u0438\u0439",
         "index": 6
     },
     {
-        "de": "jung",
-        "en": "young",
-        "ru": "\u043c\u043e\u043b\u043e\u0434\u043e\u0439",
+        "de": "Lang",
+        "en": "Long",
+        "ru": "\u0414\u043b\u0438\u043d\u043d\u044b\u0439",
         "index": 7
     },
     {
-        "de": "hoch",
-        "en": "high",
-        "ru": "\u0432\u044b\u0441\u043e\u043a\u0438\u0439",
+        "de": "Sch\u00f6n",
+        "en": "Beautiful",
+        "ru": "\u041a\u0440\u0430\u0441\u0438\u0432\u044b\u0439",
         "index": 8
     },
     {
-        "de": "erst",
-        "en": "first",
-        "ru": "\u043f\u0435\u0440\u0432\u044b\u0439",
+        "de": "Sp\u00e4t",
+        "en": "Late",
+        "ru": "\u041f\u043e\u0437\u0434\u043d\u0438\u0439",
         "index": 9
     },
     {
-        "de": "lang",
-        "en": "long",
-        "ru": "\u0434\u043b\u0438\u043d\u043d\u044b\u0439",
+        "de": "Stark",
+        "en": "Strong",
+        "ru": "\u0421\u0438\u043b\u044c\u043d\u044b\u0439",
         "index": 10
     },
     {
-        "de": "weit",
-        "en": "far",
-        "ru": "\u0434\u0430\u043b\u0435\u043a\u0438\u0439",
+        "de": "Wichtig",
+        "en": "Important",
+        "ru": "\u0412\u0430\u0436\u043d\u044b\u0439",
         "index": 11
     },
     {
-        "de": "sp\u00e4t",
-        "en": "late",
-        "ru": "\u043f\u043e\u0437\u0434\u043d\u0438\u0439",
+        "de": "Schnell",
+        "en": "Fast",
+        "ru": "\u0411\u044b\u0441\u0442\u0440\u044b\u0439",
         "index": 12
     },
     {
-        "de": "wichtig",
-        "en": "important",
-        "ru": "\u0432\u0430\u0436\u043d\u044b\u0439",
+        "de": "Schwer",
+        "en": "Heavy",
+        "ru": "\u0422\u044f\u0436\u0435\u043b\u044b\u0439",
         "index": 13
     },
     {
-        "de": "nahe",
-        "en": "near",
-        "ru": "\u0431\u043b\u0438\u0437\u043a\u0438\u0439",
+        "de": "Leicht",
+        "en": "Light",
+        "ru": "\u041b\u0435\u0433\u043a\u0438\u0439",
         "index": 14
     },
     {
-        "de": "richtig",
-        "en": "correct",
-        "ru": "\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439",
+        "de": "Fr\u00fch",
+        "en": "Early",
+        "ru": "\u0420\u0430\u043d\u043d\u0438\u0439",
         "index": 15
     },
     {
-        "de": "schlecht",
-        "en": "bad",
-        "ru": "\u043f\u043b\u043e\u0445\u043e\u0439",
+        "de": "Jung",
+        "en": "Young",
+        "ru": "\u041c\u043e\u043b\u043e\u0434\u043e\u0439",
         "index": 16
     },
     {
-        "de": "kurz",
-        "en": "short",
-        "ru": "\u043a\u043e\u0440\u043e\u0442\u043a\u0438\u0439",
+        "de": "Kurz",
+        "en": "Short",
+        "ru": "\u041a\u043e\u0440\u043e\u0442\u043a\u0438\u0439",
         "index": 17
     },
     {
-        "de": "stark",
-        "en": "strong",
-        "ru": "\u0441\u0438\u043b\u044c\u043d\u044b\u0439",
+        "de": "Klar",
+        "en": "Clear",
+        "ru": "\u042f\u0441\u043d\u044b\u0439",
         "index": 18
     },
     {
-        "de": "sch\u00f6n",
-        "en": "beautiful",
-        "ru": "\u043a\u0440\u0430\u0441\u0438\u0432\u044b\u0439",
+        "de": "Schlecht",
+        "en": "Bad",
+        "ru": "\u041f\u043b\u043e\u0445\u043e\u0439",
         "index": 19
     },
     {
-        "de": "schnell",
-        "en": "fast",
-        "ru": "\u0431\u044b\u0441\u0442\u0440\u044b\u0439",
+        "de": "Richtig",
+        "en": "Correct",
+        "ru": "\u041f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439",
         "index": 20
     },
     {
-        "de": "frei",
-        "en": "free",
-        "ru": "\u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439",
+        "de": "M\u00f6glich",
+        "en": "Possible",
+        "ru": "\u0412\u043e\u0437\u043c\u043e\u0436\u043d\u044b\u0439",
         "index": 21
     },
     {
-        "de": "eigen",
-        "en": "own",
-        "ru": "\u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "de": "Politisch",
+        "en": "Political",
+        "ru": "\u041f\u043e\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
         "index": 22
     },
     {
-        "de": "bekannt",
-        "en": "well-known",
-        "ru": "\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439",
+        "de": "Bekannt",
+        "en": "Known",
+        "ru": "\u0418\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439",
         "index": 23
     },
     {
-        "de": "schwer",
-        "en": "heavy",
-        "ru": "\u0442\u044f\u0436\u0435\u043b\u044b\u0439",
+        "de": "Genau",
+        "en": "Exact",
+        "ru": "\u0422\u043e\u0447\u043d\u044b\u0439",
         "index": 24
     },
     {
-        "de": "einfach",
-        "en": "simple",
-        "ru": "\u043f\u0440\u043e\u0441\u0442\u043e\u0439",
+        "de": "Weit",
+        "en": "Wide",
+        "ru": "\u0428\u0438\u0440\u043e\u043a\u0438\u0439",
         "index": 25
     },
     {
-        "de": "m\u00f6glich",
-        "en": "possible",
-        "ru": "\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u044b\u0439",
+        "de": "Verschieden",
+        "en": "Different",
+        "ru": "\u0420\u0430\u0437\u043d\u044b\u0439",
         "index": 26
     },
     {
-        "de": "gleich",
-        "en": "same",
-        "ru": "\u043e\u0434\u0438\u043d\u0430\u043a\u043e\u0432\u044b\u0439",
+        "de": "Einfach",
+        "en": "Simple",
+        "ru": "\u041f\u0440\u043e\u0441\u0442\u043e\u0439",
         "index": 27
     },
     {
-        "de": "fr\u00fch",
-        "en": "early",
-        "ru": "\u0440\u0430\u043d\u043d\u0438\u0439",
+        "de": "Frei",
+        "en": "Free",
+        "ru": "\u0421\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439",
         "index": 28
     },
     {
-        "de": "klar",
-        "en": "clear",
-        "ru": "\u044f\u0441\u043d\u044b\u0439",
+        "de": "Eigen",
+        "en": "Own",
+        "ru": "\u0421\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
         "index": 29
     },
     {
-        "de": "sicher",
-        "en": "sure",
-        "ru": "\u0443\u0432\u0435\u0440\u0435\u043d\u043d\u044b\u0439",
+        "de": "Besonders",
+        "en": "Special",
+        "ru": "\u041e\u0441\u043e\u0431\u0435\u043d\u043d\u044b\u0439",
         "index": 30
     },
     {
-        "de": "best",
-        "en": "best",
-        "ru": "\u043b\u0443\u0447\u0448\u0438\u0439",
+        "de": "International",
+        "en": "International",
+        "ru": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439",
         "index": 31
     },
     {
-        "de": "n\u00e4chst",
-        "en": "next",
-        "ru": "\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439",
+        "de": "\u00d6ffentlich",
+        "en": "Public",
+        "ru": "\u041e\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
         "index": 32
     },
     {
-        "de": "direkt",
-        "en": "direct",
-        "ru": "\u043f\u0440\u044f\u043c\u043e\u0439",
+        "de": "Sicher",
+        "en": "Safe",
+        "ru": "\u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u044b\u0439",
         "index": 33
     },
     {
-        "de": "letzter",
-        "en": "last",
-        "ru": "\u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0439",
+        "de": "Hart",
+        "en": "Hard",
+        "ru": "\u0422\u0432\u0435\u0440\u0434\u044b\u0439",
         "index": 34
     },
     {
-        "de": "verschieden",
-        "en": "different",
-        "ru": "\u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0439",
+        "de": "Wahr",
+        "en": "True",
+        "ru": "\u0418\u0441\u0442\u0438\u043d\u043d\u044b\u0439",
         "index": 35
     },
     {
-        "de": "offen",
-        "en": "open",
-        "ru": "\u043e\u0442\u043a\u0440\u044b\u0442\u044b\u0439",
+        "de": "Voll",
+        "en": "Full",
+        "ru": "\u041f\u043e\u043b\u043d\u044b\u0439",
         "index": 36
     },
     {
-        "de": "voll",
-        "en": "full",
-        "ru": "\u043f\u043e\u043b\u043d\u044b\u0439",
+        "de": "Teuer",
+        "en": "Expensive",
+        "ru": "\u0414\u043e\u0440\u043e\u0433\u043e\u0439",
         "index": 37
     },
     {
-        "de": "besonder",
-        "en": "special",
-        "ru": "\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u044b\u0439",
+        "de": "Billig",
+        "en": "Cheap",
+        "ru": "\u0414\u0435\u0448\u0435\u0432\u044b\u0439",
         "index": 38
     },
     {
-        "de": "gewiss",
-        "en": "certain",
-        "ru": "\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0439",
+        "de": "Kalt",
+        "en": "Cold",
+        "ru": "\u0425\u043e\u043b\u043e\u0434\u043d\u044b\u0439",
         "index": 39
     },
     {
-        "de": "politisch",
-        "en": "political",
-        "ru": "\u043f\u043e\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "de": "Warm",
+        "en": "Warm",
+        "ru": "\u0422\u0435\u043f\u043b\u044b\u0439",
         "index": 40
     },
     {
-        "de": "gemeinsam",
-        "en": "common",
-        "ru": "\u043e\u0431\u0449\u0438\u0439",
+        "de": "Nah",
+        "en": "Near",
+        "ru": "\u0411\u043b\u0438\u0437\u043a\u0438\u0439",
         "index": 41
     },
     {
-        "de": "\u00f6ffentlich",
-        "en": "public",
-        "ru": "\u043f\u0443\u0431\u043b\u0438\u0447\u043d\u044b\u0439",
+        "de": "Offen",
+        "en": "Open",
+        "ru": "\u041e\u0442\u043a\u0440\u044b\u0442\u044b\u0439",
         "index": 42
     },
     {
-        "de": "leicht",
-        "en": "light",
-        "ru": "\u043b\u0435\u0433\u043a\u0438\u0439",
+        "de": "Tief",
+        "en": "Deep",
+        "ru": "\u0413\u043b\u0443\u0431\u043e\u043a\u0438\u0439",
         "index": 43
     },
     {
-        "de": "hart",
-        "en": "hard",
-        "ru": "\u0436\u0435\u0441\u0442\u043a\u0438\u0439",
+        "de": "Eng",
+        "en": "Narrow",
+        "ru": "\u0423\u0437\u043a\u0438\u0439",
         "index": 44
     },
     {
-        "de": "schwarz",
-        "en": "black",
-        "ru": "\u0447\u0435\u0440\u043d\u044b\u0439",
+        "de": "Breit",
+        "en": "Broad",
+        "ru": "\u0428\u0438\u0440\u043e\u043a\u0438\u0439",
         "index": 45
     },
     {
-        "de": "wei\u00df",
-        "en": "white",
-        "ru": "\u0431\u0435\u043b\u044b\u0439",
+        "de": "Dunkel",
+        "en": "Dark",
+        "ru": "\u0422\u0435\u043c\u043d\u044b\u0439",
         "index": 46
     },
     {
-        "de": "rot",
-        "en": "red",
-        "ru": "\u043a\u0440\u0430\u0441\u043d\u044b\u0439",
+        "de": "Hell",
+        "en": "Bright",
+        "ru": "\u0421\u0432\u0435\u0442\u043b\u044b\u0439",
         "index": 47
     },
     {
-        "de": "blau",
-        "en": "blue",
-        "ru": "\u0441\u0438\u043d\u0438\u0439",
+        "de": "Falsch",
+        "en": "False",
+        "ru": "\u041b\u043e\u0436\u043d\u044b\u0439",
         "index": 48
     },
     {
-        "de": "gr\u00fcn",
-        "en": "green",
-        "ru": "\u0437\u0435\u043b\u0435\u043d\u044b\u0439",
+        "de": "Letzte",
+        "en": "Last",
+        "ru": "\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0439",
         "index": 49
     },
     {
-        "de": "tief",
-        "en": "deep",
-        "ru": "\u0433\u043b\u0443\u0431\u043e\u043a\u0438\u0439",
+        "de": "Erste",
+        "en": "First",
+        "ru": "\u041f\u0435\u0440\u0432\u044b\u0439",
         "index": 50
     },
     {
-        "de": "einzeln",
-        "en": "individual",
-        "ru": "\u043e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0439",
+        "de": "Gleich",
+        "en": "Equal",
+        "ru": "\u0420\u0430\u0432\u043d\u044b\u0439",
         "index": 51
     },
     {
-        "de": "echt",
-        "en": "real",
-        "ru": "\u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u0439",
+        "de": "Bedeutend",
+        "en": "Significant",
+        "ru": "\u0417\u043d\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
         "index": 52
     },
     {
-        "de": "falsch",
-        "en": "false",
-        "ru": "\u043b\u043e\u0436\u043d\u044b\u0439",
+        "de": "Deutlich",
+        "en": "Clear",
+        "ru": "\u041e\u0442\u0447\u0435\u0442\u043b\u0438\u0432\u044b\u0439",
         "index": 53
     },
     {
-        "de": "fremd",
-        "en": "foreign",
-        "ru": "\u0447\u0443\u0436\u043e\u0439",
+        "de": "Allgemein",
+        "en": "General",
+        "ru": "\u041e\u0431\u0449\u0438\u0439",
         "index": 54
     },
     {
-        "de": "sozial",
-        "en": "social",
-        "ru": "\u0441\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
+        "de": "Pers\u00f6nlich",
+        "en": "Personal",
+        "ru": "\u041b\u0438\u0447\u043d\u044b\u0439",
         "index": 55
     },
     {
-        "de": "wirtschaftlich",
-        "en": "economic",
-        "ru": "\u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "de": "Wirtschaftlich",
+        "en": "Economic",
+        "ru": "\u042d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
         "index": 56
     },
     {
-        "de": "allgemein",
-        "en": "general",
-        "ru": "\u043e\u0431\u0449\u0438\u0439",
+        "de": "Einzeln",
+        "en": "Individual",
+        "ru": "\u041e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0439",
         "index": 57
     },
     {
-        "de": "komplett",
-        "en": "complete",
-        "ru": "\u043f\u043e\u043b\u043d\u044b\u0439",
+        "de": "Sozial",
+        "en": "Social",
+        "ru": "\u0421\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
         "index": 58
     },
     {
-        "de": "modern",
-        "en": "modern",
-        "ru": "\u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439",
+        "de": "Schwarz",
+        "en": "Black",
+        "ru": "\u0427\u0435\u0440\u043d\u044b\u0439",
         "index": 59
     },
     {
-        "de": "international",
-        "en": "international",
-        "ru": "\u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439",
+        "de": "Wei\u00df",
+        "en": "White",
+        "ru": "\u0411\u0435\u043b\u044b\u0439",
         "index": 60
     },
     {
-        "de": "aktuell",
-        "en": "current",
-        "ru": "\u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439",
+        "de": "Rot",
+        "en": "Red",
+        "ru": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439",
         "index": 61
     },
     {
-        "de": "notwendig",
-        "en": "necessary",
-        "ru": "\u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0439",
+        "de": "Gr\u00fcn",
+        "en": "Green",
+        "ru": "\u0417\u0435\u043b\u0435\u043d\u044b\u0439",
         "index": 62
     },
     {
-        "de": "fest",
-        "en": "solid",
-        "ru": "\u0442\u0432\u0435\u0440\u0434\u044b\u0439",
+        "de": "Blau",
+        "en": "Blue",
+        "ru": "\u0421\u0438\u043d\u0438\u0439",
         "index": 63
     },
     {
-        "de": "\u00e4hnlich",
-        "en": "similar",
-        "ru": "\u043f\u043e\u0445\u043e\u0436\u0438\u0439",
+        "de": "Gelb",
+        "en": "Yellow",
+        "ru": "\u0416\u0435\u043b\u0442\u044b\u0439",
         "index": 64
     },
     {
-        "de": "warm",
-        "en": "warm",
-        "ru": "\u0442\u0435\u043f\u043b\u044b\u0439",
+        "de": "Braun",
+        "en": "Brown",
+        "ru": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439",
         "index": 65
     },
     {
-        "de": "kalt",
-        "en": "cold",
-        "ru": "\u0445\u043e\u043b\u043e\u0434\u043d\u044b\u0439",
+        "de": "Grau",
+        "en": "Gray",
+        "ru": "\u0421\u0435\u0440\u044b\u0439",
         "index": 66
     },
     {
-        "de": "dunkel",
-        "en": "dark",
-        "ru": "\u0442\u0435\u043c\u043d\u044b\u0439",
+        "de": "Leer",
+        "en": "Empty",
+        "ru": "\u041f\u0443\u0441\u0442\u043e\u0439",
         "index": 67
     },
     {
-        "de": "hell",
-        "en": "bright",
-        "ru": "\u0441\u0432\u0435\u0442\u043b\u044b\u0439",
+        "de": "Rein",
+        "en": "Pure",
+        "ru": "\u0427\u0438\u0441\u0442\u044b\u0439",
         "index": 68
     },
     {
-        "de": "interessant",
-        "en": "interesting",
-        "ru": "\u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u044b\u0439",
+        "de": "Sauber",
+        "en": "Clean",
+        "ru": "\u0427\u0438\u0441\u0442\u044b\u0439",
         "index": 69
     },
     {
-        "de": "ruhig",
-        "en": "quiet",
-        "ru": "\u0442\u0438\u0445\u0438\u0439",
+        "de": "Schmutzig",
+        "en": "Dirty",
+        "ru": "\u0413\u0440\u044f\u0437\u043d\u044b\u0439",
         "index": 70
     },
     {
-        "de": "wild",
-        "en": "wild",
-        "ru": "\u0434\u0438\u043a\u0438\u0439",
+        "de": "Ruhig",
+        "en": "Quiet",
+        "ru": "\u0421\u043f\u043e\u043a\u043e\u0439\u043d\u044b\u0439",
         "index": 71
     },
     {
-        "de": "reich",
-        "en": "rich",
-        "ru": "\u0431\u043e\u0433\u0430\u0442\u044b\u0439",
+        "de": "Laut",
+        "en": "Loud",
+        "ru": "\u0413\u0440\u043e\u043c\u043a\u0438\u0439",
         "index": 72
     },
     {
-        "de": "arm",
-        "en": "poor",
-        "ru": "\u0431\u0435\u0434\u043d\u044b\u0439",
+        "de": "Leise",
+        "en": "Quiet",
+        "ru": "\u0422\u0438\u0445\u0438\u0439",
         "index": 73
     },
     {
-        "de": "stolz",
-        "en": "proud",
-        "ru": "\u0433\u043e\u0440\u0434\u044b\u0439",
+        "de": "Gesund",
+        "en": "Healthy",
+        "ru": "\u0417\u0434\u043e\u0440\u043e\u0432\u044b\u0439",
         "index": 74
     },
     {
-        "de": "traurig",
-        "en": "sad",
-        "ru": "\u0433\u0440\u0443\u0441\u0442\u043d\u044b\u0439",
+        "de": "Krank",
+        "en": "Sick",
+        "ru": "\u0411\u043e\u043b\u044c\u043d\u043e\u0439",
         "index": 75
     },
     {
-        "de": "froh",
-        "en": "glad",
-        "ru": "\u0440\u0430\u0434\u043e\u0441\u0442\u043d\u044b\u0439",
+        "de": "Tot",
+        "en": "Dead",
+        "ru": "\u041c\u0435\u0440\u0442\u0432\u044b\u0439",
         "index": 76
     },
     {
-        "de": "gl\u00fccklich",
-        "en": "happy",
-        "ru": "\u0441\u0447\u0430\u0441\u0442\u043b\u0438\u0432\u044b\u0439",
+        "de": "Lebendig",
+        "en": "Alive",
+        "ru": "\u0416\u0438\u0432\u043e\u0439",
         "index": 77
     },
     {
-        "de": "krank",
-        "en": "sick",
-        "ru": "\u0431\u043e\u043b\u044c\u043d\u043e\u0439",
+        "de": "Reich",
+        "en": "Rich",
+        "ru": "\u0411\u043e\u0433\u0430\u0442\u044b\u0439",
         "index": 78
     },
     {
-        "de": "gesund",
-        "en": "healthy",
-        "ru": "\u0437\u0434\u043e\u0440\u043e\u0432\u044b\u0439",
+        "de": "Arm",
+        "en": "Poor",
+        "ru": "\u0411\u0435\u0434\u043d\u044b\u0439",
         "index": 79
     },
     {
-        "de": "breit",
-        "en": "wide",
-        "ru": "\u0448\u0438\u0440\u043e\u043a\u0438\u0439",
+        "de": "Gl\u00fccklich",
+        "en": "Happy",
+        "ru": "\u0421\u0447\u0430\u0441\u0442\u043b\u0438\u0432\u044b\u0439",
         "index": 80
     },
     {
-        "de": "schmal",
-        "en": "narrow",
-        "ru": "\u0443\u0437\u043a\u0438\u0439",
+        "de": "Traurig",
+        "en": "Sad",
+        "ru": "\u0413\u0440\u0443\u0441\u0442\u043d\u044b\u0439",
         "index": 81
     },
     {
-        "de": "teuer",
-        "en": "expensive",
-        "ru": "\u0434\u043e\u0440\u043e\u0433\u043e\u0439",
+        "de": "M\u00fcde",
+        "en": "Tired",
+        "ru": "\u0423\u0441\u0442\u0430\u0432\u0448\u0438\u0439",
         "index": 82
     },
     {
-        "de": "billig",
-        "en": "cheap",
-        "ru": "\u0434\u0435\u0448\u0435\u0432\u044b\u0439",
+        "de": "Wach",
+        "en": "Awake",
+        "ru": "\u0411\u043e\u0434\u0440\u044b\u0439",
         "index": 83
     },
     {
-        "de": "leer",
-        "en": "empty",
-        "ru": "\u043f\u0443\u0441\u0442\u043e\u0439",
+        "de": "S\u00fc\u00df",
+        "en": "Sweet",
+        "ru": "\u0421\u043b\u0430\u0434\u043a\u0438\u0439",
         "index": 84
     },
     {
-        "de": "scharf",
-        "en": "sharp",
-        "ru": "\u043e\u0441\u0442\u0440\u044b\u0439",
+        "de": "Sauer",
+        "en": "Sour",
+        "ru": "\u041a\u0438\u0441\u043b\u044b\u0439",
         "index": 85
     },
     {
-        "de": "laut",
-        "en": "loud",
-        "ru": "\u0433\u0440\u043e\u043c\u043a\u0438\u0439",
+        "de": "Scharf",
+        "en": "Sharp",
+        "ru": "\u041e\u0441\u0442\u0440\u044b\u0439",
         "index": 86
     },
     {
-        "de": "leise",
-        "en": "quiet",
-        "ru": "\u0442\u0438\u0445\u0438\u0439",
+        "de": "Bitter",
+        "en": "Bitter",
+        "ru": "\u0413\u043e\u0440\u044c\u043a\u0438\u0439",
         "index": 87
     },
     {
-        "de": "hart",
-        "en": "hard",
-        "ru": "\u0442\u0432\u0435\u0440\u0434\u044b\u0439",
+        "de": "Dick",
+        "en": "Thick",
+        "ru": "\u0422\u043e\u043b\u0441\u0442\u044b\u0439",
         "index": 88
     },
     {
-        "de": "weich",
-        "en": "soft",
-        "ru": "\u043c\u044f\u0433\u043a\u0438\u0439",
+        "de": "D\u00fcnn",
+        "en": "Thin",
+        "ru": "\u0422\u043e\u043d\u043a\u0438\u0439",
         "index": 89
     },
     {
-        "de": "s\u00fc\u00df",
-        "en": "sweet",
-        "ru": "\u0441\u043b\u0430\u0434\u043a\u0438\u0439",
+        "de": "Fett",
+        "en": "Fat",
+        "ru": "\u0416\u0438\u0440\u043d\u044b\u0439",
         "index": 90
     },
     {
-        "de": "sauer",
-        "en": "sour",
-        "ru": "\u043a\u0438\u0441\u043b\u044b\u0439",
+        "de": "Weich",
+        "en": "Soft",
+        "ru": "\u041c\u044f\u0433\u043a\u0438\u0439",
         "index": 91
     },
     {
-        "de": "sauber",
-        "en": "clean",
-        "ru": "\u0447\u0438\u0441\u0442\u044b\u0439",
+        "de": "Trocken",
+        "en": "Dry",
+        "ru": "\u0421\u0443\u0445\u043e\u0439",
         "index": 92
     },
     {
-        "de": "schmutzig",
-        "en": "dirty",
-        "ru": "\u0433\u0440\u044f\u0437\u043d\u044b\u0439",
+        "de": "Nass",
+        "en": "Wet",
+        "ru": "\u041c\u043e\u043a\u0440\u044b\u0439",
         "index": 93
     },
     {
-        "de": "dick",
-        "en": "thick",
-        "ru": "\u0442\u043e\u043b\u0441\u0442\u044b\u0439",
+        "de": "Feucht",
+        "en": "Damp",
+        "ru": "\u0412\u043b\u0430\u0436\u043d\u044b\u0439",
         "index": 94
     },
     {
-        "de": "d\u00fcnn",
-        "en": "thin",
-        "ru": "\u0442\u043e\u043d\u043a\u0438\u0439",
+        "de": "Rund",
+        "en": "Round",
+        "ru": "\u041a\u0440\u0443\u0433\u043b\u044b\u0439",
         "index": 95
     },
     {
-        "de": "klug",
-        "en": "smart",
-        "ru": "\u0443\u043c\u043d\u044b\u0439",
+        "de": "Flach",
+        "en": "Flat",
+        "ru": "\u041f\u043b\u043e\u0441\u043a\u0438\u0439",
         "index": 96
     },
     {
-        "de": "dumm",
-        "en": "stupid",
-        "ru": "\u0433\u043b\u0443\u043f\u044b\u0439",
+        "de": "Gerade",
+        "en": "Straight",
+        "ru": "\u041f\u0440\u044f\u043c\u043e\u0439",
         "index": 97
     },
     {
-        "de": "m\u00fcde",
-        "en": "tired",
-        "ru": "\u0443\u0441\u0442\u0430\u043b\u044b\u0439",
+        "de": "Schief",
+        "en": "Crooked",
+        "ru": "\u041a\u0440\u0438\u0432\u043e\u0439",
         "index": 98
     },
     {
-        "de": "wach",
-        "en": "awake",
-        "ru": "\u0431\u043e\u0434\u0440\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439",
+        "de": "Lustig",
+        "en": "Funny",
+        "ru": "\u0412\u0435\u0441\u0435\u043b\u044b\u0439",
         "index": 99
     },
     {
-        "de": "fertig",
-        "en": "finished",
-        "ru": "\u0433\u043e\u0442\u043e\u0432\u044b\u0439",
+        "de": "Ernst",
+        "en": "Serious",
+        "ru": "\u0421\u0435\u0440\u044c\u0435\u0437\u043d\u044b\u0439",
         "index": 100
+    },
+    {
+        "de": "Freundlich",
+        "en": "Friendly",
+        "ru": "\u0414\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u044b\u0439",
+        "index": 101
+    },
+    {
+        "de": "B\u00f6se",
+        "en": "Evil",
+        "ru": "\u0417\u043b\u043e\u0439",
+        "index": 102
+    },
+    {
+        "de": "W\u00fctend",
+        "en": "Angry",
+        "ru": "\u0421\u0435\u0440\u0434\u0438\u0442\u044b\u0439",
+        "index": 103
+    },
+    {
+        "de": "Gef\u00e4hrlich",
+        "en": "Dangerous",
+        "ru": "\u041e\u043f\u0430\u0441\u043d\u044b\u0439",
+        "index": 104
+    },
+    {
+        "de": "Selten",
+        "en": "Rare",
+        "ru": "\u0420\u0435\u0434\u043a\u0438\u0439",
+        "index": 105
+    },
+    {
+        "de": "H\u00e4ufig",
+        "en": "Frequent",
+        "ru": "\u0427\u0430\u0441\u0442\u044b\u0439",
+        "index": 106
+    },
+    {
+        "de": "Normal",
+        "en": "Normal",
+        "ru": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 107
+    },
+    {
+        "de": "Nat\u00fcrlich",
+        "en": "Natural",
+        "ru": "\u0415\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 108
+    },
+    {
+        "de": "Modern",
+        "en": "Modern",
+        "ru": "\u0421\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439",
+        "index": 109
+    },
+    {
+        "de": "Historisch",
+        "en": "Historical",
+        "ru": "\u0418\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 110
+    },
+    {
+        "de": "Aktuell",
+        "en": "Current",
+        "ru": "\u0410\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 111
+    },
+    {
+        "de": "Vergangen",
+        "en": "Past",
+        "ru": "\u041f\u0440\u043e\u0448\u043b\u044b\u0439",
+        "index": 112
+    },
+    {
+        "de": "Zuk\u00fcnftig",
+        "en": "Future",
+        "ru": "\u0411\u0443\u0434\u0443\u0449\u0438\u0439",
+        "index": 113
+    },
+    {
+        "de": "Europ\u00e4isch",
+        "en": "European",
+        "ru": "\u0415\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u0438\u0439",
+        "index": 114
+    },
+    {
+        "de": "Deutsch",
+        "en": "German",
+        "ru": "\u041d\u0435\u043c\u0435\u0446\u043a\u0438\u0439",
+        "index": 115
+    },
+    {
+        "de": "Amerikanisch",
+        "en": "American",
+        "ru": "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0439",
+        "index": 116
+    },
+    {
+        "de": "Franz\u00f6sisch",
+        "en": "French",
+        "ru": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438\u0439",
+        "index": 117
+    },
+    {
+        "de": "Russisch",
+        "en": "Russian",
+        "ru": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "index": 118
+    },
+    {
+        "de": "Englisch",
+        "en": "English",
+        "ru": "\u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439",
+        "index": 119
+    },
+    {
+        "de": "Schweizerisch",
+        "en": "Swiss",
+        "ru": "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0441\u043a\u0438\u0439",
+        "index": 120
+    },
+    {
+        "de": "\u00d6sterreichisch",
+        "en": "Austrian",
+        "ru": "\u0410\u0432\u0441\u0442\u0440\u0438\u0439\u0441\u043a\u0438\u0439",
+        "index": 121
+    },
+    {
+        "de": "Hei\u00df",
+        "en": "Hot",
+        "ru": "\u0413\u043e\u0440\u044f\u0447\u0438\u0439",
+        "index": 122
+    },
+    {
+        "de": "K\u00fchl",
+        "en": "Cool",
+        "ru": "\u041f\u0440\u043e\u0445\u043b\u0430\u0434\u043d\u044b\u0439",
+        "index": 123
+    },
+    {
+        "de": "Frisch",
+        "en": "Fresh",
+        "ru": "\u0421\u0432\u0435\u0436\u0438\u0439",
+        "index": 124
+    },
+    {
+        "de": "Kaputt",
+        "en": "Broken",
+        "ru": "\u0421\u043b\u043e\u043c\u0430\u043d\u043d\u044b\u0439",
+        "index": 125
+    },
+    {
+        "de": "Fertig",
+        "en": "Finished",
+        "ru": "\u0413\u043e\u0442\u043e\u0432\u044b\u0439",
+        "index": 126
+    },
+    {
+        "de": "Bereit",
+        "en": "Ready",
+        "ru": "\u0413\u043e\u0442\u043e\u0432\u044b\u0439",
+        "index": 127
+    },
+    {
+        "de": "Allein",
+        "en": "Alone",
+        "ru": "\u041e\u0434\u0438\u043d\u043e\u043a\u0438\u0439",
+        "index": 128
+    },
+    {
+        "de": "Gemeinsam",
+        "en": "Common",
+        "ru": "\u0421\u043e\u0432\u043c\u0435\u0441\u0442\u043d\u044b\u0439",
+        "index": 129
+    },
+    {
+        "de": "\u00c4hnlich",
+        "en": "Similar",
+        "ru": "\u041f\u043e\u0445\u043e\u0436\u0438\u0439",
+        "index": 130
+    },
+    {
+        "de": "Unterschiedlich",
+        "en": "Different",
+        "ru": "\u0420\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0439",
+        "index": 131
+    },
+    {
+        "de": "Gleichzeitig",
+        "en": "Simultaneous",
+        "ru": "\u041e\u0434\u043d\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439",
+        "index": 132
+    },
+    {
+        "de": "Einzig",
+        "en": "Only",
+        "ru": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 133
+    },
+    {
+        "de": "V\u00f6llig",
+        "en": "Complete",
+        "ru": "\u041f\u043e\u043b\u043d\u044b\u0439",
+        "index": 134
+    },
+    {
+        "de": "Absolut",
+        "en": "Absolute",
+        "ru": "\u0410\u0431\u0441\u043e\u043b\u044e\u0442\u043d\u044b\u0439",
+        "index": 135
+    },
+    {
+        "de": "Relativ",
+        "en": "Relative",
+        "ru": "\u041e\u0442\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 136
+    },
+    {
+        "de": "Typisch",
+        "en": "Typical",
+        "ru": "\u0422\u0438\u043f\u0438\u0447\u043d\u044b\u0439",
+        "index": 137
+    },
+    {
+        "de": "Traditionell",
+        "en": "Traditional",
+        "ru": "\u0422\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0439",
+        "index": 138
+    },
+    {
+        "de": "Klassisch",
+        "en": "Classical",
+        "ru": "\u041a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 139
+    },
+    {
+        "de": "Wissenschaftlich",
+        "en": "Scientific",
+        "ru": "\u041d\u0430\u0443\u0447\u043d\u044b\u0439",
+        "index": 140
+    },
+    {
+        "de": "Technisch",
+        "en": "Technical",
+        "ru": "\u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 141
+    },
+    {
+        "de": "Praktisch",
+        "en": "Practical",
+        "ru": "\u041f\u0440\u0430\u043a\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 142
+    },
+    {
+        "de": "Theoretisch",
+        "en": "Theoretical",
+        "ru": "\u0422\u0435\u043e\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 143
+    },
+    {
+        "de": "Schwierig",
+        "en": "Difficult",
+        "ru": "\u0421\u043b\u043e\u0436\u043d\u044b\u0439",
+        "index": 144
+    },
+    {
+        "de": "Kompliziert",
+        "en": "Complicated",
+        "ru": "\u0421\u043b\u043e\u0436\u043d\u044b\u0439",
+        "index": 145
+    },
+    {
+        "de": "Komplett",
+        "en": "Complete",
+        "ru": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u043d\u044b\u0439",
+        "index": 146
+    },
+    {
+        "de": "Gesamt",
+        "en": "Entire",
+        "ru": "\u0412\u0435\u0441\u044c",
+        "index": 147
+    },
+    {
+        "de": "Halbe",
+        "en": "Half",
+        "ru": "\u041f\u043e\u043b\u043e\u0432\u0438\u043d\u043d\u044b\u0439",
+        "index": 148
+    },
+    {
+        "de": "Ganz",
+        "en": "Whole",
+        "ru": "\u0426\u0435\u043b\u044b\u0439",
+        "index": 149
+    },
+    {
+        "de": "Doppelt",
+        "en": "Double",
+        "ru": "\u0414\u0432\u043e\u0439\u043d\u043e\u0439",
+        "index": 150
+    },
+    {
+        "de": "Fest",
+        "en": "Firm",
+        "ru": "\u041a\u0440\u0435\u043f\u043a\u0438\u0439",
+        "index": 151
+    },
+    {
+        "de": "Locker",
+        "en": "Loose",
+        "ru": "\u0421\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439",
+        "index": 152
+    },
+    {
+        "de": "Streng",
+        "en": "Strict",
+        "ru": "\u0421\u0442\u0440\u043e\u0433\u0438\u0439",
+        "index": 153
+    },
+    {
+        "de": "Mild",
+        "en": "Mild",
+        "ru": "\u041c\u044f\u0433\u043a\u0438\u0439",
+        "index": 154
+    },
+    {
+        "de": "Stolz",
+        "en": "Proud",
+        "ru": "\u0413\u043e\u0440\u0434\u044b\u0439",
+        "index": 155
+    },
+    {
+        "de": "Sch\u00fcchtern",
+        "en": "Shy",
+        "ru": "\u0417\u0430\u0441\u0442\u0435\u043d\u0447\u0438\u0432\u044b\u0439",
+        "index": 156
+    },
+    {
+        "de": "Mutig",
+        "en": "Brave",
+        "ru": "\u0421\u043c\u0435\u043b\u044b\u0439",
+        "index": 157
+    },
+    {
+        "de": "Feige",
+        "en": "Cowardly",
+        "ru": "\u0422\u0440\u0443\u0441\u043b\u0438\u0432\u044b\u0439",
+        "index": 158
+    },
+    {
+        "de": "Dumm",
+        "en": "Stupid",
+        "ru": "\u0413\u043b\u0443\u043f\u044b\u0439",
+        "index": 159
+    },
+    {
+        "de": "Klug",
+        "en": "Smart",
+        "ru": "\u0423\u043c\u043d\u044b\u0439",
+        "index": 160
+    },
+    {
+        "de": "Intelligent",
+        "en": "Intelligent",
+        "ru": "\u0418\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 161
+    },
+    {
+        "de": "Weise",
+        "en": "Wise",
+        "ru": "\u041c\u0443\u0434\u0440\u044b\u0439",
+        "index": 162
+    },
+    {
+        "de": "Verr\u00fcckt",
+        "en": "Crazy",
+        "ru": "\u0421\u0443\u043c\u0430\u0441\u0448\u0435\u0434\u0448\u0438\u0439",
+        "index": 163
+    },
+    {
+        "de": "Seltsam",
+        "en": "Strange",
+        "ru": "\u0421\u0442\u0440\u0430\u043d\u043d\u044b\u0439",
+        "index": 164
+    },
+    {
+        "de": "Komisch",
+        "en": "Funny",
+        "ru": "\u0421\u043c\u0435\u0448\u043d\u043e\u0439",
+        "index": 165
+    },
+    {
+        "de": "Spannend",
+        "en": "Exciting",
+        "ru": "\u0417\u0430\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u044e\u0449\u0438\u0439",
+        "index": 166
+    },
+    {
+        "de": "Langweilig",
+        "en": "Boring",
+        "ru": "\u0421\u043a\u0443\u0447\u043d\u044b\u0439",
+        "index": 167
+    },
+    {
+        "de": "Interessant",
+        "en": "Interesting",
+        "ru": "\u0418\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u044b\u0439",
+        "index": 168
+    },
+    {
+        "de": "Wunderbar",
+        "en": "Wonderful",
+        "ru": "\u0427\u0443\u0434\u0435\u0441\u043d\u044b\u0439",
+        "index": 169
+    },
+    {
+        "de": "Schrecklich",
+        "en": "Terrible",
+        "ru": "\u0423\u0436\u0430\u0441\u043d\u044b\u0439",
+        "index": 170
+    },
+    {
+        "de": "Furchtbar",
+        "en": "Awful",
+        "ru": "\u0421\u0442\u0440\u0430\u0448\u043d\u044b\u0439",
+        "index": 171
+    },
+    {
+        "de": "Toll",
+        "en": "Great",
+        "ru": "\u041a\u043b\u0430\u0441\u0441\u043d\u044b\u0439",
+        "index": 172
+    },
+    {
+        "de": "Fantastisch",
+        "en": "Fantastic",
+        "ru": "\u0424\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 173
+    },
+    {
+        "de": "Perfekt",
+        "en": "Perfect",
+        "ru": "\u0418\u0434\u0435\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 174
+    },
+    {
+        "de": "Ausgezeichnet",
+        "en": "Excellent",
+        "ru": "\u041e\u0442\u043b\u0438\u0447\u043d\u044b\u0439",
+        "index": 175
+    },
+    {
+        "de": "Hervorragend",
+        "en": "Outstanding",
+        "ru": "\u0412\u044b\u0434\u0430\u044e\u0449\u0438\u0439\u0441\u044f",
+        "index": 176
+    },
+    {
+        "de": "Riesig",
+        "en": "Huge",
+        "ru": "\u041e\u0433\u0440\u043e\u043c\u043d\u044b\u0439",
+        "index": 177
+    },
+    {
+        "de": "Winzig",
+        "en": "Tiny",
+        "ru": "\u041a\u0440\u043e\u0448\u0435\u0447\u043d\u044b\u0439",
+        "index": 178
+    },
+    {
+        "de": "Nett",
+        "en": "Nice",
+        "ru": "\u041c\u0438\u043b\u044b\u0439",
+        "index": 179
+    },
+    {
+        "de": "Brav",
+        "en": "Well-Behaved",
+        "ru": "\u041f\u043e\u0441\u043b\u0443\u0448\u043d\u044b\u0439",
+        "index": 180
+    },
+    {
+        "de": "H\u00f6flich",
+        "en": "Polite",
+        "ru": "\u0412\u0435\u0436\u043b\u0438\u0432\u044b\u0439",
+        "index": 181
+    },
+    {
+        "de": "Unh\u00f6flich",
+        "en": "Impolite",
+        "ru": "\u041d\u0435\u0432\u0435\u0436\u043b\u0438\u0432\u044b\u0439",
+        "index": 182
+    },
+    {
+        "de": "Arrogant",
+        "en": "Arrogant",
+        "ru": "\u0412\u044b\u0441\u043e\u043a\u043e\u043c\u0435\u0440\u043d\u044b\u0439",
+        "index": 183
+    },
+    {
+        "de": "Bescheiden",
+        "en": "Modest",
+        "ru": "\u0421\u043a\u0440\u043e\u043c\u043d\u044b\u0439",
+        "index": 184
+    },
+    {
+        "de": "Sympathisch",
+        "en": "Likable",
+        "ru": "\u0421\u0438\u043c\u043f\u0430\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 185
+    },
+    {
+        "de": "Unsympathisch",
+        "en": "Unlikable",
+        "ru": "\u041d\u0435\u0441\u0438\u043c\u043f\u0430\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 186
+    },
+    {
+        "de": "Ehrlich",
+        "en": "Honest",
+        "ru": "\u0427\u0435\u0441\u0442\u043d\u044b\u0439",
+        "index": 187
+    },
+    {
+        "de": "Unehrlich",
+        "en": "Dishonest",
+        "ru": "\u041d\u0435\u0447\u0435\u0441\u0442\u043d\u044b\u0439",
+        "index": 188
+    },
+    {
+        "de": "Treu",
+        "en": "Faithful",
+        "ru": "\u0412\u0435\u0440\u043d\u044b\u0439",
+        "index": 189
+    },
+    {
+        "de": "Untreu",
+        "en": "Unfaithful",
+        "ru": "\u041d\u0435\u0432\u0435\u0440\u043d\u044b\u0439",
+        "index": 190
+    },
+    {
+        "de": "P\u00fcnktlich",
+        "en": "Punctual",
+        "ru": "\u041f\u0443\u043d\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 191
+    },
+    {
+        "de": "Unp\u00fcnktlich",
+        "en": "Unpunctual",
+        "ru": "\u041d\u0435\u043f\u0443\u043d\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 192
+    },
+    {
+        "de": "Zuverl\u00e4ssig",
+        "en": "Reliable",
+        "ru": "\u041d\u0430\u0434\u0435\u0436\u043d\u044b\u0439",
+        "index": 193
+    },
+    {
+        "de": "Unzuverl\u00e4ssig",
+        "en": "Unreliable",
+        "ru": "\u041d\u0435\u043d\u0430\u0434\u0435\u0436\u043d\u044b\u0439",
+        "index": 194
+    },
+    {
+        "de": "Faul",
+        "en": "Lazy",
+        "ru": "\u041b\u0435\u043d\u0438\u0432\u044b\u0439",
+        "index": 195
+    },
+    {
+        "de": "Flei\u00dfig",
+        "en": "Hardworking",
+        "ru": "\u041f\u0440\u0438\u0441\u0442\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 196
+    },
+    {
+        "de": "T\u00e4glich",
+        "en": "Daily",
+        "ru": "\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0439",
+        "index": 197
+    },
+    {
+        "de": "W\u00f6chentlich",
+        "en": "Weekly",
+        "ru": "\u0415\u0436\u0435\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 198
+    },
+    {
+        "de": "Monatlich",
+        "en": "Monthly",
+        "ru": "\u0415\u0436\u0435\u043c\u0435\u0441\u044f\u0447\u043d\u044b\u0439",
+        "index": 199
+    },
+    {
+        "de": "J\u00e4hrlich",
+        "en": "Annual",
+        "ru": "\u0415\u0436\u0435\u0433\u043e\u0434\u043d\u044b\u0439",
+        "index": 200
+    },
+    {
+        "de": "Ewig",
+        "en": "Eternal",
+        "ru": "\u0412\u0435\u0447\u043d\u044b\u0439",
+        "index": 201
+    },
+    {
+        "de": "Zeitlich",
+        "en": "Temporal",
+        "ru": "\u0412\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439",
+        "index": 202
+    },
+    {
+        "de": "R\u00e4umlich",
+        "en": "Spatial",
+        "ru": "\u041f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 203
+    },
+    {
+        "de": "K\u00f6rperlich",
+        "en": "Physical",
+        "ru": "\u0422\u0435\u043b\u0435\u0441\u043d\u044b\u0439",
+        "index": 204
+    },
+    {
+        "de": "Geistig",
+        "en": "Mental",
+        "ru": "\u0414\u0443\u0445\u043e\u0432\u043d\u044b\u0439",
+        "index": 205
+    },
+    {
+        "de": "Seelisch",
+        "en": "Emotional",
+        "ru": "\u0414\u0443\u0448\u0435\u0432\u043d\u044b\u0439",
+        "index": 206
+    },
+    {
+        "de": "Geduldig",
+        "en": "Patient",
+        "ru": "\u0422\u0435\u0440\u043f\u0435\u043b\u0438\u0432\u044b\u0439",
+        "index": 207
+    },
+    {
+        "de": "Ungeduldig",
+        "en": "Impatient",
+        "ru": "\u041d\u0435\u0442\u0435\u0440\u043f\u0435\u043b\u0438\u0432\u044b\u0439",
+        "index": 208
+    },
+    {
+        "de": "Zufrieden",
+        "en": "Satisfied",
+        "ru": "\u0414\u043e\u0432\u043e\u043b\u044c\u043d\u044b\u0439",
+        "index": 209
+    },
+    {
+        "de": "Unzufrieden",
+        "en": "Dissatisfied",
+        "ru": "\u041d\u0435\u0434\u043e\u0432\u043e\u043b\u044c\u043d\u044b\u0439",
+        "index": 210
+    },
+    {
+        "de": "Schuldig",
+        "en": "Guilty",
+        "ru": "\u0412\u0438\u043d\u043e\u0432\u0430\u0442\u044b\u0439",
+        "index": 211
+    },
+    {
+        "de": "Unschuldig",
+        "en": "Innocent",
+        "ru": "\u041d\u0435\u0432\u0438\u043d\u043e\u0432\u043d\u044b\u0439",
+        "index": 212
+    },
+    {
+        "de": "Verantwortlich",
+        "en": "Responsible",
+        "ru": "\u041e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 213
+    },
+    {
+        "de": "Abh\u00e4ngig",
+        "en": "Dependent",
+        "ru": "\u0417\u0430\u0432\u0438\u0441\u0438\u043c\u044b\u0439",
+        "index": 214
+    },
+    {
+        "de": "Unabh\u00e4ngig",
+        "en": "Independent",
+        "ru": "\u041d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u044b\u0439",
+        "index": 215
+    },
+    {
+        "de": "Sichtbar",
+        "en": "Visible",
+        "ru": "\u0412\u0438\u0434\u0438\u043c\u044b\u0439",
+        "index": 216
+    },
+    {
+        "de": "Unsichtbar",
+        "en": "Invisible",
+        "ru": "\u041d\u0435\u0432\u0438\u0434\u0438\u043c\u044b\u0439",
+        "index": 217
+    },
+    {
+        "de": "Verst\u00e4ndlich",
+        "en": "Understandable",
+        "ru": "\u041f\u043e\u043d\u044f\u0442\u043d\u044b\u0439",
+        "index": 218
+    },
+    {
+        "de": "Unverst\u00e4ndlich",
+        "en": "Incomprehensible",
+        "ru": "\u041d\u0435\u043f\u043e\u043d\u044f\u0442\u043d\u044b\u0439",
+        "index": 219
+    },
+    {
+        "de": "Glaubw\u00fcrdig",
+        "en": "Credible",
+        "ru": "\u041f\u0440\u0430\u0432\u0434\u043e\u043f\u043e\u0434\u043e\u0431\u043d\u044b\u0439",
+        "index": 220
+    },
+    {
+        "de": "Unglaublich",
+        "en": "Incredible",
+        "ru": "\u041d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u044b\u0439",
+        "index": 221
+    },
+    {
+        "de": "N\u00fctzlich",
+        "en": "Useful",
+        "ru": "\u041f\u043e\u043b\u0435\u0437\u043d\u044b\u0439",
+        "index": 222
+    },
+    {
+        "de": "Nutzlos",
+        "en": "Useless",
+        "ru": "\u0411\u0435\u0441\u043f\u043e\u043b\u0435\u0437\u043d\u044b\u0439",
+        "index": 223
+    },
+    {
+        "de": "Hilfreich",
+        "en": "Helpful",
+        "ru": "\u041f\u043e\u043b\u0435\u0437\u043d\u044b\u0439",
+        "index": 224
+    },
+    {
+        "de": "Sch\u00e4dlich",
+        "en": "Harmful",
+        "ru": "\u0412\u0440\u0435\u0434\u043d\u044b\u0439",
+        "index": 225
+    },
+    {
+        "de": "Wertvoll",
+        "en": "Valuable",
+        "ru": "\u0426\u0435\u043d\u043d\u044b\u0439",
+        "index": 226
+    },
+    {
+        "de": "Wertlos",
+        "en": "Worthless",
+        "ru": "\u041d\u0438\u0447\u0435\u0433\u043e \u041d\u0435 \u0421\u0442\u043e\u044f\u0449\u0438\u0439",
+        "index": 227
+    },
+    {
+        "de": "Erfolgreich",
+        "en": "Successful",
+        "ru": "\u0423\u0441\u043f\u0435\u0448\u043d\u044b\u0439",
+        "index": 228
+    },
+    {
+        "de": "Erfolglos",
+        "en": "Unsuccessful",
+        "ru": "\u0411\u0435\u0437\u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439",
+        "index": 229
+    },
+    {
+        "de": "Gew\u00f6hnlich",
+        "en": "Usual",
+        "ru": "\u041e\u0431\u044b\u0447\u043d\u044b\u0439",
+        "index": 230
+    },
+    {
+        "de": "Ungew\u00f6hnlich",
+        "en": "Unusual",
+        "ru": "\u041d\u0435\u043e\u0431\u044b\u0447\u043d\u044b\u0439",
+        "index": 231
+    },
+    {
+        "de": "Unbekannt",
+        "en": "Unknown",
+        "ru": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439",
+        "index": 232
+    },
+    {
+        "de": "Ber\u00fchmt",
+        "en": "Famous",
+        "ru": "\u0417\u043d\u0430\u043c\u0435\u043d\u0438\u0442\u044b\u0439",
+        "index": 233
+    },
+    {
+        "de": "Beliebt",
+        "en": "Popular",
+        "ru": "\u041f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u044b\u0439",
+        "index": 234
+    },
+    {
+        "de": "Unbeliebt",
+        "en": "Unpopular",
+        "ru": "\u041d\u0435\u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u044b\u0439",
+        "index": 235
+    },
+    {
+        "de": "Stumm",
+        "en": "Mute",
+        "ru": "\u041d\u0435\u043c\u043e\u0439",
+        "index": 236
+    },
+    {
+        "de": "Taub",
+        "en": "Deaf",
+        "ru": "\u0413\u043b\u0443\u0445\u043e\u0439",
+        "index": 237
+    },
+    {
+        "de": "Blind",
+        "en": "Blind",
+        "ru": "\u0421\u043b\u0435\u043f\u043e\u0439",
+        "index": 238
+    },
+    {
+        "de": "Nackt",
+        "en": "Naked",
+        "ru": "\u0413\u043e\u043b\u044b\u0439",
+        "index": 239
+    },
+    {
+        "de": "Bekleidet",
+        "en": "Dressed",
+        "ru": "\u041e\u0434\u0435\u0442\u044b\u0439",
+        "index": 240
+    },
+    {
+        "de": "Schwanger",
+        "en": "Pregnant",
+        "ru": "\u0411\u0435\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439",
+        "index": 241
+    },
+    {
+        "de": "Ledig",
+        "en": "Single",
+        "ru": "\u0425\u043e\u043b\u043e\u0441\u0442\u043e\u0439",
+        "index": 242
+    },
+    {
+        "de": "Verheiratet",
+        "en": "Married",
+        "ru": "\u0416\u0435\u043d\u0430\u0442\u044b\u0439",
+        "index": 243
+    },
+    {
+        "de": "Geschieden",
+        "en": "Divorced",
+        "ru": "\u0420\u0430\u0437\u0432\u0435\u0434\u0435\u043d\u043d\u044b\u0439",
+        "index": 244
+    },
+    {
+        "de": "Verwitwet",
+        "en": "Widowed",
+        "ru": "\u041e\u0432\u0434\u043e\u0432\u0435\u0432\u0448\u0438\u0439",
+        "index": 245
+    },
+    {
+        "de": "M\u00e4nnlich",
+        "en": "Male",
+        "ru": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
+        "index": 246
+    },
+    {
+        "de": "Weiblich",
+        "en": "Female",
+        "ru": "\u0416\u0435\u043d\u0441\u043a\u0438\u0439",
+        "index": 247
+    },
+    {
+        "de": "Kindlich",
+        "en": "Childish",
+        "ru": "\u0414\u0435\u0442\u0441\u043a\u0438\u0439",
+        "index": 248
+    },
+    {
+        "de": "Erwachsen",
+        "en": "Adult",
+        "ru": "\u0412\u0437\u0440\u043e\u0441\u043b\u044b\u0439",
+        "index": 249
+    },
+    {
+        "de": "Christlich",
+        "en": "Christian",
+        "ru": "\u0425\u0440\u0438\u0441\u0442\u0438\u0430\u043d\u0441\u043a\u0438\u0439",
+        "index": 250
+    },
+    {
+        "de": "Islamisch",
+        "en": "Islamic",
+        "ru": "\u0418\u0441\u043b\u0430\u043c\u0441\u043a\u0438\u0439",
+        "index": 251
+    },
+    {
+        "de": "J\u00fcdisch",
+        "en": "Jewish",
+        "ru": "\u0415\u0432\u0440\u0435\u0439\u0441\u043a\u0438\u0439",
+        "index": 252
+    },
+    {
+        "de": "Religi\u00f6s",
+        "en": "Religious",
+        "ru": "\u0420\u0435\u043b\u0438\u0433\u0438\u043e\u0437\u043d\u044b\u0439",
+        "index": 253
+    },
+    {
+        "de": "Kulturell",
+        "en": "Cultural",
+        "ru": "\u041a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u044b\u0439",
+        "index": 254
+    },
+    {
+        "de": "Regional",
+        "en": "Regional",
+        "ru": "\u0420\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 255
+    },
+    {
+        "de": "Lokal",
+        "en": "Local",
+        "ru": "\u041c\u0435\u0441\u0442\u043d\u044b\u0439",
+        "index": 256
+    },
+    {
+        "de": "Global",
+        "en": "Global",
+        "ru": "\u0413\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 257
+    },
+    {
+        "de": "National",
+        "en": "National",
+        "ru": "\u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 258
+    },
+    {
+        "de": "Privat",
+        "en": "Private",
+        "ru": "\u0427\u0430\u0441\u0442\u043d\u044b\u0439",
+        "index": 259
+    },
+    {
+        "de": "Staatlich",
+        "en": "State",
+        "ru": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 260
+    },
+    {
+        "de": "St\u00e4dtisch",
+        "en": "Urban",
+        "ru": "\u0413\u043e\u0440\u043e\u0434\u0441\u043a\u043e\u0439",
+        "index": 261
+    },
+    {
+        "de": "L\u00e4ndlich",
+        "en": "Rural",
+        "ru": "\u0421\u0435\u043b\u044c\u0441\u043a\u0438\u0439",
+        "index": 262
+    },
+    {
+        "de": "K\u00fcnstlich",
+        "en": "Artificial",
+        "ru": "\u0418\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 263
+    },
+    {
+        "de": "Echt",
+        "en": "Real",
+        "ru": "\u041d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u0439",
+        "index": 264
+    },
+    {
+        "de": "Originell",
+        "en": "Original",
+        "ru": "\u041e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 265
+    },
+    {
+        "de": "Kreativ",
+        "en": "Creative",
+        "ru": "\u0422\u0432\u043e\u0440\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 266
+    },
+    {
+        "de": "Aktiv",
+        "en": "Active",
+        "ru": "\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 267
+    },
+    {
+        "de": "Passiv",
+        "en": "Passive",
+        "ru": "\u041f\u0430\u0441\u0441\u0438\u0432\u043d\u044b\u0439",
+        "index": 268
+    },
+    {
+        "de": "Aggressiv",
+        "en": "Aggressive",
+        "ru": "\u0410\u0433\u0440\u0435\u0441\u0441\u0438\u0432\u043d\u044b\u0439",
+        "index": 269
+    },
+    {
+        "de": "Friedlich",
+        "en": "Peaceful",
+        "ru": "\u041c\u0438\u0440\u043d\u044b\u0439",
+        "index": 270
+    },
+    {
+        "de": "Gewaltt\u00e4tig",
+        "en": "Violent",
+        "ru": "\u0416\u0435\u0441\u0442\u043e\u043a\u0438\u0439",
+        "index": 271
+    },
+    {
+        "de": "Blutig",
+        "en": "Bloody",
+        "ru": "\u041a\u0440\u043e\u0432\u0430\u0432\u044b\u0439",
+        "index": 272
+    },
+    {
+        "de": "Giftig",
+        "en": "Poisonous",
+        "ru": "\u042f\u0434\u043e\u0432\u0438\u0442\u044b\u0439",
+        "index": 273
+    },
+    {
+        "de": "T\u00f6dlich",
+        "en": "Deadly",
+        "ru": "\u0421\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 274
+    },
+    {
+        "de": "Lebenswichtig",
+        "en": "Vital",
+        "ru": "\u0416\u0438\u0437\u043d\u0435\u043d\u043d\u043e \u0412\u0430\u0436\u043d\u044b\u0439",
+        "index": 275
+    },
+    {
+        "de": "Notwendig",
+        "en": "Necessary",
+        "ru": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0439",
+        "index": 276
+    },
+    {
+        "de": "\u00dcberfl\u00fcssig",
+        "en": "Superfluous",
+        "ru": "\u041b\u0438\u0448\u043d\u0438\u0439",
+        "index": 277
+    },
+    {
+        "de": "Dringend",
+        "en": "Urgent",
+        "ru": "\u0421\u0440\u043e\u0447\u043d\u044b\u0439",
+        "index": 278
+    },
+    {
+        "de": "Pl\u00f6tzlich",
+        "en": "Sudden",
+        "ru": "\u0412\u043d\u0435\u0437\u0430\u043f\u043d\u044b\u0439",
+        "index": 279
+    },
+    {
+        "de": "Allm\u00e4hlich",
+        "en": "Gradual",
+        "ru": "\u041f\u043e\u0441\u0442\u0435\u043f\u0435\u043d\u043d\u044b\u0439",
+        "index": 280
+    },
+    {
+        "de": "Langwierig",
+        "en": "Lengthy",
+        "ru": "\u0417\u0430\u0442\u044f\u0436\u043d\u043e\u0439",
+        "index": 281
+    },
+    {
+        "de": "Kurzfristig",
+        "en": "Short-Term",
+        "ru": "\u041a\u0440\u0430\u0442\u043a\u043e\u0441\u0440\u043e\u0447\u043d\u044b\u0439",
+        "index": 282
+    },
+    {
+        "de": "Langfristig",
+        "en": "Long-Term",
+        "ru": "\u0414\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u044b\u0439",
+        "index": 283
+    },
+    {
+        "de": "Regelm\u00e4\u00dfig",
+        "en": "Regular",
+        "ru": "\u0420\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u044b\u0439",
+        "index": 284
+    },
+    {
+        "de": "Unregelm\u00e4\u00dfig",
+        "en": "Irregular",
+        "ru": "\u041d\u0435\u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u044b\u0439",
+        "index": 285
+    },
+    {
+        "de": "St\u00e4ndig",
+        "en": "Constant",
+        "ru": "\u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439",
+        "index": 286
+    },
+    {
+        "de": "Dauernd",
+        "en": "Continuous",
+        "ru": "\u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 287
+    },
+    {
+        "de": "Selbstverst\u00e4ndlich",
+        "en": "Obvious",
+        "ru": "\u0421\u0430\u043c\u043e \u0421\u043e\u0431\u043e\u0439 \u0420\u0430\u0437\u0443\u043c\u0435\u044e\u0449\u0438\u0439\u0441\u044f",
+        "index": 288
+    },
+    {
+        "de": "Wahrscheinlich",
+        "en": "Probable",
+        "ru": "\u0412\u0435\u0440\u043e\u044f\u0442\u043d\u044b\u0439",
+        "index": 289
+    },
+    {
+        "de": "Unwahrscheinlich",
+        "en": "Improbable",
+        "ru": "\u041d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u044b\u0439",
+        "index": 290
+    },
+    {
+        "de": "Eventuell",
+        "en": "Possible",
+        "ru": "\u0412\u043e\u0437\u043c\u043e\u0436\u043d\u044b\u0439",
+        "index": 291
+    },
+    {
+        "de": "Tats\u00e4chlich",
+        "en": "Actual",
+        "ru": "\u0424\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 292
+    },
+    {
+        "de": "Vermutlich",
+        "en": "Presumable",
+        "ru": "\u041f\u0440\u0435\u0434\u043f\u043e\u043b\u043e\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 293
+    },
+    {
+        "de": "Angeblich",
+        "en": "Alleged",
+        "ru": "\u042f\u043a\u043e\u0431\u044b",
+        "index": 294
+    },
+    {
+        "de": "Offenbar",
+        "en": "Obvious",
+        "ru": "\u041e\u0447\u0435\u0432\u0438\u0434\u043d\u044b\u0439",
+        "index": 295
+    },
+    {
+        "de": "Scheinbar",
+        "en": "Apparent",
+        "ru": "\u041a\u0430\u0436\u0443\u0449\u0438\u0439\u0441\u044f",
+        "index": 296
+    },
+    {
+        "de": "F\u00fchlbar",
+        "en": "Tangible",
+        "ru": "\u041e\u0449\u0443\u0442\u0438\u043c\u044b\u0439",
+        "index": 297
+    },
+    {
+        "de": "H\u00f6rbar",
+        "en": "Audible",
+        "ru": "\u0421\u043b\u044b\u0448\u0438\u043c\u044b\u0439",
+        "index": 298
+    },
+    {
+        "de": "Lesbar",
+        "en": "Legible",
+        "ru": "\u0420\u0430\u0437\u0431\u043e\u0440\u0447\u0438\u0432\u044b\u0439",
+        "index": 299
+    },
+    {
+        "de": "Essbar",
+        "en": "Edible",
+        "ru": "\u0421\u044a\u0435\u0434\u043e\u0431\u043d\u044b\u0439",
+        "index": 300
+    },
+    {
+        "de": "Trinkbar",
+        "en": "Drinkable",
+        "ru": "\u041f\u0438\u0442\u044c\u0435\u0432\u043e\u0439",
+        "index": 301
+    },
+    {
+        "de": "Brennbar",
+        "en": "Flammable",
+        "ru": "\u0413\u043e\u0440\u044e\u0447\u0438\u0439",
+        "index": 302
+    },
+    {
+        "de": "Tragbar",
+        "en": "Portable",
+        "ru": "\u041f\u0435\u0440\u0435\u043d\u043e\u0441\u043d\u043e\u0439",
+        "index": 303
+    },
+    {
+        "de": "Bezahlbar",
+        "en": "Affordable",
+        "ru": "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0439",
+        "index": 304
+    },
+    {
+        "de": "Erreichbar",
+        "en": "Reachable",
+        "ru": "\u0414\u043e\u0441\u0442\u0438\u0436\u0438\u043c\u044b\u0439",
+        "index": 305
+    },
+    {
+        "de": "Verf\u00fcgbar",
+        "en": "Available",
+        "ru": "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0439",
+        "index": 306
+    },
+    {
+        "de": "Denkbar",
+        "en": "Conceivable",
+        "ru": "\u041c\u044b\u0441\u043b\u0438\u043c\u044b\u0439",
+        "index": 307
+    },
+    {
+        "de": "Erkennbar",
+        "en": "Recognizable",
+        "ru": "\u0423\u0437\u043d\u0430\u0432\u0430\u0435\u043c\u044b\u0439",
+        "index": 308
+    },
+    {
+        "de": "Bemerkenswert",
+        "en": "Remarkable",
+        "ru": "\u041f\u0440\u0438\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 309
+    },
+    {
+        "de": "Liebenswert",
+        "en": "Lovable",
+        "ru": "\u041f\u0440\u0438\u0432\u043b\u0435\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 310
+    },
+    {
+        "de": "Sehenswert",
+        "en": "Worth Seeing",
+        "ru": "\u0414\u043e\u0441\u0442\u043e\u043f\u0440\u0438\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 311
+    },
+    {
+        "de": "Empfehlenswert",
+        "en": "Recommendable",
+        "ru": "\u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u043c\u044b\u0439",
+        "index": 312
+    },
+    {
+        "de": "Preiswert",
+        "en": "Inexpensive",
+        "ru": "\u041d\u0435\u0434\u043e\u0440\u043e\u0433\u043e\u0439",
+        "index": 313
+    },
+    {
+        "de": "Sinnvoll",
+        "en": "Sensible",
+        "ru": "\u0420\u0430\u0437\u0443\u043c\u043d\u044b\u0439",
+        "index": 314
+    },
+    {
+        "de": "Sinnlos",
+        "en": "Senseless",
+        "ru": "\u0411\u0435\u0441\u0441\u043c\u044b\u0441\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 315
+    },
+    {
+        "de": "Hoffnungsvoll",
+        "en": "Hopeful",
+        "ru": "\u041e\u0431\u043d\u0430\u0434\u0435\u0436\u0438\u0432\u0430\u044e\u0449\u0438\u0439",
+        "index": 316
+    },
+    {
+        "de": "Hoffnungslos",
+        "en": "Hopeless",
+        "ru": "\u0411\u0435\u0437\u043d\u0430\u0434\u0435\u0436\u043d\u044b\u0439",
+        "index": 317
+    },
+    {
+        "de": "Zahlreich",
+        "en": "Numerous",
+        "ru": "\u041c\u043d\u043e\u0433\u043e\u0447\u0438\u0441\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 318
+    },
+    {
+        "de": "Umfangreich",
+        "en": "Extensive",
+        "ru": "\u041e\u0431\u0448\u0438\u0440\u043d\u044b\u0439",
+        "index": 319
+    },
+    {
+        "de": "Glorreich",
+        "en": "Glorious",
+        "ru": "\u0421\u043b\u0430\u0432\u043d\u044b\u0439",
+        "index": 320
+    },
+    {
+        "de": "Schmerzhaft",
+        "en": "Painful",
+        "ru": "\u0411\u043e\u043b\u0435\u0437\u043d\u0435\u043d\u043d\u044b\u0439",
+        "index": 321
+    },
+    {
+        "de": "Fehlerhaft",
+        "en": "Faulty",
+        "ru": "\u041e\u0448\u0438\u0431\u043e\u0447\u043d\u044b\u0439",
+        "index": 322
+    },
+    {
+        "de": "Mangelhaft",
+        "en": "Defective",
+        "ru": "\u0414\u0435\u0444\u0435\u043a\u0442\u043d\u044b\u0439",
+        "index": 323
+    },
+    {
+        "de": "Dauerhaft",
+        "en": "Permanent",
+        "ru": "\u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439",
+        "index": 324
+    },
+    {
+        "de": "Ernsthaft",
+        "en": "Serious",
+        "ru": "\u0421\u0435\u0440\u044c\u0435\u0437\u043d\u044b\u0439",
+        "index": 325
+    },
+    {
+        "de": "Glaubhaft",
+        "en": "Credible",
+        "ru": "\u0414\u043e\u0441\u0442\u043e\u0432\u0435\u0440\u043d\u044b\u0439",
+        "index": 326
+    },
+    {
+        "de": "Vorteilhaft",
+        "en": "Advantageous",
+        "ru": "\u0412\u044b\u0433\u043e\u0434\u043d\u044b\u0439",
+        "index": 327
+    },
+    {
+        "de": "Nachteilig",
+        "en": "Disadvantageous",
+        "ru": "\u041d\u0435\u0432\u044b\u0433\u043e\u0434\u043d\u044b\u0439",
+        "index": 328
+    },
+    {
+        "de": "Freiwillig",
+        "en": "Voluntary",
+        "ru": "\u0414\u043e\u0431\u0440\u043e\u0432\u043e\u043b\u044c\u043d\u044b\u0439",
+        "index": 329
+    },
+    {
+        "de": "Unfreiwillig",
+        "en": "Involuntary",
+        "ru": "\u041d\u0435\u0434\u043e\u0431\u0440\u043e\u0432\u043e\u043b\u044c\u043d\u044b\u0439",
+        "index": 330
+    },
+    {
+        "de": "Zuf\u00e4llig",
+        "en": "Random",
+        "ru": "\u0421\u043b\u0443\u0447\u0430\u0439\u043d\u044b\u0439",
+        "index": 331
+    },
+    {
+        "de": "Absichtlich",
+        "en": "Intentional",
+        "ru": "\u041d\u0430\u043c\u0435\u0440\u0435\u043d\u043d\u044b\u0439",
+        "index": 332
+    },
+    {
+        "de": "M\u00fcndlich",
+        "en": "Oral",
+        "ru": "\u0423\u0441\u0442\u043d\u044b\u0439",
+        "index": 333
+    },
+    {
+        "de": "Schriftlich",
+        "en": "Written",
+        "ru": "\u041f\u0438\u0441\u044c\u043c\u0435\u043d\u043d\u044b\u0439",
+        "index": 334
+    },
+    {
+        "de": "W\u00f6rtlich",
+        "en": "Literal",
+        "ru": "\u0411\u0443\u043a\u0432\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 335
+    },
+    {
+        "de": "Bildlich",
+        "en": "Figurative",
+        "ru": "\u041e\u0431\u0440\u0430\u0437\u043d\u044b\u0439",
+        "index": 336
+    },
+    {
+        "de": "Sachlich",
+        "en": "Objective",
+        "ru": "\u041e\u0431\u044a\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 337
+    },
+    {
+        "de": "Fachlich",
+        "en": "Professional",
+        "ru": "\u041f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 338
+    },
+    {
+        "de": "Beruflich",
+        "en": "Occupational",
+        "ru": "\u041f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 339
+    },
+    {
+        "de": "Gewerblich",
+        "en": "Commercial",
+        "ru": "\u041a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 340
+    },
+    {
+        "de": "Gesetzlich",
+        "en": "Legal",
+        "ru": "\u0417\u0430\u043a\u043e\u043d\u043d\u044b\u0439",
+        "index": 341
+    },
+    {
+        "de": "Illegal",
+        "en": "Illegal",
+        "ru": "\u041d\u0435\u043b\u0435\u0433\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 342
+    },
+    {
+        "de": "Offiziell",
+        "en": "Official",
+        "ru": "\u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 343
+    },
+    {
+        "de": "Inoffiziell",
+        "en": "Unofficial",
+        "ru": "\u041d\u0435\u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 344
+    },
+    {
+        "de": "Formell",
+        "en": "Formal",
+        "ru": "\u0424\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 345
+    },
+    {
+        "de": "Informell",
+        "en": "Informal",
+        "ru": "\u041d\u0435\u0444\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 346
+    },
+    {
+        "de": "Materiell",
+        "en": "Material",
+        "ru": "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 347
+    },
+    {
+        "de": "Finanziell",
+        "en": "Financial",
+        "ru": "\u0424\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u044b\u0439",
+        "index": 348
+    },
+    {
+        "de": "Strukturell",
+        "en": "Structural",
+        "ru": "\u0421\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u043d\u044b\u0439",
+        "index": 349
+    },
+    {
+        "de": "Virtuell",
+        "en": "Virtual",
+        "ru": "\u0412\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 350
+    },
+    {
+        "de": "Visuell",
+        "en": "Visual",
+        "ru": "\u0412\u0438\u0437\u0443\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 351
+    },
+    {
+        "de": "Manuell",
+        "en": "Manual",
+        "ru": "\u0420\u0443\u0447\u043d\u043e\u0439",
+        "index": 352
+    },
+    {
+        "de": "Automatisch",
+        "en": "Automatic",
+        "ru": "\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 353
+    },
+    {
+        "de": "Elektrisch",
+        "en": "Electric",
+        "ru": "\u042d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 354
+    },
+    {
+        "de": "Elektronisch",
+        "en": "Electronic",
+        "ru": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u0439",
+        "index": 355
+    },
+    {
+        "de": "Magnetisch",
+        "en": "Magnetic",
+        "ru": "\u041c\u0430\u0433\u043d\u0438\u0442\u043d\u044b\u0439",
+        "index": 356
+    },
+    {
+        "de": "Chemisch",
+        "en": "Chemical",
+        "ru": "\u0425\u0438\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 357
+    },
+    {
+        "de": "Biologisch",
+        "en": "Biological",
+        "ru": "\u0411\u0438\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 358
+    },
+    {
+        "de": "Physikalisch",
+        "en": "Physical",
+        "ru": "\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 359
+    },
+    {
+        "de": "Mathematisch",
+        "en": "Mathematical",
+        "ru": "\u041c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 360
+    },
+    {
+        "de": "Geografisch",
+        "en": "Geographical",
+        "ru": "\u0413\u0435\u043e\u0433\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 361
+    },
+    {
+        "de": "Medizinisch",
+        "en": "Medical",
+        "ru": "\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0438\u0439",
+        "index": 362
+    },
+    {
+        "de": "Chirurgisch",
+        "en": "Surgical",
+        "ru": "\u0425\u0438\u0440\u0443\u0440\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 363
+    },
+    {
+        "de": "Psychologisch",
+        "en": "Psychological",
+        "ru": "\u041f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 364
+    },
+    {
+        "de": "Philosophisch",
+        "en": "Philosophical",
+        "ru": "\u0424\u0438\u043b\u043e\u0441\u043e\u0444\u0441\u043a\u0438\u0439",
+        "index": 365
+    },
+    {
+        "de": "Demokratisch",
+        "en": "Democratic",
+        "ru": "\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 366
+    },
+    {
+        "de": "Diktatorisch",
+        "en": "Dictatorial",
+        "ru": "\u0414\u0438\u043a\u0442\u0430\u0442\u043e\u0440\u0441\u043a\u0438\u0439",
+        "index": 367
+    },
+    {
+        "de": "Republikanisch",
+        "en": "Republican",
+        "ru": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0439",
+        "index": 368
+    },
+    {
+        "de": "Konservativ",
+        "en": "Conservative",
+        "ru": "\u041a\u043e\u043d\u0441\u0435\u0440\u0432\u0430\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 369
+    },
+    {
+        "de": "Liberal",
+        "en": "Liberal",
+        "ru": "\u041b\u0438\u0431\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 370
+    },
+    {
+        "de": "Sozialistisch",
+        "en": "Socialist",
+        "ru": "\u0421\u043e\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 371
+    },
+    {
+        "de": "Kommunistisch",
+        "en": "Communist",
+        "ru": "\u041a\u043e\u043c\u043c\u0443\u043d\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 372
+    },
+    {
+        "de": "Kapitalistisch",
+        "en": "Capitalist",
+        "ru": "\u041a\u0430\u043f\u0438\u0442\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 373
+    },
+    {
+        "de": "Romantisch",
+        "en": "Romantic",
+        "ru": "\u0420\u043e\u043c\u0430\u043d\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 374
+    },
+    {
+        "de": "Tragisch",
+        "en": "Tragic",
+        "ru": "\u0422\u0440\u0430\u0433\u0438\u0447\u043d\u044b\u0439",
+        "index": 375
+    },
+    {
+        "de": "Dramatisch",
+        "en": "Dramatic",
+        "ru": "\u0414\u0440\u0430\u043c\u0430\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 376
+    },
+    {
+        "de": "Lyrisch",
+        "en": "Lyrical",
+        "ru": "\u041b\u0438\u0440\u0438\u0447\u043d\u044b\u0439",
+        "index": 377
+    },
+    {
+        "de": "Episch",
+        "en": "Epic",
+        "ru": "\u042d\u043f\u0438\u0447\u043d\u044b\u0439",
+        "index": 378
+    },
+    {
+        "de": "Poetisch",
+        "en": "Poetic",
+        "ru": "\u041f\u043e\u044d\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 379
+    },
+    {
+        "de": "Musikalisch",
+        "en": "Musical",
+        "ru": "\u041c\u0443\u0437\u044b\u043a\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 380
+    },
+    {
+        "de": "K\u00fcnstlerisch",
+        "en": "Artistic",
+        "ru": "\u0425\u0443\u0434\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 381
+    },
+    {
+        "de": "Sportlich",
+        "en": "Sporty",
+        "ru": "\u0421\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 382
+    },
+    {
+        "de": "Spielerisch",
+        "en": "Playful",
+        "ru": "\u0418\u0433\u0440\u0438\u0432\u044b\u0439",
+        "index": 383
+    },
+    {
+        "de": "Heiter",
+        "en": "Cheerful",
+        "ru": "\u0412\u0435\u0441\u0435\u043b\u044b\u0439",
+        "index": 384
+    },
+    {
+        "de": "Wolkig",
+        "en": "Cloudy",
+        "ru": "\u041e\u0431\u043b\u0430\u0447\u043d\u044b\u0439",
+        "index": 385
+    },
+    {
+        "de": "Sonnig",
+        "en": "Sunny",
+        "ru": "\u0421\u043e\u043b\u043d\u0435\u0447\u043d\u044b\u0439",
+        "index": 386
+    },
+    {
+        "de": "Regnerisch",
+        "en": "Rainy",
+        "ru": "\u0414\u043e\u0436\u0434\u043b\u0438\u0432\u044b\u0439",
+        "index": 387
+    },
+    {
+        "de": "Windig",
+        "en": "Windy",
+        "ru": "\u0412\u0435\u0442\u0440\u0435\u043d\u044b\u0439",
+        "index": 388
+    },
+    {
+        "de": "St\u00fcrmisch",
+        "en": "Stormy",
+        "ru": "\u0428\u0442\u043e\u0440\u043c\u043e\u0432\u043e\u0439",
+        "index": 389
+    },
+    {
+        "de": "Neblig",
+        "en": "Foggy",
+        "ru": "\u0422\u0443\u043c\u0430\u043d\u043d\u044b\u0439",
+        "index": 390
+    },
+    {
+        "de": "Schneebedeckt",
+        "en": "Snow-Covered",
+        "ru": "\u0417\u0430\u0441\u043d\u0435\u0436\u0435\u043d\u043d\u044b\u0439",
+        "index": 391
+    },
+    {
+        "de": "Eisig",
+        "en": "Icy",
+        "ru": "\u041b\u0435\u0434\u044f\u043d\u043e\u0439",
+        "index": 392
+    },
+    {
+        "de": "Frostig",
+        "en": "Frosty",
+        "ru": "\u041c\u043e\u0440\u043e\u0437\u043d\u044b\u0439",
+        "index": 393
+    },
+    {
+        "de": "Glatt",
+        "en": "Smooth",
+        "ru": "\u0413\u043b\u0430\u0434\u043a\u0438\u0439",
+        "index": 394
+    },
+    {
+        "de": "Rau",
+        "en": "Rough",
+        "ru": "\u0413\u0440\u0443\u0431\u044b\u0439",
+        "index": 395
+    },
+    {
+        "de": "Spitz",
+        "en": "Pointed",
+        "ru": "\u041e\u0441\u0442\u0440\u044b\u0439",
+        "index": 396
+    },
+    {
+        "de": "Stumpf",
+        "en": "Blunt",
+        "ru": "\u0422\u0443\u043f\u043e\u0439",
+        "index": 397
+    },
+    {
+        "de": "Hohl",
+        "en": "Hollow",
+        "ru": "\u041f\u0443\u0441\u0442\u043e\u0439",
+        "index": 398
+    },
+    {
+        "de": "Massiv",
+        "en": "Massive",
+        "ru": "\u041c\u0430\u0441\u0441\u0438\u0432\u043d\u044b\u0439",
+        "index": 399
+    },
+    {
+        "de": "Dicht",
+        "en": "Dense",
+        "ru": "\u041f\u043b\u043e\u0442\u043d\u044b\u0439",
+        "index": 400
+    },
+    {
+        "de": "Fl\u00fcssig",
+        "en": "Liquid",
+        "ru": "\u0416\u0438\u0434\u043a\u0438\u0439",
+        "index": 401
+    },
+    {
+        "de": "Gasf\u00f6rmig",
+        "en": "Gaseous",
+        "ru": "\u0413\u0430\u0437\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0439",
+        "index": 402
+    },
+    {
+        "de": "Durchsichtig",
+        "en": "Transparent",
+        "ru": "\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439",
+        "index": 403
+    },
+    {
+        "de": "Undurchsichtig",
+        "en": "Opaque",
+        "ru": "\u041d\u0435\u043f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439",
+        "index": 404
+    },
+    {
+        "de": "Farbig",
+        "en": "Colored",
+        "ru": "\u0426\u0432\u0435\u0442\u043d\u043e\u0439",
+        "index": 405
+    },
+    {
+        "de": "Farblos",
+        "en": "Colorless",
+        "ru": "\u0411\u0435\u0441\u0446\u0432\u0435\u0442\u043d\u044b\u0439",
+        "index": 406
+    },
+    {
+        "de": "Bunt",
+        "en": "Colorful",
+        "ru": "\u041f\u0435\u0441\u0442\u0440\u044b\u0439",
+        "index": 407
+    },
+    {
+        "de": "Einfarbig",
+        "en": "Monochrome",
+        "ru": "\u041e\u0434\u043d\u043e\u0442\u043e\u043d\u043d\u044b\u0439",
+        "index": 408
+    },
+    {
+        "de": "Gestreift",
+        "en": "Striped",
+        "ru": "\u041f\u043e\u043b\u043e\u0441\u0430\u0442\u044b\u0439",
+        "index": 409
+    },
+    {
+        "de": "Kariert",
+        "en": "Checkered",
+        "ru": "\u041a\u043b\u0435\u0442\u0447\u0430\u0442\u044b\u0439",
+        "index": 410
+    },
+    {
+        "de": "Gepunktet",
+        "en": "Dotted",
+        "ru": "\u0412 \u0413\u043e\u0440\u043e\u0448\u0435\u043a",
+        "index": 411
+    },
+    {
+        "de": "Gemustert",
+        "en": "Patterned",
+        "ru": "\u0421 \u0423\u0437\u043e\u0440\u043e\u043c",
+        "index": 412
+    },
+    {
+        "de": "H\u00f6lzern",
+        "en": "Wooden",
+        "ru": "\u0414\u0435\u0440\u0435\u0432\u044f\u043d\u043d\u044b\u0439",
+        "index": 413
+    },
+    {
+        "de": "Eisern",
+        "en": "Iron",
+        "ru": "\u0416\u0435\u043b\u0435\u0437\u043d\u044b\u0439",
+        "index": 414
+    },
+    {
+        "de": "Golden",
+        "en": "Golden",
+        "ru": "\u0417\u043e\u043b\u043e\u0442\u043e\u0439",
+        "index": 415
+    },
+    {
+        "de": "Silbern",
+        "en": "Silver",
+        "ru": "\u0421\u0435\u0440\u0435\u0431\u0440\u044f\u043d\u044b\u0439",
+        "index": 416
+    },
+    {
+        "de": "Gl\u00e4sern",
+        "en": "Glass",
+        "ru": "\u0421\u0442\u0435\u043a\u043b\u044f\u043d\u043d\u044b\u0439",
+        "index": 417
+    },
+    {
+        "de": "Steinern",
+        "en": "Stone",
+        "ru": "\u041a\u0430\u043c\u0435\u043d\u043d\u044b\u0439",
+        "index": 418
+    },
+    {
+        "de": "Leder",
+        "en": "Leather",
+        "ru": "\u041a\u043e\u0436\u0430\u043d\u044b\u0439",
+        "index": 419
+    },
+    {
+        "de": "Wollen",
+        "en": "Woolen",
+        "ru": "\u0428\u0435\u0440\u0441\u0442\u044f\u043d\u043e\u0439",
+        "index": 420
+    },
+    {
+        "de": "Seiden",
+        "en": "Silk",
+        "ru": "\u0428\u0435\u043b\u043a\u043e\u0432\u044b\u0439",
+        "index": 421
+    },
+    {
+        "de": "Plastik",
+        "en": "Plastic",
+        "ru": "\u041f\u043b\u0430\u0441\u0442\u0438\u043a\u043e\u0432\u044b\u0439",
+        "index": 422
+    },
+    {
+        "de": "K\u00f6stlich",
+        "en": "Delicious",
+        "ru": "\u041e\u0447\u0435\u043d\u044c \u0412\u043a\u0443\u0441\u043d\u044b\u0439",
+        "index": 423
+    },
+    {
+        "de": "Lecker",
+        "en": "Tasty",
+        "ru": "\u0412\u043a\u0443\u0441\u043d\u044b\u0439",
+        "index": 424
+    },
+    {
+        "de": "Fade",
+        "en": "Bland",
+        "ru": "\u041f\u0440\u0435\u0441\u043d\u044b\u0439",
+        "index": 425
+    },
+    {
+        "de": "W\u00fcrzig",
+        "en": "Spicy",
+        "ru": "\u041f\u0440\u044f\u043d\u044b\u0439",
+        "index": 426
+    },
+    {
+        "de": "Salzig",
+        "en": "Salty",
+        "ru": "\u0421\u043e\u043b\u0435\u043d\u044b\u0439",
+        "index": 427
+    },
+    {
+        "de": "S\u00fc\u00dflich",
+        "en": "Sweetish",
+        "ru": "\u0421\u043b\u0430\u0434\u043a\u043e\u0432\u0430\u0442\u044b\u0439",
+        "index": 428
+    },
+    {
+        "de": "S\u00e4uerlich",
+        "en": "Sourish",
+        "ru": "\u041a\u0438\u0441\u043b\u043e\u0432\u0430\u0442\u044b\u0439",
+        "index": 429
+    },
+    {
+        "de": "Saftig",
+        "en": "Juicy",
+        "ru": "\u0421\u043e\u0447\u043d\u044b\u0439",
+        "index": 430
+    },
+    {
+        "de": "Knusprig",
+        "en": "Crispy",
+        "ru": "\u0425\u0440\u0443\u0441\u0442\u044f\u0449\u0438\u0439",
+        "index": 431
+    },
+    {
+        "de": "Z\u00e4h",
+        "en": "Tough",
+        "ru": "\u0416\u0435\u0441\u0442\u043a\u0438\u0439",
+        "index": 432
+    },
+    {
+        "de": "Zart",
+        "en": "Tender",
+        "ru": "\u041d\u0435\u0436\u043d\u044b\u0439",
+        "index": 433
+    },
+    {
+        "de": "Mager",
+        "en": "Lean",
+        "ru": "\u041f\u043e\u0441\u0442\u043d\u044b\u0439",
+        "index": 434
+    },
+    {
+        "de": "Fettig",
+        "en": "Greasy",
+        "ru": "\u0416\u0438\u0440\u043d\u044b\u0439",
+        "index": 435
+    },
+    {
+        "de": "Roh",
+        "en": "Raw",
+        "ru": "\u0421\u044b\u0440\u043e\u0439",
+        "index": 436
+    },
+    {
+        "de": "Gekocht",
+        "en": "Boiled",
+        "ru": "\u0412\u0430\u0440\u0435\u043d\u044b\u0439",
+        "index": 437
+    },
+    {
+        "de": "Gebraten",
+        "en": "Fried",
+        "ru": "\u0416\u0430\u0440\u0435\u043d\u044b\u0439",
+        "index": 438
+    },
+    {
+        "de": "Gebacken",
+        "en": "Baked",
+        "ru": "\u041f\u0435\u0447\u0435\u043d\u044b\u0439",
+        "index": 439
+    },
+    {
+        "de": "Gegrillt",
+        "en": "Grilled",
+        "ru": "\u041d\u0430 \u0413\u0440\u0438\u043b\u0435",
+        "index": 440
+    },
+    {
+        "de": "Hungrig",
+        "en": "Hungry",
+        "ru": "\u0413\u043e\u043b\u043e\u0434\u043d\u044b\u0439",
+        "index": 441
+    },
+    {
+        "de": "Durstig",
+        "en": "Thirsty",
+        "ru": "\u0416\u0430\u0436\u0434\u0443\u0449\u0438\u0439",
+        "index": 442
+    },
+    {
+        "de": "Satt",
+        "en": "Full",
+        "ru": "\u0421\u044b\u0442\u044b\u0439",
+        "index": 443
+    },
+    {
+        "de": "Betrunken",
+        "en": "Drunk",
+        "ru": "\u041f\u044c\u044f\u043d\u044b\u0439",
+        "index": 444
+    },
+    {
+        "de": "N\u00fcchtern",
+        "en": "Sober",
+        "ru": "\u0422\u0440\u0435\u0437\u0432\u044b\u0439",
+        "index": 445
+    },
+    {
+        "de": "Schl\u00e4frig",
+        "en": "Sleepy",
+        "ru": "\u0421\u043e\u043d\u043d\u044b\u0439",
+        "index": 446
+    },
+    {
+        "de": "Hellwach",
+        "en": "Wide Awake",
+        "ru": "\u041e\u0447\u0435\u043d\u044c \u0411\u043e\u0434\u0440\u044b\u0439",
+        "index": 447
+    },
+    {
+        "de": "Ersch\u00f6pft",
+        "en": "Exhausted",
+        "ru": "\u0418\u0437\u043c\u0443\u0447\u0435\u043d\u043d\u044b\u0439",
+        "index": 448
+    },
+    {
+        "de": "Fit",
+        "en": "Fit",
+        "ru": "\u0412 \u0424\u043e\u0440\u043c\u0435",
+        "index": 449
+    },
+    {
+        "de": "Schwach",
+        "en": "Weak",
+        "ru": "\u0421\u043b\u0430\u0431\u044b\u0439",
+        "index": 450
+    },
+    {
+        "de": "Kr\u00e4ftig",
+        "en": "Powerful",
+        "ru": "\u041c\u043e\u0449\u043d\u044b\u0439",
+        "index": 451
+    },
+    {
+        "de": "Muskul\u00f6s",
+        "en": "Muscular",
+        "ru": "\u041c\u0443\u0441\u043a\u0443\u043b\u0438\u0441\u0442\u044b\u0439",
+        "index": 452
+    },
+    {
+        "de": "Zierlich",
+        "en": "Dainty",
+        "ru": "\u0418\u0437\u044f\u0449\u043d\u044b\u0439",
+        "index": 453
+    },
+    {
+        "de": "Riesengro\u00df",
+        "en": "Gigantic",
+        "ru": "\u0413\u0438\u0433\u0430\u043d\u0442\u0441\u043a\u0438\u0439",
+        "index": 454
+    },
+    {
+        "de": "Klitzeklein",
+        "en": "Teeny",
+        "ru": "\u041c\u0430\u043b\u044e\u0441\u0435\u043d\u044c\u043a\u0438\u0439",
+        "index": 455
+    },
+    {
+        "de": "Schmal",
+        "en": "Narrow",
+        "ru": "\u0423\u0437\u043a\u0438\u0439",
+        "index": 456
+    },
+    {
+        "de": "Fern",
+        "en": "Distant",
+        "ru": "\u041e\u0442\u0434\u0430\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 457
+    },
+    {
+        "de": "Zentral",
+        "en": "Central",
+        "ru": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 458
+    },
+    {
+        "de": "Dezentral",
+        "en": "Decentralized",
+        "ru": "\u0414\u0435\u0446\u0435\u043d\u0442\u0440\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 459
+    },
+    {
+        "de": "Oben",
+        "en": "Upper",
+        "ru": "\u0412\u0435\u0440\u0445\u043d\u0438\u0439",
+        "index": 460
+    },
+    {
+        "de": "Unten",
+        "en": "Lower",
+        "ru": "\u041d\u0438\u0436\u043d\u0438\u0439",
+        "index": 461
+    },
+    {
+        "de": "Vorn",
+        "en": "Front",
+        "ru": "\u041f\u0435\u0440\u0435\u0434\u043d\u0438\u0439",
+        "index": 462
+    },
+    {
+        "de": "Hinten",
+        "en": "Back",
+        "ru": "\u0417\u0430\u0434\u043d\u0438\u0439",
+        "index": 463
+    },
+    {
+        "de": "Links",
+        "en": "Left",
+        "ru": "\u041b\u0435\u0432\u044b\u0439",
+        "index": 464
+    },
+    {
+        "de": "Rechts",
+        "en": "Right",
+        "ru": "\u041f\u0440\u0430\u0432\u044b\u0439",
+        "index": 465
+    },
+    {
+        "de": "Innen",
+        "en": "Inner",
+        "ru": "\u0412\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0439",
+        "index": 466
+    },
+    {
+        "de": "Au\u00dfen",
+        "en": "Outer",
+        "ru": "\u0412\u043d\u0435\u0448\u043d\u0438\u0439",
+        "index": 467
+    },
+    {
+        "de": "Gering",
+        "en": "Low",
+        "ru": "\u041c\u0430\u043b\u044b\u0439",
+        "index": 468
+    },
+    {
+        "de": "Enorm",
+        "en": "Enormous",
+        "ru": "\u041a\u043e\u043b\u043e\u0441\u0441\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 469
+    },
+    {
+        "de": "Gewaltig",
+        "en": "Massive",
+        "ru": "\u041e\u0433\u0440\u043e\u043c\u043d\u044b\u0439",
+        "index": 470
+    },
+    {
+        "de": "Extrem",
+        "en": "Extreme",
+        "ru": "\u041a\u0440\u0430\u0439\u043d\u0438\u0439",
+        "index": 471
+    },
+    {
+        "de": "Radikal",
+        "en": "Radical",
+        "ru": "\u0420\u0430\u0434\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 472
+    },
+    {
+        "de": "Moderat",
+        "en": "Moderate",
+        "ru": "\u0423\u043c\u0435\u0440\u0435\u043d\u043d\u044b\u0439",
+        "index": 473
+    },
+    {
+        "de": "Durchschnittlich",
+        "en": "Average",
+        "ru": "\u0421\u0440\u0435\u0434\u043d\u0438\u0439",
+        "index": 474
+    },
+    {
+        "de": "Au\u00dfergew\u00f6hnlich",
+        "en": "Extraordinary",
+        "ru": "\u041d\u0435\u043e\u0431\u044b\u0447\u0430\u0439\u043d\u044b\u0439",
+        "index": 475
+    },
+    {
+        "de": "Spektakul\u00e4r",
+        "en": "Spectacular",
+        "ru": "\u0412\u043f\u0435\u0447\u0430\u0442\u043b\u044f\u044e\u0449\u0438\u0439",
+        "index": 476
+    },
+    {
+        "de": "Unspektakul\u00e4r",
+        "en": "Unspectacular",
+        "ru": "\u041d\u0435\u0432\u043f\u0435\u0447\u0430\u0442\u043b\u044f\u044e\u0449\u0438\u0439",
+        "index": 477
+    },
+    {
+        "de": "Faszinierend",
+        "en": "Fascinating",
+        "ru": "\u0423\u0432\u043b\u0435\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 478
+    },
+    {
+        "de": "Absto\u00dfend",
+        "en": "Repulsive",
+        "ru": "\u041e\u0442\u0442\u0430\u043b\u043a\u0438\u0432\u0430\u044e\u0449\u0438\u0439",
+        "index": 479
+    },
+    {
+        "de": "Verlockend",
+        "en": "Tempting",
+        "ru": "\u0417\u0430\u043c\u0430\u043d\u0447\u0438\u0432\u044b\u0439",
+        "index": 480
+    },
+    {
+        "de": "Charmant",
+        "en": "Charming",
+        "ru": "\u041e\u0447\u0430\u0440\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 481
+    },
+    {
+        "de": "Tapfer",
+        "en": "Brave",
+        "ru": "\u0425\u0440\u0430\u0431\u0440\u044b\u0439",
+        "index": 482
+    },
+    {
+        "de": "Feig",
+        "en": "Cowardly",
+        "ru": "\u0422\u0440\u0443\u0441\u043b\u0438\u0432\u044b\u0439",
+        "index": 483
+    },
+    {
+        "de": "Frech",
+        "en": "Cheeky",
+        "ru": "\u0414\u0435\u0440\u0437\u043a\u0438\u0439",
+        "index": 484
+    },
+    {
+        "de": "Lieb",
+        "en": "Dear",
+        "ru": "\u041c\u0438\u043b\u044b\u0439",
+        "index": 485
+    },
+    {
+        "de": "Grausam",
+        "en": "Cruel",
+        "ru": "\u0416\u0435\u0441\u0442\u043e\u043a\u0438\u0439",
+        "index": 486
+    },
+    {
+        "de": "Brutal",
+        "en": "Brutal",
+        "ru": "\u0417\u0432\u0435\u0440\u0441\u043a\u0438\u0439",
+        "index": 487
+    },
+    {
+        "de": "Z\u00e4rtlich",
+        "en": "Tender",
+        "ru": "\u041b\u0430\u0441\u043a\u043e\u0432\u044b\u0439",
+        "index": 488
+    },
+    {
+        "de": "Sanft",
+        "en": "Gentle",
+        "ru": "\u041d\u0435\u0436\u043d\u044b\u0439",
+        "index": 489
+    },
+    {
+        "de": "Grob",
+        "en": "Rough",
+        "ru": "\u0413\u0440\u0443\u0431\u044b\u0439",
+        "index": 490
+    },
+    {
+        "de": "Kahl",
+        "en": "Bald",
+        "ru": "\u041b\u044b\u0441\u044b\u0439",
+        "index": 491
+    },
+    {
+        "de": "Blond",
+        "en": "Blond",
+        "ru": "\u0421\u0432\u0435\u0442\u043b\u043e\u0432\u043e\u043b\u043e\u0441\u044b\u0439",
+        "index": 492
+    },
+    {
+        "de": "Schlank",
+        "en": "Slim",
+        "ru": "\u0421\u0442\u0440\u043e\u0439\u043d\u044b\u0439",
+        "index": 493
+    },
+    {
+        "de": "Mollig",
+        "en": "Plump",
+        "ru": "\u041f\u043e\u043b\u043d\u044b\u0439",
+        "index": 494
+    },
+    {
+        "de": "Korpulent",
+        "en": "Stout",
+        "ru": "\u0422\u0443\u0447\u043d\u044b\u0439",
+        "index": 495
+    },
+    {
+        "de": "Gigantisch",
+        "en": "Gigantic",
+        "ru": "\u0418\u0441\u043f\u043e\u043b\u0438\u043d\u0441\u043a\u0438\u0439",
+        "index": 496
+    },
+    {
+        "de": "Mikroskopisch",
+        "en": "Microscopic",
+        "ru": "\u041c\u0438\u043a\u0440\u043e\u0441\u043a\u043e\u043f\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 497
+    },
+    {
+        "de": "Antik",
+        "en": "Antique",
+        "ru": "\u0410\u043d\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 498
+    },
+    {
+        "de": "Zeitgen\u00f6ssisch",
+        "en": "Contemporary",
+        "ru": "\u0421\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439",
+        "index": 499
+    },
+    {
+        "de": "Progressiv",
+        "en": "Progressive",
+        "ru": "\u041f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0438\u0432\u043d\u044b\u0439",
+        "index": 500
+    },
+    {
+        "de": "Innovativ",
+        "en": "Innovative",
+        "ru": "\u0418\u043d\u043d\u043e\u0432\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439",
+        "index": 501
+    },
+    {
+        "de": "Futuristisch",
+        "en": "Futuristic",
+        "ru": "\u0424\u0443\u0442\u0443\u0440\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 502
+    },
+    {
+        "de": "Rosa",
+        "en": "Pink",
+        "ru": "\u0420\u043e\u0437\u043e\u0432\u044b\u0439",
+        "index": 503
+    },
+    {
+        "de": "Lila",
+        "en": "Purple",
+        "ru": "\u0424\u0438\u043e\u043b\u0435\u0442\u043e\u0432\u044b\u0439",
+        "index": 504
+    },
+    {
+        "de": "Violett",
+        "en": "Violet",
+        "ru": "\u041b\u0438\u043b\u043e\u0432\u044b\u0439",
+        "index": 505
+    },
+    {
+        "de": "Orange",
+        "en": "Orange",
+        "ru": "\u041e\u0440\u0430\u043d\u0436\u0435\u0432\u044b\u0439",
+        "index": 506
+    },
+    {
+        "de": "T\u00fcrkis",
+        "en": "Turquoise",
+        "ru": "\u0411\u0438\u0440\u044e\u0437\u043e\u0432\u044b\u0439",
+        "index": 507
+    },
+    {
+        "de": "Metallisch",
+        "en": "Metallic",
+        "ru": "\u041c\u0435\u0442\u0430\u043b\u043b\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 508
+    },
+    {
+        "de": "Bleiern",
+        "en": "Leaden",
+        "ru": "\u0421\u0432\u0438\u043d\u0446\u043e\u0432\u044b\u0439",
+        "index": 509
+    },
+    {
+        "de": "Steinig",
+        "en": "Stony",
+        "ru": "\u041a\u0430\u043c\u0435\u043d\u0438\u0441\u0442\u044b\u0439",
+        "index": 510
+    },
+    {
+        "de": "Sandig",
+        "en": "Sandy",
+        "ru": "\u041f\u0435\u0441\u0447\u0430\u043d\u044b\u0439",
+        "index": 511
+    },
+    {
+        "de": "Staubig",
+        "en": "Dusty",
+        "ru": "\u041f\u044b\u043b\u044c\u043d\u044b\u0439",
+        "index": 512
+    },
+    {
+        "de": "Schlammig",
+        "en": "Muddy",
+        "ru": "\u0413\u0440\u044f\u0437\u043d\u044b\u0439",
+        "index": 513
+    },
+    {
+        "de": "Bew\u00f6lkt",
+        "en": "Cloudy",
+        "ru": "\u041e\u0431\u043b\u0430\u0447\u043d\u044b\u0439",
+        "index": 514
+    },
+    {
+        "de": "Schw\u00fcl",
+        "en": "Muggy",
+        "ru": "\u0414\u0443\u0448\u043d\u044b\u0439",
+        "index": 515
+    },
+    {
+        "de": "Klebrig",
+        "en": "Sticky",
+        "ru": "\u041b\u0438\u043f\u043a\u0438\u0439",
+        "index": 516
+    },
+    {
+        "de": "Rutschig",
+        "en": "Slippery",
+        "ru": "\u0421\u043a\u043e\u043b\u044c\u0437\u043a\u0438\u0439",
+        "index": 517
+    },
+    {
+        "de": "Eben",
+        "en": "Even",
+        "ru": "\u0420\u043e\u0432\u043d\u044b\u0439",
+        "index": 518
+    },
+    {
+        "de": "Uneben",
+        "en": "Uneven",
+        "ru": "\u041d\u0435\u0440\u043e\u0432\u043d\u044b\u0439",
+        "index": 519
+    },
+    {
+        "de": "Schr\u00e4g",
+        "en": "Slanted",
+        "ru": "\u041a\u043e\u0441\u043e\u0439",
+        "index": 520
+    },
+    {
+        "de": "Steil",
+        "en": "Steep",
+        "ru": "\u041a\u0440\u0443\u0442\u043e\u0439",
+        "index": 521
+    },
+    {
+        "de": "Horizontal",
+        "en": "Horizontal",
+        "ru": "\u0413\u043e\u0440\u0438\u0437\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 522
+    },
+    {
+        "de": "Vertikal",
+        "en": "Vertical",
+        "ru": "\u0412\u0435\u0440\u0442\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 523
+    },
+    {
+        "de": "Parallel",
+        "en": "Parallel",
+        "ru": "\u041f\u0430\u0440\u0430\u043b\u043b\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 524
+    },
+    {
+        "de": "Diagonal",
+        "en": "Diagonal",
+        "ru": "\u0414\u0438\u0430\u0433\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 525
+    },
+    {
+        "de": "Oval",
+        "en": "Oval",
+        "ru": "\u041e\u0432\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 526
+    },
+    {
+        "de": "Quadratisch",
+        "en": "Square",
+        "ru": "\u041a\u0432\u0430\u0434\u0440\u0430\u0442\u043d\u044b\u0439",
+        "index": 527
+    },
+    {
+        "de": "Rechteckig",
+        "en": "Rectangular",
+        "ru": "\u041f\u0440\u044f\u043c\u043e\u0443\u0433\u043e\u043b\u044c\u043d\u044b\u0439",
+        "index": 528
+    },
+    {
+        "de": "Dreieckig",
+        "en": "Triangular",
+        "ru": "\u0422\u0440\u0435\u0443\u0433\u043e\u043b\u044c\u043d\u044b\u0439",
+        "index": 529
+    },
+    {
+        "de": "Kugelig",
+        "en": "Spherical",
+        "ru": "\u0428\u0430\u0440\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0439",
+        "index": 530
+    },
+    {
+        "de": "Zylindrisch",
+        "en": "Cylindrical",
+        "ru": "\u0426\u0438\u043b\u0438\u043d\u0434\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 531
+    },
+    {
+        "de": "Kantig",
+        "en": "Edgy",
+        "ru": "\u0423\u0433\u043b\u043e\u0432\u0430\u0442\u044b\u0439",
+        "index": 532
+    },
+    {
+        "de": "Rundlich",
+        "en": "Roundish",
+        "ru": "\u041e\u043a\u0440\u0443\u0433\u043b\u044b\u0439",
+        "index": 533
+    },
+    {
+        "de": "Unendlich",
+        "en": "Infinite",
+        "ru": "\u0411\u0435\u0441\u043a\u043e\u043d\u0435\u0447\u043d\u044b\u0439",
+        "index": 534
+    },
+    {
+        "de": "Begrenzt",
+        "en": "Limited",
+        "ru": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u044b\u0439",
+        "index": 535
+    },
+    {
+        "de": "Endlos",
+        "en": "Endless",
+        "ru": "\u0411\u0435\u0441\u043a\u043e\u043d\u0435\u0447\u043d\u044b\u0439",
+        "index": 536
+    },
+    {
+        "de": "Grenzenlos",
+        "en": "Boundless",
+        "ru": "\u0411\u0435\u0437\u0433\u0440\u0430\u043d\u0438\u0447\u043d\u044b\u0439",
+        "index": 537
+    },
+    {
+        "de": "Leichtgewicht",
+        "en": "Lightweight",
+        "ru": "\u041b\u0435\u0433\u043a\u043e\u0432\u0435\u0441\u043d\u044b\u0439",
+        "index": 538
+    },
+    {
+        "de": "Schwerwiegend",
+        "en": "Serious",
+        "ru": "\u0412\u0435\u0441\u043a\u0438\u0439",
+        "index": 539
+    },
+    {
+        "de": "Bedeutungslos",
+        "en": "Meaningless",
+        "ru": "\u0411\u0435\u0441\u0441\u043c\u044b\u0441\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 540
+    },
+    {
+        "de": "Nebens\u00e4chlich",
+        "en": "Incidental",
+        "ru": "\u0412\u0442\u043e\u0440\u043e\u0441\u0442\u0435\u043f\u0435\u043d\u043d\u044b\u0439",
+        "index": 541
+    },
+    {
+        "de": "Haupts\u00e4chlich",
+        "en": "Main",
+        "ru": "\u0413\u043b\u0430\u0432\u043d\u044b\u0439",
+        "index": 542
+    },
+    {
+        "de": "Grundlegend",
+        "en": "Fundamental",
+        "ru": "\u041e\u0441\u043d\u043e\u0432\u043e\u043f\u043e\u043b\u0430\u0433\u0430\u044e\u0449\u0438\u0439",
+        "index": 543
+    },
+    {
+        "de": "Essenziell",
+        "en": "Essential",
+        "ru": "\u0421\u0443\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 544
+    },
+    {
+        "de": "Oberfl\u00e4chlich",
+        "en": "Superficial",
+        "ru": "\u041f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u043d\u044b\u0439",
+        "index": 545
+    },
+    {
+        "de": "Tiefgr\u00fcndig",
+        "en": "Profound",
+        "ru": "\u0413\u043b\u0443\u0431\u043e\u043a\u043e\u043c\u044b\u0441\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 546
+    },
+    {
+        "de": "Komplex",
+        "en": "Complex",
+        "ru": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043d\u044b\u0439",
+        "index": 547
+    },
+    {
+        "de": "Simpel",
+        "en": "Simple",
+        "ru": "\u041f\u0440\u043e\u0441\u0442\u043e\u0439",
+        "index": 548
+    },
+    {
+        "de": "Verwirrend",
+        "en": "Confusing",
+        "ru": "\u0417\u0430\u043f\u0443\u0442\u0430\u043d\u043d\u044b\u0439",
+        "index": 549
+    },
+    {
+        "de": "Eindeutig",
+        "en": "Unambiguous",
+        "ru": "\u041e\u0434\u043d\u043e\u0437\u043d\u0430\u0447\u043d\u044b\u0439",
+        "index": 550
+    },
+    {
+        "de": "Zweideutig",
+        "en": "Ambiguous",
+        "ru": "\u0414\u0432\u0443\u0441\u043c\u044b\u0441\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 551
+    },
+    {
+        "de": "R\u00e4tselhaft",
+        "en": "Mysterious",
+        "ru": "\u0417\u0430\u0433\u0430\u0434\u043e\u0447\u043d\u044b\u0439",
+        "index": 552
+    },
+    {
+        "de": "Geheimnisvoll",
+        "en": "Secretive",
+        "ru": "\u0422\u0430\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 553
+    },
+    {
+        "de": "Offensichtlich",
+        "en": "Obvious",
+        "ru": "\u041e\u0447\u0435\u0432\u0438\u0434\u043d\u044b\u0439",
+        "index": 554
+    },
+    {
+        "de": "Verborgen",
+        "en": "Hidden",
+        "ru": "\u0421\u043a\u0440\u044b\u0442\u044b\u0439",
+        "index": 555
+    },
+    {
+        "de": "Transparent",
+        "en": "Transparent",
+        "ru": "\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439",
+        "index": 556
+    },
+    {
+        "de": "Blickdicht",
+        "en": "Opaque",
+        "ru": "\u041d\u0435\u043f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439",
+        "index": 557
+    },
+    {
+        "de": "Still",
+        "en": "Silent",
+        "ru": "\u0411\u0435\u0437\u043c\u043e\u043b\u0432\u043d\u044b\u0439",
+        "index": 558
+    },
+    {
+        "de": "Ger\u00e4uschlos",
+        "en": "Noiseless",
+        "ru": "\u0411\u0435\u0441\u0448\u0443\u043c\u043d\u044b\u0439",
+        "index": 559
+    },
+    {
+        "de": "Ohrenbet\u00e4ubend",
+        "en": "Deafening",
+        "ru": "\u041e\u0433\u043b\u0443\u0448\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 560
+    },
+    {
+        "de": "Melodisch",
+        "en": "Melodic",
+        "ru": "\u041c\u0435\u043b\u043e\u0434\u0438\u0447\u043d\u044b\u0439",
+        "index": 561
+    },
+    {
+        "de": "Harmonisch",
+        "en": "Harmonious",
+        "ru": "\u0413\u0430\u0440\u043c\u043e\u043d\u0438\u0447\u043d\u044b\u0439",
+        "index": 562
+    },
+    {
+        "de": "Dissonant",
+        "en": "Dissonant",
+        "ru": "\u0414\u0438\u0441\u0441\u043e\u043d\u0438\u0440\u0443\u044e\u0449\u0438\u0439",
+        "index": 563
+    },
+    {
+        "de": "Duftend",
+        "en": "Fragrant",
+        "ru": "\u0410\u0440\u043e\u043c\u0430\u0442\u043d\u044b\u0439",
+        "index": 564
+    },
+    {
+        "de": "Stinkend",
+        "en": "Stinky",
+        "ru": "\u0412\u043e\u043d\u044e\u0447\u0438\u0439",
+        "index": 565
+    },
+    {
+        "de": "Eklig",
+        "en": "Disgusting",
+        "ru": "\u041e\u0442\u0432\u0440\u0430\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 566
+    },
+    {
+        "de": "Lauwarm",
+        "en": "Lukewarm",
+        "ru": "\u0422\u0435\u043f\u043b\u043e\u0432\u0430\u0442\u044b\u0439",
+        "index": 567
+    },
+    {
+        "de": "Brennend",
+        "en": "Burning",
+        "ru": "\u0413\u043e\u0440\u044f\u0449\u0438\u0439",
+        "index": 568
+    },
+    {
+        "de": "Gefroren",
+        "en": "Frozen",
+        "ru": "\u0417\u0430\u043c\u043e\u0440\u043e\u0436\u0435\u043d\u043d\u044b\u0439",
+        "index": 569
+    },
+    {
+        "de": "Geschmolzen",
+        "en": "Melted",
+        "ru": "\u0420\u0430\u0441\u043f\u043b\u0430\u0432\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 570
+    },
+    {
+        "de": "Zerbrechlich",
+        "en": "Fragile",
+        "ru": "\u0425\u0440\u0443\u043f\u043a\u0438\u0439",
+        "index": 571
+    },
+    {
+        "de": "Robust",
+        "en": "Robust",
+        "ru": "\u041a\u0440\u0435\u043f\u043a\u0438\u0439",
+        "index": 572
+    },
+    {
+        "de": "Stabil",
+        "en": "Stable",
+        "ru": "\u0421\u0442\u0430\u0431\u0438\u043b\u044c\u043d\u044b\u0439",
+        "index": 573
+    },
+    {
+        "de": "Wackelig",
+        "en": "Shaky",
+        "ru": "\u0428\u0430\u0442\u043a\u0438",
+        "index": 574
+    },
+    {
+        "de": "Elastisch",
+        "en": "Elastic",
+        "ru": "\u042d\u043b\u0430\u0441\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 575
+    },
+    {
+        "de": "Starr",
+        "en": "Rigid",
+        "ru": "\u041d\u0435\u043f\u043e\u0434\u0432\u0438\u0436\u043d\u044b\u0439",
+        "index": 576
+    },
+    {
+        "de": "Flexibel",
+        "en": "Flexible",
+        "ru": "\u0413\u0438\u0431\u043a\u0438\u0439",
+        "index": 577
+    },
+    {
+        "de": "Biegsam",
+        "en": "Pliable",
+        "ru": "\u041f\u043e\u0434\u0430\u0442\u043b\u0438\u0432\u044b\u0439",
+        "index": 578
+    },
+    {
+        "de": "Steif",
+        "en": "Stiff",
+        "ru": "\u0416\u0435\u0441\u0442\u043a\u0438\u0439",
+        "index": 579
+    },
+    {
+        "de": "Langsam",
+        "en": "Slow",
+        "ru": "\u041c\u0435\u0434\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 580
+    },
+    {
+        "de": "Rasch",
+        "en": "Swift",
+        "ru": "\u0421\u043a\u043e\u0440\u044b\u0439",
+        "index": 581
+    },
+    {
+        "de": "Z\u00fcgig",
+        "en": "Brisk",
+        "ru": "\u041f\u0440\u043e\u0432\u043e\u0440\u043d\u044b\u0439",
+        "index": 582
+    },
+    {
+        "de": "Eilig",
+        "en": "Hurried",
+        "ru": "\u041f\u043e\u0441\u043f\u0435\u0448\u043d\u044b\u0439",
+        "index": 583
+    },
+    {
+        "de": "Verz\u00f6gert",
+        "en": "Delayed",
+        "ru": "\u0417\u0430\u0434\u0435\u0440\u0436\u0430\u043d\u043d\u044b\u0439",
+        "index": 584
+    },
+    {
+        "de": "Versp\u00e4tet",
+        "en": "Late",
+        "ru": "\u041e\u043f\u043e\u0437\u0434\u0430\u0432\u0448\u0438\u0439",
+        "index": 585
+    },
+    {
+        "de": "Gebraucht",
+        "en": "Used",
+        "ru": "\u041f\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u043d\u044b\u0439",
+        "index": 586
+    },
+    {
+        "de": "Verdorben",
+        "en": "Spoiled",
+        "ru": "\u0418\u0441\u043f\u043e\u0440\u0447\u0435\u043d\u043d\u044b\u0439",
+        "index": 587
+    },
+    {
+        "de": "Reif",
+        "en": "Ripe",
+        "ru": "\u0421\u043f\u0435\u043b\u044b\u0439",
+        "index": 588
+    },
+    {
+        "de": "Unreif",
+        "en": "Unripe",
+        "ru": "\u041d\u0435\u0437\u0440\u0435\u043b\u044b\u0439",
+        "index": 589
+    },
+    {
+        "de": "Sterblich",
+        "en": "Mortal",
+        "ru": "\u0421\u043c\u0435\u0440\u0442\u043d\u044b\u0439",
+        "index": 590
+    },
+    {
+        "de": "Unsterblich",
+        "en": "Immortal",
+        "ru": "\u0411\u0435\u0441\u0441\u043c\u0435\u0440\u0442\u043d\u044b\u0439",
+        "index": 591
+    },
+    {
+        "de": "Heil",
+        "en": "Intact",
+        "ru": "\u0426\u0435\u043b\u044b\u0439",
+        "index": 592
+    },
+    {
+        "de": "Verletzt",
+        "en": "Injured",
+        "ru": "\u0420\u0430\u043d\u0435\u043d\u044b\u0439",
+        "index": 593
+    },
+    {
+        "de": "M\u00e4chtig",
+        "en": "Mighty",
+        "ru": "\u041c\u043e\u0433\u0443\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 594
+    },
+    {
+        "de": "Ohnm\u00e4chtig",
+        "en": "Powerless",
+        "ru": "\u0411\u0435\u0441\u0441\u0438\u043b\u044c\u043d\u044b\u0439",
+        "index": 595
+    },
+    {
+        "de": "Wohlhabend",
+        "en": "Wealthy",
+        "ru": "\u0421\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 596
+    },
+    {
+        "de": "Mittellos",
+        "en": "Destitute",
+        "ru": "\u041d\u0435\u0438\u043c\u0443\u0449\u0438\u0439",
+        "index": 597
+    },
+    {
+        "de": "G\u00fcnstig",
+        "en": "Favorable",
+        "ru": "\u0412\u044b\u0433\u043e\u0434\u043d\u044b\u0439",
+        "index": 598
+    },
+    {
+        "de": "Kostenlos",
+        "en": "Free",
+        "ru": "\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u0439",
+        "index": 599
+    },
+    {
+        "de": "Riskant",
+        "en": "Risky",
+        "ru": "\u0420\u0438\u0441\u043a\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 600
+    },
+    {
+        "de": "Vorsichtig",
+        "en": "Careful",
+        "ru": "\u041e\u0441\u0442\u043e\u0440\u043e\u0436\u043d\u044b\u0439",
+        "index": 601
+    },
+    {
+        "de": "Unvorsichtig",
+        "en": "Careless",
+        "ru": "\u041d\u0435\u043e\u0441\u0442\u043e\u0440\u043e\u0436\u043d\u044b\u0439",
+        "index": 602
+    },
+    {
+        "de": "Aufmerksam",
+        "en": "Attentive",
+        "ru": "\u0412\u043d\u0438\u043c\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 603
+    },
+    {
+        "de": "Unaufmerksam",
+        "en": "Inattentive",
+        "ru": "\u041d\u0435\u0432\u043d\u0438\u043c\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 604
+    },
+    {
+        "de": "Wahnsinnig",
+        "en": "Insane",
+        "ru": "\u0411\u0435\u0437\u0443\u043c\u043d\u044b\u0439",
+        "index": 605
+    },
+    {
+        "de": "Stetig",
+        "en": "Steady",
+        "ru": "\u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439",
+        "index": 606
+    },
+    {
+        "de": "Unerwartet",
+        "en": "Unexpected",
+        "ru": "\u041d\u0435\u043e\u0436\u0438\u0434\u0430\u043d\u043d\u044b\u0439",
+        "index": 607
+    },
+    {
+        "de": "Vorhersehbar",
+        "en": "Predictable",
+        "ru": "\u041f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0443\u0435\u043c\u044b\u0439",
+        "index": 608
+    },
+    {
+        "de": "Geheim",
+        "en": "Secret",
+        "ru": "\u0421\u0435\u043a\u0440\u0435\u0442\u043d\u044b\u0439",
+        "index": 609
+    },
+    {
+        "de": "Geschlossen",
+        "en": "Closed",
+        "ru": "\u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0439",
+        "index": 610
+    },
+    {
+        "de": "Versteckt",
+        "en": "Hidden",
+        "ru": "\u0421\u043f\u0440\u044f\u0442\u0430\u043d\u043d\u044b\u0439",
+        "index": 611
+    },
+    {
+        "de": "Besetzt",
+        "en": "Occupied",
+        "ru": "\u0417\u0430\u043d\u044f\u0442\u044b\u0439",
+        "index": 612
+    },
+    {
+        "de": "Gef\u00fcllt",
+        "en": "Filled",
+        "ru": "\u041d\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u044b\u0439",
+        "index": 613
+    },
+    {
+        "de": "Ordentlich",
+        "en": "Tidy",
+        "ru": "\u0410\u043a\u043a\u0443\u0440\u0430\u0442\u043d\u044b\u0439",
+        "index": 614
+    },
+    {
+        "de": "Unordentlich",
+        "en": "Messy",
+        "ru": "\u041d\u0435\u043e\u043f\u0440\u044f\u0442\u043d\u044b\u0439",
+        "index": 615
+    },
+    {
+        "de": "Chaotisch",
+        "en": "Chaotic",
+        "ru": "\u0425\u0430\u043e\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 616
+    },
+    {
+        "de": "Strukturiert",
+        "en": "Structured",
+        "ru": "\u0421\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 617
+    },
+    {
+        "de": "Organisiert",
+        "en": "Organized",
+        "ru": "\u041e\u0440\u0433\u0430\u043d\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 618
+    },
+    {
+        "de": "Geplant",
+        "en": "Planned",
+        "ru": "\u0421\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 619
+    },
+    {
+        "de": "Spontan",
+        "en": "Spontaneous",
+        "ru": "\u0421\u043f\u043e\u043d\u0442\u0430\u043d\u043d\u044b\u0439",
+        "index": 620
+    },
+    {
+        "de": "Gelogen",
+        "en": "Lied",
+        "ru": "\u041b\u0436\u0438\u0432\u044b\u0439",
+        "index": 621
+    },
+    {
+        "de": "Korrekt",
+        "en": "Correct",
+        "ru": "\u041a\u043e\u0440\u0440\u0435\u043a\u0442\u043d\u044b\u0439",
+        "index": 622
+    },
+    {
+        "de": "Ungenau",
+        "en": "Inexact",
+        "ru": "\u041d\u0435\u0442\u043e\u0447\u043d\u044b\u0439",
+        "index": 623
+    },
+    {
+        "de": "Vage",
+        "en": "Vague",
+        "ru": "\u0421\u043c\u0443\u0442\u043d\u044b\u0439",
+        "index": 624
+    },
+    {
+        "de": "Detailliert",
+        "en": "Detailed",
+        "ru": "\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u044b\u0439",
+        "index": 625
+    },
+    {
+        "de": "Speziell",
+        "en": "Special",
+        "ru": "\u0421\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 626
+    },
+    {
+        "de": "Einzigartig",
+        "en": "Unique",
+        "ru": "\u0423\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 627
+    },
+    {
+        "de": "Charakteristisch",
+        "en": "Characteristic",
+        "ru": "\u0425\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u043d\u044b\u0439",
+        "index": 628
+    },
+    {
+        "de": "Anders",
+        "en": "Different",
+        "ru": "\u0418\u043d\u043e\u0439",
+        "index": 629
+    },
+    {
+        "de": "Veraltet",
+        "en": "Outdated",
+        "ru": "\u0423\u0441\u0442\u0430\u0440\u0435\u0432\u0448\u0438\u0439",
+        "index": 630
+    },
+    {
+        "de": "Gegenw\u00e4rtig",
+        "en": "Present",
+        "ru": "\u041d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u0439",
+        "index": 631
+    },
+    {
+        "de": "Tempor\u00e4r",
+        "en": "Temporary",
+        "ru": "\u0412\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439",
+        "index": 632
+    },
+    {
+        "de": "Vor\u00fcbergehend",
+        "en": "Temporary",
+        "ru": "\u041f\u0435\u0440\u0435\u0445\u043e\u0434\u043d\u044b\u0439",
+        "index": 633
+    },
+    {
+        "de": "Entfernt",
+        "en": "Distant",
+        "ru": "\u041e\u0442\u0434\u0430\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 634
+    },
+    {
+        "de": "Niedrig",
+        "en": "Low",
+        "ru": "\u041d\u0438\u0437\u043a\u0438\u0439",
+        "index": 635
+    },
+    {
+        "de": "Machbar",
+        "en": "Doable",
+        "ru": "\u0412\u044b\u043f\u043e\u043b\u043d\u0438\u043c\u044b\u0439",
+        "index": 636
+    },
+    {
+        "de": "Unm\u00f6glich",
+        "en": "Impossible",
+        "ru": "\u041d\u0435\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u044b\u0439",
+        "index": 637
+    },
+    {
+        "de": "Unsicher",
+        "en": "Unsure",
+        "ru": "\u041d\u0435\u0443\u0432\u0435\u0440\u0435\u043d\u043d\u044b\u0439",
+        "index": 638
+    },
+    {
+        "de": "Gewiss",
+        "en": "Certain",
+        "ru": "\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 639
+    },
+    {
+        "de": "Ungewiss",
+        "en": "Uncertain",
+        "ru": "\u041d\u0435\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 640
+    },
+    {
+        "de": "Zweifelhaft",
+        "en": "Doubtful",
+        "ru": "\u0421\u043e\u043c\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 641
+    },
+    {
+        "de": "\u00dcberzeugt",
+        "en": "Convinced",
+        "ru": "\u0423\u0431\u0435\u0436\u0434\u0435\u043d\u043d\u044b\u0439",
+        "index": 642
+    },
+    {
+        "de": "Entschlossen",
+        "en": "Determined",
+        "ru": "\u0420\u0435\u0448\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 643
+    },
+    {
+        "de": "Unentschlossen",
+        "en": "Undecided",
+        "ru": "\u041d\u0435\u0440\u0435\u0448\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 644
+    },
+    {
+        "de": "\u00c4ngstlich",
+        "en": "Anxious",
+        "ru": "\u0411\u043e\u044f\u0437\u043b\u0438\u0432\u044b\u0439",
+        "index": 645
+    },
+    {
+        "de": "Nerv\u00f6s",
+        "en": "Nervous",
+        "ru": "\u041d\u0435\u0440\u0432\u043d\u044b\u0439",
+        "index": 646
+    },
+    {
+        "de": "Entspannt",
+        "en": "Relaxed",
+        "ru": "\u0420\u0430\u0441\u0441\u043b\u0430\u0431\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 647
+    },
+    {
+        "de": "Gestresst",
+        "en": "Stressed",
+        "ru": "\u041d\u0430\u043f\u0440\u044f\u0436\u0435\u043d\u043d\u044b\u0439",
+        "index": 648
+    },
+    {
+        "de": "Aufgeregt",
+        "en": "Excited",
+        "ru": "\u0412\u0437\u0432\u043e\u043b\u043d\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 649
+    },
+    {
+        "de": "Gelassen",
+        "en": "Serene",
+        "ru": "\u041d\u0435\u0432\u043e\u0437\u043c\u0443\u0442\u0438\u043c\u044b\u0439",
+        "index": 650
+    },
+    {
+        "de": "Zornig",
+        "en": "Wrathful",
+        "ru": "\u0413\u043d\u0435\u0432\u043d\u044b\u0439",
+        "index": 651
+    },
+    {
+        "de": "Froh",
+        "en": "Glad",
+        "ru": "\u0420\u0430\u0434\u043e\u0441\u0442\u043d\u044b\u0439",
+        "index": 652
+    },
+    {
+        "de": "Ungl\u00fccklich",
+        "en": "Unhappy",
+        "ru": "\u041d\u0435\u0441\u0447\u0430\u0441\u0442\u043d\u044b\u0439",
+        "index": 653
+    },
+    {
+        "de": "Deprimiert",
+        "en": "Depressed",
+        "ru": "\u041f\u043e\u0434\u0430\u0432\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 654
+    },
+    {
+        "de": "Fr\u00f6hlich",
+        "en": "Cheerful",
+        "ru": "\u0412\u0435\u0441\u0435\u043b\u044b\u0439",
+        "index": 655
+    },
+    {
+        "de": "Humorvoll",
+        "en": "Humorous",
+        "ru": "\u041e\u0441\u0442\u0440\u043e\u0443\u043c\u043d\u044b\u0439",
+        "index": 656
+    },
+    {
+        "de": "Beeindruckend",
+        "en": "Impressive",
+        "ru": "\u0412\u043f\u0435\u0447\u0430\u0442\u043b\u044f\u044e\u0449\u0438\u0439",
+        "index": 657
+    },
+    {
+        "de": "Entt\u00e4uschend",
+        "en": "Disappointing",
+        "ru": "\u0420\u0430\u0437\u043e\u0447\u0430\u0440\u043e\u0432\u044b\u0432\u0430\u044e\u0449\u0438\u0439",
+        "index": 658
+    },
+    {
+        "de": "\u00dcberraschend",
+        "en": "Surprising",
+        "ru": "\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 659
+    },
+    {
+        "de": "Erstaunlich",
+        "en": "Amazing",
+        "ru": "\u041f\u043e\u0440\u0430\u0437\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 660
+    },
+    {
+        "de": "H\u00e4sslich",
+        "en": "Ugly",
+        "ru": "\u0423\u0440\u043e\u0434\u043b\u0438\u0432\u044b\u0439",
+        "index": 661
+    },
+    {
+        "de": "Attraktiv",
+        "en": "Attractive",
+        "ru": "\u041f\u0440\u0438\u0432\u043b\u0435\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 662
+    },
+    {
+        "de": "Unattraktiv",
+        "en": "Unattractive",
+        "ru": "\u041d\u0435\u043f\u0440\u0438\u0432\u043b\u0435\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 663
+    },
+    {
+        "de": "Elegant",
+        "en": "Elegant",
+        "ru": "\u042d\u043b\u0435\u0433\u0430\u043d\u0442\u043d\u044b\u0439",
+        "index": 664
+    },
+    {
+        "de": "Schick",
+        "en": "Chic",
+        "ru": "\u0428\u0438\u043a\u0430\u0440\u043d\u044b\u0439",
+        "index": 665
+    },
+    {
+        "de": "Modisch",
+        "en": "Fashionable",
+        "ru": "\u041c\u043e\u0434\u043d\u044b\u0439",
+        "index": 666
+    },
+    {
+        "de": "Altmodisch",
+        "en": "Old-Fashioned",
+        "ru": "\u0421\u0442\u0430\u0440\u043e\u043c\u043e\u0434\u043d\u044b\u0439",
+        "index": 667
+    },
+    {
+        "de": "Gepflegt",
+        "en": "Well-Groomed",
+        "ru": "\u0423\u0445\u043e\u0436\u0435\u043d\u043d\u044b\u0439",
+        "index": 668
+    },
+    {
+        "de": "Ungepflegt",
+        "en": "Unkempt",
+        "ru": "\u041d\u0435\u0443\u0445\u043e\u0436\u0435\u043d\u043d\u044b\u0439",
+        "index": 669
+    },
+    {
+        "de": "Gemein",
+        "en": "Mean",
+        "ru": "\u041f\u043e\u0434\u043b\u044b\u0439",
+        "index": 670
+    },
+    {
+        "de": "Feindlich",
+        "en": "Hostile",
+        "ru": "\u0412\u0440\u0430\u0436\u0434\u0435\u0431\u043d\u044b\u0439",
+        "index": 671
+    },
+    {
+        "de": "Aufrichtig",
+        "en": "Sincere",
+        "ru": "\u0418\u0441\u043a\u0440\u0435\u043d\u043d\u0438\u0439",
+        "index": 672
+    },
+    {
+        "de": "Ehrgeizig",
+        "en": "Ambitious",
+        "ru": "\u0410\u043c\u0431\u0438\u0446\u0438\u043e\u0437\u043d\u044b\u0439",
+        "index": 673
+    },
+    {
+        "de": "Eingebildet",
+        "en": "Conceited",
+        "ru": "\u0422\u0449\u0435\u0441\u043b\u0430\u0432\u043d\u044b\u0439",
+        "index": 674
+    },
+    {
+        "de": "Selbstbewusst",
+        "en": "Self-Confident",
+        "ru": "\u0421\u0430\u043c\u043e\u0443\u0432\u0435\u0440\u0435\u043d\u043d\u044b\u0439",
+        "index": 675
+    },
+    {
+        "de": "Tolerant",
+        "en": "Tolerant",
+        "ru": "\u0422\u043e\u043b\u0435\u0440\u0430\u043d\u0442\u043d\u044b\u0439",
+        "index": 676
+    },
+    {
+        "de": "Intolerant",
+        "en": "Intolerant",
+        "ru": "\u041d\u0435\u0442\u0435\u0440\u043f\u0438\u043c\u044b\u0439",
+        "index": 677
+    },
+    {
+        "de": "Weltlich",
+        "en": "Secular",
+        "ru": "\u0421\u0432\u0435\u0442\u0441\u043a\u0438\u0439",
+        "index": 678
+    },
+    {
+        "de": "Gl\u00e4ubig",
+        "en": "Believing",
+        "ru": "\u0412\u0435\u0440\u0443\u044e\u0449\u0438\u0439",
+        "index": 679
+    },
+    {
+        "de": "Ungl\u00e4ubig",
+        "en": "Incredulous",
+        "ru": "\u041d\u0435\u0432\u0435\u0440\u0443\u044e\u0449\u0438\u0439",
+        "index": 680
+    },
+    {
+        "de": "Abergl\u00e4ubisch",
+        "en": "Superstitious",
+        "ru": "\u0421\u0443\u0435\u0432\u0435\u0440\u043d\u044b\u0439",
+        "index": 681
+    },
+    {
+        "de": "Vern\u00fcnftig",
+        "en": "Reasonable",
+        "ru": "\u0420\u0430\u0437\u0443\u043c\u043d\u044b\u0439",
+        "index": 682
+    },
+    {
+        "de": "Unvern\u00fcnftig",
+        "en": "Unreasonable",
+        "ru": "\u041d\u0435\u0440\u0430\u0437\u0443\u043c\u043d\u044b\u0439",
+        "index": 683
+    },
+    {
+        "de": "Logisch",
+        "en": "Logical",
+        "ru": "\u041b\u043e\u0433\u0438\u0447\u043d\u044b\u0439",
+        "index": 684
+    },
+    {
+        "de": "Unlogisch",
+        "en": "Illogical",
+        "ru": "\u041d\u0435\u043b\u043e\u0433\u0438\u0447\u043d\u044b\u0439",
+        "index": 685
+    },
+    {
+        "de": "Konsequent",
+        "en": "Consistent",
+        "ru": "\u041f\u043e\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 686
+    },
+    {
+        "de": "Inkonsequent",
+        "en": "Inconsistent",
+        "ru": "\u041d\u0435\u043f\u043e\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 687
+    },
+    {
+        "de": "Fair",
+        "en": "Fair",
+        "ru": "\u0421\u043f\u0440\u0430\u0432\u0435\u0434\u043b\u0438\u0432\u044b\u0439",
+        "index": 688
+    },
+    {
+        "de": "Unfair",
+        "en": "Unfair",
+        "ru": "\u041d\u0435\u0441\u043f\u0440\u0430\u0432\u0435\u0434\u043b\u0438\u0432\u044b\u0439",
+        "index": 689
+    },
+    {
+        "de": "Gerecht",
+        "en": "Just",
+        "ru": "\u041f\u0440\u0430\u0432\u043e\u0441\u0443\u0434\u043d\u044b\u0439",
+        "index": 690
+    },
+    {
+        "de": "Ungerecht",
+        "en": "Unjust",
+        "ru": "\u041d\u0435\u043f\u0440\u0430\u0432\u043e\u043c\u0435\u0440\u043d\u044b\u0439",
+        "index": 691
+    },
+    {
+        "de": "Verantwortungslos",
+        "en": "Irresponsible",
+        "ru": "\u0411\u0435\u0437\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 692
+    },
+    {
+        "de": "Gezwungen",
+        "en": "Forced",
+        "ru": "\u041f\u0440\u0438\u043d\u0443\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 693
+    },
+    {
+        "de": "Unabsichtlich",
+        "en": "Unintentional",
+        "ru": "\u041d\u0435\u043f\u0440\u0435\u0434\u043d\u0430\u043c\u0435\u0440\u0435\u043d\u043d\u044b\u0439",
+        "index": 694
+    },
+    {
+        "de": "Versehentlich",
+        "en": "Accidental",
+        "ru": "\u0421\u043b\u0443\u0447\u0430\u0439\u043d\u044b\u0439",
+        "index": 695
+    },
+    {
+        "de": "Gezielt",
+        "en": "Targeted",
+        "ru": "\u0426\u0435\u043b\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 696
+    },
+    {
+        "de": "Wirksam",
+        "en": "Effective",
+        "ru": "\u042d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 697
+    },
+    {
+        "de": "Unwirksam",
+        "en": "Ineffective",
+        "ru": "\u041d\u0435\u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 698
+    },
+    {
+        "de": "Effektiv",
+        "en": "Effective",
+        "ru": "\u0414\u0435\u0439\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 699
+    },
+    {
+        "de": "Ineffektiv",
+        "en": "Ineffective",
+        "ru": "\u041d\u0435\u0434\u0435\u0439\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 700
+    },
+    {
+        "de": "Effizient",
+        "en": "Efficient",
+        "ru": "\u041f\u0440\u043e\u0434\u0443\u043a\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 701
+    },
+    {
+        "de": "Ineffizient",
+        "en": "Inefficient",
+        "ru": "\u041d\u0435\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 702
+    },
+    {
+        "de": "Produktiv",
+        "en": "Productive",
+        "ru": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 703
+    },
+    {
+        "de": "Unproduktiv",
+        "en": "Unproductive",
+        "ru": "\u041d\u0435\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 704
+    },
+    {
+        "de": "N\u00f6tig",
+        "en": "Necessary",
+        "ru": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0439",
+        "index": 705
+    },
+    {
+        "de": "Unn\u00f6tig",
+        "en": "Unnecessary",
+        "ru": "\u041d\u0435\u043d\u0443\u0436\u043d\u044b\u0439",
+        "index": 706
+    },
+    {
+        "de": "Unwichtig",
+        "en": "Unimportant",
+        "ru": "\u041d\u0435\u0432\u0430\u0436\u043d\u044b\u0439",
+        "index": 707
+    },
+    {
+        "de": "Unbedeutend",
+        "en": "Insignificant",
+        "ru": "\u041d\u0435\u0437\u043d\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 708
+    },
+    {
+        "de": "Relevant",
+        "en": "Relevant",
+        "ru": "\u0423\u043c\u0435\u0441\u0442\u043d\u044b\u0439",
+        "index": 709
+    },
+    {
+        "de": "Irrelevant",
+        "en": "Irrelevant",
+        "ru": "\u041d\u0435\u0443\u043c\u0435\u0441\u0442\u043d\u044b\u0439",
+        "index": 710
+    },
+    {
+        "de": "Brillant",
+        "en": "Brilliant",
+        "ru": "\u0411\u043b\u0435\u0441\u0442\u044f\u0449\u0438\u0439",
+        "index": 711
+    },
+    {
+        "de": "Genial",
+        "en": "Ingenious",
+        "ru": "\u0413\u0435\u043d\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 712
+    },
+    {
+        "de": "Talentiert",
+        "en": "Talented",
+        "ru": "\u0422\u0430\u043b\u0430\u043d\u0442\u043b\u0438\u0432\u044b\u0439",
+        "index": 713
+    },
+    {
+        "de": "Begabt",
+        "en": "Gifted",
+        "ru": "\u041e\u0434\u0430\u0440\u0435\u043d\u043d\u044b\u0439",
+        "index": 714
+    },
+    {
+        "de": "Unbegabt",
+        "en": "Untalented",
+        "ru": "\u0411\u0435\u0437\u0434\u0430\u0440\u043d\u044b\u0439",
+        "index": 715
+    },
+    {
+        "de": "Fantasievoll",
+        "en": "Imaginative",
+        "ru": "\u0424\u0430\u043d\u0442\u0430\u0437\u0438\u0439\u043d\u044b\u0439",
+        "index": 716
+    },
+    {
+        "de": "Fantasielos",
+        "en": "Unimaginative",
+        "ru": "\u041b\u0438\u0448\u0435\u043d\u043d\u044b\u0439 \u0424\u0430\u043d\u0442\u0430\u0437\u0438\u0438",
+        "index": 717
+    },
+    {
+        "de": "Mechanisch",
+        "en": "Mechanical",
+        "ru": "\u041c\u0435\u0445\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 718
+    },
+    {
+        "de": "Digital",
+        "en": "Digital",
+        "ru": "\u0426\u0438\u0444\u0440\u043e\u0432\u043e\u0439",
+        "index": 719
+    },
+    {
+        "de": "Analog",
+        "en": "Analog",
+        "ru": "\u0410\u043d\u0430\u043b\u043e\u0433\u043e\u0432\u044b\u0439",
+        "index": 720
+    },
+    {
+        "de": "Physisch",
+        "en": "Physical",
+        "ru": "\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 721
+    },
+    {
+        "de": "Psychisch",
+        "en": "Psychological",
+        "ru": "\u041f\u0441\u0438\u0445\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 722
+    },
+    {
+        "de": "Immateriell",
+        "en": "Immaterial",
+        "ru": "\u041d\u0435\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 723
+    },
+    {
+        "de": "Rechtlich",
+        "en": "Legal",
+        "ru": "\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 724
+    },
+    {
+        "de": "Kriminell",
+        "en": "Criminal",
+        "ru": "\u041a\u0440\u0438\u043c\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 725
+    },
+    {
+        "de": "Bewaffnet",
+        "en": "Armed",
+        "ru": "\u0412\u043e\u043e\u0440\u0443\u0436\u0435\u043d\u043d\u044b\u0439",
+        "index": 726
+    },
+    {
+        "de": "Unbewaffnet",
+        "en": "Unarmed",
+        "ru": "\u041d\u0435\u0432\u043e\u043e\u0440\u0443\u0436\u0435\u043d\u043d\u044b\u0439",
+        "index": 727
+    },
+    {
+        "de": "Harmlos",
+        "en": "Harmless",
+        "ru": "\u0411\u0435\u0437\u043e\u0431\u0438\u0434\u043d\u044b\u0439",
+        "index": 728
+    },
+    {
+        "de": "Ungiftig",
+        "en": "Non-Toxic",
+        "ru": "\u041d\u0435\u0442\u043e\u043a\u0441\u0438\u0447\u043d\u044b\u0439",
+        "index": 729
+    },
+    {
+        "de": "Lebensgef\u00e4hrlich",
+        "en": "Life-Threatening",
+        "ru": "\u041e\u043f\u0430\u0441\u043d\u044b\u0439 \u0414\u043b\u044f \u0416\u0438\u0437\u043d\u0438",
+        "index": 730
+    },
+    {
+        "de": "Heilend",
+        "en": "Healing",
+        "ru": "\u0426\u0435\u043b\u0435\u0431\u043d\u044b\u0439",
+        "index": 731
+    },
+    {
+        "de": "Pflegend",
+        "en": "Nourishing",
+        "ru": "\u0423\u0445\u0430\u0436\u0438\u0432\u0430\u044e\u0449\u0438\u0439",
+        "index": 732
+    },
+    {
+        "de": "Sch\u00fctzend",
+        "en": "Protective",
+        "ru": "\u0417\u0430\u0449\u0438\u0442\u043d\u044b\u0439",
+        "index": 733
+    },
+    {
+        "de": "Dynamisch",
+        "en": "Dynamic",
+        "ru": "\u0414\u0438\u043d\u0430\u043c\u0438\u0447\u043d\u044b\u0439",
+        "index": 734
+    },
+    {
+        "de": "Energetisch",
+        "en": "Energetic",
+        "ru": "\u042d\u043d\u0435\u0440\u0433\u0438\u0447\u043d\u044b\u0439",
+        "index": 735
+    },
+    {
+        "de": "Lebhaft",
+        "en": "Lively",
+        "ru": "\u041e\u0436\u0438\u0432\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 736
+    },
+    {
+        "de": "Vital",
+        "en": "Vital",
+        "ru": "\u0416\u0438\u0437\u043d\u0435\u043d\u043d\u043e \u0412\u0430\u0436\u043d\u044b\u0439",
+        "index": 737
+    },
+    {
+        "de": "Tr\u00e4ge",
+        "en": "Sluggish",
+        "ru": "\u0412\u044f\u043b\u044b\u0439",
+        "index": 738
+    },
+    {
+        "de": "Unbeweglich",
+        "en": "Immobile",
+        "ru": "\u041d\u0435\u043f\u043e\u0434\u0432\u0438\u0436\u043d\u044b\u0439",
+        "index": 739
+    },
+    {
+        "de": "Ortsfest",
+        "en": "Stationary",
+        "ru": "\u0421\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u044b\u0439",
+        "index": 740
+    },
+    {
+        "de": "Mobil",
+        "en": "Mobile",
+        "ru": "\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0439",
+        "index": 741
+    },
+    {
+        "de": "Station\u00e4r",
+        "en": "Inpatient",
+        "ru": "\u0421\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u044b\u0439",
+        "index": 742
+    },
+    {
+        "de": "Ambulant",
+        "en": "Outpatient",
+        "ru": "\u0410\u043c\u0431\u0443\u043b\u0430\u0442\u043e\u0440\u043d\u044b\u0439",
+        "index": 743
+    },
+    {
+        "de": "H\u00e4uslich",
+        "en": "Domestic",
+        "ru": "\u0414\u043e\u043c\u0430\u0448\u043d\u0438\u0439",
+        "index": 744
+    },
+    {
+        "de": "Famili\u00e4r",
+        "en": "Familiar",
+        "ru": "\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439",
+        "index": 745
+    },
+    {
+        "de": "M\u00fctterlich",
+        "en": "Maternal",
+        "ru": "\u041c\u0430\u0442\u0435\u0440\u0438\u043d\u0441\u043a\u0438\u0439",
+        "index": 746
+    },
+    {
+        "de": "V\u00e4terlich",
+        "en": "Paternal",
+        "ru": "\u041e\u0442\u0446\u043e\u0432\u0441\u043a\u0438\u0439",
+        "index": 747
+    },
+    {
+        "de": "Kindisch",
+        "en": "Childish",
+        "ru": "\u0420\u0435\u0431\u044f\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 748
+    },
+    {
+        "de": "Jugendlich",
+        "en": "Youthful",
+        "ru": "\u042e\u043d\u043e\u0448\u0435\u0441\u043a\u0438\u0439",
+        "index": 749
+    },
+    {
+        "de": "Greis",
+        "en": "Aged",
+        "ru": "\u041f\u0440\u0435\u0441\u0442\u0430\u0440\u0435\u043b\u044b\u0439",
+        "index": 750
+    },
+    {
+        "de": "Uralt",
+        "en": "Ancient",
+        "ru": "\u0414\u0440\u0435\u0432\u043d\u0438\u0439",
+        "index": 751
+    },
+    {
+        "de": "Steinzeitlich",
+        "en": "Stone-Age",
+        "ru": "\u041f\u0435\u0440\u0432\u043e\u0431\u044b\u0442\u043d\u044b\u0439",
+        "index": 752
+    },
+    {
+        "de": "Mittelalterlich",
+        "en": "Medieval",
+        "ru": "\u0421\u0440\u0435\u0434\u043d\u0435\u0432\u0435\u043a\u043e\u0432\u044b\u0439",
+        "index": 753
+    },
+    {
+        "de": "Vorgestern",
+        "en": "Day Before Yesterday",
+        "ru": "\u041f\u043e\u0437\u0430\u0432\u0447\u0435\u0440\u0430\u0448\u043d\u0438\u0439",
+        "index": 754
+    },
+    {
+        "de": "Gestrig",
+        "en": "Yesterday'S",
+        "ru": "\u0412\u0447\u0435\u0440\u0430\u0448\u043d\u0438\u0439",
+        "index": 755
+    },
+    {
+        "de": "Heutig",
+        "en": "Today'S",
+        "ru": "\u0421\u0435\u0433\u043e\u0434\u043d\u044f\u0448\u043d\u0438\u0439",
+        "index": 756
+    },
+    {
+        "de": "Morgig",
+        "en": "Tomorrow'S",
+        "ru": "\u0417\u0430\u0432\u0442\u0440\u0430\u0448\u043d\u0438\u0439",
+        "index": 757
+    },
+    {
+        "de": "\u00dcbermorgig",
+        "en": "Day After Tomorrow'S",
+        "ru": "\u041f\u043e\u0441\u043b\u0435\u0437\u0430\u0432\u0442\u0440\u0430\u0448\u043d\u0438\u0439",
+        "index": 758
+    },
+    {
+        "de": "St\u00fcndlich",
+        "en": "Hourly",
+        "ru": "\u0415\u0436\u0435\u0447\u0430\u0441\u043d\u044b\u0439",
+        "index": 759
+    },
+    {
+        "de": "Min\u00fctlich",
+        "en": "Every Minute",
+        "ru": "\u041f\u043e\u043c\u0438\u043d\u0443\u0442\u043d\u044b\u0439",
+        "index": 760
+    },
+    {
+        "de": "Sek\u00fcndlich",
+        "en": "Every Second",
+        "ru": "\u0421\u0435\u043a\u0443\u043d\u0434\u043d\u044b\u0439",
+        "index": 761
+    },
+    {
+        "de": "Sofortig",
+        "en": "Immediate",
+        "ru": "\u041d\u0435\u043c\u0435\u0434\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 762
+    },
+    {
+        "de": "Umgehend",
+        "en": "Prompt",
+        "ru": "\u0411\u0435\u0437\u043e\u0442\u043b\u0430\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 763
+    },
+    {
+        "de": "Schrittweise",
+        "en": "Step-By-Step",
+        "ru": "\u041f\u043e\u0448\u0430\u0433\u043e\u0432\u044b\u0439",
+        "index": 764
+    },
+    {
+        "de": "Kontinuierlich",
+        "en": "Continuous",
+        "ru": "\u041d\u0435\u043f\u0440\u0435\u0440\u044b\u0432\u043d\u044b\u0439",
+        "index": 765
+    },
+    {
+        "de": "Best\u00e4ndig",
+        "en": "Constant",
+        "ru": "\u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439",
+        "index": 766
+    },
+    {
+        "de": "Kurzzeitig",
+        "en": "Short-Term",
+        "ru": "\u041a\u0440\u0430\u0442\u043a\u043e\u0441\u0440\u043e\u0447\u043d\u044b\u0439",
+        "index": 767
+    },
+    {
+        "de": "Langzeitig",
+        "en": "Long-Term",
+        "ru": "\u0414\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u044b\u0439",
+        "index": 768
+    },
+    {
+        "de": "Lebenslang",
+        "en": "Lifelong",
+        "ru": "\u041f\u043e\u0436\u0438\u0437\u043d\u0435\u043d\u043d\u044b\u0439",
+        "index": 769
+    },
+    {
+        "de": "Zeitlos",
+        "en": "Timeless",
+        "ru": "\u0412\u043d\u0435 \u0412\u0440\u0435\u043c\u0435\u043d\u0438",
+        "index": 770
+    },
+    {
+        "de": "\u00dcberf\u00e4llig",
+        "en": "Overdue",
+        "ru": "\u041f\u0440\u043e\u0441\u0440\u043e\u0447\u0435\u043d\u043d\u044b\u0439",
+        "index": 771
+    },
+    {
+        "de": "Rechtzeitig",
+        "en": "On Time",
+        "ru": "\u0421\u0432\u043e\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439",
+        "index": 772
+    },
+    {
+        "de": "Fr\u00fchzeitig",
+        "en": "Early",
+        "ru": "\u0417\u0430\u0431\u043b\u0430\u0433\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439",
+        "index": 773
+    },
+    {
+        "de": "Peripher",
+        "en": "Peripheral",
+        "ru": "\u041f\u0435\u0440\u0438\u0444\u0435\u0440\u0438\u0439\u043d\u044b\u0439",
+        "index": 774
+    },
+    {
+        "de": "D\u00f6rflich",
+        "en": "Village-Like",
+        "ru": "\u0414\u0435\u0440\u0435\u0432\u0435\u043d\u0441\u043a\u0438\u0439",
+        "index": 775
+    },
+    {
+        "de": "Provinziell",
+        "en": "Provincial",
+        "ru": "\u041f\u0440\u043e\u0432\u0438\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 776
+    },
+    {
+        "de": "Exotisch",
+        "en": "Exotic",
+        "ru": "\u042d\u043a\u0437\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 777
+    },
+    {
+        "de": "Heimisch",
+        "en": "Native",
+        "ru": "\u0420\u043e\u0434\u043d\u043e\u0439",
+        "index": 778
+    },
+    {
+        "de": "Fremd",
+        "en": "Foreign",
+        "ru": "\u0427\u0443\u0436\u043e\u0439",
+        "index": 779
+    },
+    {
+        "de": "Ausl\u00e4ndisch",
+        "en": "Foreign",
+        "ru": "\u0418\u043d\u043e\u0441\u0442\u0440\u0430\u043d\u043d\u044b\u0439",
+        "index": 780
+    },
+    {
+        "de": "Inl\u00e4ndisch",
+        "en": "Domestic",
+        "ru": "\u041e\u0442\u0435\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 781
+    },
+    {
+        "de": "\u00dcberseeisch",
+        "en": "Overseas",
+        "ru": "\u0417\u0430\u043c\u043e\u0440\u0441\u043a\u0438\u0439",
+        "index": 782
+    },
+    {
+        "de": "Irdisch",
+        "en": "Earthly",
+        "ru": "\u0417\u0435\u043c\u043d\u043e\u0439",
+        "index": 783
+    },
+    {
+        "de": "Himmlisch",
+        "en": "Heavenly",
+        "ru": "\u041d\u0435\u0431\u0435\u0441\u043d\u044b\u0439",
+        "index": 784
+    },
+    {
+        "de": "Kosmisch",
+        "en": "Cosmic",
+        "ru": "\u041a\u043e\u0441\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 785
+    },
+    {
+        "de": "Galaktisch",
+        "en": "Galactic",
+        "ru": "\u0413\u0430\u043b\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 786
+    },
+    {
+        "de": "Universell",
+        "en": "Universal",
+        "ru": "\u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 787
+    },
+    {
+        "de": "Sph\u00e4risch",
+        "en": "Spherical",
+        "ru": "\u0421\u0444\u0435\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 788
+    },
+    {
+        "de": "Atomar",
+        "en": "Atomic",
+        "ru": "\u0410\u0442\u043e\u043c\u043d\u044b\u0439",
+        "index": 789
+    },
+    {
+        "de": "Nuklear",
+        "en": "Nuclear",
+        "ru": "\u042f\u0434\u0435\u0440\u043d\u044b\u0439",
+        "index": 790
+    },
+    {
+        "de": "Geologisch",
+        "en": "Geological",
+        "ru": "\u0413\u0435\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 791
+    },
+    {
+        "de": "Meteorologisch",
+        "en": "Meteorological",
+        "ru": "\u041c\u0435\u0442\u0435\u043e\u0440\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 792
+    },
+    {
+        "de": "Astronomisch",
+        "en": "Astronomical",
+        "ru": "\u0410\u0441\u0442\u0440\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 793
+    },
+    {
+        "de": "Soziologisch",
+        "en": "Sociological",
+        "ru": "\u0421\u043e\u0446\u0438\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 794
+    },
+    {
+        "de": "Literarisch",
+        "en": "Literary",
+        "ru": "\u041b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u044b\u0439",
+        "index": 795
+    },
+    {
+        "de": "Linguistisch",
+        "en": "Linguistic",
+        "ru": "\u041b\u0438\u043d\u0433\u0432\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 796
+    },
+    {
+        "de": "Verbal",
+        "en": "Verbal",
+        "ru": "\u0412\u0435\u0440\u0431\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 797
+    },
+    {
+        "de": "Gedruckt",
+        "en": "Printed",
+        "ru": "\u041f\u0435\u0447\u0430\u0442\u043d\u044b\u0439",
+        "index": 798
+    },
+    {
+        "de": "Handschriftlich",
+        "en": "Handwritten",
+        "ru": "\u0420\u0443\u043a\u043e\u043f\u0438\u0441\u043d\u044b\u0439",
+        "index": 799
+    },
+    {
+        "de": "Leserlich",
+        "en": "Legible",
+        "ru": "\u0420\u0430\u0437\u0431\u043e\u0440\u0447\u0438\u0432\u044b\u0439",
+        "index": 800
+    },
+    {
+        "de": "Unleserlich",
+        "en": "Illegible",
+        "ru": "\u041d\u0435\u0440\u0430\u0437\u0431\u043e\u0440\u0447\u0438\u0432\u044b\u0439",
+        "index": 801
+    },
+    {
+        "de": "Kurzgefasst",
+        "en": "Brief",
+        "ru": "\u041a\u0440\u0430\u0442\u043a\u0438\u0439",
+        "index": 802
+    },
+    {
+        "de": "Ausf\u00fchrlich",
+        "en": "Detailed",
+        "ru": "\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u044b\u0439",
+        "index": 803
+    },
+    {
+        "de": "Knapp",
+        "en": "Scarce",
+        "ru": "\u0421\u043a\u0443\u0434\u043d\u044b\u0439",
+        "index": 804
+    },
+    {
+        "de": "Reichlich",
+        "en": "Abundant",
+        "ru": "\u041e\u0431\u0438\u043b\u044c\u043d\u044b\u0439",
+        "index": 805
+    },
+    {
+        "de": "\u00dcberm\u00e4\u00dfig",
+        "en": "Excessive",
+        "ru": "\u0427\u0440\u0435\u0437\u043c\u0435\u0440\u043d\u044b\u0439",
+        "index": 806
+    },
+    {
+        "de": "Unzureichend",
+        "en": "Insufficient",
+        "ru": "\u041d\u0435\u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u044b\u0439",
+        "index": 807
+    },
+    {
+        "de": "Gen\u00fcgend",
+        "en": "Enough",
+        "ru": "\u0414\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u044b\u0439",
+        "index": 808
+    },
+    {
+        "de": "Optimal",
+        "en": "Optimal",
+        "ru": "\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 809
+    },
+    {
+        "de": "Maximal",
+        "en": "Maximal",
+        "ru": "\u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 810
+    },
+    {
+        "de": "Minimal",
+        "en": "Minimal",
+        "ru": "\u041c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 811
+    },
+    {
+        "de": "\u00d6lig",
+        "en": "Oily",
+        "ru": "\u041c\u0430\u0441\u043b\u044f\u043d\u0438\u0441\u0442\u044b\u0439",
+        "index": 812
+    },
+    {
+        "de": "W\u00e4ssrig",
+        "en": "Watery",
+        "ru": "\u0412\u043e\u0434\u044f\u043d\u0438\u0441\u0442\u044b\u0439",
+        "index": 813
+    },
+    {
+        "de": "Spr\u00f6de",
+        "en": "Brittle",
+        "ru": "\u041b\u043e\u043c\u043a\u0438\u0439",
+        "index": 814
+    },
+    {
+        "de": "Dehnbar",
+        "en": "Stretchable",
+        "ru": "\u0420\u0430\u0441\u0442\u044f\u0436\u0438\u043c\u044b\u0439",
+        "index": 815
+    },
+    {
+        "de": "Kompakt",
+        "en": "Compact",
+        "ru": "\u041a\u043e\u043c\u043f\u0430\u043a\u0442\u043d\u044b\u0439",
+        "index": 816
+    },
+    {
+        "de": "Instabil",
+        "en": "Unstable",
+        "ru": "\u041d\u0435\u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u044b\u0439",
+        "index": 817
+    },
+    {
+        "de": "Gef\u00e4hrdet",
+        "en": "Endangered",
+        "ru": "\u041d\u0430\u0445\u043e\u0434\u044f\u0449\u0438\u0439\u0441\u044f \u041f\u043e\u0434 \u0423\u0433\u0440\u043e\u0437\u043e\u0439",
+        "index": 818
+    },
+    {
+        "de": "Gesch\u00fctzt",
+        "en": "Protected",
+        "ru": "\u0417\u0430\u0449\u0438\u0449\u0435\u043d\u043d\u044b\u0439",
+        "index": 819
+    },
+    {
+        "de": "Isoliert",
+        "en": "Isolated",
+        "ru": "\u0418\u0437\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 820
+    },
+    {
+        "de": "Verbunden",
+        "en": "Connected",
+        "ru": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0439",
+        "index": 821
+    },
+    {
+        "de": "Getrennt",
+        "en": "Separated",
+        "ru": "\u0420\u0430\u0437\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 822
+    },
+    {
+        "de": "Kollektiv",
+        "en": "Collective",
+        "ru": "\u041a\u043e\u043b\u043b\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 823
+    },
+    {
+        "de": "B\u00fcrgerlich",
+        "en": "Civil",
+        "ru": "\u0413\u0440\u0430\u0436\u0434\u0430\u043d\u0441\u043a\u0438\u0439",
+        "index": 824
+    },
+    {
+        "de": "Milit\u00e4risch",
+        "en": "Military",
+        "ru": "\u0412\u043e\u0435\u043d\u043d\u044b\u0439",
+        "index": 825
+    },
+    {
+        "de": "Pazifistisch",
+        "en": "Pacifist",
+        "ru": "\u041f\u0430\u0446\u0438\u0444\u0438\u0441\u0442\u0441\u043a\u0438\u0439",
+        "index": 826
+    },
+    {
+        "de": "Diplomatisch",
+        "en": "Diplomatic",
+        "ru": "\u0414\u0438\u043f\u043b\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 827
+    },
+    {
+        "de": "B\u00fcrokratisch",
+        "en": "Bureaucratic",
+        "ru": "\u0411\u044e\u0440\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 828
+    },
+    {
+        "de": "Administrativ",
+        "en": "Administrative",
+        "ru": "\u0410\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 829
+    },
+    {
+        "de": "Organisatorisch",
+        "en": "Organizational",
+        "ru": "\u041e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439",
+        "index": 830
+    },
+    {
+        "de": "Logistisch",
+        "en": "Logistical",
+        "ru": "\u041b\u043e\u0433\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 831
+    },
+    {
+        "de": "\u00d6konomisch",
+        "en": "Economic",
+        "ru": "\u042d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 832
+    },
+    {
+        "de": "Profitabel",
+        "en": "Profitable",
+        "ru": "\u041f\u0440\u0438\u0431\u044b\u043b\u044c\u043d\u044b\u0439",
+        "index": 833
+    },
+    {
+        "de": "Unrentabel",
+        "en": "Unprofitable",
+        "ru": "\u041d\u0435\u0440\u0435\u043d\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 834
+    },
+    {
+        "de": "Kostspielig",
+        "en": "Costly",
+        "ru": "\u0417\u0430\u0442\u0440\u0430\u0442\u043d\u044b\u0439",
+        "index": 835
+    },
+    {
+        "de": "Luxuri\u00f6s",
+        "en": "Luxurious",
+        "ru": "\u0420\u043e\u0441\u043a\u043e\u0448\u043d\u044b\u0439",
+        "index": 836
+    },
+    {
+        "de": "Geizig",
+        "en": "Stingy",
+        "ru": "\u0421\u043a\u0443\u043f\u043e\u0439",
+        "index": 837
+    },
+    {
+        "de": "Gro\u00dfz\u00fcgig",
+        "en": "Generous",
+        "ru": "\u0429\u0435\u0434\u0440\u044b\u0439",
+        "index": 838
+    },
+    {
+        "de": "Verschwenderisch",
+        "en": "Wasteful",
+        "ru": "\u0420\u0430\u0441\u0442\u043e\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 839
+    },
+    {
+        "de": "Sparsam",
+        "en": "Thrifty",
+        "ru": "\u042d\u043a\u043e\u043d\u043e\u043c\u043d\u044b\u0439",
+        "index": 840
+    },
+    {
+        "de": "Habgierig",
+        "en": "Greedy",
+        "ru": "\u0410\u043b\u0447\u043d\u044b\u0439",
+        "index": 841
+    },
+    {
+        "de": "Gierig",
+        "en": "Greedy",
+        "ru": "\u0416\u0430\u0434\u043d\u044b\u0439",
+        "index": 842
+    },
+    {
+        "de": "Neidisch",
+        "en": "Envious",
+        "ru": "\u0417\u0430\u0432\u0438\u0441\u0442\u043b\u0438\u0432\u044b\u0439",
+        "index": 843
+    },
+    {
+        "de": "Eifers\u00fcchtig",
+        "en": "Jealous",
+        "ru": "\u0420\u0435\u0432\u043d\u0438\u0432\u044b\u0439",
+        "index": 844
+    },
+    {
+        "de": "Misstrauisch",
+        "en": "Suspicious",
+        "ru": "\u041f\u043e\u0434\u043e\u0437\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 845
+    },
+    {
+        "de": "Vertrauensvoll",
+        "en": "Trusting",
+        "ru": "\u0414\u043e\u0432\u0435\u0440\u0447\u0438\u0432\u044b\u0439",
+        "index": 846
+    },
+    {
+        "de": "Gutgl\u00e4ubig",
+        "en": "Gullible",
+        "ru": "\u041b\u0435\u0433\u043a\u043e\u0432\u0435\u0440\u043d\u044b\u0439",
+        "index": 847
+    },
+    {
+        "de": "Naiv",
+        "en": "Naive",
+        "ru": "\u041d\u0430\u0438\u0432\u043d\u044b\u0439",
+        "index": 848
+    },
+    {
+        "de": "Erfahren",
+        "en": "Experienced",
+        "ru": "\u041e\u043f\u044b\u0442\u043d\u044b\u0439",
+        "index": 849
+    },
+    {
+        "de": "Unerfahren",
+        "en": "Inexperienced",
+        "ru": "\u041d\u0435\u043e\u043f\u044b\u0442\u043d\u044b\u0439",
+        "index": 850
+    },
+    {
+        "de": "Kompetent",
+        "en": "Competent",
+        "ru": "\u041a\u043e\u043c\u043f\u0435\u0442\u0435\u043d\u0442\u043d\u044b\u0439",
+        "index": 851
+    },
+    {
+        "de": "Inkompetent",
+        "en": "Incompetent",
+        "ru": "\u041d\u0435\u043a\u043e\u043c\u043f\u0435\u0442\u0435\u043d\u0442\u043d\u044b\u0439",
+        "index": 852
+    },
+    {
+        "de": "Geschickt",
+        "en": "Skillful",
+        "ru": "\u0423\u043c\u0435\u043b\u044b\u0439",
+        "index": 853
+    },
+    {
+        "de": "Ungeschickt",
+        "en": "Clumsy",
+        "ru": "\u041d\u0435\u0443\u043a\u043b\u044e\u0436\u0438\u0439",
+        "index": 854
+    },
+    {
+        "de": "Tollpatschig",
+        "en": "Clumsy",
+        "ru": "\u041d\u0435\u043f\u043e\u0432\u043e\u0440\u043e\u0442\u043b\u0438\u0432\u044b\u0439",
+        "index": 855
+    },
+    {
+        "de": "Virtuos",
+        "en": "Virtuoso",
+        "ru": "\u0412\u0438\u0440\u0442\u0443\u043e\u0437\u043d\u044b\u0439",
+        "index": 856
+    },
+    {
+        "de": "Meisterhaft",
+        "en": "Masterful",
+        "ru": "\u041c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u0438\u0439",
+        "index": 857
+    },
+    {
+        "de": "St\u00fcmperhaft",
+        "en": "Bungling",
+        "ru": "\u0414\u0438\u043b\u0435\u0442\u0430\u043d\u0442\u0441\u043a\u0438\u0439",
+        "index": 858
+    },
+    {
+        "de": "Professionell",
+        "en": "Professional",
+        "ru": "\u041f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 859
+    },
+    {
+        "de": "Laienhaft",
+        "en": "Amateurish",
+        "ru": "\u041b\u044e\u0431\u0438\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0439",
+        "index": 860
+    },
+    {
+        "de": "Qualifiziert",
+        "en": "Qualified",
+        "ru": "\u041a\u0432\u0430\u043b\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 861
+    },
+    {
+        "de": "Unqualifiziert",
+        "en": "Unqualified",
+        "ru": "\u041d\u0435\u043a\u0432\u0430\u043b\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 862
+    },
+    {
+        "de": "Seri\u00f6s",
+        "en": "Serious",
+        "ru": "\u0421\u0435\u0440\u044c\u0435\u0437\u043d\u044b\u0439",
+        "index": 863
+    },
+    {
+        "de": "Unseri\u00f6s",
+        "en": "Dubious",
+        "ru": "\u0421\u043e\u043c\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 864
+    },
+    {
+        "de": "Unglaubw\u00fcrdig",
+        "en": "Incredible",
+        "ru": "\u041d\u0435\u043f\u0440\u0430\u0432\u0434\u043e\u043f\u043e\u0434\u043e\u0431\u043d\u044b\u0439",
+        "index": 865
+    },
+    {
+        "de": "Authentisch",
+        "en": "Authentic",
+        "ru": "\u041f\u043e\u0434\u043b\u0438\u043d\u043d\u044b\u0439",
+        "index": 866
+    },
+    {
+        "de": "Nachgeahmt",
+        "en": "Imitated",
+        "ru": "\u041f\u043e\u0434\u0440\u0430\u0436\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 867
+    },
+    {
+        "de": "Banal",
+        "en": "Banal",
+        "ru": "\u0411\u0430\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 868
+    },
+    {
+        "de": "Trivial",
+        "en": "Trivial",
+        "ru": "\u0422\u0440\u0438\u0432\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 869
+    },
+    {
+        "de": "Atemberaubend",
+        "en": "Breathtaking",
+        "ru": "\u0417\u0430\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u044e\u0449\u0438\u0439 \u0414\u0443\u0445",
+        "index": 870
+    },
+    {
+        "de": "Fesselnd",
+        "en": "Captivating",
+        "ru": "\u0423\u0432\u043b\u0435\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 871
+    },
+    {
+        "de": "Erm\u00fcdend",
+        "en": "Tiring",
+        "ru": "\u0423\u0442\u043e\u043c\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 872
+    },
+    {
+        "de": "Erfrischend",
+        "en": "Refreshing",
+        "ru": "\u041e\u0441\u0432\u0435\u0436\u0430\u044e\u0449\u0438\u0439",
+        "index": 873
+    },
+    {
+        "de": "Belebend",
+        "en": "Invigorating",
+        "ru": "\u0411\u043e\u0434\u0440\u044f\u0449\u0438\u0439",
+        "index": 874
+    },
+    {
+        "de": "Beruhigend",
+        "en": "Calming",
+        "ru": "\u0423\u0441\u043f\u043e\u043a\u0430\u0438\u0432\u0430\u044e\u0449\u0438\u0439",
+        "index": 875
+    },
+    {
+        "de": "Beunruhigend",
+        "en": "Disturbing",
+        "ru": "\u0422\u0440\u0435\u0432\u043e\u0436\u043d\u044b\u0439",
+        "index": 876
+    },
+    {
+        "de": "Schockierend",
+        "en": "Shocking",
+        "ru": "\u0428\u043e\u043a\u0438\u0440\u0443\u044e\u0449\u0438\u0439",
+        "index": 877
+    },
+    {
+        "de": "Emp\u00f6rend",
+        "en": "Outrageous",
+        "ru": "\u0412\u043e\u0437\u043c\u0443\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 878
+    },
+    {
+        "de": "Skandal\u00f6s",
+        "en": "Scandalous",
+        "ru": "\u0421\u043a\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 879
+    },
+    {
+        "de": "Peinlich",
+        "en": "Embarrassing",
+        "ru": "\u0421\u0442\u044b\u0434\u043d\u044b\u0439",
+        "index": 880
+    },
+    {
+        "de": "Unangenehm",
+        "en": "Unpleasant",
+        "ru": "\u041d\u0435\u043f\u0440\u0438\u044f\u0442\u043d\u044b\u0439",
+        "index": 881
+    },
+    {
+        "de": "Angenehm",
+        "en": "Pleasant",
+        "ru": "\u041f\u0440\u0438\u044f\u0442\u043d\u044b\u0439",
+        "index": 882
+    },
+    {
+        "de": "Bequem",
+        "en": "Comfortable",
+        "ru": "\u0423\u0434\u043e\u0431\u043d\u044b\u0439",
+        "index": 883
+    },
+    {
+        "de": "Unbequem",
+        "en": "Uncomfortable",
+        "ru": "\u041d\u0435\u0443\u0434\u043e\u0431\u043d\u044b\u0439",
+        "index": 884
+    },
+    {
+        "de": "Gem\u00fctlich",
+        "en": "Cozy",
+        "ru": "\u0423\u044e\u0442\u043d\u044b\u0439",
+        "index": 885
+    },
+    {
+        "de": "Ungem\u00fctlich",
+        "en": "Uncozy",
+        "ru": "\u041d\u0435\u0443\u044e\u0442\u043d\u044b\u0439",
+        "index": 886
+    },
+    {
+        "de": "Heimelig",
+        "en": "Homely",
+        "ru": "\u0414\u043e\u043c\u0430\u0448\u043d\u0438\u0439",
+        "index": 887
+    },
+    {
+        "de": "Gastfreundlich",
+        "en": "Hospitable",
+        "ru": "\u0413\u043e\u0441\u0442\u0435\u043f\u0440\u0438\u0438\u043c\u043d\u044b\u0439",
+        "index": 888
+    },
+    {
+        "de": "Abweisend",
+        "en": "Off-Putting",
+        "ru": "\u041d\u0435\u0434\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u044b\u0439",
+        "index": 889
+    },
+    {
+        "de": "Herzlich",
+        "en": "Cordial",
+        "ru": "\u0421\u0435\u0440\u0434\u0435\u0447\u043d\u044b\u0439",
+        "index": 890
+    },
+    {
+        "de": "Innig",
+        "en": "Intimate",
+        "ru": "\u0418\u0441\u043a\u0440\u0435\u043d\u043d\u0438\u0439",
+        "index": 891
+    },
+    {
+        "de": "Distanziert",
+        "en": "Distant",
+        "ru": "\u041e\u0442\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u043d\u044b\u0439",
+        "index": 892
+    },
+    {
+        "de": "Reserviert",
+        "en": "Reserved",
+        "ru": "\u0421\u0434\u0435\u0440\u0436\u0430\u043d\u043d\u044b\u0439",
+        "index": 893
+    },
+    {
+        "de": "Verschlossen",
+        "en": "Withdrawn",
+        "ru": "\u0417\u0430\u043c\u043a\u043d\u0443\u0442\u044b\u0439",
+        "index": 894
+    },
+    {
+        "de": "Aufgeschlossen",
+        "en": "Open-Minded",
+        "ru": "\u041e\u0442\u043a\u0440\u044b\u0442\u044b\u0439",
+        "index": 895
+    },
+    {
+        "de": "Extrovertiert",
+        "en": "Extroverted",
+        "ru": "\u042d\u043a\u0441\u0442\u0440\u0430\u0432\u0435\u0440\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 896
+    },
+    {
+        "de": "Introvertiert",
+        "en": "Introverted",
+        "ru": "\u0418\u043d\u0442\u0440\u043e\u0432\u0435\u0440\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 897
+    },
+    {
+        "de": "Gesellig",
+        "en": "Sociable",
+        "ru": "\u041e\u0431\u0449\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 898
+    },
+    {
+        "de": "Einsam",
+        "en": "Lonely",
+        "ru": "\u041e\u0434\u0438\u043d\u043e\u043a\u0438\u0439",
+        "index": 899
+    },
+    {
+        "de": "Verlassen",
+        "en": "Abandoned",
+        "ru": "\u041f\u043e\u043a\u0438\u043d\u0443\u0442\u044b\u0439",
+        "index": 900
+    },
+    {
+        "de": "Integriert",
+        "en": "Integrated",
+        "ru": "\u0418\u043d\u0442\u0435\u0433\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 901
+    },
+    {
+        "de": "Angepasst",
+        "en": "Adjusted",
+        "ru": "\u041f\u0440\u0438\u0441\u043f\u043e\u0441\u043e\u0431\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 902
+    },
+    {
+        "de": "Rebellisch",
+        "en": "Rebellious",
+        "ru": "\u041c\u044f\u0442\u0435\u0436\u043d\u044b\u0439",
+        "index": 903
+    },
+    {
+        "de": "Gehorsam",
+        "en": "Obedient",
+        "ru": "\u041f\u043e\u0441\u043b\u0443\u0448\u043d\u044b\u0439",
+        "index": 904
+    },
+    {
+        "de": "Ungehorsam",
+        "en": "Disobedient",
+        "ru": "\u041d\u0435\u043f\u043e\u0441\u043b\u0443\u0448\u043d\u044b\u0439",
+        "index": 905
+    },
+    {
+        "de": "Wild",
+        "en": "Wild",
+        "ru": "\u0414\u0438\u043a\u0438\u0439",
+        "index": 906
+    },
+    {
+        "de": "Zahm",
+        "en": "Tame",
+        "ru": "\u0420\u0443\u0447\u043d\u043e\u0439",
+        "index": 907
+    },
+    {
+        "de": "Domestiziert",
+        "en": "Domesticated",
+        "ru": "\u041e\u0434\u043e\u043c\u0430\u0448\u043d\u0435\u043d\u043d\u044b\u0439",
+        "index": 908
+    },
+    {
+        "de": "R\u00e4uberisch",
+        "en": "Predatory",
+        "ru": "\u0425\u0438\u0449\u043d\u044b\u0439",
+        "index": 909
+    },
+    {
+        "de": "Friedfertig",
+        "en": "Peaceable",
+        "ru": "\u041c\u0438\u0440\u043e\u043b\u044e\u0431\u0438\u0432\u044b\u0439",
+        "index": 910
+    },
+    {
+        "de": "\u00c4tzend",
+        "en": "Corrosive",
+        "ru": "\u0415\u0434\u043a\u0438\u0439",
+        "index": 911
+    },
+    {
+        "de": "Explosiv",
+        "en": "Explosive",
+        "ru": "\u0412\u0437\u0440\u044b\u0432\u043e\u043e\u043f\u0430\u0441\u043d\u044b\u0439",
+        "index": 912
+    },
+    {
+        "de": "Feuerfest",
+        "en": "Fireproof",
+        "ru": "\u041e\u0433\u043d\u0435\u0441\u0442\u043e\u0439\u043a\u0438\u0439",
+        "index": 913
+    },
+    {
+        "de": "Wasserdicht",
+        "en": "Waterproof",
+        "ru": "\u0412\u043e\u0434\u043e\u043d\u0435\u043f\u0440\u043e\u043d\u0438\u0446\u0430\u0435\u043c\u044b\u0439",
+        "index": 914
+    },
+    {
+        "de": "Luftdicht",
+        "en": "Airtight",
+        "ru": "\u0413\u0435\u0440\u043c\u0435\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 915
+    },
+    {
+        "de": "Durchl\u00e4ssig",
+        "en": "Permeable",
+        "ru": "\u041f\u0440\u043e\u043d\u0438\u0446\u0430\u0435\u043c\u044b\u0439",
+        "index": 916
+    },
+    {
+        "de": "Leitf\u00e4hig",
+        "en": "Conductive",
+        "ru": "\u041f\u0440\u043e\u0432\u043e\u0434\u044f\u0449\u0438\u0439",
+        "index": 917
+    },
+    {
+        "de": "Optisch",
+        "en": "Optical",
+        "ru": "\u041e\u043f\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 918
+    },
+    {
+        "de": "Akustisch",
+        "en": "Acoustic",
+        "ru": "\u0410\u043a\u0443\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 919
+    },
+    {
+        "de": "Thermisch",
+        "en": "Thermal",
+        "ru": "\u0422\u0435\u0440\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 920
+    },
+    {
+        "de": "Kinetisch",
+        "en": "Kinetic",
+        "ru": "\u041a\u0438\u043d\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 921
+    },
+    {
+        "de": "Statisch",
+        "en": "Static",
+        "ru": "\u0421\u0442\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 922
+    },
+    {
+        "de": "Potenziell",
+        "en": "Potential",
+        "ru": "\u041f\u043e\u0442\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 923
+    },
+    {
+        "de": "Real",
+        "en": "Real",
+        "ru": "\u0420\u0435\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 924
+    },
+    {
+        "de": "Fiktiv",
+        "en": "Fictional",
+        "ru": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 925
+    },
+    {
+        "de": "Imagin\u00e4r",
+        "en": "Imaginary",
+        "ru": "\u0412\u043e\u043e\u0431\u0440\u0430\u0436\u0430\u0435\u043c\u044b\u0439",
+        "index": 926
+    },
+    {
+        "de": "Abstrakt",
+        "en": "Abstract",
+        "ru": "\u0410\u0431\u0441\u0442\u0440\u0430\u043a\u0442\u043d\u044b\u0439",
+        "index": 927
+    },
+    {
+        "de": "Konkret",
+        "en": "Concrete",
+        "ru": "\u041a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u044b\u0439",
+        "index": 928
+    },
+    {
+        "de": "Symbolisch",
+        "en": "Symbolic",
+        "ru": "\u0421\u0438\u043c\u0432\u043e\u043b\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 929
+    },
+    {
+        "de": "Metaphorisch",
+        "en": "Metaphorical",
+        "ru": "\u041c\u0435\u0442\u0430\u0444\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 930
+    },
+    {
+        "de": "Allegorisch",
+        "en": "Allegorical",
+        "ru": "\u0410\u043b\u043b\u0435\u0433\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 931
+    },
+    {
+        "de": "Ironisch",
+        "en": "Ironic",
+        "ru": "\u0418\u0440\u043e\u043d\u0438\u0447\u043d\u044b\u0439",
+        "index": 932
+    },
+    {
+        "de": "Sarkastisch",
+        "en": "Sarcastic",
+        "ru": "\u0421\u0430\u0440\u043a\u0430\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 933
+    },
+    {
+        "de": "Zynisch",
+        "en": "Cynical",
+        "ru": "\u0426\u0438\u043d\u0438\u0447\u043d\u044b\u0439",
+        "index": 934
+    },
+    {
+        "de": "Humorlos",
+        "en": "Humorless",
+        "ru": "\u041b\u0438\u0448\u0435\u043d\u043d\u044b\u0439 \u042e\u043c\u043e\u0440\u0430",
+        "index": 935
+    },
+    {
+        "de": "Witzig",
+        "en": "Witty",
+        "ru": "\u041e\u0441\u0442\u0440\u043e\u0443\u043c\u043d\u044b\u0439",
+        "index": 936
+    },
+    {
+        "de": "Geistreich",
+        "en": "Ingenious",
+        "ru": "\u041e\u0441\u0442\u0440\u043e\u0443\u043c\u043d\u044b\u0439",
+        "index": 937
+    },
+    {
+        "de": "Schlagfertig",
+        "en": "Quick-Witted",
+        "ru": "\u041d\u0430\u0445\u043e\u0434\u0447\u0438\u0432\u044b\u0439",
+        "index": 938
+    },
+    {
+        "de": "Stumpfsinnig",
+        "en": "Dull-Witted",
+        "ru": "\u0422\u0443\u043f\u043e\u0439",
+        "index": 939
+    },
+    {
+        "de": "Einf\u00e4ltig",
+        "en": "Simple-Minded",
+        "ru": "\u041f\u0440\u043e\u0441\u0442\u043e\u0434\u0443\u0448\u043d\u044b\u0439",
+        "index": 940
+    },
+    {
+        "de": "Beschr\u00e4nkt",
+        "en": "Limited",
+        "ru": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u044b\u0439",
+        "index": 941
+    },
+    {
+        "de": "Borniert",
+        "en": "Narrow-Minded",
+        "ru": "\u0423\u0437\u043a\u043e\u043b\u043e\u0431\u044b\u0439",
+        "index": 942
+    },
+    {
+        "de": "Weltoffen",
+        "en": "Cosmopolitan",
+        "ru": "\u041a\u043e\u0441\u043c\u043e\u043f\u043e\u043b\u0438\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 943
+    },
+    {
+        "de": "Vorurteilsfrei",
+        "en": "Unbiased",
+        "ru": "\u0411\u0435\u0441\u043f\u0440\u0438\u0441\u0442\u0440\u0430\u0441\u0442\u043d\u044b\u0439",
+        "index": 944
+    },
+    {
+        "de": "Voreingenommen",
+        "en": "Biased",
+        "ru": "\u041f\u0440\u0435\u0434\u0432\u0437\u044f\u0442\u044b\u0439",
+        "index": 945
+    },
+    {
+        "de": "Parteiisch",
+        "en": "Partial",
+        "ru": "\u041f\u0440\u0438\u0441\u0442\u0440\u0430\u0441\u0442\u043d\u044b\u0439",
+        "index": 946
+    },
+    {
+        "de": "Neutral",
+        "en": "Neutral",
+        "ru": "\u041d\u0435\u0439\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 947
+    },
+    {
+        "de": "Objektiv",
+        "en": "Objective",
+        "ru": "\u041e\u0431\u044a\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 948
+    },
+    {
+        "de": "Subjektiv",
+        "en": "Subjective",
+        "ru": "\u0421\u0443\u0431\u044a\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 949
+    },
+    {
+        "de": "Willk\u00fcrlich",
+        "en": "Arbitrary",
+        "ru": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u043b\u044c\u043d\u044b\u0439",
+        "index": 950
+    },
+    {
+        "de": "Systematisch",
+        "en": "Systematic",
+        "ru": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 951
+    },
+    {
+        "de": "Methodisch",
+        "en": "Methodical",
+        "ru": "\u041c\u0435\u0442\u043e\u0434\u0438\u0447\u043d\u044b\u0439",
+        "index": 952
+    },
+    {
+        "de": "Planlos",
+        "en": "Aimless",
+        "ru": "\u0411\u0435\u0441\u0446\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 953
+    },
+    {
+        "de": "Zielstrebig",
+        "en": "Purposeful",
+        "ru": "\u0426\u0435\u043b\u0435\u0443\u0441\u0442\u0440\u0435\u043c\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 954
+    },
+    {
+        "de": "Ambitioniert",
+        "en": "Ambitious",
+        "ru": "\u0410\u043c\u0431\u0438\u0446\u0438\u043e\u0437\u043d\u044b\u0439",
+        "index": 955
+    },
+    {
+        "de": "Leidenschaftlich",
+        "en": "Passionate",
+        "ru": "\u0421\u0442\u0440\u0430\u0441\u0442\u043d\u044b\u0439",
+        "index": 956
+    },
+    {
+        "de": "Gleichg\u00fcltig",
+        "en": "Indifferent",
+        "ru": "\u0411\u0435\u0437\u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0439",
+        "index": 957
+    },
+    {
+        "de": "Apathisch",
+        "en": "Apathetic",
+        "ru": "\u0410\u043f\u0430\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 958
+    },
+    {
+        "de": "Teilnahmslos",
+        "en": "Unresponsive",
+        "ru": "\u0411\u0435\u0437\u0443\u0447\u0430\u0441\u0442\u043d\u044b\u0439",
+        "index": 959
+    },
+    {
+        "de": "Empathisch",
+        "en": "Empathic",
+        "ru": "\u042d\u043c\u043f\u0430\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 960
+    },
+    {
+        "de": "Mitf\u00fchlend",
+        "en": "Compassionate",
+        "ru": "\u0421\u043e\u0441\u0442\u0440\u0430\u0434\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 961
+    },
+    {
+        "de": "Mitleidlos",
+        "en": "Pitiless",
+        "ru": "\u0411\u0435\u0437\u0436\u0430\u043b\u043e\u0441\u0442\u043d\u044b\u0439",
+        "index": 962
+    },
+    {
+        "de": "Gnadenlos",
+        "en": "Merciless",
+        "ru": "\u0411\u0435\u0441\u043f\u043e\u0449\u0430\u0434\u043d\u044b\u0439",
+        "index": 963
+    },
+    {
+        "de": "Barmherzig",
+        "en": "Merciful",
+        "ru": "\u041c\u0438\u043b\u043e\u0441\u0435\u0440\u0434\u043d\u044b\u0439",
+        "index": 964
+    },
+    {
+        "de": "Nachsichtig",
+        "en": "Lenient",
+        "ru": "\u0421\u043d\u0438\u0441\u0445\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 965
+    },
+    {
+        "de": "Unerbittlich",
+        "en": "Relentless",
+        "ru": "\u041d\u0435\u0443\u043c\u043e\u043b\u0438\u043c\u044b\u0439",
+        "index": 966
+    },
+    {
+        "de": "Hartn\u00e4ckig",
+        "en": "Stubborn",
+        "ru": "\u0423\u043f\u0440\u044f\u043c\u044b\u0439",
+        "index": 967
+    },
+    {
+        "de": "Beharrlich",
+        "en": "Persistent",
+        "ru": "\u041d\u0430\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u044b\u0439",
+        "index": 968
+    },
+    {
+        "de": "Standhaft",
+        "en": "Steadfast",
+        "ru": "\u0421\u0442\u043e\u0439\u043a\u0438\u0439",
+        "index": 969
+    },
+    {
+        "de": "Wankelm\u00fctig",
+        "en": "Fickle",
+        "ru": "\u041d\u0435\u043f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439",
+        "index": 970
+    },
+    {
+        "de": "Unbest\u00e4ndig",
+        "en": "Unsteady",
+        "ru": "\u041d\u0435\u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u044b\u0439",
+        "index": 971
+    },
+    {
+        "de": "Treulos",
+        "en": "Faithless",
+        "ru": "\u0412\u0435\u0440\u043e\u043b\u043e\u043c\u043d\u044b\u0439",
+        "index": 972
+    },
+    {
+        "de": "Verr\u00e4terisch",
+        "en": "Treacherous",
+        "ru": "\u041f\u0440\u0435\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0439",
+        "index": 973
+    },
+    {
+        "de": "Loyal",
+        "en": "Loyal",
+        "ru": "\u041b\u043e\u044f\u043b\u044c\u043d\u044b\u0439",
+        "index": 974
+    },
+    {
+        "de": "Solidarisch",
+        "en": "Supportive",
+        "ru": "\u0421\u043e\u043b\u0438\u0434\u0430\u0440\u043d\u044b\u0439",
+        "index": 975
+    },
+    {
+        "de": "Egoistisch",
+        "en": "Selfish",
+        "ru": "\u042d\u0433\u043e\u0438\u0441\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 976
+    },
+    {
+        "de": "Selbstlos",
+        "en": "Selfless",
+        "ru": "\u0421\u0430\u043c\u043e\u043e\u0442\u0432\u0435\u0440\u0436\u0435\u043d\u043d\u044b\u0439",
+        "index": 977
+    },
+    {
+        "de": "Uneigenn\u00fctzig",
+        "en": "Altruistic",
+        "ru": "\u0411\u0435\u0441\u043a\u043e\u0440\u044b\u0441\u0442\u043d\u044b\u0439",
+        "index": 978
+    },
+    {
+        "de": "Profitgierig",
+        "en": "Profit-Hungry",
+        "ru": "\u0416\u0430\u0434\u043d\u044b\u0439 \u0414\u043e \u041d\u0430\u0436\u0438\u0432\u044b",
+        "index": 979
+    },
+    {
+        "de": "Machtbesessen",
+        "en": "Power-Hungry",
+        "ru": "\u041e\u0434\u0435\u0440\u0436\u0438\u043c\u044b\u0439 \u0412\u043b\u0430\u0441\u0442\u044c\u044e",
+        "index": 980
+    },
+    {
+        "de": "Dem\u00fctig",
+        "en": "Humble",
+        "ru": "\u041f\u043e\u043a\u043e\u0440\u043d\u044b\u0439",
+        "index": 981
+    },
+    {
+        "de": "Unterw\u00fcrfig",
+        "en": "Submissive",
+        "ru": "\u041f\u043e\u0434\u0447\u0438\u043d\u0435\u043d\u043d\u044b\u0439",
+        "index": 982
+    },
+    {
+        "de": "Dominant",
+        "en": "Dominant",
+        "ru": "\u0414\u043e\u043c\u0438\u043d\u0438\u0440\u0443\u044e\u0449\u0438\u0439",
+        "index": 983
+    },
+    {
+        "de": "Autorit\u00e4r",
+        "en": "Authoritarian",
+        "ru": "\u0410\u0432\u0442\u043e\u0440\u0438\u0442\u0430\u0440\u043d\u044b\u0439",
+        "index": 984
+    },
+    {
+        "de": "Antidemokratisch",
+        "en": "Anti-Democratic",
+        "ru": "\u0410\u043d\u0442\u0438\u0434\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 985
+    },
+    {
+        "de": "Totalit\u00e4r",
+        "en": "Totalitarian",
+        "ru": "\u0422\u043e\u0442\u0430\u043b\u0438\u0442\u0430\u0440\u043d\u044b\u0439",
+        "index": 986
+    },
+    {
+        "de": "Tyrannisch",
+        "en": "Tyrannical",
+        "ru": "\u0422\u0438\u0440\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 987
+    },
+    {
+        "de": "Despotisch",
+        "en": "Despotic",
+        "ru": "\u0414\u0435\u0441\u043f\u043e\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 988
+    },
+    {
+        "de": "Rechtm\u00e4\u00dfig",
+        "en": "Lawful",
+        "ru": "\u0417\u0430\u043a\u043e\u043d\u043d\u044b\u0439",
+        "index": 989
+    },
+    {
+        "de": "Verfassungsgem\u00e4\u00df",
+        "en": "Constitutional",
+        "ru": "\u041a\u043e\u043d\u0441\u0442\u0438\u0442\u0443\u0446\u0438\u043e\u043d\u043d\u044b\u0439",
+        "index": 990
+    },
+    {
+        "de": "Parlamentarisch",
+        "en": "Parliamentary",
+        "ru": "\u041f\u0430\u0440\u043b\u0430\u043c\u0435\u043d\u0442\u0441\u043a\u0438\u0439",
+        "index": 991
+    },
+    {
+        "de": "Strategisch",
+        "en": "Strategic",
+        "ru": "\u0421\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 992
+    },
+    {
+        "de": "Taktisch",
+        "en": "Tactical",
+        "ru": "\u0422\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 993
+    },
+    {
+        "de": "Operativ",
+        "en": "Operational",
+        "ru": "\u041e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 994
+    },
+    {
+        "de": "Funktional",
+        "en": "Functional",
+        "ru": "\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 995
+    },
+    {
+        "de": "Praktikabel",
+        "en": "Practicable",
+        "ru": "\u041f\u0440\u0430\u043a\u0442\u0438\u0447\u043d\u044b\u0439",
+        "index": 996
+    },
+    {
+        "de": "Hypothetisch",
+        "en": "Hypothetical",
+        "ru": "\u0413\u0438\u043f\u043e\u0442\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 997
+    },
+    {
+        "de": "Spekulativ",
+        "en": "Speculative",
+        "ru": "\u0421\u043f\u0435\u043a\u0443\u043b\u044f\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 998
+    },
+    {
+        "de": "Empirisch",
+        "en": "Empirical",
+        "ru": "\u042d\u043c\u043f\u0438\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 999
+    },
+    {
+        "de": "Evidenzbasiert",
+        "en": "Evidence-Based",
+        "ru": "\u0414\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 1000
+    },
+    {
+        "de": "Akademisch",
+        "en": "Academic",
+        "ru": "\u0410\u043a\u0430\u0434\u0435\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 1001
+    },
+    {
+        "de": "Didaktisch",
+        "en": "Didactic",
+        "ru": "\u0414\u0438\u0434\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 1002
+    },
+    {
+        "de": "P\u00e4dagogisch",
+        "en": "Pedagogical",
+        "ru": "\u041f\u0435\u0434\u0430\u0433\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 1003
+    },
+    {
+        "de": "Erzieherisch",
+        "en": "Educational",
+        "ru": "\u0412\u043e\u0441\u043f\u0438\u0442\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 1004
+    },
+    {
+        "de": "Lehrreich",
+        "en": "Instructive",
+        "ru": "\u041f\u043e\u0443\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 1005
+    },
+    {
+        "de": "Informativ",
+        "en": "Informative",
+        "ru": "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 1006
+    },
+    {
+        "de": "Beispielhaft",
+        "en": "Exemplary",
+        "ru": "\u041e\u0431\u0440\u0430\u0437\u0446\u043e\u0432\u044b\u0439",
+        "index": 1007
+    },
+    {
+        "de": "Vorbildlich",
+        "en": "Model",
+        "ru": "\u041f\u0440\u0438\u043c\u0435\u0440\u043d\u044b\u0439",
+        "index": 1008
+    },
+    {
+        "de": "Nachahmenswert",
+        "en": "Worth Imitating",
+        "ru": "\u0414\u043e\u0441\u0442\u043e\u0439\u043d\u044b\u0439 \u041f\u043e\u0434\u0440\u0430\u0436\u0430\u043d\u0438\u044f",
+        "index": 1009
+    },
+    {
+        "de": "Abschreckend",
+        "en": "Deterrent",
+        "ru": "\u041f\u0443\u0433\u0430\u044e\u0449\u0438\u0439",
+        "index": 1010
+    },
+    {
+        "de": "Warnend",
+        "en": "Warning",
+        "ru": "\u041f\u0440\u0435\u0434\u0443\u043f\u0440\u0435\u0436\u0434\u0430\u044e\u0449\u0438\u0439",
+        "index": 1011
+    },
+    {
+        "de": "Drohend",
+        "en": "Threatening",
+        "ru": "\u0423\u0433\u0440\u043e\u0436\u0430\u044e\u0449\u0438\u0439",
+        "index": 1012
+    },
+    {
+        "de": "Unbedenklich",
+        "en": "Safe",
+        "ru": "\u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u044b\u0439",
+        "index": 1013
+    },
+    {
+        "de": "Abenteuerlich",
+        "en": "Adventurous",
+        "ru": "\u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 1014
+    },
+    {
+        "de": "Wagemutig",
+        "en": "Daring",
+        "ru": "\u041e\u0442\u0432\u0430\u0436\u043d\u044b\u0439",
+        "index": 1015
+    },
+    {
+        "de": "Tollk\u00fchn",
+        "en": "Foolhardy",
+        "ru": "\u0411\u0435\u0437\u0440\u0430\u0441\u0441\u0443\u0434\u043d\u044b\u0439",
+        "index": 1016
+    },
+    {
+        "de": "Leichtsinnig",
+        "en": "Reckless",
+        "ru": "\u041b\u0435\u0433\u043a\u043e\u043c\u044b\u0441\u043b\u0435\u043d\u043d\u044b\u0439",
+        "index": 1017
+    },
+    {
+        "de": "Besonnen",
+        "en": "Prudent",
+        "ru": "\u0411\u043b\u0430\u0433\u043e\u0440\u0430\u0437\u0443\u043c\u043d\u044b\u0439",
+        "index": 1018
+    },
+    {
+        "de": "Umsichtig",
+        "en": "Cautious",
+        "ru": "\u041e\u0441\u043c\u043e\u0442\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 1019
+    },
+    {
+        "de": "Vorausblickend",
+        "en": "Forward-Looking",
+        "ru": "\u041f\u0440\u0435\u0434\u0443\u0441\u043c\u043e\u0442\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 1020
+    },
+    {
+        "de": "Nachhaltig",
+        "en": "Sustainable",
+        "ru": "\u0423\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u044b\u0439",
+        "index": 1021
+    },
+    {
+        "de": "Umweltfreundlich",
+        "en": "Eco-Friendly",
+        "ru": "\u042d\u043a\u043e\u043b\u043e\u0433\u0438\u0447\u043d\u044b\u0439",
+        "index": 1022
+    },
+    {
+        "de": "\u00d6kologisch",
+        "en": "Ecological",
+        "ru": "\u042d\u043a\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 1023
+    },
+    {
+        "de": "Recycelbar",
+        "en": "Recyclable",
+        "ru": "\u041f\u0435\u0440\u0435\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u043c\u044b\u0439",
+        "index": 1024
+    },
+    {
+        "de": "Erneuerbar",
+        "en": "Renewable",
+        "ru": "\u0412\u043e\u0437\u043e\u0431\u043d\u043e\u0432\u043b\u044f\u0435\u043c\u044b\u0439",
+        "index": 1025
+    },
+    {
+        "de": "Ersch\u00f6pflich",
+        "en": "Exhaustible",
+        "ru": "\u0418\u0441\u0447\u0435\u0440\u043f\u0430\u0435\u043c\u044b\u0439",
+        "index": 1026
+    },
+    {
+        "de": "Unersch\u00f6pflich",
+        "en": "Inexhaustible",
+        "ru": "\u041d\u0435\u0438\u0441\u0447\u0435\u0440\u043f\u0430\u0435\u043c\u044b\u0439",
+        "index": 1027
+    },
+    {
+        "de": "Kostbar",
+        "en": "Precious",
+        "ru": "\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u044b\u0439",
+        "index": 1028
+    },
+    {
+        "de": "Lebensnotwendig",
+        "en": "Vital",
+        "ru": "\u0416\u0438\u0437\u043d\u0435\u043d\u043d\u043e \u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0439",
+        "index": 1029
+    },
+    {
+        "de": "Unverzichtbar",
+        "en": "Indispensable",
+        "ru": "\u041d\u0435\u0437\u0430\u043c\u0435\u043d\u0438\u043c\u044b\u0439",
+        "index": 1030
+    },
+    {
+        "de": "Entbehrlich",
+        "en": "Dispensable",
+        "ru": "\u041b\u0438\u0448\u043d\u0438\u0439",
+        "index": 1031
+    },
+    {
+        "de": "Zweckm\u00e4\u00dfig",
+        "en": "Expedient",
+        "ru": "\u0426\u0435\u043b\u0435\u0441\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0439",
+        "index": 1032
+    },
+    {
+        "de": "Exklusiv",
+        "en": "Exclusive",
+        "ru": "\u042d\u043a\u0441\u043a\u043b\u044e\u0437\u0438\u0432\u043d\u044b\u0439",
+        "index": 1033
+    },
+    {
+        "de": "Allt\u00e4glich",
+        "en": "Commonplace",
+        "ru": "\u041e\u0431\u044b\u0434\u0435\u043d\u043d\u044b\u0439",
+        "index": 1034
+    },
+    {
+        "de": "Merkw\u00fcrdig",
+        "en": "Strange",
+        "ru": "\u0421\u0442\u0440\u0430\u043d\u043d\u044b\u0439",
+        "index": 1035
+    },
+    {
+        "de": "Bizarr",
+        "en": "Bizarre",
+        "ru": "\u041f\u0440\u0438\u0447\u0443\u0434\u043b\u0438\u0432\u044b\u0439",
+        "index": 1036
+    },
+    {
+        "de": "Grotesk",
+        "en": "Grotesque",
+        "ru": "\u0413\u0440\u043e\u0442\u0435\u0441\u043a\u043d\u044b\u0439",
+        "index": 1037
+    },
+    {
+        "de": "L\u00e4cherlich",
+        "en": "Ridiculous",
+        "ru": "\u0421\u043c\u0435\u0445\u043e\u0442\u0432\u043e\u0440\u043d\u044b\u0439",
+        "index": 1038
+    },
+    {
+        "de": "Absurd",
+        "en": "Absurd",
+        "ru": "\u0410\u0431\u0441\u0443\u0440\u0434\u043d\u044b\u0439",
+        "index": 1039
+    },
+    {
+        "de": "Rational",
+        "en": "Rational",
+        "ru": "\u0420\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 1040
+    },
+    {
+        "de": "Irrational",
+        "en": "Irrational",
+        "ru": "\u0418\u0440\u0440\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 1041
+    },
+    {
+        "de": "Emotional",
+        "en": "Emotional",
+        "ru": "\u042d\u043c\u043e\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 1042
+    },
+    {
+        "de": "Gef\u00fchlvoll",
+        "en": "Feeling",
+        "ru": "\u0427\u0443\u0432\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 1043
+    },
+    {
+        "de": "Gef\u00fchllos",
+        "en": "Unfeeling",
+        "ru": "\u0411\u0435\u0441\u0447\u0443\u0432\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 1044
+    },
+    {
+        "de": "Kaltbl\u00fctig",
+        "en": "Cold-Blooded",
+        "ru": "\u0425\u043b\u0430\u0434\u043d\u043e\u043a\u0440\u043e\u0432\u043d\u044b\u0439",
+        "index": 1045
+    },
+    {
+        "de": "Warmherzig",
+        "en": "Warm-Hearted",
+        "ru": "\u0414\u043e\u0431\u0440\u043e\u0441\u0435\u0440\u0434\u0435\u0447\u043d\u044b\u0439",
+        "index": 1046
+    },
+    {
+        "de": "Unbarmherzig",
+        "en": "Merciless",
+        "ru": "\u0411\u0435\u0437\u0436\u0430\u043b\u043e\u0441\u0442\u043d\u044b\u0439",
+        "index": 1047
+    },
+    {
+        "de": "Bestialisch",
+        "en": "Bestial",
+        "ru": "\u0417\u0432\u0435\u0440\u0441\u043a\u0438\u0439",
+        "index": 1048
+    },
+    {
+        "de": "Menschlich",
+        "en": "Human",
+        "ru": "\u0427\u0435\u043b\u043e\u0432\u0435\u0447\u043d\u044b\u0439",
+        "index": 1049
+    },
+    {
+        "de": "Unmenschlich",
+        "en": "Inhuman",
+        "ru": "\u0411\u0435\u0441\u0447\u0435\u043b\u043e\u0432\u0435\u0447\u043d\u044b\u0439",
+        "index": 1050
+    },
+    {
+        "de": "Zivilisiert",
+        "en": "Civilized",
+        "ru": "\u0426\u0438\u0432\u0438\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 1051
+    },
+    {
+        "de": "Barbarisch",
+        "en": "Barbaric",
+        "ru": "\u0412\u0430\u0440\u0432\u0430\u0440\u0441\u043a\u0438\u0439",
+        "index": 1052
+    },
+    {
+        "de": "Primitiv",
+        "en": "Primitive",
+        "ru": "\u041f\u0440\u0438\u043c\u0438\u0442\u0438\u0432\u043d\u044b\u0439",
+        "index": 1053
+    },
+    {
+        "de": "Kultiviert",
+        "en": "Cultivated",
+        "ru": "\u041a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u044b\u0439",
+        "index": 1054
+    },
+    {
+        "de": "Gebildet",
+        "en": "Educated",
+        "ru": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 1055
+    },
+    {
+        "de": "Ungebildet",
+        "en": "Uneducated",
+        "ru": "\u041d\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+        "index": 1056
+    },
+    {
+        "de": "Talentsuche",
+        "en": "Talented",
+        "ru": "\u0422\u0430\u043b\u0430\u043d\u0442\u043b\u0438\u0432\u044b\u0439",
+        "index": 1057
+    },
+    {
+        "de": "Kundig",
+        "en": "Knowledgeable",
+        "ru": "\u0417\u043d\u0430\u044e\u0449\u0438\u0439",
+        "index": 1058
+    },
+    {
+        "de": "Sachkundig",
+        "en": "Expert",
+        "ru": "\u042d\u043a\u0441\u043f\u0435\u0440\u0442\u043d\u044b\u0439",
+        "index": 1059
+    },
+    {
+        "de": "Fachm\u00e4nnisch",
+        "en": "Professional",
+        "ru": "\u041f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 1060
+    },
+    {
+        "de": "Amateurhaft",
+        "en": "Amateur",
+        "ru": "\u041b\u044e\u0431\u0438\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0439",
+        "index": 1061
+    },
+    {
+        "de": "Makellos",
+        "en": "Flawless",
+        "ru": "\u0411\u0435\u0437\u0443\u043f\u0440\u0435\u0447\u043d\u044b\u0439",
+        "index": 1062
+    },
+    {
+        "de": "Einwandfrei",
+        "en": "Impeccable",
+        "ru": "\u0411\u0435\u0437\u0443\u043a\u043e\u0440\u0438\u0437\u043d\u0435\u043d\u043d\u044b\u0439",
+        "index": 1063
+    },
+    {
+        "de": "Ungen\u00fcgend",
+        "en": "Insufficient",
+        "ru": "\u041d\u0435\u0443\u0434\u043e\u0432\u043b\u0435\u0442\u0432\u043e\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 1064
+    },
+    {
+        "de": "Ausreichend",
+        "en": "Sufficient",
+        "ru": "\u0414\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u044b\u0439",
+        "index": 1065
+    },
+    {
+        "de": "Befriedigend",
+        "en": "Satisfactory",
+        "ru": "\u0423\u0434\u043e\u0432\u043b\u0435\u0442\u0432\u043e\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 1066
+    },
+    {
+        "de": "Sehr Gut",
+        "en": "Very Good",
+        "ru": "\u041e\u0447\u0435\u043d\u044c \u0425\u043e\u0440\u043e\u0448\u0438\u0439",
+        "index": 1067
+    },
+    {
+        "de": "Erstklassig",
+        "en": "First-Class",
+        "ru": "\u041f\u0435\u0440\u0432\u043e\u043a\u043b\u0430\u0441\u0441\u043d\u044b\u0439",
+        "index": 1068
+    },
+    {
+        "de": "Minderwertig",
+        "en": "Inferior",
+        "ru": "\u041d\u0438\u0437\u043a\u043e\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 1069
+    },
+    {
+        "de": "Hochwertig",
+        "en": "High-Quality",
+        "ru": "\u0412\u044b\u0441\u043e\u043a\u043e\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 1070
+    },
+    {
+        "de": "Edel",
+        "en": "Noble",
+        "ru": "\u0411\u043b\u0430\u0433\u043e\u0440\u043e\u0434\u043d\u044b\u0439",
+        "index": 1071
+    },
+    {
+        "de": "Ramschig",
+        "en": "Trashy",
+        "ru": "\u041d\u0438\u043a\u0443\u0434\u044b\u0448\u043d\u044b\u0439",
+        "index": 1072
+    },
+    {
+        "de": "Sch\u00e4big",
+        "en": "Shabby",
+        "ru": "\u041f\u043e\u0442\u0440\u0435\u043f\u0430\u043d\u043d\u044b\u0439",
+        "index": 1073
+    },
+    {
+        "de": "Reaktion\u00e4r",
+        "en": "Reactionary",
+        "ru": "\u0420\u0435\u0430\u043a\u0446\u0438\u043e\u043d\u043d\u044b\u0439",
+        "index": 1074
+    },
+    {
+        "de": "Revolution\u00e4r",
+        "en": "Revolutionary",
+        "ru": "\u0420\u0435\u0432\u043e\u043b\u044e\u0446\u0438\u043e\u043d\u043d\u044b\u0439",
+        "index": 1075
+    },
+    {
+        "de": "Avantgardistisch",
+        "en": "Avant-Garde",
+        "ru": "\u0410\u0432\u0430\u043d\u0433\u0430\u0440\u0434\u043d\u044b\u0439",
+        "index": 1076
+    },
+    {
+        "de": "Unzeitgem\u00e4\u00df",
+        "en": "Untimely",
+        "ru": "\u041d\u0435\u0441\u0432\u043e\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439",
+        "index": 1077
+    },
+    {
+        "de": "Passend",
+        "en": "Fitting",
+        "ru": "\u041f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0439",
+        "index": 1078
+    },
+    {
+        "de": "Geeignet",
+        "en": "Suitable",
+        "ru": "\u041f\u0440\u0438\u0433\u043e\u0434\u043d\u044b\u0439",
+        "index": 1079
+    },
+    {
+        "de": "Unpassend",
+        "en": "Unfitting",
+        "ru": "\u041d\u0435\u0443\u043c\u0435\u0441\u0442\u043d\u044b\u0439",
+        "index": 1080
+    },
+    {
+        "de": "Unangemessen",
+        "en": "Inappropriate",
+        "ru": "\u041d\u0435\u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439",
+        "index": 1081
+    },
+    {
+        "de": "Angemessen",
+        "en": "Appropriate",
+        "ru": "\u0423\u043c\u0435\u0441\u0442\u043d\u044b\u0439",
+        "index": 1082
+    },
+    {
+        "de": "W\u00fcrdig",
+        "en": "Worthy",
+        "ru": "\u0414\u043e\u0441\u0442\u043e\u0439\u043d\u044b\u0439",
+        "index": 1083
+    },
+    {
+        "de": "Unw\u00fcrdig",
+        "en": "Unworthy",
+        "ru": "\u041d\u0435\u0434\u043e\u0441\u0442\u043e\u0439\u043d\u044b\u0439",
+        "index": 1084
+    },
+    {
+        "de": "Ehrenhaft",
+        "en": "Honorable",
+        "ru": "\u041f\u043e\u0447\u0442\u0435\u043d\u043d\u044b\u0439",
+        "index": 1085
+    },
+    {
+        "de": "Ehrlos",
+        "en": "Dishonorable",
+        "ru": "\u0411\u0435\u0441\u0447\u0435\u0441\u0442\u043d\u044b\u0439",
+        "index": 1086
+    },
+    {
+        "de": "Respektvoll",
+        "en": "Respectful",
+        "ru": "\u041f\u043e\u0447\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 1087
+    },
+    {
+        "de": "Respektlos",
+        "en": "Disrespectful",
+        "ru": "\u041d\u0435\u0443\u0432\u0430\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 1088
+    },
+    {
+        "de": "Unversch\u00e4mt",
+        "en": "Impudent",
+        "ru": "\u041d\u0430\u0433\u043b\u044b\u0439",
+        "index": 1089
+    },
+    {
+        "de": "Dreist",
+        "en": "Bold",
+        "ru": "\u041d\u0430\u0445\u0430\u043b\u044c\u043d\u044b\u0439",
+        "index": 1090
+    },
+    {
+        "de": "Furchtlos",
+        "en": "Fearless",
+        "ru": "\u0411\u0435\u0441\u0441\u0442\u0440\u0430\u0448\u043d\u044b\u0439",
+        "index": 1091
     }
 ]
