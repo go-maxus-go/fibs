@@ -25,6 +25,7 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
   bool _isPreparing = true;
   String? _error;
   final Map<WordGroup, int> _learnedCounts = <WordGroup, int>{};
+  final Map<WordGroup, int> _totalCounts = <WordGroup, int>{};
 
   @override
   void initState() {
@@ -40,8 +41,10 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
           throw StateError('Need at least 4 words in ${group.assetPath}.');
         }
         await QuizDatabase.instance.upsertAndLoadWords(group, words);
-        final int count = await QuizDatabase.instance.getLearnedCount(group);
-        _learnedCounts[group] = count;
+        final int learned = await QuizDatabase.instance.getLearnedCount(group);
+        final int total = await QuizDatabase.instance.getTotalCount(group);
+        _learnedCounts[group] = learned;
+        _totalCounts[group] = total;
       }
       if (!mounted) {
         return;
@@ -70,9 +73,11 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
       return;
     }
     // Refresh counts when returning
-    final int count = await QuizDatabase.instance.getLearnedCount(group);
+    final int learned = await QuizDatabase.instance.getLearnedCount(group);
+    final int total = await QuizDatabase.instance.getTotalCount(group);
     setState(() {
-      _learnedCounts[group] = count;
+      _learnedCounts[group] = learned;
+      _totalCounts[group] = total;
     });
   }
 
@@ -164,6 +169,7 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
               label: 'Nouns',
               group: WordGroup.nouns,
               learnedCount: _learnedCounts[WordGroup.nouns] ?? 0,
+              totalCount: _totalCounts[WordGroup.nouns] ?? 0,
               onPressed: () => _navigateToQuiz(WordGroup.nouns),
             ),
             const SizedBox(height: 12),
@@ -171,6 +177,7 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
               label: 'Verbs',
               group: WordGroup.verbs,
               learnedCount: _learnedCounts[WordGroup.verbs] ?? 0,
+              totalCount: _totalCounts[WordGroup.verbs] ?? 0,
               onPressed: () => _navigateToQuiz(WordGroup.verbs),
             ),
             const SizedBox(height: 12),
@@ -178,6 +185,7 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
               label: 'Objectives',
               group: WordGroup.objectives,
               learnedCount: _learnedCounts[WordGroup.objectives] ?? 0,
+              totalCount: _totalCounts[WordGroup.objectives] ?? 0,
               onPressed: () => _navigateToQuiz(WordGroup.objectives),
             ),
           ],
@@ -192,12 +200,14 @@ class _GroupButton extends StatelessWidget {
     required this.label,
     required this.group,
     required this.learnedCount,
+    required this.totalCount,
     required this.onPressed,
   });
 
   final String label;
   final WordGroup group;
   final int learnedCount;
+  final int totalCount;
   final VoidCallback onPressed;
 
   @override
@@ -211,7 +221,7 @@ class _GroupButton extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Text(label),
-          if (learnedCount > 0)
+          if (totalCount > 0)
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
               decoration: BoxDecoration(
@@ -219,7 +229,7 @@ class _GroupButton extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Text(
-                '$learnedCount learned',
+                'learned $learnedCount/$totalCount',
                 style: const TextStyle(
                   fontSize: 12,
                   color: Colors.green,
