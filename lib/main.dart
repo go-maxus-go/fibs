@@ -1,31 +1,60 @@
 import 'dart:convert';
+import 'dart:io';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:path/path.dart' as path;
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  if (Platform.isLinux || Platform.isWindows || Platform.isMacOS) {
+    sqfliteFfiInit();
+    databaseFactory = databaseFactoryFfi;
+  }
   runApp(const MainApp());
 }
 
 class WordEntry {
   const WordEntry({
+    required this.index,
     required this.de,
     required this.en,
     required this.ru,
+    this.seenCount = 0,
+    this.correctCount = 0,
   });
 
+  final int index;
   final String de;
   final String en;
   final String ru;
+  final int seenCount;
+  final int correctCount;
 
   String get enRu => '$en ($ru)';
 
   factory WordEntry.fromJson(Map<String, dynamic> json) {
     return WordEntry(
+      index: (json['index'] as int?) ?? -1,
       de: (json['de'] as String?)?.trim() ?? '',
       en: (json['en'] as String?)?.trim() ?? '',
       ru: (json['ru'] as String?)?.trim() ?? '',
+    );
+  }
+
+  WordEntry copyWith({
+    int? seenCount,
+    int? correctCount,
+  }) {
+    return WordEntry(
+      index: index,
+      de: de,
+      en: en,
+      ru: ru,
+      seenCount: seenCount ?? this.seenCount,
+      correctCount: correctCount ?? this.correctCount,
     );
   }
 }
@@ -45,6 +74,159 @@ extension WordGroupConfig on WordGroup {
 
   String get assetPath =>
       this == WordGroup.nouns ? 'data/nouns.json' : 'data/verbs.json';
+
+  String get dbKey => this == WordGroup.nouns ? 'nouns' : 'verbs';
+}
+
+class QuizDatabase {
+  QuizDatabase._();
+
+  static final QuizDatabase instance = QuizDatabase._();
+  Database? _db;
+
+  Future<Database> get database async {
+    if (_db != null) {
+      return _db!;
+    }
+    final String dbPath = path.join(await getDatabasesPath(), 'quiz_state.db');
+    _db = await openDatabase(
+      dbPath,
+      version: 1,
+      onCreate: (Database db, int version) async {
+        await db.execute('''
+          CREATE TABLE group_stats (
+            group_name TEXT PRIMARY KEY,
+            streak INTEGER NOT NULL DEFAULT 0
+          )
+        ''');
+        await db.execute('''
+          CREATE TABLE words (
+            group_name TEXT NOT NULL,
+            word_index INTEGER NOT NULL,
+            de TEXT NOT NULL,
+            en TEXT NOT NULL,
+            ru TEXT NOT NULL,
+            seen_count INTEGER NOT NULL DEFAULT 0,
+            correct_count INTEGER NOT NULL DEFAULT 0,
+            PRIMARY KEY(group_name, word_index)
+          )
+        ''');
+      },
+    );
+    return _db!;
+  }
+
+  Future<List<WordEntry>> upsertAndLoadWords(
+    WordGroup group,
+    List<WordEntry> jsonWords,
+  ) async {
+    final Database db = await database;
+    final Batch batch = db.batch();
+    for (final WordEntry word in jsonWords) {
+      batch.rawInsert(
+        '''
+        INSERT INTO words (group_name, word_index, de, en, ru, seen_count, correct_count)
+        VALUES (?, ?, ?, ?, ?, 0, 0)
+        ON CONFLICT(group_name, word_index) DO UPDATE SET
+          de = excluded.de,
+          en = excluded.en,
+          ru = excluded.ru
+        ''',
+        <Object>[
+          group.dbKey,
+          word.index,
+          word.de,
+          word.en,
+          word.ru,
+        ],
+      );
+    }
+    await batch.commit(noResult: true);
+
+    final List<Map<String, Object?>> rows = await db.query(
+      'words',
+      where: 'group_name = ?',
+      whereArgs: <Object>[group.dbKey],
+    );
+    final Map<int, Map<String, Object?>> byIndex = <int, Map<String, Object?>>{
+      for (final Map<String, Object?> row in rows)
+        (row['word_index'] as int): row,
+    };
+
+    return jsonWords.map((WordEntry word) {
+      final Map<String, Object?>? row = byIndex[word.index];
+      if (row == null) {
+        return word;
+      }
+      return word.copyWith(
+        seenCount: row['seen_count'] as int,
+        correctCount: row['correct_count'] as int,
+      );
+    }).toList();
+  }
+
+  Future<int> getStreak(WordGroup group) async {
+    final Database db = await database;
+    final List<Map<String, Object?>> rows = await db.query(
+      'group_stats',
+      columns: <String>['streak'],
+      where: 'group_name = ?',
+      whereArgs: <Object>[group.dbKey],
+      limit: 1,
+    );
+    if (rows.isEmpty) {
+      return 0;
+    }
+    return rows.first['streak'] as int;
+  }
+
+  Future<void> setStreak(WordGroup group, int streak) async {
+    final Database db = await database;
+    await db.insert(
+      'group_stats',
+      <String, Object>{
+        'group_name': group.dbKey,
+        'streak': streak,
+      },
+      conflictAlgorithm: ConflictAlgorithm.replace,
+    );
+  }
+
+  Future<void> incrementSeen(WordGroup group, int wordIndex) async {
+    final Database db = await database;
+    await db.rawUpdate(
+      '''
+      UPDATE words
+      SET seen_count = seen_count + 1
+      WHERE group_name = ? AND word_index = ?
+      ''',
+      <Object>[group.dbKey, wordIndex],
+    );
+  }
+
+  Future<void> incrementCorrect(WordGroup group, int wordIndex) async {
+    final Database db = await database;
+    await db.rawUpdate(
+      '''
+      UPDATE words
+      SET correct_count = correct_count + 1
+      WHERE group_name = ? AND word_index = ?
+      ''',
+      <Object>[group.dbKey, wordIndex],
+    );
+  }
+}
+
+Future<List<WordEntry>> _readWordsFromAsset(String assetPath) async {
+  final String raw = await rootBundle.loadString(assetPath);
+  final List<dynamic> parsed = jsonDecode(raw) as List<dynamic>;
+  return parsed
+      .map((dynamic e) => WordEntry.fromJson(e as Map<String, dynamic>))
+      .where(
+        (WordEntry e) =>
+            e.index > 0 && e.de.isNotEmpty && e.en.isNotEmpty && e.ru.isNotEmpty,
+      )
+      .toList();
 }
 
 class MainApp extends StatelessWidget {
@@ -67,6 +249,92 @@ class GroupSelectionPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return const _GroupSelectionView();
+  }
+}
+
+class _GroupSelectionView extends StatefulWidget {
+  const _GroupSelectionView();
+
+  @override
+  State<_GroupSelectionView> createState() => _GroupSelectionViewState();
+}
+
+class _GroupSelectionViewState extends State<_GroupSelectionView> {
+  bool _isPreparing = true;
+  String? _error;
+
+  @override
+  void initState() {
+    super.initState();
+    _prepareDatabase();
+  }
+
+  Future<void> _prepareDatabase() async {
+    try {
+      for (final WordGroup group in WordGroup.values) {
+        final List<WordEntry> words = await _readWordsFromAsset(group.assetPath);
+        if (words.length < 4) {
+          throw StateError('Need at least 4 words in ${group.assetPath}.');
+        }
+        await QuizDatabase.instance.upsertAndLoadWords(group, words);
+      }
+      if (!mounted) {
+        return;
+      }
+      setState(() {
+        _isPreparing = false;
+      });
+    } catch (_) {
+      if (!mounted) {
+        return;
+      }
+      setState(() {
+        _isPreparing = false;
+        _error = 'Could not prepare local database.';
+      });
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    if (_isPreparing) {
+      return const Scaffold(
+        body: Center(child: CircularProgressIndicator()),
+      );
+    }
+
+    if (_error != null) {
+      return Scaffold(
+        appBar: AppBar(title: const Text('Choose Word Group')),
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: <Widget>[
+                Text(
+                  _error!,
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 12),
+                ElevatedButton(
+                  onPressed: () {
+                    setState(() {
+                      _isPreparing = true;
+                      _error = null;
+                    });
+                    _prepareDatabase();
+                  },
+                  child: const Text('Retry'),
+                ),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
+
     return Scaffold(
       appBar: AppBar(title: const Text('Choose Word Group')),
       body: Padding(
@@ -128,6 +396,7 @@ class _QuizPageState extends State<QuizPage> {
   List<WordEntry> _words = <WordEntry>[];
   String? _currentPrompt;
   String? _currentCorrectAnswer;
+  WordEntry? _currentWord;
   List<String> _options = <String>[];
   QuizDirection? _direction;
   int _correctStreak = 0;
@@ -146,24 +415,25 @@ class _QuizPageState extends State<QuizPage> {
 
   Future<void> _loadWords() async {
     try {
-      final String raw = await rootBundle.loadString(widget.group.assetPath);
-      final List<dynamic> parsed = jsonDecode(raw) as List<dynamic>;
-      final List<WordEntry> words = parsed
-          .map((dynamic e) => WordEntry.fromJson(e as Map<String, dynamic>))
-          .where(
-            (WordEntry e) => e.de.isNotEmpty && e.en.isNotEmpty && e.ru.isNotEmpty,
-          )
-          .toList();
+      final List<WordEntry> words = await _readWordsFromAsset(widget.group.assetPath);
 
       if (words.length < 4) {
         throw StateError('Need at least 4 words to build options.');
       }
 
+      final List<WordEntry> persistedWords = await QuizDatabase.instance
+          .upsertAndLoadWords(widget.group, words);
+      final int storedStreak = await QuizDatabase.instance.getStreak(widget.group);
+
+      if (!mounted) {
+        return;
+      }
       setState(() {
-        _words = words;
+        _words = persistedWords;
+        _correctStreak = storedStreak;
         _isLoading = false;
       });
-      _nextQuestion();
+      await _nextQuestion();
     } catch (_) {
       setState(() {
         _isLoading = false;
@@ -172,7 +442,7 @@ class _QuizPageState extends State<QuizPage> {
     }
   }
 
-  void _nextQuestion() {
+  Future<void> _nextQuestion() async {
     if (_words.length < 4) {
       return;
     }
@@ -199,11 +469,17 @@ class _QuizPageState extends State<QuizPage> {
       _idkOption,
     ];
 
+    await QuizDatabase.instance.incrementSeen(widget.group, chosen.index);
+
+    if (!mounted) {
+      return;
+    }
     setState(() {
       _direction = direction;
       _currentPrompt = direction == QuizDirection.germanToEnRu
           ? chosen.de
           : chosen.enRu;
+      _currentWord = chosen.copyWith(seenCount: chosen.seenCount + 1);
       _currentCorrectAnswer = correctAnswer;
       _options = optionsWithIdk;
       _isChecking = false;
@@ -213,7 +489,7 @@ class _QuizPageState extends State<QuizPage> {
     });
   }
 
-  void _onOptionTap(String selected) {
+  Future<void> _onOptionTap(String selected) async {
     if (_currentCorrectAnswer == null || _isChecking) {
       return;
     }
@@ -224,6 +500,7 @@ class _QuizPageState extends State<QuizPage> {
         _correctStreak = 0;
         _wrongSelections.add(selected);
       });
+      await QuizDatabase.instance.setStreak(widget.group, 0);
       return;
     }
 
@@ -232,6 +509,10 @@ class _QuizPageState extends State<QuizPage> {
       _isChecking = true;
       _correctSelection = selected;
     });
+    if (_currentWord != null) {
+      await QuizDatabase.instance.incrementCorrect(widget.group, _currentWord!.index);
+    }
+    await QuizDatabase.instance.setStreak(widget.group, _correctStreak);
 
     Future<void>.delayed(const Duration(seconds: 1), () {
       if (mounted) {
