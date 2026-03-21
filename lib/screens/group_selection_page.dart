@@ -158,6 +158,7 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
         padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             _GroupButton(
               label: 'Nouns',
