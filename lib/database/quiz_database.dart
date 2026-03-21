@@ -149,7 +149,7 @@ class QuizDatabase {
   Future<int> getLearnedCount(WordGroup group) async {
     final Database db = await database;
     final List<Map<String, Object?>> result = await db.rawQuery(
-      'SELECT COUNT(*) as count FROM words WHERE group_name = ? AND streak > 2',
+      'SELECT COUNT(*) as count FROM words WHERE group_name = ? AND streak >= 1',
       <Object>[group.dbKey],
     );
     return Sqflite.firstIntValue(result) ?? 0;
