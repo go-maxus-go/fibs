@@ -7,10 +7,7 @@ import '../models/word_group.dart';
 import '../utils/word_utils.dart';
 
 class QuizPage extends StatefulWidget {
-  const QuizPage({
-    super.key,
-    required this.group,
-  });
+  const QuizPage({super.key, required this.group});
 
   final WordGroup group;
 
@@ -46,9 +43,23 @@ class _QuizPageState extends State<QuizPage> {
     _loadWords();
   }
 
+  int fibonacciIndex(int index) {
+    int a = 1;
+    int b = 1;
+    for (int i = 0; i < index; i++) {
+      int c = a + b;
+      a = b;
+      b = c;
+    }
+
+    return b;
+  }
+
   Future<void> _loadWords() async {
     try {
-      final List<WordEntry> words = await readWordsFromAsset(widget.group.assetPath);
+      final List<WordEntry> words = await readWordsFromAsset(
+        widget.group.assetPath,
+      );
 
       if (words.length < 4) {
         throw StateError('Need at least 4 words to build options.');
@@ -56,10 +67,14 @@ class _QuizPageState extends State<QuizPage> {
 
       final List<WordEntry> persistedWords = await QuizDatabase.instance
           .upsertAndLoadWords(widget.group, words);
-      final int storedStreak = await QuizDatabase.instance.getStreak(widget.group);
+      final int storedStreak = await QuizDatabase.instance.getStreak(
+        widget.group,
+      );
 
-      persistedWords.sort((WordEntry a, WordEntry b) => 
-        (a.queueIndex ?? a.index).compareTo(b.queueIndex ?? b.index));
+      persistedWords.sort(
+        (WordEntry a, WordEntry b) =>
+            (a.queueIndex ?? a.index).compareTo(b.queueIndex ?? b.index),
+      );
 
       if (!mounted) {
         return;
@@ -96,15 +111,14 @@ class _QuizPageState extends State<QuizPage> {
     while (options.length < 4) {
       final WordEntry distractor = _words[_random.nextInt(_words.length)];
       options.add(
-        direction == QuizDirection.germanToEnRu ? distractor.enRu : distractor.de,
+        direction == QuizDirection.germanToEnRu
+            ? distractor.enRu
+            : distractor.de,
       );
     }
 
     final List<String> shuffled = options.toList()..shuffle(_random);
-    final List<String> optionsWithIdk = <String>[
-      ...shuffled,
-      _idkOption,
-    ];
+    final List<String> optionsWithIdk = <String>[...shuffled, _idkOption];
 
     await QuizDatabase.instance.incrementSeen(widget.group, chosen.index);
 
@@ -152,7 +166,10 @@ class _QuizPageState extends State<QuizPage> {
     });
 
     if (_currentWord != null && !_madeMistakeOnCurrent) {
-      await QuizDatabase.instance.incrementCorrect(widget.group, _currentWord!.index);
+      await QuizDatabase.instance.incrementCorrect(
+        widget.group,
+        _currentWord!.index,
+      );
     }
     await QuizDatabase.instance.setStreak(widget.group, _correctStreak);
 
@@ -160,12 +177,12 @@ class _QuizPageState extends State<QuizPage> {
       if (mounted) {
         if (_activeQueue.isNotEmpty) {
           final WordEntry word = _activeQueue.removeAt(0);
-          
+
           WordEntry updatedWord;
           if (!_madeMistakeOnCurrent) {
             final int streak = word.streak + 1;
             updatedWord = word.copyWith(streak: streak);
-            int insertIndex = 5 + (10 * streak);
+            int insertIndex = fibonacciIndex(streak + 2);
             if (insertIndex > _activeQueue.length) {
               insertIndex = _activeQueue.length;
             }
@@ -188,35 +205,24 @@ class _QuizPageState extends State<QuizPage> {
   @override
   Widget build(BuildContext context) {
     if (_isLoading) {
-      return const Scaffold(
-        body: Center(child: CircularProgressIndicator()),
-      );
+      return const Scaffold(body: Center(child: CircularProgressIndicator()));
     }
 
     if (_errorMessage != null) {
       return Scaffold(
         appBar: AppBar(title: Text('German ${widget.group.title} Quiz')),
-        body: Center(
-          child: Text(
-            _errorMessage!,
-            textAlign: TextAlign.center,
-          ),
-        ),
+        body: Center(child: Text(_errorMessage!, textAlign: TextAlign.center)),
       );
     }
 
     final String? promptWord = _currentPrompt;
     final QuizDirection? direction = _direction;
     if (promptWord == null || direction == null) {
-      return const Scaffold(
-        body: Center(child: Text('No word available.')),
-      );
+      return const Scaffold(body: Center(child: Text('No word available.')));
     }
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text('German ${widget.group.title} Quiz'),
-      ),
+      appBar: AppBar(title: Text('German ${widget.group.title} Quiz')),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -231,14 +237,6 @@ class _QuizPageState extends State<QuizPage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Text(
-                    direction == QuizDirection.germanToEnRu
-                        ? 'Pick the right English (Russian):'
-                        : 'Pick the right German word:',
-                    style: Theme.of(context).textTheme.titleLarge,
-                    textAlign: TextAlign.center,
-                  ),
-                  const SizedBox(height: 10),
                   Text(
                     promptWord,
                     style: Theme.of(context).textTheme.headlineMedium,
@@ -266,7 +264,9 @@ class _QuizPageState extends State<QuizPage> {
                           child: Ink(
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
-                              color: Theme.of(context).colorScheme.surfaceContainerHighest,
+                              color: Theme.of(
+                                context,
+                              ).colorScheme.surfaceContainerHighest,
                             ),
                             child: Center(
                               child: Text(
