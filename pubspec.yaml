@@ -19,3 +19,4 @@ flutter:
   uses-material-design: true
   assets:
     - data/nouns.json
+    - data/verbs.json

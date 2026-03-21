@@ -1,0 +1,3002 @@
+[
+    {
+      "de": "sein",
+      "en": "to be",
+      "ru": "\u0431\u044b\u0442\u044c",
+      "index": 1
+    },
+    {
+      "de": "haben",
+      "en": "to have",
+      "ru": "\u0438\u043c\u0435\u0442\u044c",
+      "index": 2
+    },
+    {
+      "de": "werden",
+      "en": "to become",
+      "ru": "\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c\u0441\u044f",
+      "index": 3
+    },
+    {
+      "de": "k\u00f6nnen",
+      "en": "can",
+      "ru": "\u043c\u043e\u0447\u044c",
+      "index": 4
+    },
+    {
+      "de": "m\u00fcssen",
+      "en": "must",
+      "ru": "\u0431\u044b\u0442\u044c \u0434\u043e\u043b\u0436\u043d\u044b\u043c",
+      "index": 5
+    },
+    {
+      "de": "sagen",
+      "en": "to say",
+      "ru": "\u0441\u043a\u0430\u0437\u0430\u0442\u044c",
+      "index": 6
+    },
+    {
+      "de": "machen",
+      "en": "to do",
+      "ru": "\u0434\u0435\u043b\u0430\u0442\u044c",
+      "index": 7
+    },
+    {
+      "de": "geben",
+      "en": "to give",
+      "ru": "\u0434\u0430\u0432\u0430\u0442\u044c",
+      "index": 8
+    },
+    {
+      "de": "kommen",
+      "en": "to come",
+      "ru": "\u043f\u0440\u0438\u0445\u043e\u0434\u0438\u0442\u044c",
+      "index": 9
+    },
+    {
+      "de": "sollen",
+      "en": "should",
+      "ru": "\u0431\u044b\u0442\u044c \u043e\u0431\u044f\u0437\u0430\u043d\u043d\u044b\u043c",
+      "index": 10
+    },
+    {
+      "de": "wollen",
+      "en": "to want",
+      "ru": "\u0445\u043e\u0442\u0435\u0442\u044c",
+      "index": 11
+    },
+    {
+      "de": "gehen",
+      "en": "to go",
+      "ru": "\u0438\u0434\u0442\u0438",
+      "index": 12
+    },
+    {
+      "de": "wissen",
+      "en": "to know",
+      "ru": "\u0437\u043d\u0430\u0442\u044c",
+      "index": 13
+    },
+    {
+      "de": "sehen",
+      "en": "to see",
+      "ru": "\u0432\u0438\u0434\u0435\u0442\u044c",
+      "index": 14
+    },
+    {
+      "de": "lassen",
+      "en": "to let",
+      "ru": "\u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0442\u044c",
+      "index": 15
+    },
+    {
+      "de": "stehen",
+      "en": "to stand",
+      "ru": "\u0441\u0442\u043e\u044f\u0442\u044c",
+      "index": 16
+    },
+    {
+      "de": "finden",
+      "en": "to find",
+      "ru": "\u043d\u0430\u0445\u043e\u0434\u0438\u0442\u044c",
+      "index": 17
+    },
+    {
+      "de": "bleiben",
+      "en": "to stay",
+      "ru": "\u043e\u0441\u0442\u0430\u0432\u0430\u0442\u044c\u0441\u044f",
+      "index": 18
+    },
+    {
+      "de": "liegen",
+      "en": "to lie",
+      "ru": "\u043b\u0435\u0436\u0430\u0442\u044c",
+      "index": 19
+    },
+    {
+      "de": "hei\u00dfen",
+      "en": "to be called",
+      "ru": "\u043d\u0430\u0437\u044b\u0432\u0430\u0442\u044c\u0441\u044f",
+      "index": 20
+    },
+    {
+      "de": "denken",
+      "en": "to think",
+      "ru": "\u0434\u0443\u043c\u0430\u0442\u044c",
+      "index": 21
+    },
+    {
+      "de": "nehmen",
+      "en": "to take",
+      "ru": "\u0431\u0440\u0430\u0442\u044c",
+      "index": 22
+    },
+    {
+      "de": "tun",
+      "en": "to do",
+      "ru": "\u0434\u0435\u043b\u0430\u0442\u044c",
+      "index": 23
+    },
+    {
+      "de": "d\u00fcrfen",
+      "en": "may",
+      "ru": "\u0438\u043c\u0435\u0442\u044c \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435",
+      "index": 24
+    },
+    {
+      "de": "glauben",
+      "en": "to believe",
+      "ru": "\u0432\u0435\u0440\u0438\u0442\u044c",
+      "index": 25
+    },
+    {
+      "de": "halten",
+      "en": "to hold",
+      "ru": "\u0434\u0435\u0440\u0436\u0430\u0442\u044c",
+      "index": 26
+    },
+    {
+      "de": "nennen",
+      "en": "to name",
+      "ru": "\u043d\u0430\u0437\u044b\u0432\u0430\u0442\u044c",
+      "index": 27
+    },
+    {
+      "de": "m\u00f6gen",
+      "en": "to like",
+      "ru": "\u043b\u044e\u0431\u0438\u0442\u044c",
+      "index": 28
+    },
+    {
+      "de": "zeigen",
+      "en": "to show",
+      "ru": "\u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0442\u044c",
+      "index": 29
+    },
+    {
+      "de": "f\u00fchren",
+      "en": "to lead",
+      "ru": "\u0432\u0435\u0441\u0442\u0438",
+      "index": 30
+    },
+    {
+      "de": "sprechen",
+      "en": "to speak",
+      "ru": "\u0433\u043e\u0432\u043e\u0440\u0438\u0442\u044c",
+      "index": 31
+    },
+    {
+      "de": "bringen",
+      "en": "to bring",
+      "ru": "\u043f\u0440\u0438\u043d\u043e\u0441\u0438\u0442\u044c",
+      "index": 32
+    },
+    {
+      "de": "leben",
+      "en": "to live",
+      "ru": "\u0436\u0438\u0442\u044c",
+      "index": 33
+    },
+    {
+      "de": "fahren",
+      "en": "to drive",
+      "ru": "\u0435\u0445\u0430\u0442\u044c",
+      "index": 34
+    },
+    {
+      "de": "meinen",
+      "en": "to mean",
+      "ru": "\u0438\u043c\u0435\u0442\u044c \u0432 \u0432\u0438\u0434\u0443",
+      "index": 35
+    },
+    {
+      "de": "fragen",
+      "en": "to ask",
+      "ru": "\u0441\u043f\u0440\u0430\u0448\u0438\u0432\u0430\u0442\u044c",
+      "index": 36
+    },
+    {
+      "de": "kennen",
+      "en": "to know",
+      "ru": "\u0431\u044b\u0442\u044c \u0437\u043d\u0430\u043a\u043e\u043c\u044b\u043c",
+      "index": 37
+    },
+    {
+      "de": "gelten",
+      "en": "to be valid",
+      "ru": "\u0431\u044b\u0442\u044c \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c",
+      "index": 38
+    },
+    {
+      "de": "stellen",
+      "en": "to place",
+      "ru": "\u0441\u0442\u0430\u0432\u0438\u0442\u044c",
+      "index": 39
+    },
+    {
+      "de": "spielen",
+      "en": "to play",
+      "ru": "\u0438\u0433\u0440\u0430\u0442\u044c",
+      "index": 40
+    },
+    {
+      "de": "arbeiten",
+      "en": "to work",
+      "ru": "\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c",
+      "index": 41
+    },
+    {
+      "de": "brauchen",
+      "en": "to need",
+      "ru": "\u043d\u0443\u0436\u0434\u0430\u0442\u044c\u0441\u044f",
+      "index": 42
+    },
+    {
+      "de": "folgen",
+      "en": "to follow",
+      "ru": "\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u044c",
+      "index": 43
+    },
+    {
+      "de": "lernen",
+      "en": "to learn",
+      "ru": "\u0443\u0447\u0438\u0442\u044c",
+      "index": 44
+    },
+    {
+      "de": "bestehen",
+      "en": "to exist",
+      "ru": "\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c",
+      "index": 45
+    },
+    {
+      "de": "verstehen",
+      "en": "to understand",
+      "ru": "\u043f\u043e\u043d\u0438\u043c\u0430\u0442\u044c",
+      "index": 46
+    },
+    {
+      "de": "setzen",
+      "en": "to set",
+      "ru": "\u0441\u0430\u0436\u0430\u0442\u044c",
+      "index": 47
+    },
+    {
+      "de": "bekommen",
+      "en": "to get",
+      "ru": "\u043f\u043e\u043b\u0443\u0447\u0430\u0442\u044c",
+      "index": 48
+    },
+    {
+      "de": "beginnen",
+      "en": "to begin",
+      "ru": "\u043d\u0430\u0447\u0438\u043d\u0430\u0442\u044c",
+      "index": 49
+    },
+    {
+      "de": "erz\u00e4hlen",
+      "en": "to tell",
+      "ru": "\u0440\u0430\u0441\u0441\u043a\u0430\u0437\u044b\u0432\u0430\u0442\u044c",
+      "index": 50
+    },
+    {
+      "de": "versuchen",
+      "en": "to try",
+      "ru": "\u043f\u044b\u0442\u0430\u0442\u044c\u0441\u044f",
+      "index": 51
+    },
+    {
+      "de": "schreiben",
+      "en": "to write",
+      "ru": "\u043f\u0438\u0441\u0430\u0442\u044c",
+      "index": 52
+    },
+    {
+      "de": "laufen",
+      "en": "to run",
+      "ru": "\u0431\u0435\u0436\u0430\u0442\u044c",
+      "index": 53
+    },
+    {
+      "de": "erkl\u00e4ren",
+      "en": "to explain",
+      "ru": "\u043e\u0431\u044a\u044f\u0441\u043d\u044f\u0442\u044c",
+      "index": 54
+    },
+    {
+      "de": "entsprechen",
+      "en": "to correspond",
+      "ru": "\u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c",
+      "index": 55
+    },
+    {
+      "de": "sitzen",
+      "en": "to sit",
+      "ru": "\u0441\u0438\u0434\u0435\u0442\u044c",
+      "index": 56
+    },
+    {
+      "de": "ziehen",
+      "en": "to pull",
+      "ru": "\u0442\u044f\u043d\u0443\u0442\u044c",
+      "index": 57
+    },
+    {
+      "de": "scheinen",
+      "en": "to seem",
+      "ru": "\u043a\u0430\u0437\u0430\u0442\u044c\u0441\u044f",
+      "index": 58
+    },
+    {
+      "de": "fallen",
+      "en": "to fall",
+      "ru": "\u043f\u0430\u0434\u0430\u0442\u044c",
+      "index": 59
+    },
+    {
+      "de": "geh\u00f6ren",
+      "en": "to belong",
+      "ru": "\u043f\u0440\u0438\u043d\u0430\u0434\u043b\u0435\u0436\u0430\u0442\u044c",
+      "index": 60
+    },
+    {
+      "de": "entstehen",
+      "en": "to originate",
+      "ru": "\u0432\u043e\u0437\u043d\u0438\u043a\u0430\u0442\u044c",
+      "index": 61
+    },
+    {
+      "de": "erhalten",
+      "en": "to receive",
+      "ru": "\u043f\u043e\u043b\u0443\u0447\u0430\u0442\u044c",
+      "index": 62
+    },
+    {
+      "de": "treffen",
+      "en": "to meet",
+      "ru": "\u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0442\u044c",
+      "index": 63
+    },
+    {
+      "de": "suchen",
+      "en": "to search",
+      "ru": "\u0438\u0441\u043a\u0430\u0442\u044c",
+      "index": 64
+    },
+    {
+      "de": "legen",
+      "en": "to lay",
+      "ru": "\u043a\u043b\u0430\u0441\u0442\u044c",
+      "index": 65
+    },
+    {
+      "de": "lesen",
+      "en": "to read",
+      "ru": "\u0447\u0438\u0442\u0430\u0442\u044c",
+      "index": 66
+    },
+    {
+      "de": "schaffen",
+      "en": "to create",
+      "ru": "\u0441\u043e\u0437\u0434\u0430\u0432\u0430\u0442\u044c",
+      "index": 67
+    },
+    {
+      "de": "verlieren",
+      "en": "to lose",
+      "ru": "\u0442\u0435\u0440\u044f\u0442\u044c",
+      "index": 68
+    },
+    {
+      "de": "darstellen",
+      "en": "to represent",
+      "ru": "\u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u0442\u044c",
+      "index": 69
+    },
+    {
+      "de": "erkennen",
+      "en": "to recognize",
+      "ru": "\u0443\u0437\u043d\u0430\u0432\u0430\u0442\u044c",
+      "index": 70
+    },
+    {
+      "de": "entwickeln",
+      "en": "to develop",
+      "ru": "\u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0442\u044c",
+      "index": 71
+    },
+    {
+      "de": "reden",
+      "en": "to talk",
+      "ru": "\u0440\u0430\u0437\u0433\u043e\u0432\u0430\u0440\u0438\u0432\u0430\u0442\u044c",
+      "index": 72
+    },
+    {
+      "de": "aussehen",
+      "en": "to look like",
+      "ru": "\u0432\u044b\u0433\u043b\u044f\u0434\u0435\u0442\u044c",
+      "index": 73
+    },
+    {
+      "de": "erscheinen",
+      "en": "to appear",
+      "ru": "\u043f\u043e\u044f\u0432\u043b\u044f\u0442\u044c\u0441\u044f",
+      "index": 74
+    },
+    {
+      "de": "bilden",
+      "en": "to form",
+      "ru": "\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u044b\u0432\u0430\u0442\u044c",
+      "index": 75
+    },
+    {
+      "de": "anfangen",
+      "en": "to begin",
+      "ru": "\u043d\u0430\u0447\u0438\u043d\u0430\u0442\u044c",
+      "index": 76
+    },
+    {
+      "de": "erwarten",
+      "en": "to expect",
+      "ru": "\u043e\u0436\u0438\u0434\u0430\u0442\u044c",
+      "index": 77
+    },
+    {
+      "de": "wohnen",
+      "en": "to live",
+      "ru": "\u043f\u0440\u043e\u0436\u0438\u0432\u0430\u0442\u044c",
+      "index": 78
+    },
+    {
+      "de": "betreffen",
+      "en": "to concern",
+      "ru": "\u043a\u0430\u0441\u0430\u0442\u044c\u0441\u044f",
+      "index": 79
+    },
+    {
+      "de": "warten",
+      "en": "to wait",
+      "ru": "\u0436\u0434\u0430\u0442\u044c",
+      "index": 80
+    },
+    {
+      "de": "vergehen",
+      "en": "to pass",
+      "ru": "\u043f\u0440\u043e\u0445\u043e\u0434\u0438\u0442\u044c",
+      "index": 81
+    },
+    {
+      "de": "helfen",
+      "en": "to help",
+      "ru": "\u043f\u043e\u043c\u043e\u0433\u0430\u0442\u044c",
+      "index": 82
+    },
+    {
+      "de": "gewinnen",
+      "en": "to win",
+      "ru": "\u0432\u044b\u0438\u0433\u0440\u044b\u0432\u0430\u0442\u044c",
+      "index": 83
+    },
+    {
+      "de": "schlie\u00dfen",
+      "en": "to close",
+      "ru": "\u0437\u0430\u043a\u0440\u044b\u0432\u0430\u0442\u044c",
+      "index": 84
+    },
+    {
+      "de": "f\u00fchlen",
+      "en": "to feel",
+      "ru": "\u0447\u0443\u0432\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c",
+      "index": 85
+    },
+    {
+      "de": "bieten",
+      "en": "to offer",
+      "ru": "\u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0442\u044c",
+      "index": 86
+    },
+    {
+      "de": "interessieren",
+      "en": "to interest",
+      "ru": "\u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043e\u0432\u0430\u0442\u044c",
+      "index": 87
+    },
+    {
+      "de": "erinnern",
+      "en": "to remember",
+      "ru": "\u043f\u043e\u043c\u043d\u0438\u0442\u044c",
+      "index": 88
+    },
+    {
+      "de": "ergeben",
+      "en": "to result in",
+      "ru": "\u0434\u0430\u0432\u0430\u0442\u044c \u0432 \u0438\u0442\u043e\u0433\u0435",
+      "index": 89
+    },
+    {
+      "de": "anbieten",
+      "en": "to offer",
+      "ru": "\u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0442\u044c",
+      "index": 90
+    },
+    {
+      "de": "studieren",
+      "en": "to study",
+      "ru": "\u0438\u0437\u0443\u0447\u0430\u0442\u044c",
+      "index": 91
+    },
+    {
+      "de": "verbinden",
+      "en": "to connect",
+      "ru": "\u0441\u043e\u0435\u0434\u0438\u043d\u044f\u0442\u044c",
+      "index": 92
+    },
+    {
+      "de": "ansehen",
+      "en": "to look at",
+      "ru": "\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c",
+      "index": 93
+    },
+    {
+      "de": "fehlen",
+      "en": "to lack",
+      "ru": "\u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c",
+      "index": 94
+    },
+    {
+      "de": "bedeuten",
+      "en": "to mean",
+      "ru": "\u0437\u043d\u0430\u0447\u0438\u0442\u044c",
+      "index": 95
+    },
+    {
+      "de": "vergleichen",
+      "en": "to compare",
+      "ru": "\u0441\u0440\u0430\u0432\u043d\u0438\u0432\u0430\u0442\u044c",
+      "index": 96
+    },
+    {
+      "de": "steigen",
+      "en": "to climb",
+      "ru": "\u043f\u043e\u0434\u043d\u0438\u043c\u0430\u0442\u044c\u0441\u044f",
+      "index": 97
+    },
+    {
+      "de": "nutzen",
+      "en": "to use",
+      "ru": "\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c",
+      "index": 98
+    },
+    {
+      "de": "schauen",
+      "en": "to look",
+      "ru": "\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c",
+      "index": 99
+    },
+    {
+      "de": "verlassen",
+      "en": "to leave",
+      "ru": "\u043f\u043e\u043a\u0438\u0434\u0430\u0442\u044c",
+      "index": 100
+    },
+    {
+      "de": "einsetzen",
+      "en": "to deploy",
+      "ru": "\u043f\u0440\u0438\u043c\u0435\u043d\u044f\u0442\u044c",
+      "index": 101
+    },
+    {
+      "de": "wachsen",
+      "en": "to grow",
+      "ru": "\u0440\u0430\u0441\u0442\u0438",
+      "index": 102
+    },
+    {
+      "de": "ausgehen",
+      "en": "to go out",
+      "ru": "\u0432\u044b\u0445\u043e\u0434\u0438\u0442\u044c",
+      "index": 103
+    },
+    {
+      "de": "passieren",
+      "en": "to happen",
+      "ru": "\u0441\u043b\u0443\u0447\u0430\u0442\u044c\u0441\u044f",
+      "index": 104
+    },
+    {
+      "de": "h\u00f6ren",
+      "en": "to hear",
+      "ru": "\u0441\u043b\u044b\u0448\u0430\u0442\u044c",
+      "index": 105
+    },
+    {
+      "de": "eintreten",
+      "en": "to enter",
+      "ru": "\u0432\u0445\u043e\u0434\u0438\u0442\u044c",
+      "index": 106
+    },
+    {
+      "de": "zahlen",
+      "en": "to pay",
+      "ru": "\u043f\u043b\u0430\u0442\u0438\u0442\u044c",
+      "index": 107
+    },
+    {
+      "de": "\u00f6ffnen",
+      "en": "to open",
+      "ru": "\u043e\u0442\u043a\u0440\u044b\u0432\u0430\u0442\u044c",
+      "index": 108
+    },
+    {
+      "de": "bauen",
+      "en": "to build",
+      "ru": "\u0441\u0442\u0440\u043e\u0438\u0442\u044c",
+      "index": 109
+    },
+    {
+      "de": "schlagen",
+      "en": "to hit",
+      "ru": "\u0431\u0438\u0442\u044c",
+      "index": 110
+    },
+    {
+      "de": "entscheiden",
+      "en": "to decide",
+      "ru": "\u0440\u0435\u0448\u0430\u0442\u044c",
+      "index": 111
+    },
+    {
+      "de": "erreichen",
+      "en": "to achieve",
+      "ru": "\u0434\u043e\u0441\u0442\u0438\u0433\u0430\u0442\u044c",
+      "index": 112
+    },
+    {
+      "de": "trinken",
+      "en": "to drink",
+      "ru": "\u043f\u0438\u0442\u044c",
+      "index": 113
+    },
+    {
+      "de": "lachen",
+      "en": "to laugh",
+      "ru": "\u0441\u043c\u0435\u044f\u0442\u044c\u0441\u044f",
+      "index": 114
+    },
+    {
+      "de": "passen",
+      "en": "to fit",
+      "ru": "\u043f\u043e\u0434\u0445\u043e\u0434\u0438\u0442\u044c",
+      "index": 115
+    },
+    {
+      "de": "w\u00e4hlen",
+      "en": "to choose",
+      "ru": "\u0432\u044b\u0431\u0438\u0440\u0430\u0442\u044c",
+      "index": 116
+    },
+    {
+      "de": "verwenden",
+      "en": "to use",
+      "ru": "\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c",
+      "index": 117
+    },
+    {
+      "de": "kochen",
+      "en": "to cook",
+      "ru": "\u0433\u043e\u0442\u043e\u0432\u0438\u0442\u044c",
+      "index": 118
+    },
+    {
+      "de": "singen",
+      "en": "to sing",
+      "ru": "\u043f\u0435\u0442\u044c",
+      "index": 119
+    },
+    {
+      "de": "sterben",
+      "en": "to die",
+      "ru": "\u0443\u043c\u0438\u0440\u0430\u0442\u044c",
+      "index": 120
+    },
+    {
+      "de": "fliegen",
+      "en": "to fly",
+      "ru": "\u043b\u0435\u0442\u0430\u0442\u044c",
+      "index": 121
+    },
+    {
+      "de": "rufen",
+      "en": "to call",
+      "ru": "\u0437\u0432\u0430\u0442\u044c",
+      "index": 122
+    },
+    {
+      "de": "antworten",
+      "en": "to answer",
+      "ru": "\u043e\u0442\u0432\u0435\u0447\u0430\u0442\u044c",
+      "index": 123
+    },
+    {
+      "de": "verkaufen",
+      "en": "to sell",
+      "ru": "\u043f\u0440\u043e\u0434\u0430\u0432\u0430\u0442\u044c",
+      "index": 124
+    },
+    {
+      "de": "ver\u00e4ndern",
+      "en": "to change",
+      "ru": "\u0438\u0437\u043c\u0435\u043d\u044f\u0442\u044c",
+      "index": 125
+    },
+    {
+      "de": "planen",
+      "en": "to plan",
+      "ru": "\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 126
+    },
+    {
+      "de": "schlafen",
+      "en": "to sleep",
+      "ru": "\u0441\u043f\u0430\u0442\u044c",
+      "index": 127
+    },
+    {
+      "de": "lieben",
+      "en": "to love",
+      "ru": "\u043b\u044e\u0431\u0438\u0442\u044c",
+      "index": 128
+    },
+    {
+      "de": "danken",
+      "en": "to thank",
+      "ru": "\u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u0438\u0442\u044c",
+      "index": 129
+    },
+    {
+      "de": "hoffen",
+      "en": "to hope",
+      "ru": "\u043d\u0430\u0434\u0435\u044f\u0442\u044c\u0441\u044f",
+      "index": 130
+    },
+    {
+      "de": "k\u00e4mpfen",
+      "en": "to fight",
+      "ru": "\u0431\u043e\u0440\u043e\u0442\u044c\u0441\u044f",
+      "index": 131
+    },
+    {
+      "de": "besuchen",
+      "en": "to visit",
+      "ru": "\u043f\u043e\u0441\u0435\u0449\u0430\u0442\u044c",
+      "index": 132
+    },
+    {
+      "de": "\u00fcberleben",
+      "en": "to survive",
+      "ru": "\u0432\u044b\u0436\u0438\u0432\u0430\u0442\u044c",
+      "index": 133
+    },
+    {
+      "de": "pr\u00fcfen",
+      "en": "to check",
+      "ru": "\u043f\u0440\u043e\u0432\u0435\u0440\u044f\u0442\u044c",
+      "index": 134
+    },
+    {
+      "de": "weinen",
+      "en": "to cry",
+      "ru": "\u043f\u043b\u0430\u043a\u0430\u0442\u044c",
+      "index": 135
+    },
+    {
+      "de": "retten",
+      "en": "to save",
+      "ru": "\u0441\u043f\u0430\u0441\u0430\u0442\u044c",
+      "index": 136
+    },
+    {
+      "de": "tanzen",
+      "en": "to dance",
+      "ru": "\u0442\u0430\u043d\u0446\u0435\u0432\u0430\u0442\u044c",
+      "index": 137
+    },
+    {
+      "de": "vergessen",
+      "en": "to forget",
+      "ru": "\u0437\u0430\u0431\u044b\u0432\u0430\u0442\u044c",
+      "index": 138
+    },
+    {
+      "de": "kosten",
+      "en": "to cost",
+      "ru": "\u0441\u0442\u043e\u0438\u0442\u044c",
+      "index": 139
+    },
+    {
+      "de": "binden",
+      "en": "to bind",
+      "ru": "\u0441\u0432\u044f\u0437\u044b\u0432\u0430\u0442\u044c",
+      "index": 140
+    },
+    {
+      "de": "fassen",
+      "en": "to grasp",
+      "ru": "\u0445\u0432\u0430\u0442\u0430\u0442\u044c",
+      "index": 141
+    },
+    {
+      "de": "teilen",
+      "en": "to share",
+      "ru": "\u0434\u0435\u043b\u0438\u0442\u044c",
+      "index": 142
+    },
+    {
+      "de": "schicken",
+      "en": "to send",
+      "ru": "\u043e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c",
+      "index": 143
+    },
+    {
+      "de": "\u00e4ndern",
+      "en": "to alter",
+      "ru": "\u043c\u0435\u043d\u044f\u0442\u044c",
+      "index": 144
+    },
+    {
+      "de": "fangen",
+      "en": "to catch",
+      "ru": "\u043b\u043e\u0432\u0438\u0442\u044c",
+      "index": 145
+    },
+    {
+      "de": "verlangen",
+      "en": "to demand",
+      "ru": "\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u0442\u044c",
+      "index": 146
+    },
+    {
+      "de": "wirken",
+      "en": "to act",
+      "ru": "\u0434\u0435\u0439\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c",
+      "index": 147
+    },
+    {
+      "de": "w\u00fcnschen",
+      "en": "to wish",
+      "ru": "\u0436\u0435\u043b\u0430\u0442\u044c",
+      "index": 148
+    },
+    {
+      "de": "werfen",
+      "en": "to throw",
+      "ru": "\u0431\u0440\u043e\u0441\u0430\u0442\u044c",
+      "index": 149
+    },
+    {
+      "de": "blicken",
+      "en": "to glance",
+      "ru": "\u0432\u0437\u0433\u043b\u044f\u043d\u0443\u0442\u044c",
+      "index": 150
+    },
+    {
+      "de": "wachen",
+      "en": "to wake",
+      "ru": "\u0431\u043e\u0434\u0440\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c",
+      "index": 151
+    },
+    {
+      "de": "decken",
+      "en": "to cover",
+      "ru": "\u043f\u043e\u043a\u0440\u044b\u0432\u0430\u0442\u044c",
+      "index": 152
+    },
+    {
+      "de": "abholen",
+      "en": "to fetch",
+      "ru": "\u0437\u0430\u0431\u0438\u0440\u0430\u0442\u044c",
+      "index": 153
+    },
+    {
+      "de": "abnehmen",
+      "en": "to decrease",
+      "ru": "\u0445\u0443\u0434\u0435\u0442\u044c",
+      "index": 154
+    },
+    {
+      "de": "abgeben",
+      "en": "to submit",
+      "ru": "\u0441\u0434\u0430\u0432\u0430\u0442\u044c",
+      "index": 155
+    },
+    {
+      "de": "abh\u00e4ngen",
+      "en": "to depend",
+      "ru": "\u0437\u0430\u0432\u0438\u0441\u0435\u0442\u044c",
+      "index": 156
+    },
+    {
+      "de": "ablehnen",
+      "en": "to reject",
+      "ru": "\u043e\u0442\u043a\u043b\u043e\u043d\u044f\u0442\u044c",
+      "index": 157
+    },
+    {
+      "de": "abmachen",
+      "en": "to agree",
+      "ru": "\u0434\u043e\u0433\u043e\u0432\u0430\u0440\u0438\u0432\u0430\u0442\u044c\u0441\u044f",
+      "index": 158
+    },
+    {
+      "de": "absagen",
+      "en": "to cancel",
+      "ru": "\u043e\u0442\u043c\u0435\u043d\u044f\u0442\u044c",
+      "index": 159
+    },
+    {
+      "de": "abschlie\u00dfen",
+      "en": "to conclude",
+      "ru": "\u0437\u0430\u0432\u0435\u0440\u0448\u0430\u0442\u044c",
+      "index": 160
+    },
+    {
+      "de": "absehen",
+      "en": "to foresee",
+      "ru": "\u043f\u0440\u0435\u0434\u0432\u0438\u0434\u0435\u0442\u044c",
+      "index": 161
+    },
+    {
+      "de": "abstimmen",
+      "en": "to vote",
+      "ru": "\u0433\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u0442\u044c",
+      "index": 162
+    },
+    {
+      "de": "anerkennen",
+      "en": "to recognize",
+      "ru": "\u043f\u0440\u0438\u0437\u043d\u0430\u0432\u0430\u0442\u044c",
+      "index": 163
+    },
+    {
+      "de": "angehen",
+      "en": "to concern",
+      "ru": "\u043a\u0430\u0441\u0430\u0442\u044c\u0441\u044f",
+      "index": 164
+    },
+    {
+      "de": "ankommen",
+      "en": "to arrive",
+      "ru": "\u043f\u0440\u0438\u0431\u044b\u0432\u0430\u0442\u044c",
+      "index": 165
+    },
+    {
+      "de": "annehmen",
+      "en": "to accept",
+      "ru": "\u043f\u0440\u0438\u043d\u0438\u043c\u0430\u0442\u044c",
+      "index": 166
+    },
+    {
+      "de": "anpassen",
+      "en": "to adapt",
+      "ru": "\u043f\u0440\u0438\u0441\u043f\u043e\u0441\u0430\u0431\u043b\u0438\u0432\u0430\u0442\u044c",
+      "index": 167
+    },
+    {
+      "de": "anrufen",
+      "en": "to call",
+      "ru": "\u0437\u0432\u043e\u043d\u0438\u0442\u044c",
+      "index": 168
+    },
+    {
+      "de": "ansprechen",
+      "en": "to address",
+      "ru": "\u043e\u0431\u0440\u0430\u0449\u0430\u0442\u044c\u0441\u044f",
+      "index": 169
+    },
+    {
+      "de": "anwenden",
+      "en": "to apply",
+      "ru": "\u043f\u0440\u0438\u043c\u0435\u043d\u044f\u0442\u044c",
+      "index": 170
+    },
+    {
+      "de": "anzeigen",
+      "en": "to display",
+      "ru": "\u0443\u043a\u0430\u0437\u044b\u0432\u0430\u0442\u044c",
+      "index": 171
+    },
+    {
+      "de": "anziehen",
+      "en": "to put on",
+      "ru": "\u043d\u0430\u0434\u0435\u0432\u0430\u0442\u044c",
+      "index": 172
+    },
+    {
+      "de": "aufbauen",
+      "en": "to build up",
+      "ru": "\u0441\u0442\u0440\u043e\u0438\u0442\u044c",
+      "index": 173
+    },
+    {
+      "de": "auffallen",
+      "en": "to stand out",
+      "ru": "\u0431\u0440\u043e\u0441\u0430\u0442\u044c\u0441\u044f \u0432 \u0433\u043b\u0430\u0437\u0430",
+      "index": 174
+    },
+    {
+      "de": "aufgeben",
+      "en": "to give up",
+      "ru": "\u0441\u0434\u0430\u0432\u0430\u0442\u044c\u0441\u044f",
+      "index": 175
+    },
+    {
+      "de": "aufhalten",
+      "en": "to stop",
+      "ru": "\u0437\u0430\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0442\u044c",
+      "index": 176
+    },
+    {
+      "de": "aufh\u00f6ren",
+      "en": "to stop",
+      "ru": "\u043f\u0440\u0435\u043a\u0440\u0430\u0449\u0430\u0442\u044c",
+      "index": 177
+    },
+    {
+      "de": "aufl\u00f6sen",
+      "en": "to dissolve",
+      "ru": "\u0440\u0430\u0441\u0442\u0432\u043e\u0440\u044f\u0442\u044c",
+      "index": 178
+    },
+    {
+      "de": "aufnehmen",
+      "en": "to record",
+      "ru": "\u0437\u0430\u043f\u0438\u0441\u044b\u0432\u0430\u0442\u044c",
+      "index": 179
+    },
+    {
+      "de": "aufpassen",
+      "en": "to pay attention",
+      "ru": "\u0431\u044b\u0442\u044c \u0432\u043d\u0438\u043c\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u043c",
+      "index": 180
+    },
+    {
+      "de": "aufrufen",
+      "en": "to call upon",
+      "ru": "\u0432\u044b\u0437\u044b\u0432\u0430\u0442\u044c",
+      "index": 181
+    },
+    {
+      "de": "aufstehen",
+      "en": "to stand up",
+      "ru": "\u0432\u0441\u0442\u0430\u0432\u0430\u0442\u044c",
+      "index": 182
+    },
+    {
+      "de": "ausbilden",
+      "en": "to train",
+      "ru": "\u043e\u0431\u0443\u0447\u0430\u0442\u044c",
+      "index": 183
+    },
+    {
+      "de": "ausdr\u00fccken",
+      "en": "to express",
+      "ru": "\u0432\u044b\u0440\u0430\u0436\u0430\u0442\u044c",
+      "index": 184
+    },
+    {
+      "de": "ausfallen",
+      "en": "to fail",
+      "ru": "\u0432\u044b\u043f\u0430\u0434\u0430\u0442\u044c",
+      "index": 185
+    },
+    {
+      "de": "ausf\u00fchren",
+      "en": "to execute",
+      "ru": "\u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0442\u044c",
+      "index": 186
+    },
+    {
+      "de": "ausgeben",
+      "en": "to spend",
+      "ru": "\u0442\u0440\u0430\u0442\u0438\u0442\u044c",
+      "index": 187
+    },
+    {
+      "de": "ausmachen",
+      "en": "to matter",
+      "ru": "\u0437\u043d\u0430\u0447\u0438\u0442\u044c",
+      "index": 188
+    },
+    {
+      "de": "ausreichen",
+      "en": "to be sufficient",
+      "ru": "\u0445\u0432\u0430\u0442\u0430\u0442\u044c",
+      "index": 189
+    },
+    {
+      "de": "ausruhen",
+      "en": "to rest",
+      "ru": "\u043e\u0442\u0434\u044b\u0445\u0430\u0442\u044c",
+      "index": 190
+    },
+    {
+      "de": "aussprechen",
+      "en": "to pronounce",
+      "ru": "\u043f\u0440\u043e\u0438\u0437\u043d\u043e\u0441\u0438\u0442\u044c",
+      "index": 191
+    },
+    {
+      "de": "ausstellen",
+      "en": "to exhibit",
+      "ru": "\u0432\u044b\u0441\u0442\u0430\u0432\u043b\u044f\u0442\u044c",
+      "index": 192
+    },
+    {
+      "de": "aussuchen",
+      "en": "to select",
+      "ru": "\u0432\u044b\u0431\u0438\u0440\u0430\u0442\u044c",
+      "index": 193
+    },
+    {
+      "de": "auswirken",
+      "en": "to affect",
+      "ru": "\u0441\u043a\u0430\u0437\u044b\u0432\u0430\u0442\u044c\u0441\u044f",
+      "index": 194
+    },
+    {
+      "de": "beenden",
+      "en": "to finish",
+      "ru": "\u0437\u0430\u043a\u0430\u043d\u0447\u0438\u0432\u0430\u0442\u044c",
+      "index": 195
+    },
+    {
+      "de": "befinden",
+      "en": "to be located",
+      "ru": "\u043d\u0430\u0445\u043e\u0434\u0438\u0442\u044c\u0441\u044f",
+      "index": 196
+    },
+    {
+      "de": "befreien",
+      "en": "to free",
+      "ru": "\u043e\u0441\u0432\u043e\u0431\u043e\u0436\u0434\u0430\u0442\u044c",
+      "index": 197
+    },
+    {
+      "de": "begegnen",
+      "en": "to meet",
+      "ru": "\u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0442\u044c",
+      "index": 198
+    },
+    {
+      "de": "begr\u00fcnden",
+      "en": "to justify",
+      "ru": "\u043e\u0431\u043e\u0441\u043d\u043e\u0432\u044b\u0432\u0430\u0442\u044c",
+      "index": 199
+    },
+    {
+      "de": "behalten",
+      "en": "to keep",
+      "ru": "\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0442\u044c",
+      "index": 200
+    },
+    {
+      "de": "behandeln",
+      "en": "to treat",
+      "ru": "\u043e\u0431\u0440\u0430\u0449\u0430\u0442\u044c\u0441\u044f",
+      "index": 201
+    },
+    {
+      "de": "behaupten",
+      "en": "to claim",
+      "ru": "\u0443\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0442\u044c",
+      "index": 202
+    },
+    {
+      "de": "behindern",
+      "en": "to hinder",
+      "ru": "\u043f\u0440\u0435\u043f\u044f\u0442\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c",
+      "index": 203
+    },
+    {
+      "de": "bemerken",
+      "en": "to notice",
+      "ru": "\u0437\u0430\u043c\u0435\u0447\u0430\u0442\u044c",
+      "index": 204
+    },
+    {
+      "de": "benennen",
+      "en": "to name",
+      "ru": "\u043d\u0430\u0437\u044b\u0432\u0430\u0442\u044c",
+      "index": 205
+    },
+    {
+      "de": "benutzen",
+      "en": "to use",
+      "ru": "\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c",
+      "index": 206
+    },
+    {
+      "de": "beobachten",
+      "en": "to observe",
+      "ru": "\u043d\u0430\u0431\u043b\u044e\u0434\u0430\u0442\u044c",
+      "index": 207
+    },
+    {
+      "de": "berechnen",
+      "en": "to calculate",
+      "ru": "\u0432\u044b\u0447\u0438\u0441\u043b\u044f\u0442\u044c",
+      "index": 208
+    },
+    {
+      "de": "berichten",
+      "en": "to report",
+      "ru": "\u0441\u043e\u043e\u0431\u0449\u0430\u0442\u044c",
+      "index": 209
+    },
+    {
+      "de": "besch\u00e4ftigen",
+      "en": "to employ",
+      "ru": "\u0437\u0430\u043d\u0438\u043c\u0430\u0442\u044c",
+      "index": 210
+    },
+    {
+      "de": "beschreiben",
+      "en": "to describe",
+      "ru": "\u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0442\u044c",
+      "index": 211
+    },
+    {
+      "de": "beschweren",
+      "en": "to complain",
+      "ru": "\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c\u0441\u044f",
+      "index": 212
+    },
+    {
+      "de": "besetzen",
+      "en": "to occupy",
+      "ru": "\u0437\u0430\u043d\u0438\u043c\u0430\u0442\u044c",
+      "index": 213
+    },
+    {
+      "de": "besichtigen",
+      "en": "to visit",
+      "ru": "\u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c",
+      "index": 214
+    },
+    {
+      "de": "best\u00e4tigen",
+      "en": "to confirm",
+      "ru": "\u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0442\u044c",
+      "index": 215
+    },
+    {
+      "de": "bestimmen",
+      "en": "to determine",
+      "ru": "\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0442\u044c",
+      "index": 216
+    },
+    {
+      "de": "bestrafen",
+      "en": "to punish",
+      "ru": "\u043d\u0430\u043a\u0430\u0437\u044b\u0432\u0430\u0442\u044c",
+      "index": 217
+    },
+    {
+      "de": "beteiligen",
+      "en": "to participate",
+      "ru": "\u0443\u0447\u0430\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c",
+      "index": 218
+    },
+    {
+      "de": "betonen",
+      "en": "to emphasize",
+      "ru": "\u043f\u043e\u0434\u0447\u0435\u0440\u043a\u0438\u0432\u0430\u0442\u044c",
+      "index": 219
+    },
+    {
+      "de": "betrachten",
+      "en": "to consider",
+      "ru": "\u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c",
+      "index": 220
+    },
+    {
+      "de": "betreiben",
+      "en": "to operate",
+      "ru": "\u0437\u0430\u043d\u0438\u043c\u0430\u0442\u044c\u0441\u044f",
+      "index": 221
+    },
+    {
+      "de": "betreten",
+      "en": "to enter",
+      "ru": "\u0432\u0445\u043e\u0434\u0438\u0442\u044c",
+      "index": 222
+    },
+    {
+      "de": "beurteilen",
+      "en": "to judge",
+      "ru": "\u0441\u0443\u0434\u0438\u0442\u044c",
+      "index": 223
+    },
+    {
+      "de": "bewegen",
+      "en": "to move",
+      "ru": "\u0434\u0432\u0438\u0433\u0430\u0442\u044c",
+      "index": 224
+    },
+    {
+      "de": "beweisen",
+      "en": "to prove",
+      "ru": "\u0434\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0442\u044c",
+      "index": 225
+    },
+    {
+      "de": "bewerben",
+      "en": "to apply",
+      "ru": "\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u044c \u0437\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u0435",
+      "index": 226
+    },
+    {
+      "de": "bezahlen",
+      "en": "to pay",
+      "ru": "\u043e\u043f\u043b\u0430\u0447\u0438\u0432\u0430\u0442\u044c",
+      "index": 227
+    },
+    {
+      "de": "bezeichnen",
+      "en": "to designate",
+      "ru": "\u043e\u0431\u043e\u0437\u043d\u0430\u0447\u0430\u0442\u044c",
+      "index": 228
+    },
+    {
+      "de": "biegen",
+      "en": "to bend",
+      "ru": "\u0433\u043d\u0443\u0442\u044c",
+      "index": 229
+    },
+    {
+      "de": "bitten",
+      "en": "to ask",
+      "ru": "\u043f\u0440\u043e\u0441\u0438\u0442\u044c",
+      "index": 230
+    },
+    {
+      "de": "blasen",
+      "en": "to blow",
+      "ru": "\u0434\u0443\u0442\u044c",
+      "index": 231
+    },
+    {
+      "de": "braten",
+      "en": "to fry",
+      "ru": "\u0436\u0430\u0440\u0438\u0442\u044c",
+      "index": 232
+    },
+    {
+      "de": "brechen",
+      "en": "to break",
+      "ru": "\u043b\u043e\u043c\u0430\u0442\u044c",
+      "index": 233
+    },
+    {
+      "de": "brennen",
+      "en": "to burn",
+      "ru": "\u0433\u043e\u0440\u0435\u0442\u044c",
+      "index": 234
+    },
+    {
+      "de": "buchen",
+      "en": "to book",
+      "ru": "\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 235
+    },
+    {
+      "de": "diskutieren",
+      "en": "to discuss",
+      "ru": "\u043e\u0431\u0441\u0443\u0436\u0434\u0430\u0442\u044c",
+      "index": 236
+    },
+    {
+      "de": "dauern",
+      "en": "to last",
+      "ru": "\u0434\u043b\u0438\u0442\u044c\u0441\u044f",
+      "index": 237
+    },
+    {
+      "de": "drehen",
+      "en": "to turn",
+      "ru": "\u043f\u043e\u0432\u043e\u0440\u0430\u0447\u0438\u0432\u0430\u0442\u044c",
+      "index": 238
+    },
+    {
+      "de": "drucken",
+      "en": "to print",
+      "ru": "\u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c",
+      "index": 239
+    },
+    {
+      "de": "dr\u00fccken",
+      "en": "to press",
+      "ru": "\u043d\u0430\u0436\u0438\u043c\u0430\u0442\u044c",
+      "index": 240
+    },
+    {
+      "de": "einigen",
+      "en": "to agree",
+      "ru": "\u0434\u043e\u0433\u043e\u0432\u0430\u0440\u0438\u0432\u0430\u0442\u044c\u0441\u044f",
+      "index": 241
+    },
+    {
+      "de": "ehren",
+      "en": "to honor",
+      "ru": "\u0443\u0432\u0430\u0436\u0430\u0442\u044c",
+      "index": 242
+    },
+    {
+      "de": "einbauen",
+      "en": "to install",
+      "ru": "\u0432\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0442\u044c",
+      "index": 243
+    },
+    {
+      "de": "einbringen",
+      "en": "to bring in",
+      "ru": "\u0432\u043d\u043e\u0441\u0438\u0442\u044c",
+      "index": 244
+    },
+    {
+      "de": "eindringen",
+      "en": "to penetrate",
+      "ru": "\u043f\u0440\u043e\u043d\u0438\u043a\u0430\u0442\u044c",
+      "index": 245
+    },
+    {
+      "de": "einfallen",
+      "en": "to come to mind",
+      "ru": "\u043f\u0440\u0438\u0445\u043e\u0434\u0438\u0442\u044c \u043d\u0430 \u0443\u043c",
+      "index": 246
+    },
+    {
+      "de": "einf\u00fchren",
+      "en": "to introduce",
+      "ru": "\u0432\u0432\u043e\u0434\u0438\u0442\u044c",
+      "index": 247
+    },
+    {
+      "de": "eingeben",
+      "en": "to input",
+      "ru": "\u0432\u0432\u043e\u0434\u0438\u0442\u044c",
+      "index": 248
+    },
+    {
+      "de": "eingreifen",
+      "en": "to intervene",
+      "ru": "\u0432\u043c\u0435\u0448\u0438\u0432\u0430\u0442\u044c\u0441\u044f",
+      "index": 249
+    },
+    {
+      "de": "einholen",
+      "en": "to catch up",
+      "ru": "\u0434\u043e\u0433\u043e\u043d\u044f\u0442\u044c",
+      "index": 250
+    },
+    {
+      "de": "einkaufen",
+      "en": "to shop",
+      "ru": "\u043f\u043e\u043a\u0443\u043f\u0430\u0442\u044c",
+      "index": 251
+    },
+    {
+      "de": "einladen",
+      "en": "to invite",
+      "ru": "\u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0430\u0442\u044c",
+      "index": 252
+    },
+    {
+      "de": "einnehmen",
+      "en": "to take",
+      "ru": "\u043f\u0440\u0438\u043d\u0438\u043c\u0430\u0442\u044c",
+      "index": 253
+    },
+    {
+      "de": "einpacken",
+      "en": "to pack",
+      "ru": "\u0443\u043f\u0430\u043a\u043e\u0432\u044b\u0432\u0430\u0442\u044c",
+      "index": 254
+    },
+    {
+      "de": "einrichten",
+      "en": "to furnish",
+      "ru": "\u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u0442\u044c",
+      "index": 255
+    },
+    {
+      "de": "einschlafen",
+      "en": "to fall asleep",
+      "ru": "\u0437\u0430\u0441\u044b\u043f\u0430\u0442\u044c",
+      "index": 256
+    },
+    {
+      "de": "einschlagen",
+      "en": "to smash",
+      "ru": "\u0440\u0430\u0437\u0431\u0438\u0432\u0430\u0442\u044c",
+      "index": 257
+    },
+    {
+      "de": "einschlie\u00dfen",
+      "en": "to include",
+      "ru": "\u0432\u043a\u043b\u044e\u0447\u0430\u0442\u044c",
+      "index": 258
+    },
+    {
+      "de": "einsteigen",
+      "en": "to get in",
+      "ru": "\u0441\u0430\u0434\u0438\u0442\u044c\u0441\u044f",
+      "index": 259
+    },
+    {
+      "de": "einstellen",
+      "en": "to employ",
+      "ru": "\u043d\u0430\u043d\u0438\u043c\u0430\u0442\u044c",
+      "index": 260
+    },
+    {
+      "de": "eintragen",
+      "en": "to register",
+      "ru": "\u0432\u043d\u043e\u0441\u0438\u0442\u044c",
+      "index": 261
+    },
+    {
+      "de": "einverstanden",
+      "en": "to agree",
+      "ru": "\u0441\u043e\u0433\u043b\u0430\u0448\u0430\u0442\u044c\u0441\u044f",
+      "index": 262
+    },
+    {
+      "de": "einzahlen",
+      "en": "to deposit",
+      "ru": "\u0432\u043d\u043e\u0441\u0438\u0442\u044c \u0434\u0435\u043d\u044c\u0433\u0438",
+      "index": 263
+    },
+    {
+      "de": "einziehen",
+      "en": "to move in",
+      "ru": "\u0432\u044a\u0435\u0437\u0436\u0430\u0442\u044c",
+      "index": 264
+    },
+    {
+      "de": "empfehlen",
+      "en": "to recommend",
+      "ru": "\u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u043e\u0432\u0430\u0442\u044c",
+      "index": 265
+    },
+    {
+      "de": "enden",
+      "en": "to end",
+      "ru": "\u0437\u0430\u043a\u0430\u043d\u0447\u0438\u0432\u0430\u0442\u044c\u0441\u044f",
+      "index": 266
+    },
+    {
+      "de": "entdecken",
+      "en": "to discover",
+      "ru": "\u043e\u0442\u043a\u0440\u044b\u0432\u0430\u0442\u044c",
+      "index": 267
+    },
+    {
+      "de": "entfernen",
+      "en": "to remove",
+      "ru": "\u0443\u0434\u0430\u043b\u044f\u0442\u044c",
+      "index": 268
+    },
+    {
+      "de": "entgegen",
+      "en": "to oppose",
+      "ru": "\u043f\u0440\u043e\u0442\u0438\u0432\u043e\u0441\u0442\u043e\u044f\u0442\u044c",
+      "index": 269
+    },
+    {
+      "de": "enthalten",
+      "en": "to contain",
+      "ru": "\u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u044c",
+      "index": 270
+    },
+    {
+      "de": "entlassen",
+      "en": "to dismiss",
+      "ru": "\u0443\u0432\u043e\u043b\u044c\u043d\u044f\u0442\u044c",
+      "index": 271
+    },
+    {
+      "de": "entschlie\u00dfen",
+      "en": "to decide",
+      "ru": "\u0440\u0435\u0448\u0430\u0442\u044c\u0441\u044f",
+      "index": 272
+    },
+    {
+      "de": "entschuldigen",
+      "en": "to apologize",
+      "ru": "\u0438\u0437\u0432\u0438\u043d\u044f\u0442\u044c\u0441\u044f",
+      "index": 273
+    },
+    {
+      "de": "entspannen",
+      "en": "to relax",
+      "ru": "\u0440\u0430\u0441\u0441\u043b\u0430\u0431\u043b\u044f\u0442\u044c\u0441\u044f",
+      "index": 274
+    },
+    {
+      "de": "entt\u00e4uschen",
+      "en": "to disappoint",
+      "ru": "\u0440\u0430\u0437\u043e\u0447\u0430\u0440\u043e\u0432\u044b\u0432\u0430\u0442\u044c",
+      "index": 275
+    },
+    {
+      "de": "entwerfen",
+      "en": "to design",
+      "ru": "\u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 276
+    },
+    {
+      "de": "entziehen",
+      "en": "to withdraw",
+      "ru": "\u043b\u0438\u0448\u0430\u0442\u044c",
+      "index": 277
+    },
+    {
+      "de": "erfahren",
+      "en": "to experience",
+      "ru": "\u0443\u0437\u043d\u0430\u0432\u0430\u0442\u044c",
+      "index": 278
+    },
+    {
+      "de": "erfinden",
+      "en": "to invent",
+      "ru": "\u0438\u0437\u043e\u0431\u0440\u0435\u0442\u0430\u0442\u044c",
+      "index": 279
+    },
+    {
+      "de": "erfordern",
+      "en": "to require",
+      "ru": "\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u0442\u044c",
+      "index": 280
+    },
+    {
+      "de": "erf\u00fcllen",
+      "en": "to fulfill",
+      "ru": "\u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0442\u044c",
+      "index": 281
+    },
+    {
+      "de": "erg\u00e4nzen",
+      "en": "to complete",
+      "ru": "\u0434\u043e\u043f\u043e\u043b\u043d\u044f\u0442\u044c",
+      "index": 282
+    },
+    {
+      "de": "ergreifen",
+      "en": "to seize",
+      "ru": "\u0445\u0432\u0430\u0442\u0430\u0442\u044c",
+      "index": 283
+    },
+    {
+      "de": "erh\u00f6hen",
+      "en": "to increase",
+      "ru": "\u043f\u043e\u0432\u044b\u0448\u0430\u0442\u044c",
+      "index": 284
+    },
+    {
+      "de": "erholen",
+      "en": "to recover",
+      "ru": "\u043e\u0442\u0434\u044b\u0445\u0430\u0442\u044c",
+      "index": 285
+    },
+    {
+      "de": "erhitzen",
+      "en": "to heat",
+      "ru": "\u043d\u0430\u0433\u0440\u0435\u0432\u0430\u0442\u044c",
+      "index": 286
+    },
+    {
+      "de": "erleichtern",
+      "en": "to ease",
+      "ru": "\u043e\u0431\u043b\u0435\u0433\u0447\u0430\u0442\u044c",
+      "index": 287
+    },
+    {
+      "de": "erledigen",
+      "en": "to deal with",
+      "ru": "\u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0442\u044c",
+      "index": 288
+    },
+    {
+      "de": "erleben",
+      "en": "to experience",
+      "ru": "\u043f\u0435\u0440\u0435\u0436\u0438\u0432\u0430\u0442\u044c",
+      "index": 289
+    },
+    {
+      "de": "erm\u00f6glichen",
+      "en": "to enable",
+      "ru": "\u0434\u0435\u043b\u0430\u0442\u044c \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u044b\u043c",
+      "index": 290
+    },
+    {
+      "de": "er\u00f6ffnen",
+      "en": "to open",
+      "ru": "\u043e\u0442\u043a\u0440\u044b\u0432\u0430\u0442\u044c",
+      "index": 291
+    },
+    {
+      "de": "errichten",
+      "en": "to erect",
+      "ru": "\u0441\u043e\u043e\u0440\u0443\u0436\u0430\u0442\u044c",
+      "index": 292
+    },
+    {
+      "de": "erschrecken",
+      "en": "to frighten",
+      "ru": "\u043f\u0443\u0433\u0430\u0442\u044c",
+      "index": 293
+    },
+    {
+      "de": "ersetzen",
+      "en": "to replace",
+      "ru": "\u0437\u0430\u043c\u0435\u043d\u044f\u0442\u044c",
+      "index": 294
+    },
+    {
+      "de": "erstellen",
+      "en": "to create",
+      "ru": "\u0441\u043e\u0437\u0434\u0430\u0432\u0430\u0442\u044c",
+      "index": 295
+    },
+    {
+      "de": "ertragen",
+      "en": "to bear",
+      "ru": "\u0442\u0435\u0440\u043f\u0435\u0442\u044c",
+      "index": 296
+    },
+    {
+      "de": "erwachen",
+      "en": "to awaken",
+      "ru": "\u043f\u0440\u043e\u0441\u044b\u043f\u0430\u0442\u044c\u0441\u044f",
+      "index": 297
+    },
+    {
+      "de": "erw\u00e4hnen",
+      "en": "to mention",
+      "ru": "\u0443\u043f\u043e\u043c\u0438\u043d\u0430\u0442\u044c",
+      "index": 298
+    },
+    {
+      "de": "erziehen",
+      "en": "to educate",
+      "ru": "\u0432\u043e\u0441\u043f\u0438\u0442\u044b\u0432\u0430\u0442\u044c",
+      "index": 299
+    },
+    {
+      "de": "essen",
+      "en": "to eat",
+      "ru": "\u043a\u0443\u0448\u0430\u0442\u044c",
+      "index": 300
+    },
+    {
+      "de": "feiern",
+      "en": "to celebrate",
+      "ru": "\u043f\u0440\u0430\u0437\u0434\u043d\u043e\u0432\u0430\u0442\u044c",
+      "index": 301
+    },
+    {
+      "de": "feststellen",
+      "en": "to establish",
+      "ru": "\u0443\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0442\u044c",
+      "index": 302
+    },
+    {
+      "de": "fl\u00fcchten",
+      "en": "to flee",
+      "ru": "\u0431\u0435\u0436\u0430\u0442\u044c",
+      "index": 303
+    },
+    {
+      "de": "filmen",
+      "en": "to film",
+      "ru": "\u0441\u043d\u0438\u043c\u0430\u0442\u044c",
+      "index": 304
+    },
+    {
+      "de": "flie\u00dfen",
+      "en": "to flow",
+      "ru": "\u0442\u0435\u0447\u044c",
+      "index": 305
+    },
+    {
+      "de": "fordern",
+      "en": "to demand",
+      "ru": "\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u0442\u044c",
+      "index": 306
+    },
+    {
+      "de": "f\u00f6rdern",
+      "en": "to promote",
+      "ru": "\u0441\u043f\u043e\u0441\u043e\u0431\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c",
+      "index": 307
+    },
+    {
+      "de": "formen",
+      "en": "to form",
+      "ru": "\u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 308
+    },
+    {
+      "de": "fotografieren",
+      "en": "to photograph",
+      "ru": "\u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 309
+    },
+    {
+      "de": "fressen",
+      "en": "to eat",
+      "ru": "\u0436\u0440\u0430\u0442\u044c",
+      "index": 310
+    },
+    {
+      "de": "frieren",
+      "en": "to freeze",
+      "ru": "\u043c\u0435\u0440\u0437\u043d\u0443\u0442\u044c",
+      "index": 311
+    },
+    {
+      "de": "f\u00fcllen",
+      "en": "to fill",
+      "ru": "\u043d\u0430\u043f\u043e\u043b\u043d\u044f\u0442\u044c",
+      "index": 312
+    },
+    {
+      "de": "f\u00fcrchten",
+      "en": "to fear",
+      "ru": "\u0431\u043e\u044f\u0442\u044c\u0441\u044f",
+      "index": 313
+    },
+    {
+      "de": "funktionieren",
+      "en": "to function",
+      "ru": "\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 314
+    },
+    {
+      "de": "f\u00fcttern",
+      "en": "to feed",
+      "ru": "\u043a\u043e\u0440\u043c\u0438\u0442\u044c",
+      "index": 315
+    },
+    {
+      "de": "garantieren",
+      "en": "to guarantee",
+      "ru": "\u0433\u0430\u0440\u0430\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 316
+    },
+    {
+      "de": "geb\u00e4ren",
+      "en": "to give birth",
+      "ru": "\u0440\u043e\u0436\u0430\u0442\u044c",
+      "index": 317
+    },
+    {
+      "de": "gefallen",
+      "en": "to please",
+      "ru": "\u043d\u0440\u0430\u0432\u0438\u0442\u044c\u0441\u044f",
+      "index": 318
+    },
+    {
+      "de": "gef\u00e4hrden",
+      "en": "to endanger",
+      "ru": "\u0443\u0433\u0440\u043e\u0436\u0430\u0442\u044c",
+      "index": 319
+    },
+    {
+      "de": "gen\u00fcgen",
+      "en": "to suffice",
+      "ru": "\u0445\u0432\u0430\u0442\u0430\u0442\u044c",
+      "index": 320
+    },
+    {
+      "de": "geraten",
+      "en": "to get into",
+      "ru": "\u043f\u043e\u043f\u0430\u0434\u0430\u0442\u044c",
+      "index": 321
+    },
+    {
+      "de": "geschehen",
+      "en": "to happen",
+      "ru": "\u043f\u0440\u043e\u0438\u0441\u0445\u043e\u0434\u0438\u0442\u044c",
+      "index": 322
+    },
+    {
+      "de": "gestalten",
+      "en": "to design",
+      "ru": "\u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0442\u044c",
+      "index": 323
+    },
+    {
+      "de": "gestatten",
+      "en": "to permit",
+      "ru": "\u0440\u0430\u0437\u0440\u0435\u0448\u0430\u0442\u044c",
+      "index": 324
+    },
+    {
+      "de": "gew\u00f6hnen",
+      "en": "to accustom",
+      "ru": "\u043f\u0440\u0438\u0432\u044b\u043a\u0430\u0442\u044c",
+      "index": 325
+    },
+    {
+      "de": "gie\u00dfen",
+      "en": "to pour",
+      "ru": "\u043b\u0438\u0442\u044c",
+      "index": 326
+    },
+    {
+      "de": "gleiten",
+      "en": "to glide",
+      "ru": "\u0441\u043a\u043e\u043b\u044c\u0437\u0438\u0442\u044c",
+      "index": 327
+    },
+    {
+      "de": "graben",
+      "en": "to dig",
+      "ru": "\u043a\u043e\u043f\u0430\u0442\u044c",
+      "index": 328
+    },
+    {
+      "de": "greifen",
+      "en": "to grab",
+      "ru": "\u0445\u0432\u0430\u0442\u0430\u0442\u044c",
+      "index": 329
+    },
+    {
+      "de": "gr\u00fcnden",
+      "en": "to found",
+      "ru": "\u043e\u0441\u043d\u043e\u0432\u044b\u0432\u0430\u0442\u044c",
+      "index": 330
+    },
+    {
+      "de": "gr\u00fc\u00dfen",
+      "en": "to greet",
+      "ru": "\u043f\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c",
+      "index": 331
+    },
+    {
+      "de": "gucken",
+      "en": "to look",
+      "ru": "\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c",
+      "index": 332
+    },
+    {
+      "de": "hacken",
+      "en": "to chop",
+      "ru": "\u0440\u0443\u0431\u0438\u0442\u044c",
+      "index": 333
+    },
+    {
+      "de": "haften",
+      "en": "to stick",
+      "ru": "\u043f\u0440\u0438\u043b\u0438\u043f\u0430\u0442\u044c",
+      "index": 334
+    },
+    {
+      "de": "h\u00e4ngen",
+      "en": "to hang",
+      "ru": "\u0432\u0438\u0441\u0435\u0442\u044c",
+      "index": 335
+    },
+    {
+      "de": "hassen",
+      "en": "to hate",
+      "ru": "\u043d\u0435\u043d\u0430\u0432\u0438\u0434\u0435\u0442\u044c",
+      "index": 336
+    },
+    {
+      "de": "heben",
+      "en": "to lift",
+      "ru": "\u043f\u043e\u0434\u043d\u0438\u043c\u0430\u0442\u044c",
+      "index": 337
+    },
+    {
+      "de": "heilen",
+      "en": "to heal",
+      "ru": "\u043b\u0435\u0447\u0438\u0442\u044c",
+      "index": 338
+    },
+    {
+      "de": "heiraten",
+      "en": "to marry",
+      "ru": "\u0436\u0435\u043d\u0438\u0442\u044c\u0441\u044f",
+      "index": 339
+    },
+    {
+      "de": "heizen",
+      "en": "to heat",
+      "ru": "\u043e\u0442\u0430\u043f\u043b\u0438\u0432\u0430\u0442\u044c",
+      "index": 340
+    },
+    {
+      "de": "herrschen",
+      "en": "to rule",
+      "ru": "\u0446\u0430\u0440\u0438\u0442\u044c",
+      "index": 341
+    },
+    {
+      "de": "herstellen",
+      "en": "to produce",
+      "ru": "\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u044c",
+      "index": 342
+    },
+    {
+      "de": "herunterladen",
+      "en": "to download",
+      "ru": "\u0441\u043a\u0430\u0447\u0438\u0432\u0430\u0442\u044c",
+      "index": 343
+    },
+    {
+      "de": "hinweisen",
+      "en": "to point out",
+      "ru": "\u0443\u043a\u0430\u0437\u044b\u0432\u0430\u0442\u044c",
+      "index": 344
+    },
+    {
+      "de": "holen",
+      "en": "to fetch",
+      "ru": "\u043f\u0440\u0438\u043d\u043e\u0441\u0438\u0442\u044c",
+      "index": 345
+    },
+    {
+      "de": "h\u00fcpfen",
+      "en": "to hop",
+      "ru": "\u043f\u0440\u044b\u0433\u0430\u0442\u044c",
+      "index": 346
+    },
+    {
+      "de": "informieren",
+      "en": "to inform",
+      "ru": "\u0438\u043d\u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 347
+    },
+    {
+      "de": "integrieren",
+      "en": "to integrate",
+      "ru": "\u0438\u043d\u0442\u0435\u0433\u0440\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 348
+    },
+    {
+      "de": "husten",
+      "en": "to cough",
+      "ru": "\u043a\u0430\u0448\u043b\u044f\u0442\u044c",
+      "index": 349
+    },
+    {
+      "de": "importieren",
+      "en": "to import",
+      "ru": "\u0438\u043c\u043f\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 350
+    },
+    {
+      "de": "installieren",
+      "en": "to install",
+      "ru": "\u0443\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0442\u044c",
+      "index": 351
+    },
+    {
+      "de": "investieren",
+      "en": "to invest",
+      "ru": "\u0438\u043d\u0432\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 352
+    },
+    {
+      "de": "irren",
+      "en": "to err",
+      "ru": "\u043e\u0448\u0438\u0431\u0430\u0442\u044c\u0441\u044f",
+      "index": 353
+    },
+    {
+      "de": "joggen",
+      "en": "to jog",
+      "ru": "\u0431\u0435\u0433\u0430\u0442\u044c",
+      "index": 354
+    },
+    {
+      "de": "k\u00e4mmen",
+      "en": "to comb",
+      "ru": "\u0440\u0430\u0441\u0447\u0435\u0441\u044b\u0432\u0430\u0442\u044c",
+      "index": 355
+    },
+    {
+      "de": "kauen",
+      "en": "to chew",
+      "ru": "\u0436\u0435\u0432\u0430\u0442\u044c",
+      "index": 356
+    },
+    {
+      "de": "kaufen",
+      "en": "to buy",
+      "ru": "\u043f\u043e\u043a\u0443\u043f\u0430\u0442\u044c",
+      "index": 357
+    },
+    {
+      "de": "kehren",
+      "en": "to sweep",
+      "ru": "\u043c\u0435\u0441\u0442\u0438",
+      "index": 358
+    },
+    {
+      "de": "kennenlernen",
+      "en": "to get to know",
+      "ru": "\u0437\u043d\u0430\u043a\u043e\u043c\u0438\u0442\u044c\u0441\u044f",
+      "index": 359
+    },
+    {
+      "de": "klagen",
+      "en": "to complain",
+      "ru": "\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c\u0441\u044f",
+      "index": 360
+    },
+    {
+      "de": "klappen",
+      "en": "to work out",
+      "ru": "\u043f\u043e\u043b\u0443\u0447\u0430\u0442\u044c\u0441\u044f",
+      "index": 361
+    },
+    {
+      "de": "kl\u00e4ren",
+      "en": "to clarify",
+      "ru": "\u0432\u044b\u044f\u0441\u043d\u044f\u0442\u044c",
+      "index": 362
+    },
+    {
+      "de": "kleben",
+      "en": "to glue",
+      "ru": "\u043a\u043b\u0435\u0438\u0442\u044c",
+      "index": 363
+    },
+    {
+      "de": "klettern",
+      "en": "to climb",
+      "ru": "\u043b\u0430\u0437\u0438\u0442\u044c",
+      "index": 364
+    },
+    {
+      "de": "klingen",
+      "en": "to sound",
+      "ru": "\u0437\u0432\u0443\u0447\u0430\u0442\u044c",
+      "index": 365
+    },
+    {
+      "de": "klopfen",
+      "en": "to knock",
+      "ru": "\u0441\u0442\u0443\u0447\u0430\u0442\u044c",
+      "index": 366
+    },
+    {
+      "de": "kn\u00fcpfen",
+      "en": "to tie",
+      "ru": "\u0437\u0430\u0432\u044f\u0437\u044b\u0432\u0430\u0442\u044c",
+      "index": 367
+    },
+    {
+      "de": "kontrollieren",
+      "en": "to control",
+      "ru": "\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 368
+    },
+    {
+      "de": "konzentrieren",
+      "en": "to concentrate",
+      "ru": "\u043a\u043e\u043d\u0446\u0435\u043d\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u0442\u044c\u0441\u044f",
+      "index": 369
+    },
+    {
+      "de": "kopieren",
+      "en": "to copy",
+      "ru": "\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 370
+    },
+    {
+      "de": "krachen",
+      "en": "to crash",
+      "ru": "\u0433\u0440\u043e\u0445\u043e\u0442\u0430\u0442\u044c",
+      "index": 371
+    },
+    {
+      "de": "kratzen",
+      "en": "to scratch",
+      "ru": "\u0446\u0430\u0440\u0430\u043f\u0430\u0442\u044c",
+      "index": 372
+    },
+    {
+      "de": "kriechen",
+      "en": "to crawl",
+      "ru": "\u043f\u043e\u043b\u0437\u0430\u0442\u044c",
+      "index": 373
+    },
+    {
+      "de": "kriegen",
+      "en": "to get",
+      "ru": "\u043f\u043e\u043b\u0443\u0447\u0430\u0442\u044c",
+      "index": 374
+    },
+    {
+      "de": "k\u00fchlen",
+      "en": "to cool",
+      "ru": "\u043e\u0445\u043b\u0430\u0436\u0434\u0430\u0442\u044c",
+      "index": 375
+    },
+    {
+      "de": "k\u00fcmmern",
+      "en": "to care",
+      "ru": "\u0437\u0430\u0431\u043e\u0442\u0438\u0442\u044c\u0441\u044f",
+      "index": 376
+    },
+    {
+      "de": "k\u00fcssen",
+      "en": "to kiss",
+      "ru": "\u0446\u0435\u043b\u043e\u0432\u0430\u0442\u044c",
+      "index": 377
+    },
+    {
+      "de": "k\u00fcndigen",
+      "en": "to quit",
+      "ru": "\u0443\u0432\u043e\u043b\u044c\u043d\u044f\u0442\u044c",
+      "index": 378
+    },
+    {
+      "de": "l\u00e4cheln",
+      "en": "to smile",
+      "ru": "\u0443\u043b\u044b\u0431\u0430\u0442\u044c\u0441\u044f",
+      "index": 379
+    },
+    {
+      "de": "laden",
+      "en": "to load",
+      "ru": "\u0437\u0430\u0433\u0440\u0443\u0436\u0430\u0442\u044c",
+      "index": 380
+    },
+    {
+      "de": "landen",
+      "en": "to land",
+      "ru": "\u043f\u0440\u0438\u0437\u0435\u043c\u043b\u044f\u0442\u044c\u0441\u044f",
+      "index": 381
+    },
+    {
+      "de": "langweilen",
+      "en": "to bore",
+      "ru": "\u0441\u043a\u0443\u0447\u0430\u0442\u044c",
+      "index": 382
+    },
+    {
+      "de": "lauschen",
+      "en": "to listen",
+      "ru": "\u043f\u0440\u0438\u0441\u043b\u0443\u0448\u0438\u0432\u0430\u0442\u044c\u0441\u044f",
+      "index": 383
+    },
+    {
+      "de": "leeren",
+      "en": "to empty",
+      "ru": "\u043e\u043f\u0443\u0441\u0442\u043e\u0448\u0430\u0442\u044c",
+      "index": 384
+    },
+    {
+      "de": "leisten",
+      "en": "to afford",
+      "ru": "\u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0442\u044c \u0441\u0435\u0431\u0435",
+      "index": 385
+    },
+    {
+      "de": "leiten",
+      "en": "to lead",
+      "ru": "\u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0438\u0442\u044c",
+      "index": 386
+    },
+    {
+      "de": "lenken",
+      "en": "to steer",
+      "ru": "\u0443\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c",
+      "index": 387
+    },
+    {
+      "de": "leuchten",
+      "en": "to shine",
+      "ru": "\u0441\u0432\u0435\u0442\u0438\u0442\u044c",
+      "index": 388
+    },
+    {
+      "de": "leugnen",
+      "en": "to deny",
+      "ru": "\u043e\u0442\u0440\u0438\u0446\u0430\u0442\u044c",
+      "index": 389
+    },
+    {
+      "de": "liefern",
+      "en": "to deliver",
+      "ru": "\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0442\u044c",
+      "index": 390
+    },
+    {
+      "de": "loben",
+      "en": "to praise",
+      "ru": "\u0445\u0432\u0430\u043b\u0438\u0442\u044c",
+      "index": 391
+    },
+    {
+      "de": "locken",
+      "en": "to lure",
+      "ru": "\u043c\u0430\u043d\u0438\u0442\u044c",
+      "index": 392
+    },
+    {
+      "de": "lohnen",
+      "en": "to be worth",
+      "ru": "\u0441\u0442\u043e\u0438\u0442\u044c",
+      "index": 393
+    },
+    {
+      "de": "l\u00f6sen",
+      "en": "to solve",
+      "ru": "\u0440\u0435\u0448\u0430\u0442\u044c",
+      "index": 394
+    },
+    {
+      "de": "l\u00fcgen",
+      "en": "to lie",
+      "ru": "\u043b\u0433\u0430\u0442\u044c",
+      "index": 395
+    },
+    {
+      "de": "malen",
+      "en": "to paint",
+      "ru": "\u0440\u0438\u0441\u043e\u0432\u0430\u0442\u044c",
+      "index": 396
+    },
+    {
+      "de": "mangeln",
+      "en": "to lack",
+      "ru": "\u043d\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u0430\u0442\u044c",
+      "index": 397
+    },
+    {
+      "de": "markieren",
+      "en": "to mark",
+      "ru": "\u043e\u0442\u043c\u0435\u0447\u0430\u0442\u044c",
+      "index": 398
+    },
+    {
+      "de": "meckern",
+      "en": "to complain",
+      "ru": "\u0432\u043e\u0440\u0447\u0430\u0442\u044c",
+      "index": 399
+    },
+    {
+      "de": "meiden",
+      "en": "to avoid",
+      "ru": "\u0438\u0437\u0431\u0435\u0433\u0430\u0442\u044c",
+      "index": 400
+    },
+    {
+      "de": "melden",
+      "en": "to report",
+      "ru": "\u0441\u043e\u043e\u0431\u0449\u0430\u0442\u044c",
+      "index": 401
+    },
+    {
+      "de": "merken",
+      "en": "to notice",
+      "ru": "\u0437\u0430\u043c\u0435\u0447\u0430\u0442\u044c",
+      "index": 402
+    },
+    {
+      "de": "messen",
+      "en": "to measure",
+      "ru": "\u043c\u0435\u0440\u0438\u0442\u044c",
+      "index": 403
+    },
+    {
+      "de": "mieten",
+      "en": "to rent",
+      "ru": "\u0430\u0440\u0435\u043d\u0434\u043e\u0432\u0430\u0442\u044c",
+      "index": 404
+    },
+    {
+      "de": "mischen",
+      "en": "to mix",
+      "ru": "\u0441\u043c\u0435\u0448\u0438\u0432\u0430\u0442\u044c",
+      "index": 405
+    },
+    {
+      "de": "mitbringen",
+      "en": "to bring along",
+      "ru": "\u043f\u0440\u0438\u043d\u043e\u0441\u0438\u0442\u044c \u0441 \u0441\u043e\u0431\u043e\u0439",
+      "index": 406
+    },
+    {
+      "de": "mitmachen",
+      "en": "to participate",
+      "ru": "\u0443\u0447\u0430\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c",
+      "index": 407
+    },
+    {
+      "de": "mitteilen",
+      "en": "to inform",
+      "ru": "\u0441\u043e\u043e\u0431\u0449\u0430\u0442\u044c",
+      "index": 408
+    },
+    {
+      "de": "misstrauen",
+      "en": "to distrust",
+      "ru": "\u043d\u0435 \u0434\u043e\u0432\u0435\u0440\u044f\u0442\u044c",
+      "index": 409
+    },
+    {
+      "de": "motivieren",
+      "en": "to motivate",
+      "ru": "\u043c\u043e\u0442\u0438\u0432\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 410
+    },
+    {
+      "de": "multiplizieren",
+      "en": "to multiply",
+      "ru": "\u0443\u043c\u043d\u043e\u0436\u0430\u0442\u044c",
+      "index": 411
+    },
+    {
+      "de": "nachdenken",
+      "en": "to think about",
+      "ru": "\u0440\u0430\u0437\u043c\u044b\u0448\u043b\u044f\u0442\u044c",
+      "index": 412
+    },
+    {
+      "de": "nachfragen",
+      "en": "to inquire",
+      "ru": "\u0440\u0430\u0441\u0441\u043f\u0440\u0430\u0448\u0438\u0432\u0430\u0442\u044c",
+      "index": 413
+    },
+    {
+      "de": "nachgeben",
+      "en": "to yield",
+      "ru": "\u0443\u0441\u0442\u0443\u043f\u0430\u0442\u044c",
+      "index": 414
+    },
+    {
+      "de": "nachholen",
+      "en": "to catch up",
+      "ru": "\u043d\u0430\u0432\u0435\u0440\u0441\u0442\u044b\u0432\u0430\u0442\u044c",
+      "index": 415
+    },
+    {
+      "de": "nachlassen",
+      "en": "to decrease",
+      "ru": "\u043e\u0441\u043b\u0430\u0431\u0435\u0432\u0430\u0442\u044c",
+      "index": 416
+    },
+    {
+      "de": "nachschlagen",
+      "en": "to look up",
+      "ru": "\u0438\u0441\u043a\u0430\u0442\u044c",
+      "index": 417
+    },
+    {
+      "de": "murmeln",
+      "en": "to murmur",
+      "ru": "\u0431\u043e\u0440\u043c\u043e\u0442\u0430\u0442\u044c",
+      "index": 418
+    },
+    {
+      "de": "n\u00e4hen",
+      "en": "to sew",
+      "ru": "\u0448\u0438\u0442\u044c",
+      "index": 419
+    },
+    {
+      "de": "n\u00e4hern",
+      "en": "to approach",
+      "ru": "\u043f\u0440\u0438\u0431\u043b\u0438\u0436\u0430\u0442\u044c\u0441\u044f",
+      "index": 420
+    },
+    {
+      "de": "naschen",
+      "en": "to nibble",
+      "ru": "\u043b\u0430\u043a\u043e\u043c\u0438\u0442\u044c\u0441\u044f",
+      "index": 421
+    },
+    {
+      "de": "nassmachen",
+      "en": "to wet",
+      "ru": "\u043c\u043e\u0447\u0438\u0442\u044c",
+      "index": 422
+    },
+    {
+      "de": "necken",
+      "en": "to tease",
+      "ru": "\u0434\u0440\u0430\u0437\u043d\u0438\u0442\u044c",
+      "index": 423
+    },
+    {
+      "de": "nicken",
+      "en": "to nod",
+      "ru": "\u043a\u0438\u0432\u0430\u0442\u044c",
+      "index": 424
+    },
+    {
+      "de": "notieren",
+      "en": "to note",
+      "ru": "\u0437\u0430\u043f\u0438\u0441\u044b\u0432\u0430\u0442\u044c",
+      "index": 425
+    },
+    {
+      "de": "n\u00fctzen",
+      "en": "to be of use",
+      "ru": "\u0433\u043e\u0434\u0438\u0442\u044c\u0441\u044f",
+      "index": 426
+    },
+    {
+      "de": "operieren",
+      "en": "to operate",
+      "ru": "\u043e\u043f\u0435\u0440\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 427
+    },
+    {
+      "de": "opfern",
+      "en": "to sacrifice",
+      "ru": "\u0436\u0435\u0440\u0442\u0432\u043e\u0432\u0430\u0442\u044c",
+      "index": 428
+    },
+    {
+      "de": "ordnen",
+      "en": "to arrange",
+      "ru": "\u0443\u043f\u043e\u0440\u044f\u0434\u043e\u0447\u0438\u0432\u0430\u0442\u044c",
+      "index": 429
+    },
+    {
+      "de": "organisieren",
+      "en": "to organize",
+      "ru": "\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u043e\u0432\u044b\u0432\u0430\u0442\u044c",
+      "index": 430
+    },
+    {
+      "de": "packen",
+      "en": "to pack",
+      "ru": "\u043f\u0430\u043a\u043e\u0432\u0430\u0442\u044c",
+      "index": 431
+    },
+    {
+      "de": "pfeifen",
+      "en": "to whistle",
+      "ru": "\u0441\u0432\u0438\u0441\u0442\u0435\u0442\u044c",
+      "index": 432
+    },
+    {
+      "de": "pflanzen",
+      "en": "to plant",
+      "ru": "\u0441\u0430\u0436\u0430\u0442\u044c",
+      "index": 433
+    },
+    {
+      "de": "pflegen",
+      "en": "to care for",
+      "ru": "\u0443\u0445\u0430\u0436\u0438\u0432\u0430\u0442\u044c",
+      "index": 434
+    },
+    {
+      "de": "pfl\u00fccken",
+      "en": "to pick",
+      "ru": "\u0441\u0440\u044b\u0432\u0430\u0442\u044c",
+      "index": 435
+    },
+    {
+      "de": "philosophieren",
+      "en": "to philosophize",
+      "ru": "\u0444\u0438\u043b\u043e\u0441\u043e\u0444\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c",
+      "index": 436
+    },
+    {
+      "de": "plaudern",
+      "en": "to chat",
+      "ru": "\u0431\u043e\u043b\u0442\u0430\u0442\u044c",
+      "index": 437
+    },
+    {
+      "de": "pl\u00fcndern",
+      "en": "to plunder",
+      "ru": "\u0433\u0440\u0430\u0431\u0438\u0442\u044c",
+      "index": 438
+    },
+    {
+      "de": "pochieren",
+      "en": "to poach",
+      "ru": "\u043f\u0430\u0448\u043e\u0442",
+      "index": 439
+    },
+    {
+      "de": "pochen",
+      "en": "to throb",
+      "ru": "\u0441\u0442\u0443\u0447\u0430\u0442\u044c",
+      "index": 440
+    },
+    {
+      "de": "polieren",
+      "en": "to polish",
+      "ru": "\u043f\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 441
+    },
+    {
+      "de": "pr\u00e4gen",
+      "en": "to shape",
+      "ru": "\u0447\u0435\u043a\u0430\u043d\u0438\u0442\u044c",
+      "index": 442
+    },
+    {
+      "de": "pr\u00e4sentieren",
+      "en": "to present",
+      "ru": "\u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u0442\u044c",
+      "index": 443
+    },
+    {
+      "de": "preisen",
+      "en": "to praise",
+      "ru": "\u0432\u043e\u0441\u0445\u0432\u0430\u043b\u044f\u0442\u044c",
+      "index": 444
+    },
+    {
+      "de": "probieren",
+      "en": "to try",
+      "ru": "\u043f\u0440\u043e\u0431\u043e\u0432\u0430\u0442\u044c",
+      "index": 445
+    },
+    {
+      "de": "produzieren",
+      "en": "to produce",
+      "ru": "\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u044c",
+      "index": 446
+    },
+    {
+      "de": "profitieren",
+      "en": "to profit",
+      "ru": "\u0438\u0437\u0432\u043b\u0435\u043a\u0430\u0442\u044c \u0432\u044b\u0433\u043e\u0434\u0443",
+      "index": 447
+    },
+    {
+      "de": "publizieren",
+      "en": "to publish",
+      "ru": "\u043f\u0443\u0431\u043b\u0438\u043a\u043e\u0432\u0430\u0442\u044c",
+      "index": 448
+    },
+    {
+      "de": "putzen",
+      "en": "to clean",
+      "ru": "\u0447\u0438\u0441\u0442\u0438\u0442\u044c",
+      "index": 449
+    },
+    {
+      "de": "qu\u00e4len",
+      "en": "to torture",
+      "ru": "\u043c\u0443\u0447\u0438\u0442\u044c",
+      "index": 450
+    },
+    {
+      "de": "qualifizieren",
+      "en": "to qualify",
+      "ru": "\u043a\u0432\u0430\u043b\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 451
+    },
+    {
+      "de": "quatschen",
+      "en": "to chat",
+      "ru": "\u0431\u043e\u043b\u0442\u0430\u0442\u044c",
+      "index": 452
+    },
+    {
+      "de": "quellen",
+      "en": "to swell",
+      "ru": "\u043d\u0430\u0431\u0443\u0445\u0430\u0442\u044c",
+      "index": 453
+    },
+    {
+      "de": "quietschen",
+      "en": "to squeak",
+      "ru": "\u0441\u043a\u0440\u0438\u043f\u0435\u0442\u044c",
+      "index": 454
+    },
+    {
+      "de": "r\u00e4chen",
+      "en": "to avenge",
+      "ru": "\u043c\u0441\u0442\u0438\u0442\u044c",
+      "index": 455
+    },
+    {
+      "de": "radeln",
+      "en": "to cycle",
+      "ru": "\u0435\u0445\u0430\u0442\u044c \u043d\u0430 \u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0435",
+      "index": 456
+    },
+    {
+      "de": "rahmen",
+      "en": "to frame",
+      "ru": "\u043e\u0431\u0440\u0430\u043c\u043b\u044f\u0442\u044c",
+      "index": 457
+    },
+    {
+      "de": "raten",
+      "en": "to guess",
+      "ru": "\u0441\u043e\u0432\u0435\u0442\u043e\u0432\u0430\u0442\u044c",
+      "index": 458
+    },
+    {
+      "de": "rauben",
+      "en": "to rob",
+      "ru": "\u0433\u0440\u0430\u0431\u0438\u0442\u044c",
+      "index": 459
+    },
+    {
+      "de": "rauchen",
+      "en": "to smoke",
+      "ru": "\u043a\u0443\u0440\u0438\u0442\u044c",
+      "index": 460
+    },
+    {
+      "de": "r\u00e4umen",
+      "en": "to clear",
+      "ru": "\u0443\u0431\u0438\u0440\u0430\u0442\u044c",
+      "index": 461
+    },
+    {
+      "de": "rauschen",
+      "en": "to rustle",
+      "ru": "\u0448\u0443\u043c\u0435\u0442\u044c",
+      "index": 462
+    },
+    {
+      "de": "reagieren",
+      "en": "to react",
+      "ru": "\u0440\u0435\u0430\u0433\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 463
+    },
+    {
+      "de": "realisieren",
+      "en": "to realize",
+      "ru": "\u0440\u0435\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u0442\u044c",
+      "index": 464
+    },
+    {
+      "de": "rechen",
+      "en": "to rake",
+      "ru": "\u0441\u0433\u0440\u0435\u0431\u0430\u0442\u044c",
+      "index": 465
+    },
+    {
+      "de": "rechnen",
+      "en": "to calculate",
+      "ru": "\u0441\u0447\u0438\u0442\u0430\u0442\u044c",
+      "index": 466
+    },
+    {
+      "de": "regeln",
+      "en": "to regulate",
+      "ru": "\u0440\u0435\u0433\u0443\u043b\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 467
+    },
+    {
+      "de": "regnen",
+      "en": "to rain",
+      "ru": "\u0438\u0434\u0442\u0438 \u0434\u043e\u0436\u0434\u044e",
+      "index": 468
+    },
+    {
+      "de": "reiben",
+      "en": "to rub",
+      "ru": "\u0442\u0435\u0440\u0435\u0442\u044c",
+      "index": 469
+    },
+    {
+      "de": "reichen",
+      "en": "to reach",
+      "ru": "\u0445\u0432\u0430\u0442\u0430\u0442\u044c",
+      "index": 470
+    },
+    {
+      "de": "reinigen",
+      "en": "to clean",
+      "ru": "\u0447\u0438\u0441\u0442\u0438\u0442\u044c",
+      "index": 471
+    },
+    {
+      "de": "reisen",
+      "en": "to travel",
+      "ru": "\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c",
+      "index": 472
+    },
+    {
+      "de": "rei\u00dfen",
+      "en": "to tear",
+      "ru": "\u0440\u0432\u0430\u0442\u044c",
+      "index": 473
+    },
+    {
+      "de": "reiten",
+      "en": "to ride",
+      "ru": "\u0435\u0437\u0434\u0438\u0442\u044c \u0432\u0435\u0440\u0445\u043e\u043c",
+      "index": 474
+    },
+    {
+      "de": "rennen",
+      "en": "to run",
+      "ru": "\u0431\u0435\u0436\u0430\u0442\u044c",
+      "index": 475
+    },
+    {
+      "de": "reparieren",
+      "en": "to repair",
+      "ru": "\u0440\u0435\u043c\u043e\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 476
+    },
+    {
+      "de": "reservieren",
+      "en": "to reserve",
+      "ru": "\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+      "index": 477
+    },
+    {
+      "de": "resultieren",
+      "en": "to result",
+      "ru": "\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u044c",
+      "index": 478
+    },
+    {
+      "de": "riechen",
+      "en": "to smell",
+      "ru": "\u043d\u044e\u0445\u0430\u0442\u044c",
+      "index": 479
+    },
+    {
+      "de": "ringen",
+      "en": "to wrestle",
+      "ru": "\u0431\u043e\u0440\u043e\u0442\u044c\u0441\u044f",
+      "index": 480
+    },
+    {
+      "de": "rollen",
+      "en": "to roll",
+      "ru": "\u043a\u0430\u0442\u0438\u0442\u044c",
+      "index": 481
+    },
+    {
+      "de": "r\u00f6sten",
+      "en": "to roast",
+      "ru": "\u0436\u0430\u0440\u0438\u0442\u044c",
+      "index": 482
+    },
+    {
+      "de": "r\u00fccken",
+      "en": "to move",
+      "ru": "\u0441\u0434\u0432\u0438\u0433\u0430\u0442\u044c",
+      "index": 483
+    },
+    {
+      "de": "r\u00fchren",
+      "en": "to stir",
+      "ru": "\u043c\u0435\u0448\u0430\u0442\u044c",
+      "index": 484
+    },
+    {
+      "de": "ruinieren",
+      "en": "to ruin",
+      "ru": "\u0440\u0430\u0437\u0440\u0443\u0448\u0430\u0442\u044c",
+      "index": 485
+    },
+    {
+      "de": "ruhen",
+      "en": "to rest",
+      "ru": "\u043f\u043e\u043a\u043e\u0438\u0442\u044c\u0441\u044f",
+      "index": 486
+    },
+    {
+      "de": "r\u00fcsten",
+      "en": "to prepare",
+      "ru": "\u0432\u043e\u043e\u0440\u0443\u0436\u0430\u0442\u044c",
+      "index": 487
+    },
+    {
+      "de": "rutschen",
+      "en": "to slip",
+      "ru": "\u0441\u043a\u043e\u043b\u044c\u0437\u0438\u0442\u044c",
+      "index": 488
+    },
+    {
+      "de": "s\u00e4en",
+      "en": "to sow",
+      "ru": "\u0441\u0435\u044f\u0442\u044c",
+      "index": 489
+    },
+    {
+      "de": "sammeln",
+      "en": "to collect",
+      "ru": "\u0441\u043e\u0431\u0438\u0440\u0430\u0442\u044c",
+      "index": 490
+    },
+    {
+      "de": "saugen",
+      "en": "to suck",
+      "ru": "\u0441\u043e\u0441\u0430\u0442\u044c",
+      "index": 491
+    },
+    {
+      "de": "schaden",
+      "en": "to damage",
+      "ru": "\u0432\u0440\u0435\u0434\u0438\u0442\u044c",
+      "index": 492
+    },
+    {
+      "de": "schalten",
+      "en": "to switch",
+      "ru": "\u0432\u043a\u043b\u044e\u0447\u0430\u0442\u044c",
+      "index": 493
+    },
+    {
+      "de": "sch\u00e4men",
+      "en": "to be ashamed",
+      "ru": "\u0441\u0442\u044b\u0434\u0438\u0442\u044c\u0441\u044f",
+      "index": 494
+    },
+    {
+      "de": "sch\u00e4tzen",
+      "en": "to estimate",
+      "ru": "\u043e\u0446\u0435\u043d\u0438\u0432\u0430\u0442\u044c",
+      "index": 495
+    },
+    {
+      "de": "scherzen",
+      "en": "to joke",
+      "ru": "\u0448\u0443\u0442\u0438\u0442\u044c",
+      "index": 496
+    },
+    {
+      "de": "scheiden",
+      "en": "to separate",
+      "ru": "\u0440\u0430\u0437\u0434\u0435\u043b\u044f\u0442\u044c",
+      "index": 497
+    },
+    {
+      "de": "schenken",
+      "en": "to gift",
+      "ru": "\u0434\u0430\u0440\u0438\u0442\u044c",
+      "index": 498
+    },
+    {
+      "de": "schieben",
+      "en": "to push",
+      "ru": "\u0434\u0432\u0438\u0433\u0430\u0442\u044c",
+      "index": 499
+    },
+    {
+      "de": "schie\u00dfen",
+      "en": "to shoot",
+      "ru": "\u0441\u0442\u0440\u0435\u043b\u044f\u0442\u044c",
+      "index": 500
+    }
+  ]

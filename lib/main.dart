@@ -35,6 +35,18 @@ enum QuizDirection {
   enRuToGerman,
 }
 
+enum WordGroup {
+  nouns,
+  verbs,
+}
+
+extension WordGroupConfig on WordGroup {
+  String get title => this == WordGroup.nouns ? 'Nouns' : 'Verbs';
+
+  String get assetPath =>
+      this == WordGroup.nouns ? 'data/nouns.json' : 'data/verbs.json';
+}
+
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
@@ -45,13 +57,64 @@ class MainApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
       ),
-      home: const QuizPage(),
+      home: const GroupSelectionPage(),
+    );
+  }
+}
+
+class GroupSelectionPage extends StatelessWidget {
+  const GroupSelectionPage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('Choose Word Group')),
+      body: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: <Widget>[
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute<QuizPage>(
+                    builder: (_) => const QuizPage(group: WordGroup.nouns),
+                  ),
+                );
+              },
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(vertical: 18),
+              ),
+              child: const Text('Nouns'),
+            ),
+            const SizedBox(height: 12),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute<QuizPage>(
+                    builder: (_) => const QuizPage(group: WordGroup.verbs),
+                  ),
+                );
+              },
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(vertical: 18),
+              ),
+              child: const Text('Verbs'),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
 
 class QuizPage extends StatefulWidget {
-  const QuizPage({super.key});
+  const QuizPage({
+    super.key,
+    required this.group,
+  });
+
+  final WordGroup group;
 
   @override
   State<QuizPage> createState() => _QuizPageState();
@@ -83,7 +146,7 @@ class _QuizPageState extends State<QuizPage> {
 
   Future<void> _loadWords() async {
     try {
-      final String raw = await rootBundle.loadString('data/nouns.json');
+      final String raw = await rootBundle.loadString(widget.group.assetPath);
       final List<dynamic> parsed = jsonDecode(raw) as List<dynamic>;
       final List<WordEntry> words = parsed
           .map((dynamic e) => WordEntry.fromJson(e as Map<String, dynamic>))
@@ -104,7 +167,7 @@ class _QuizPageState extends State<QuizPage> {
     } catch (_) {
       setState(() {
         _isLoading = false;
-        _errorMessage = 'Could not load words from data/nouns.json.';
+        _errorMessage = 'Could not load words from ${widget.group.assetPath}.';
       });
     }
   }
@@ -187,7 +250,7 @@ class _QuizPageState extends State<QuizPage> {
 
     if (_errorMessage != null) {
       return Scaffold(
-        appBar: AppBar(title: const Text('German Nouns Quiz')),
+        appBar: AppBar(title: Text('German ${widget.group.title} Quiz')),
         body: Center(
           child: Text(
             _errorMessage!,
@@ -207,7 +270,7 @@ class _QuizPageState extends State<QuizPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('German Nouns Quiz'),
+        title: Text('German ${widget.group.title} Quiz'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),
