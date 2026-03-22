@@ -17,15 +17,17 @@ class QuizDatabase {
     final String dbPath = path.join(await getDatabasesPath(), 'quiz_state.db');
     _db = await openDatabase(
       dbPath,
-      version: 2,
+      version: 3,
       onCreate: (Database db, int version) async {
         await _createTables(db);
       },
       onUpgrade: (Database db, int oldVersion, int newVersion) async {
         if (oldVersion < 2) {
-          await db.execute('DROP TABLE IF EXISTS group_stats');
-          await db.execute('DROP TABLE IF EXISTS words');
-          await _createTables(db);
+          await db.execute('ALTER TABLE words ADD COLUMN streak INTEGER NOT NULL DEFAULT 0');
+          await db.execute('ALTER TABLE words ADD COLUMN queue_index INTEGER NOT NULL DEFAULT 0');
+        }
+        if (oldVersion < 3) {
+          await db.execute('ALTER TABLE words ADD COLUMN status INTEGER NOT NULL DEFAULT 0');
         }
       },
     );
@@ -50,6 +52,7 @@ class QuizDatabase {
         correct_count INTEGER NOT NULL DEFAULT 0,
         streak INTEGER NOT NULL DEFAULT 0,
         queue_index INTEGER NOT NULL DEFAULT 0,
+        status INTEGER NOT NULL DEFAULT 0,
         PRIMARY KEY(group_name, word_index)
       )
     ''');
@@ -71,8 +74,8 @@ class QuizDatabase {
     for (final WordEntry word in jsonWords) {
       batch.rawInsert(
         '''
-        INSERT INTO words (group_name, word_index, de, en, ru, seen_count, correct_count, streak, queue_index)
-        VALUES (?, ?, ?, ?, ?, 0, 0, 0, ?)
+        INSERT INTO words (group_name, word_index, de, en, ru, seen_count, correct_count, streak, queue_index, status)
+        VALUES (?, ?, ?, ?, ?, 0, 0, 0, ?, 0)
         ON CONFLICT(group_name, word_index) DO UPDATE SET
           de = excluded.de,
           en = excluded.en,
@@ -110,8 +113,21 @@ class QuizDatabase {
         correctCount: row['correct_count'] as int,
         streak: row['streak'] as int,
         queueIndex: row['queue_index'] as int,
+        status: WordStatus.values[(row['status'] as int?) ?? 0],
       );
     }).toList();
+  }
+
+  Future<void> setWordStatus(WordGroup group, int wordIndex, WordStatus status) async {
+    final Database db = await database;
+    await db.rawUpdate(
+      '''
+      UPDATE words
+      SET status = ?
+      WHERE group_name = ? AND word_index = ?
+      ''',
+      <Object>[status.index, group.dbKey, wordIndex],
+    );
   }
 
   Future<void> updateQueue(WordGroup group, List<WordEntry> queue) async {

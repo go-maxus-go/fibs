@@ -1,3 +1,9 @@
+enum WordStatus {
+  normal,
+  easy,
+  hard,
+}
+
 class WordEntry {
   const WordEntry({
     required this.index,
@@ -8,6 +14,7 @@ class WordEntry {
     this.correctCount = 0,
     this.streak = 0,
     this.queueIndex,
+    this.status = WordStatus.normal,
   });
 
   final int index;
@@ -18,6 +25,7 @@ class WordEntry {
   final int correctCount;
   final int streak;
   final int? queueIndex;
+  final WordStatus status;
 
   String get enRu => '$en ($ru)';
 
@@ -35,6 +43,7 @@ class WordEntry {
     int? correctCount,
     int? streak,
     int? queueIndex,
+    WordStatus? status,
   }) {
     return WordEntry(
       index: index,
@@ -45,6 +54,7 @@ class WordEntry {
       correctCount: correctCount ?? this.correctCount,
       streak: streak ?? this.streak,
       queueIndex: queueIndex ?? this.queueIndex,
+      status: status ?? this.status,
     );
   }
 }

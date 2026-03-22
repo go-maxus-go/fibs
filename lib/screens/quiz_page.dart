@@ -224,6 +224,11 @@ class _QuizPageState extends State<QuizPage> {
             final int streak = word.streak + 1;
             updatedWord = word.copyWith(streak: streak);
             int insertIndex = fibonacciIndex(streak + 2);
+            if (updatedWord.status == WordStatus.easy) {
+              insertIndex *= 2;
+            } else if (updatedWord.status == WordStatus.hard) {
+              insertIndex ~/= 2;
+            }
             if (insertIndex > _activeQueue.length) {
               insertIndex = _activeQueue.length;
             }
@@ -241,6 +246,20 @@ class _QuizPageState extends State<QuizPage> {
         _nextQuestion();
       }
     });
+  }
+
+  Future<void> _setStatus(WordStatus status) async {
+    if (_currentWord == null) return;
+    
+    final WordEntry updatedWord = _currentWord!.copyWith(status: status);
+    setState(() {
+      _currentWord = updatedWord;
+      if (_activeQueue.isNotEmpty && _activeQueue.first.index == updatedWord.index) {
+        _activeQueue[0] = updatedWord;
+      }
+    });
+    
+    await QuizDatabase.instance.setWordStatus(widget.group, updatedWord.index, status);
   }
 
   @override
@@ -298,6 +317,38 @@ class _QuizPageState extends State<QuizPage> {
                         ),
                         textAlign: TextAlign.center,
                       ),
+                if (_currentWord != null)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 16.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        FilterChip(
+                          label: const Text('Easy'),
+                          selected: _currentWord!.status == WordStatus.easy,
+                          showCheckmark: false,
+                          selectedColor: Colors.green.withOpacity(0.3),
+                          onSelected: (bool selected) {
+                            _setStatus(
+                              selected ? WordStatus.easy : WordStatus.normal,
+                            );
+                          },
+                        ),
+                        const SizedBox(width: 16),
+                        FilterChip(
+                          label: const Text('Hard'),
+                          selected: _currentWord!.status == WordStatus.hard,
+                          showCheckmark: false,
+                          selectedColor: Colors.red.withOpacity(0.3),
+                          onSelected: (bool selected) {
+                            _setStatus(
+                              selected ? WordStatus.hard : WordStatus.normal,
+                            );
+                          },
+                        ),
+                      ],
+                    ),
+                  ),
               ],
             ),
             const Spacer(),
