@@ -81,9 +81,15 @@ class _QuizPageState extends State<QuizPage> {
   }
 
   int fibonacciIndex(int index) {
+    if (index == 0) {
+      return 0;
+    }
+    if (index <= 2) {
+      return 1;
+    }
     int a = 1;
     int b = 1;
-    for (int i = 0; i < index; i++) {
+    for (int i = 2; i < index; i++) {
       int c = a + b;
       a = b;
       b = c;
@@ -223,11 +229,11 @@ class _QuizPageState extends State<QuizPage> {
           if (!_madeMistakeOnCurrent) {
             final int streak = word.streak + 1;
             updatedWord = word.copyWith(streak: streak);
-            int insertIndex = fibonacciIndex(streak + 2);
+            int insertIndex = fibonacciIndex(5 + streak);
             if (updatedWord.status == WordStatus.easy) {
-              insertIndex *= 2;
+              insertIndex = fibonacciIndex((9 + streak * 1.5).round());
             } else if (updatedWord.status == WordStatus.hard) {
-              insertIndex ~/= 2;
+              insertIndex = fibonacciIndex((5 + streak / 1.5).round());
             }
             if (insertIndex > _activeQueue.length) {
               insertIndex = _activeQueue.length;
