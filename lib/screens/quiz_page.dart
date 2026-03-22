@@ -250,16 +250,21 @@ class _QuizPageState extends State<QuizPage> {
 
   Future<void> _setStatus(WordStatus status) async {
     if (_currentWord == null) return;
-    
+
     final WordEntry updatedWord = _currentWord!.copyWith(status: status);
     setState(() {
       _currentWord = updatedWord;
-      if (_activeQueue.isNotEmpty && _activeQueue.first.index == updatedWord.index) {
+      if (_activeQueue.isNotEmpty &&
+          _activeQueue.first.index == updatedWord.index) {
         _activeQueue[0] = updatedWord;
       }
     });
-    
-    await QuizDatabase.instance.setWordStatus(widget.group, updatedWord.index, status);
+
+    await QuizDatabase.instance.setWordStatus(
+      widget.group,
+      updatedWord.index,
+      status,
+    );
   }
 
   @override
@@ -323,26 +328,36 @@ class _QuizPageState extends State<QuizPage> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                        FilterChip(
-                          label: const Text('Easy'),
-                          selected: _currentWord!.status == WordStatus.easy,
-                          showCheckmark: false,
-                          selectedColor: Colors.green.withOpacity(0.3),
-                          onSelected: (bool selected) {
+                        IconButton(
+                          icon: const Icon(Icons.fitness_center),
+                          color: _currentWord!.status == WordStatus.hard
+                              ? Colors.red
+                              : Theme.of(
+                                  context,
+                                ).colorScheme.onSurfaceVariant.withOpacity(0.5),
+                          tooltip: 'Mark as Hard',
+                          onPressed: () {
                             _setStatus(
-                              selected ? WordStatus.easy : WordStatus.normal,
+                              _currentWord!.status == WordStatus.hard
+                                  ? WordStatus.normal
+                                  : WordStatus.hard,
                             );
                           },
                         ),
-                        const SizedBox(width: 16),
-                        FilterChip(
-                          label: const Text('Hard'),
-                          selected: _currentWord!.status == WordStatus.hard,
-                          showCheckmark: false,
-                          selectedColor: Colors.red.withOpacity(0.3),
-                          onSelected: (bool selected) {
+                        const SizedBox(width: 32),
+                        IconButton(
+                          icon: const Icon(Icons.eco),
+                          color: _currentWord!.status == WordStatus.easy
+                              ? Colors.green
+                              : Theme.of(
+                                  context,
+                                ).colorScheme.onSurfaceVariant.withOpacity(0.5),
+                          tooltip: 'Mark as Easy',
+                          onPressed: () {
                             _setStatus(
-                              selected ? WordStatus.hard : WordStatus.normal,
+                              _currentWord!.status == WordStatus.easy
+                                  ? WordStatus.normal
+                                  : WordStatus.easy,
                             );
                           },
                         ),
