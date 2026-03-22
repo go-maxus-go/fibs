@@ -1,40 +1,21 @@
-enum WordGroup {
-  nouns,
-  verbs,
-  objectives,
-}
+class WordGroup {
+  const WordGroup({
+    required this.title,
+    required this.assetPath,
+    required this.dbKey,
+  });
 
-extension WordGroupConfig on WordGroup {
-  String get title {
-    switch (this) {
-      case WordGroup.nouns:
-        return 'Nouns';
-      case WordGroup.verbs:
-        return 'Verbs';
-      case WordGroup.objectives:
-        return 'Objectives';
-    }
-  }
+  final String title;
+  final String assetPath;
+  final String dbKey;
 
-  String get assetPath {
-    switch (this) {
-      case WordGroup.nouns:
-        return 'data/nouns.json';
-      case WordGroup.verbs:
-        return 'data/verbs.json';
-      case WordGroup.objectives:
-        return 'data/objectives.json';
-    }
-  }
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is WordGroup &&
+          runtimeType == other.runtimeType &&
+          dbKey == other.dbKey;
 
-  String get dbKey {
-    switch (this) {
-      case WordGroup.nouns:
-        return 'nouns';
-      case WordGroup.verbs:
-        return 'verbs';
-      case WordGroup.objectives:
-        return 'objectives';
-    }
-  }
+  @override
+  int get hashCode => dbKey.hashCode;
 }

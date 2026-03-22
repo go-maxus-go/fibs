@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:yaml/yaml.dart';
 import '../database/quiz_database.dart';
 import '../models/word_entry.dart';
 import '../models/word_group.dart';
@@ -24,6 +26,7 @@ class _GroupSelectionView extends StatefulWidget {
 class _GroupSelectionViewState extends State<_GroupSelectionView> {
   bool _isPreparing = true;
   String? _error;
+  List<WordGroup> _groups = <WordGroup>[];
   final Map<WordGroup, int> _learnedCounts = <WordGroup, int>{};
   final Map<WordGroup, int> _totalCounts = <WordGroup, int>{};
 
@@ -35,7 +38,23 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
 
   Future<void> _prepareDatabase() async {
     try {
-      for (final WordGroup group in WordGroup.values) {
+      final String yamlString = await rootBundle.loadString('data/groups.yaml');
+      final YamlMap yaml = loadYaml(yamlString) as YamlMap;
+      final YamlList groupsList = yaml['groups'] as YamlList;
+
+      final List<WordGroup> parsedGroups = <WordGroup>[];
+      for (final dynamic item in groupsList) {
+        final YamlMap groupMap = item as YamlMap;
+        parsedGroups.add(
+          WordGroup(
+            title: groupMap['title'] as String,
+            assetPath: groupMap['assetPath'] as String,
+            dbKey: groupMap['dbKey'] as String,
+          ),
+        );
+      }
+
+      for (final WordGroup group in parsedGroups) {
         final List<WordEntry> words = await readWordsFromAsset(group.assetPath);
         if (words.length < 4) {
           throw StateError('Need at least 4 words in ${group.assetPath}.');
@@ -50,15 +69,16 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
         return;
       }
       setState(() {
+        _groups = parsedGroups;
         _isPreparing = false;
       });
-    } catch (_) {
+    } catch (e) {
       if (!mounted) {
         return;
       }
       setState(() {
         _isPreparing = false;
-        _error = 'Could not prepare local database.';
+        _error = 'Could not prepare local database: $e';
       });
     }
   }
@@ -164,31 +184,18 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            _GroupButton(
-              label: 'Nouns',
-              group: WordGroup.nouns,
-              learnedCount: _learnedCounts[WordGroup.nouns] ?? 0,
-              totalCount: _totalCounts[WordGroup.nouns] ?? 0,
-              onPressed: () => _navigateToQuiz(WordGroup.nouns),
-            ),
-            const SizedBox(height: 12),
-            _GroupButton(
-              label: 'Verbs',
-              group: WordGroup.verbs,
-              learnedCount: _learnedCounts[WordGroup.verbs] ?? 0,
-              totalCount: _totalCounts[WordGroup.verbs] ?? 0,
-              onPressed: () => _navigateToQuiz(WordGroup.verbs),
-            ),
-            const SizedBox(height: 12),
-            _GroupButton(
-              label: 'Objectives',
-              group: WordGroup.objectives,
-              learnedCount: _learnedCounts[WordGroup.objectives] ?? 0,
-              totalCount: _totalCounts[WordGroup.objectives] ?? 0,
-              onPressed: () => _navigateToQuiz(WordGroup.objectives),
-            ),
-          ],
+          children: _groups.map((WordGroup group) {
+            return Padding(
+              padding: const EdgeInsets.only(bottom: 12),
+              child: _GroupButton(
+                label: group.title,
+                group: group,
+                learnedCount: _learnedCounts[group] ?? 0,
+                totalCount: _totalCounts[group] ?? 0,
+                onPressed: () => _navigateToQuiz(group),
+              ),
+            );
+          }).toList(),
         ),
       ),
     );

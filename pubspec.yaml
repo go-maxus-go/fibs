@@ -13,6 +13,7 @@ dependencies:
   sqflite_common_ffi: ^2.3.6
   path: ^1.9.1
   flutter_tts: ^4.2.2
+  yaml: ^3.1.2
 
 dev_dependencies:
   flutter_test:
@@ -22,6 +23,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - data/groups.yaml
     - data/nouns.json
     - data/verbs.json
     - data/objectives.json
+    - data/naturalization.json

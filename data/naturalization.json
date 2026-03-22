@@ -1,0 +1,1502 @@
+[
+    {
+        "de": "Die Einb\u00fcrgerung",
+        "en": "Naturalization",
+        "ru": "\u041d\u0430\u0442\u0443\u0440\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f",
+        "index": 1
+    },
+    {
+        "de": "Die Urkunde",
+        "en": "Certificate",
+        "ru": "\u0421\u0432\u0438\u0434\u0435\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e",
+        "index": 2
+    },
+    {
+        "de": "Der Termin",
+        "en": "Appointment",
+        "ru": "\u0417\u0430\u043f\u0438\u0441\u044c / \u041f\u0440\u0438\u0435\u043c",
+        "index": 3
+    },
+    {
+        "de": "Der Pass",
+        "en": "Passport",
+        "ru": "\u041f\u0430\u0441\u043f\u043e\u0440\u0442",
+        "index": 4
+    },
+    {
+        "de": "Der Ausweis",
+        "en": "Id Card",
+        "ru": "\u0423\u0434\u043e\u0441\u0442\u043e\u0432\u0435\u0440\u0435\u043d\u0438\u0435 \u041b\u0438\u0447\u043d\u043e\u0441\u0442\u0438",
+        "index": 5
+    },
+    {
+        "de": "Der Aufenthaltstitel",
+        "en": "Residence Permit",
+        "ru": "\u0412\u0438\u0434 \u041d\u0430 \u0416\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e",
+        "index": 6
+    },
+    {
+        "de": "Die Unterschrift",
+        "en": "Signature",
+        "ru": "\u041f\u043e\u0434\u043f\u0438\u0441\u044c",
+        "index": 7
+    },
+    {
+        "de": "Unterschreiben",
+        "en": "To Sign",
+        "ru": "\u041f\u043e\u0434\u043f\u0438\u0441\u0430\u0442\u044c",
+        "index": 8
+    },
+    {
+        "de": "Bitte",
+        "en": "Please",
+        "ru": "\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430",
+        "index": 9
+    },
+    {
+        "de": "Danke",
+        "en": "Thank You",
+        "ru": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e",
+        "index": 10
+    },
+    {
+        "de": "Der Herr",
+        "en": "Mr. / Gentleman",
+        "ru": "\u0413\u043e\u0441\u043f\u043e\u0434\u0438\u043d",
+        "index": 11
+    },
+    {
+        "de": "Die Frau",
+        "en": "Mrs. / Woman",
+        "ru": "\u0413\u043e\u0441\u043f\u043e\u0436\u0430",
+        "index": 12
+    },
+    {
+        "de": "Der Name",
+        "en": "Name",
+        "ru": "\u0418\u043c\u044f",
+        "index": 13
+    },
+    {
+        "de": "Der Vorname",
+        "en": "First Name",
+        "ru": "\u0418\u043c\u044f",
+        "index": 14
+    },
+    {
+        "de": "Der Nachname",
+        "en": "Last Name",
+        "ru": "\u0424\u0430\u043c\u0438\u043b\u0438\u044f",
+        "index": 15
+    },
+    {
+        "de": "Das Datum",
+        "en": "Date",
+        "ru": "\u0414\u0430\u0442\u0430",
+        "index": 16
+    },
+    {
+        "de": "Das Geburtsdatum",
+        "en": "Date Of Birth",
+        "ru": "\u0414\u0430\u0442\u0430 \u0420\u043e\u0436\u0434\u0435\u043d\u0438\u044f",
+        "index": 17
+    },
+    {
+        "de": "Der Ort",
+        "en": "Place / City",
+        "ru": "\u041c\u0435\u0441\u0442\u043e / \u0413\u043e\u0440\u043e\u0434",
+        "index": 18
+    },
+    {
+        "de": "Hier",
+        "en": "Here",
+        "ru": "\u0417\u0434\u0435\u0441\u044c",
+        "index": 19
+    },
+    {
+        "de": "Das Dokument",
+        "en": "Document",
+        "ru": "\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442",
+        "index": 20
+    },
+    {
+        "de": "Das Original",
+        "en": "Original",
+        "ru": "\u041e\u0440\u0438\u0433\u0438\u043d\u0430\u043b",
+        "index": 21
+    },
+    {
+        "de": "Die Kopie",
+        "en": "Copy",
+        "ru": "\u041a\u043e\u043f\u0438\u044f",
+        "index": 22
+    },
+    {
+        "de": "Abgeben",
+        "en": "To Hand In",
+        "ru": "\u0421\u0434\u0430\u0442\u044c",
+        "index": 23
+    },
+    {
+        "de": "Behalten",
+        "en": "To Keep",
+        "ru": "\u041e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0421\u0435\u0431\u0435",
+        "index": 24
+    },
+    {
+        "de": "Zeigen",
+        "en": "To Show",
+        "ru": "\u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c",
+        "index": 25
+    },
+    {
+        "de": "Der Gl\u00fcckwunsch",
+        "en": "Congratulations",
+        "ru": "\u041f\u043e\u0437\u0434\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+        "index": 26
+    },
+    {
+        "de": "Herzlich",
+        "en": "Sincere / Cordial",
+        "ru": "\u0421\u0435\u0440\u0434\u0435\u0447\u043d\u043e / \u041e\u0442 \u0414\u0443\u0448\u0438",
+        "index": 27
+    },
+    {
+        "de": "Deutsch",
+        "en": "German",
+        "ru": "\u041d\u0435\u043c\u0435\u0446\u043a\u0438\u0439",
+        "index": 28
+    },
+    {
+        "de": "Die Staatsangeh\u00f6rigkeit",
+        "en": "Citizenship",
+        "ru": "\u0413\u0440\u0430\u0436\u0434\u0430\u043d\u0441\u0442\u0432\u043e",
+        "index": 29
+    },
+    {
+        "de": "Die Nationalit\u00e4t",
+        "en": "Nationality",
+        "ru": "\u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u044c",
+        "index": 30
+    },
+    {
+        "de": "Das Bekenntnis",
+        "en": "Commitment / Declaration",
+        "ru": "\u0417\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u0435 / \u041f\u0440\u0438\u0437\u043d\u0430\u043d\u0438\u0435",
+        "index": 31
+    },
+    {
+        "de": "Das Grundgesetz",
+        "en": "Basic Law (Constitution)",
+        "ru": "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u0417\u0430\u043a\u043e\u043d (\u041a\u043e\u043d\u0441\u0442\u0438\u0442\u0443\u0446\u0438\u044f)",
+        "index": 32
+    },
+    {
+        "de": "Loyal",
+        "en": "Loyal",
+        "ru": "\u041b\u043e\u044f\u043b\u044c\u043d\u044b\u0439",
+        "index": 33
+    },
+    {
+        "de": "Die Erkl\u00e4rung",
+        "en": "Declaration",
+        "ru": "\u041e\u0431\u044a\u044f\u0441\u043d\u0435\u043d\u0438\u0435 / \u0414\u0435\u043a\u043b\u0430\u0440\u0430\u0446\u0438\u044f",
+        "index": 34
+    },
+    {
+        "de": "Die Geb\u00fchr",
+        "en": "Fee",
+        "ru": "\u041f\u043e\u0448\u043b\u0438\u043d\u0430 / \u0421\u0431\u043e\u0440",
+        "index": 35
+    },
+    {
+        "de": "Bezahlen",
+        "en": "To Pay",
+        "ru": "\u041f\u043b\u0430\u0442\u0438\u0442\u044c",
+        "index": 36
+    },
+    {
+        "de": "Die Kasse",
+        "en": "Cash Desk",
+        "ru": "\u041a\u0430\u0441\u0441\u0430",
+        "index": 37
+    },
+    {
+        "de": "Die Quittung",
+        "en": "Receipt",
+        "ru": "\u041a\u0432\u0438\u0442\u0430\u043d\u0446\u0438\u044f",
+        "index": 38
+    },
+    {
+        "de": "Die Wartenummer",
+        "en": "Waiting Number",
+        "ru": "\u041d\u043e\u043c\u0435\u0440 \u0412 \u041e\u0447\u0435\u0440\u0435\u0434\u0438",
+        "index": 39
+    },
+    {
+        "de": "Der Schalter",
+        "en": "Counter",
+        "ru": "\u041e\u043a\u043d\u043e / \u0421\u0442\u043e\u0439\u043a\u0430",
+        "index": 40
+    },
+    {
+        "de": "Das Zimmer",
+        "en": "Room",
+        "ru": "\u041a\u043e\u043c\u043d\u0430\u0442\u0430 / \u041a\u0430\u0431\u0438\u043d\u0435\u0442",
+        "index": 41
+    },
+    {
+        "de": "Der Platz",
+        "en": "Seat / Place",
+        "ru": "\u041c\u0435\u0441\u0442\u043e",
+        "index": 42
+    },
+    {
+        "de": "Nehmen",
+        "en": "To Take",
+        "ru": "\u0412\u0437\u044f\u0442\u044c",
+        "index": 43
+    },
+    {
+        "de": "Haben",
+        "en": "To Have",
+        "ru": "\u0418\u043c\u0435\u0442\u044c",
+        "index": 44
+    },
+    {
+        "de": "Sein",
+        "en": "To Be",
+        "ru": "\u0411\u044b\u0442\u044c",
+        "index": 45
+    },
+    {
+        "de": "Bringen",
+        "en": "To Bring",
+        "ru": "\u041f\u0440\u0438\u043d\u0435\u0441\u0442\u0438",
+        "index": 46
+    },
+    {
+        "de": "Mitbringen",
+        "en": "To Bring Along",
+        "ru": "\u041f\u0440\u0438\u043d\u0435\u0441\u0442\u0438 \u0421 \u0421\u043e\u0431\u043e\u0439",
+        "index": 47
+    },
+    {
+        "de": "Lesen",
+        "en": "To Read",
+        "ru": "\u0427\u0438\u0442\u0430\u0442\u044c",
+        "index": 48
+    },
+    {
+        "de": "Verstehen",
+        "en": "To Understand",
+        "ru": "\u041f\u043e\u043d\u0438\u043c\u0430\u0442\u044c",
+        "index": 49
+    },
+    {
+        "de": "Warten",
+        "en": "To Wait",
+        "ru": "\u0416\u0434\u0430\u0442\u044c",
+        "index": 50
+    },
+    {
+        "de": "Der Aufruf",
+        "en": "Call / Summons",
+        "ru": "\u0412\u044b\u0437\u043e\u0432",
+        "index": 51
+    },
+    {
+        "de": "Aufrufen",
+        "en": "To Call Out",
+        "ru": "\u0412\u044b\u0437\u044b\u0432\u0430\u0442\u044c",
+        "index": 52
+    },
+    {
+        "de": "Die Beamtin",
+        "en": "Female Official",
+        "ru": "\u0427\u0438\u043d\u043e\u0432\u043d\u0438\u0446\u0430",
+        "index": 53
+    },
+    {
+        "de": "Der Beamter",
+        "en": "Male Official",
+        "ru": "\u0427\u0438\u043d\u043e\u0432\u043d\u0438\u043a",
+        "index": 54
+    },
+    {
+        "de": "Der Mitarbeiter",
+        "en": "Employee",
+        "ru": "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+        "index": 55
+    },
+    {
+        "de": "Das B\u00fcrgeramt",
+        "en": "Citizens' Office",
+        "ru": "\u0426\u0435\u043d\u0442\u0440 \u041e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0413\u0440\u0430\u0436\u0434\u0430\u043d",
+        "index": 56
+    },
+    {
+        "de": "Die Ausl\u00e4nderbeh\u00f6rde",
+        "en": "Foreigners' Authority",
+        "ru": "\u0412\u0435\u0434\u043e\u043c\u0441\u0442\u0432\u043e \u041f\u043e \u0414\u0435\u043b\u0430\u043c \u0418\u043d\u043e\u0441\u0442\u0440\u0430\u043d\u0446\u0435\u0432",
+        "index": 57
+    },
+    {
+        "de": "Beantragen",
+        "en": "To Apply For",
+        "ru": "\u041f\u043e\u0434\u0430\u0432\u0430\u0442\u044c \u0417\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u0435",
+        "index": 58
+    },
+    {
+        "de": "Der Antrag",
+        "en": "Application",
+        "ru": "\u0417\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u0435",
+        "index": 59
+    },
+    {
+        "de": "Neu",
+        "en": "New",
+        "ru": "\u041d\u043e\u0432\u044b\u0439",
+        "index": 60
+    },
+    {
+        "de": "Alt",
+        "en": "Old",
+        "ru": "\u0421\u0442\u0430\u0440\u044b\u0439",
+        "index": 61
+    },
+    {
+        "de": "G\u00fcltig",
+        "en": "Valid",
+        "ru": "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 62
+    },
+    {
+        "de": "Ung\u00fcltig",
+        "en": "Invalid",
+        "ru": "\u041d\u0435\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+        "index": 63
+    },
+    {
+        "de": "Der Personalausweis",
+        "en": "Identity Card",
+        "ru": "\u0423\u0434\u043e\u0441\u0442\u043e\u0432\u0435\u0440\u0435\u043d\u0438\u0435 \u041b\u0438\u0447\u043d\u043e\u0441\u0442\u0438",
+        "index": 64
+    },
+    {
+        "de": "Der Reisepass",
+        "en": "Passport",
+        "ru": "\u0417\u0430\u0433\u0440\u0430\u043d\u043f\u0430\u0441\u043f\u043e\u0440\u0442",
+        "index": 65
+    },
+    {
+        "de": "Das Passbild",
+        "en": "Passport Photo",
+        "ru": "\u0424\u043e\u0442\u043e \u041d\u0430 \u041f\u0430\u0441\u043f\u043e\u0440\u0442",
+        "index": 66
+    },
+    {
+        "de": "Biometrisch",
+        "en": "Biometric",
+        "ru": "\u0411\u0438\u043e\u043c\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+        "index": 67
+    },
+    {
+        "de": "Der Fingerabdruck",
+        "en": "Fingerprint",
+        "ru": "\u041e\u0442\u043f\u0435\u0447\u0430\u0442\u043e\u043a \u041f\u0430\u043b\u044c\u0446\u0430",
+        "index": 68
+    },
+    {
+        "de": "Wichtig",
+        "en": "Important",
+        "ru": "\u0412\u0430\u0436\u043d\u044b\u0439",
+        "index": 69
+    },
+    {
+        "de": "Richtig",
+        "en": "Correct",
+        "ru": "\u041f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439",
+        "index": 70
+    },
+    {
+        "de": "Falsch",
+        "en": "Wrong",
+        "ru": "\u041d\u0435\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439",
+        "index": 71
+    },
+    {
+        "de": "Genau",
+        "en": "Exactly",
+        "ru": "\u0422\u043e\u0447\u043d\u043e",
+        "index": 72
+    },
+    {
+        "de": "P\u00fcnktlich",
+        "en": "Punctual / On Time",
+        "ru": "\u041f\u0443\u043d\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 / \u0412\u043e\u0432\u0440\u0435\u043c\u044f",
+        "index": 73
+    },
+    {
+        "de": "Heute",
+        "en": "Today",
+        "ru": "\u0421\u0435\u0433\u043e\u0434\u043d\u044f",
+        "index": 74
+    },
+    {
+        "de": "Jetzt",
+        "en": "Now",
+        "ru": "\u0421\u0435\u0439\u0447\u0430\u0441",
+        "index": 75
+    },
+    {
+        "de": "Gleich",
+        "en": "Immediately / Shortly",
+        "ru": "\u0421\u043a\u043e\u0440\u043e / \u0421\u0435\u0439\u0447\u0430\u0441 \u0416\u0435",
+        "index": 76
+    },
+    {
+        "de": "Sofort",
+        "en": "Right Away",
+        "ru": "\u041d\u0435\u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e",
+        "index": 77
+    },
+    {
+        "de": "Der Tag",
+        "en": "Day",
+        "ru": "\u0414\u0435\u043d\u044c",
+        "index": 78
+    },
+    {
+        "de": "Guten",
+        "en": "Good",
+        "ru": "\u0425\u043e\u0440\u043e\u0448\u0438\u0439",
+        "index": 79
+    },
+    {
+        "de": "Der Morgen",
+        "en": "Morning",
+        "ru": "\u0423\u0442\u0440\u043e",
+        "index": 80
+    },
+    {
+        "de": "Die Entschuldigung",
+        "en": "Excuse Me / Apology",
+        "ru": "\u0418\u0437\u0432\u0438\u043d\u0435\u043d\u0438\u0435",
+        "index": 81
+    },
+    {
+        "de": "Ja",
+        "en": "Yes",
+        "ru": "\u0414\u0430",
+        "index": 82
+    },
+    {
+        "de": "Nein",
+        "en": "No",
+        "ru": "\u041d\u0435\u0442",
+        "index": 83
+    },
+    {
+        "de": "Die Einladung",
+        "en": "Invitation",
+        "ru": "\u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435",
+        "index": 84
+    },
+    {
+        "de": "Der Brief",
+        "en": "Letter",
+        "ru": "\u041f\u0438\u0441\u044c\u043c\u043e",
+        "index": 85
+    },
+    {
+        "de": "Die Post",
+        "en": "Mail",
+        "ru": "\u041f\u043e\u0447\u0442\u0430",
+        "index": 86
+    },
+    {
+        "de": "Das Formular",
+        "en": "Form",
+        "ru": "\u0411\u043b\u0430\u043d\u043a / \u0424\u043e\u0440\u043c\u0443\u043b\u044f\u0440",
+        "index": 87
+    },
+    {
+        "de": "Ausf\u00fcllen",
+        "en": "To Fill Out",
+        "ru": "\u0417\u0430\u043f\u043e\u043b\u043d\u0438\u0442\u044c",
+        "index": 88
+    },
+    {
+        "de": "Die Seite",
+        "en": "Page",
+        "ru": "\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430",
+        "index": 89
+    },
+    {
+        "de": "Der Stift",
+        "en": "Pen",
+        "ru": "\u0420\u0443\u0447\u043a\u0430",
+        "index": 90
+    },
+    {
+        "de": "Der Kugelschreiber",
+        "en": "Ballpoint Pen",
+        "ru": "\u0428\u0430\u0440\u0438\u043a\u043e\u0432\u0430\u044f \u0420\u0443\u0447\u043a\u0430",
+        "index": 91
+    },
+    {
+        "de": "Der Stempel",
+        "en": "Stamp",
+        "ru": "\u0428\u0442\u0430\u043c\u043f / \u041f\u0435\u0447\u0430\u0442\u044c",
+        "index": 92
+    },
+    {
+        "de": "Das Siegel",
+        "en": "Seal",
+        "ru": "\u0413\u0435\u0440\u0431\u043e\u0432\u0430\u044f \u041f\u0435\u0447\u0430\u0442\u044c",
+        "index": 93
+    },
+    {
+        "de": "Die Meldebescheinigung",
+        "en": "Registration Certificate",
+        "ru": "\u0421\u043f\u0440\u0430\u0432\u043a\u0430 \u041e \u041f\u0440\u043e\u043f\u0438\u0441\u043a\u0435",
+        "index": 94
+    },
+    {
+        "de": "Der Wohnsitz",
+        "en": "Place Of Residence",
+        "ru": "\u041c\u0435\u0441\u0442\u043e \u0416\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430",
+        "index": 95
+    },
+    {
+        "de": "Die Adresse",
+        "en": "Address",
+        "ru": "\u0410\u0434\u0440\u0435\u0441",
+        "index": 96
+    },
+    {
+        "de": "Die Stra\u00dfe",
+        "en": "Street",
+        "ru": "\u0423\u043b\u0438\u0446\u0430",
+        "index": 97
+    },
+    {
+        "de": "Die Hausnummer",
+        "en": "House Number",
+        "ru": "\u041d\u043e\u043c\u0435\u0440 \u0414\u043e\u043c\u0430",
+        "index": 98
+    },
+    {
+        "de": "Die Stadt",
+        "en": "City",
+        "ru": "\u0413\u043e\u0440\u043e\u0434",
+        "index": 99
+    },
+    {
+        "de": "Deutschland",
+        "en": "Germany",
+        "ru": "\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f",
+        "index": 100
+    },
+    {
+        "de": "Die Bundesrepublik",
+        "en": "Federal Republic",
+        "ru": "\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+        "index": 101
+    },
+    {
+        "de": "Das Land",
+        "en": "Country / State",
+        "ru": "\u0421\u0442\u0440\u0430\u043d\u0430 / \u0417\u0435\u043c\u043b\u044f",
+        "index": 102
+    },
+    {
+        "de": "Das Heimatland",
+        "en": "Home Country",
+        "ru": "\u0420\u043e\u0434\u0438\u043d\u0430",
+        "index": 103
+    },
+    {
+        "de": "Die Entlassung",
+        "en": "Release / Renunciation",
+        "ru": "\u0412\u044b\u0445\u043e\u0434 (\u0418\u0437 \u0413\u0440\u0430\u0436\u0434\u0430\u043d\u0441\u0442\u0432\u0430)",
+        "index": 104
+    },
+    {
+        "de": "Die Best\u00e4tigung",
+        "en": "Confirmation",
+        "ru": "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435",
+        "index": 105
+    },
+    {
+        "de": "Best\u00e4tigen",
+        "en": "To Confirm",
+        "ru": "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044c",
+        "index": 106
+    },
+    {
+        "de": "Der Eid",
+        "en": "Oath",
+        "ru": "\u041a\u043b\u044f\u0442\u0432\u0430",
+        "index": 107
+    },
+    {
+        "de": "Schw\u00f6ren",
+        "en": "To Swear",
+        "ru": "\u041a\u043b\u044f\u0441\u0442\u044c\u0441\u044f",
+        "index": 108
+    },
+    {
+        "de": "Die Treue",
+        "en": "Loyalty",
+        "ru": "\u0412\u0435\u0440\u043d\u043e\u0441\u0442\u044c",
+        "index": 109
+    },
+    {
+        "de": "Das Gesetz",
+        "en": "Law",
+        "ru": "\u0417\u0430\u043a\u043e\u043d",
+        "index": 110
+    },
+    {
+        "de": "Das Recht",
+        "en": "Right / Law",
+        "ru": "\u041f\u0440\u0430\u0432\u043e",
+        "index": 111
+    },
+    {
+        "de": "Die Pflicht",
+        "en": "Duty",
+        "ru": "\u041e\u0431\u044f\u0437\u0430\u043d\u043d\u043e\u0441\u0442\u044c",
+        "index": 112
+    },
+    {
+        "de": "Feierlich",
+        "en": "Solemn / Festive",
+        "ru": "\u0422\u043e\u0440\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+        "index": 113
+    },
+    {
+        "de": "Die Feier",
+        "en": "Ceremony / Celebration",
+        "ru": "\u041f\u0440\u0430\u0437\u0434\u043d\u043e\u0432\u0430\u043d\u0438\u0435 / \u0426\u0435\u0440\u0435\u043c\u043e\u043d\u0438\u044f",
+        "index": 114
+    },
+    {
+        "de": "Stolz",
+        "en": "Proud",
+        "ru": "\u0413\u043e\u0440\u0434\u044b\u0439",
+        "index": 115
+    },
+    {
+        "de": "Froh",
+        "en": "Glad",
+        "ru": "\u0420\u0430\u0434\u043e\u0441\u0442\u043d\u044b\u0439",
+        "index": 116
+    },
+    {
+        "de": "Gratulieren",
+        "en": "To Congratulate",
+        "ru": "\u041f\u043e\u0437\u0434\u0440\u0430\u0432\u043b\u044f\u0442\u044c",
+        "index": 117
+    },
+    {
+        "de": "Aush\u00e4ndigen",
+        "en": "To Hand Over",
+        "ru": "\u0412\u0440\u0443\u0447\u0430\u0442\u044c",
+        "index": 118
+    },
+    {
+        "de": "Pr\u00fcfen",
+        "en": "To Check",
+        "ru": "\u041f\u0440\u043e\u0432\u0435\u0440\u044f\u0442\u044c",
+        "index": 119
+    },
+    {
+        "de": "Kontrollieren",
+        "en": "To Control / Check",
+        "ru": "\u041a\u043e\u043d\u0442\u0440\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+        "index": 120
+    },
+    {
+        "de": "Verlieren",
+        "en": "To Lose",
+        "ru": "\u0422\u0435\u0440\u044f\u0442\u044c",
+        "index": 121
+    },
+    {
+        "de": "Machen",
+        "en": "To Do / Make",
+        "ru": "\u0414\u0435\u043b\u0430\u0442\u044c",
+        "index": 122
+    },
+    {
+        "de": "Tun",
+        "en": "To Do",
+        "ru": "\u0414\u0435\u043b\u0430\u0442\u044c (\u0414\u0435\u0439\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c)",
+        "index": 123
+    },
+    {
+        "de": "Sagen",
+        "en": "To Say",
+        "ru": "\u0421\u043a\u0430\u0437\u0430\u0442\u044c",
+        "index": 124
+    },
+    {
+        "de": "Fragen",
+        "en": "To Ask",
+        "ru": "\u0421\u043f\u0440\u0430\u0448\u0438\u0432\u0430\u0442\u044c",
+        "index": 125
+    },
+    {
+        "de": "Antworten",
+        "en": "To Answer",
+        "ru": "\u041e\u0442\u0432\u0435\u0447\u0430\u0442\u044c",
+        "index": 126
+    },
+    {
+        "de": "Wissen",
+        "en": "To Know",
+        "ru": "\u0417\u043d\u0430\u0442\u044c",
+        "index": 127
+    },
+    {
+        "de": "Sehen",
+        "en": "To See",
+        "ru": "\u0412\u0438\u0434\u0435\u0442\u044c",
+        "index": 128
+    },
+    {
+        "de": "Finden",
+        "en": "To Find",
+        "ru": "\u041d\u0430\u0445\u043e\u0434\u0438\u0442\u044c",
+        "index": 129
+    },
+    {
+        "de": "Suchen",
+        "en": "To Search",
+        "ru": "\u0418\u0441\u043a\u0430\u0442\u044c",
+        "index": 130
+    },
+    {
+        "de": "Geben",
+        "en": "To Give",
+        "ru": "\u0414\u0430\u0432\u0430\u0442\u044c",
+        "index": 131
+    },
+    {
+        "de": "Stehen",
+        "en": "To Stand",
+        "ru": "\u0421\u0442\u043e\u044f\u0442\u044c",
+        "index": 132
+    },
+    {
+        "de": "Sitzen",
+        "en": "To Sit",
+        "ru": "\u0421\u0438\u0434\u0435\u0442\u044c",
+        "index": 133
+    },
+    {
+        "de": "Gehen",
+        "en": "To Go",
+        "ru": "\u0418\u0434\u0442\u0438",
+        "index": 134
+    },
+    {
+        "de": "Kommen",
+        "en": "To Come",
+        "ru": "\u041f\u0440\u0438\u0445\u043e\u0434\u0438\u0442\u044c",
+        "index": 135
+    },
+    {
+        "de": "Kosten",
+        "en": "To Cost",
+        "ru": "\u0421\u0442\u043e\u0438\u0442\u044c",
+        "index": 136
+    },
+    {
+        "de": "M\u00fcssen",
+        "en": "Must",
+        "ru": "\u0414\u043e\u043b\u0436\u0435\u043d (\u0411\u044b\u0442\u044c \u041e\u0431\u044f\u0437\u0430\u043d\u043d\u044b\u043c)",
+        "index": 137
+    },
+    {
+        "de": "K\u00f6nnen",
+        "en": "Can",
+        "ru": "\u041c\u043e\u0447\u044c",
+        "index": 138
+    },
+    {
+        "de": "Sollen",
+        "en": "Should",
+        "ru": "\u0414\u043e\u043b\u0436\u0435\u043d (\u0421\u043b\u0435\u0434\u0443\u0435\u0442)",
+        "index": 139
+    },
+    {
+        "de": "D\u00fcrfen",
+        "en": "May / Allowed To",
+        "ru": "\u0418\u043c\u0435\u0442\u044c \u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435",
+        "index": 140
+    },
+    {
+        "de": "M\u00f6chten",
+        "en": "Would Like",
+        "ru": "\u0425\u043e\u0442\u0435\u0442\u044c \u0411\u044b",
+        "index": 141
+    },
+    {
+        "de": "Werden",
+        "en": "Will / Become",
+        "ru": "\u0421\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c\u0441\u044f / \u0411\u0443\u0434\u0443",
+        "index": 142
+    },
+    {
+        "de": "Der",
+        "en": "The (Masculine)",
+        "ru": "\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0439 \u0410\u0440\u0442\u0438\u043a\u043b\u044c (\u041c\u0443\u0436.\u0420.)",
+        "index": 143
+    },
+    {
+        "de": "Die",
+        "en": "The (Feminine/Plural)",
+        "ru": "\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0439 \u0410\u0440\u0442\u0438\u043a\u043b\u044c (\u0416\u0435\u043d.\u0420./\u041c\u043d.\u0427.)",
+        "index": 144
+    },
+    {
+        "de": "Das",
+        "en": "The (Neuter)",
+        "ru": "\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0439 \u0410\u0440\u0442\u0438\u043a\u043b\u044c (\u0421\u0440.\u0420.)",
+        "index": 145
+    },
+    {
+        "de": "Ein",
+        "en": "A / An (Masc/Neut)",
+        "ru": "\u041d\u0435\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0439 \u0410\u0440\u0442\u0438\u043a\u043b\u044c (\u041c\u0443\u0436./\u0421\u0440.\u0420.)",
+        "index": 146
+    },
+    {
+        "de": "Eine",
+        "en": "A / An (Fem)",
+        "ru": "\u041d\u0435\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0439 \u0410\u0440\u0442\u0438\u043a\u043b\u044c (\u0416\u0435\u043d.\u0420.)",
+        "index": 147
+    },
+    {
+        "de": "Mein",
+        "en": "My",
+        "ru": "\u041c\u043e\u0439",
+        "index": 148
+    },
+    {
+        "de": "Ihr",
+        "en": "Your (Formal)",
+        "ru": "\u0412\u0430\u0448 (\u0412\u0435\u0436\u043b\u0438\u0432\u043e)",
+        "index": 149
+    },
+    {
+        "de": "Ich",
+        "en": "I",
+        "ru": "\u042f",
+        "index": 150
+    },
+    {
+        "de": "Sie",
+        "en": "You (Formal) / They",
+        "ru": "\u0412\u044b (\u0412\u0435\u0436\u043b\u0438\u0432\u043e) / \u041e\u043d\u0438",
+        "index": 151
+    },
+    {
+        "de": "Wir",
+        "en": "We",
+        "ru": "\u041c\u044b",
+        "index": 152
+    },
+    {
+        "de": "Mich",
+        "en": "Me (Accusative)",
+        "ru": "\u041c\u0435\u043d\u044f",
+        "index": 153
+    },
+    {
+        "de": "Mir",
+        "en": "To Me (Dative)",
+        "ru": "\u041c\u043d\u0435",
+        "index": 154
+    },
+    {
+        "de": "Sich",
+        "en": "Oneself",
+        "ru": "\u0421\u0435\u0431\u044f",
+        "index": 155
+    },
+    {
+        "de": "In",
+        "en": "In",
+        "ru": "\u0412",
+        "index": 156
+    },
+    {
+        "de": "An",
+        "en": "At / On",
+        "ru": "\u041d\u0430 / \u0423",
+        "index": 157
+    },
+    {
+        "de": "Auf",
+        "en": "On",
+        "ru": "\u041d\u0430",
+        "index": 158
+    },
+    {
+        "de": "Von",
+        "en": "From / Of",
+        "ru": "\u041e\u0442 / \u0418\u0437",
+        "index": 159
+    },
+    {
+        "de": "Zu",
+        "en": "To",
+        "ru": "\u041a",
+        "index": 160
+    },
+    {
+        "de": "Mit",
+        "en": "With",
+        "ru": "\u0421",
+        "index": 161
+    },
+    {
+        "de": "F\u00fcr",
+        "en": "For",
+        "ru": "\u0414\u043b\u044f",
+        "index": 162
+    },
+    {
+        "de": "Bei",
+        "en": "At / With",
+        "ru": "\u0423 / \u041f\u0440\u0438",
+        "index": 163
+    },
+    {
+        "de": "Nach",
+        "en": "After / To",
+        "ru": "\u041f\u043e\u0441\u043b\u0435 / \u0412 (\u041d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435)",
+        "index": 164
+    },
+    {
+        "de": "Aus",
+        "en": "From / Out Of",
+        "ru": "\u0418\u0437",
+        "index": 165
+    },
+    {
+        "de": "\u00dcber",
+        "en": "Over / About",
+        "ru": "\u041d\u0430\u0434 / \u041e",
+        "index": 166
+    },
+    {
+        "de": "Vor",
+        "en": "Before / In Front Of",
+        "ru": "\u041f\u0435\u0440\u0435\u0434 / \u0414\u043e",
+        "index": 167
+    },
+    {
+        "de": "Die Beh\u00f6rde",
+        "en": "Authority / Agency",
+        "ru": "\u0412\u0435\u0434\u043e\u043c\u0441\u0442\u0432\u043e",
+        "index": 168
+    },
+    {
+        "de": "Das Amt",
+        "en": "Office / Department",
+        "ru": "\u0423\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435",
+        "index": 169
+    },
+    {
+        "de": "Das Rathaus",
+        "en": "Town Hall",
+        "ru": "\u0420\u0430\u0442\u0443\u0448\u0430 (\u041c\u044d\u0440\u0438\u044f)",
+        "index": 170
+    },
+    {
+        "de": "Die Anmeldung",
+        "en": "Registration",
+        "ru": "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f / \u041f\u0440\u043e\u043f\u0438\u0441\u043a\u0430",
+        "index": 171
+    },
+    {
+        "de": "Die Abmeldung",
+        "en": "Deregistration",
+        "ru": "\u0421\u043d\u044f\u0442\u0438\u0435 \u0421 \u0423\u0447\u0435\u0442\u0430 / \u0412\u044b\u043f\u0438\u0441\u043a\u0430",
+        "index": 172
+    },
+    {
+        "de": "Die Geburtsurkunde",
+        "en": "Birth Certificate",
+        "ru": "\u0421\u0432\u0438\u0434\u0435\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e \u041e \u0420\u043e\u0436\u0434\u0435\u043d\u0438\u0438",
+        "index": 173
+    },
+    {
+        "de": "Die Heiratsurkunde",
+        "en": "Marriage Certificate",
+        "ru": "\u0421\u0432\u0438\u0434\u0435\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e \u041e \u0411\u0440\u0430\u043a\u0435",
+        "index": 174
+    },
+    {
+        "de": "Der Familienstand",
+        "en": "Marital Status",
+        "ru": "\u0421\u0435\u043c\u0435\u0439\u043d\u043e\u0435 \u041f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+        "index": 175
+    },
+    {
+        "de": "Ledig",
+        "en": "Single",
+        "ru": "\u0425\u043e\u043b\u043e\u0441\u0442 / \u041d\u0435 \u0417\u0430\u043c\u0443\u0436\u0435\u043c",
+        "index": 176
+    },
+    {
+        "de": "Verheiratet",
+        "en": "Married",
+        "ru": "\u0416\u0435\u043d\u0430\u0442 / \u0417\u0430\u043c\u0443\u0436\u0435\u043c",
+        "index": 177
+    },
+    {
+        "de": "Geschieden",
+        "en": "Divorced",
+        "ru": "\u0412 \u0420\u0430\u0437\u0432\u043e\u0434\u0435",
+        "index": 178
+    },
+    {
+        "de": "Das Kind",
+        "en": "Child",
+        "ru": "\u0420\u0435\u0431\u0435\u043d\u043e\u043a",
+        "index": 179
+    },
+    {
+        "de": "Der Ehepartner",
+        "en": "Spouse",
+        "ru": "\u0421\u0443\u043f\u0440\u0443\u0433(\u0410)",
+        "index": 180
+    },
+    {
+        "de": "Die Familie",
+        "en": "Family",
+        "ru": "\u0421\u0435\u043c\u044c\u044f",
+        "index": 181
+    },
+    {
+        "de": "Der Beruf",
+        "en": "Profession",
+        "ru": "\u041f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u044f",
+        "index": 182
+    },
+    {
+        "de": "Die Arbeit",
+        "en": "Work",
+        "ru": "\u0420\u0430\u0431\u043e\u0442\u0430",
+        "index": 183
+    },
+    {
+        "de": "Der Nachweis",
+        "en": "Proof / Evidence",
+        "ru": "\u0414\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e / \u0421\u043f\u0440\u0430\u0432\u043a\u0430",
+        "index": 184
+    },
+    {
+        "de": "Das Zertifikat",
+        "en": "Certificate",
+        "ru": "\u0421\u0435\u0440\u0442\u0438\u0444\u0438\u043a\u0430\u0442",
+        "index": 185
+    },
+    {
+        "de": "Der Einb\u00fcrgerungstest",
+        "en": "Naturalization Test",
+        "ru": "\u0422\u0435\u0441\u0442 \u041d\u0430 \u0413\u0440\u0430\u0436\u0434\u0430\u043d\u0441\u0442\u0432\u043e",
+        "index": 186
+    },
+    {
+        "de": "Das Ergebnis",
+        "en": "Result",
+        "ru": "\u0420\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442",
+        "index": 187
+    },
+    {
+        "de": "Bestanden",
+        "en": "Passed",
+        "ru": "\u0421\u0434\u0430\u043d",
+        "index": 188
+    },
+    {
+        "de": "Die Straftat",
+        "en": "Criminal Offense",
+        "ru": "\u041f\u0440\u0435\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u0435",
+        "index": 189
+    },
+    {
+        "de": "Die Polizei",
+        "en": "Police",
+        "ru": "\u041f\u043e\u043b\u0438\u0446\u0438\u044f",
+        "index": 190
+    },
+    {
+        "de": "Das F\u00fchrungszeugnis",
+        "en": "Certificate Of Good Conduct",
+        "ru": "\u0421\u043f\u0440\u0430\u0432\u043a\u0430 \u041e \u041d\u0435\u0441\u0443\u0434\u0438\u043c\u043e\u0441\u0442\u0438",
+        "index": 191
+    },
+    {
+        "de": "Abholen",
+        "en": "To Pick Up",
+        "ru": "\u0417\u0430\u0431\u0438\u0440\u0430\u0442\u044c",
+        "index": 192
+    },
+    {
+        "de": "Vergessen",
+        "en": "To Forget",
+        "ru": "\u0417\u0430\u0431\u044b\u0432\u0430\u0442\u044c",
+        "index": 193
+    },
+    {
+        "de": "Erinnern",
+        "en": "To Remember",
+        "ru": "\u0412\u0441\u043f\u043e\u043c\u0438\u043d\u0430\u0442\u044c / \u041d\u0430\u043f\u043e\u043c\u0438\u043d\u0430\u0442\u044c",
+        "index": 194
+    },
+    {
+        "de": "Helfen",
+        "en": "To Help",
+        "ru": "\u041f\u043e\u043c\u043e\u0433\u0430\u0442\u044c",
+        "index": 195
+    },
+    {
+        "de": "Bedeuten",
+        "en": "To Mean",
+        "ru": "\u041e\u0437\u043d\u0430\u0447\u0430\u0442\u044c",
+        "index": 196
+    },
+    {
+        "de": "\u00c4ndern",
+        "en": "To Change",
+        "ru": "\u041c\u0435\u043d\u044f\u0442\u044c",
+        "index": 197
+    },
+    {
+        "de": "Leben",
+        "en": "To Live",
+        "ru": "\u0416\u0438\u0442\u044c",
+        "index": 198
+    },
+    {
+        "de": "Feiern",
+        "en": "To Celebrate",
+        "ru": "\u041f\u0440\u0430\u0437\u0434\u043d\u043e\u0432\u0430\u0442\u044c",
+        "index": 199
+    },
+    {
+        "de": "Willkommen",
+        "en": "Welcome",
+        "ru": "\u0414\u043e\u0431\u0440\u043e \u041f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c",
+        "index": 200
+    },
+    {
+        "de": "Tsch\u00fcss",
+        "en": "Bye",
+        "ru": "\u041f\u043e\u043a\u0430",
+        "index": 201
+    },
+    {
+        "de": "Auf Wiedersehen",
+        "en": "Goodbye",
+        "ru": "\u0414\u043e \u0421\u0432\u0438\u0434\u0430\u043d\u0438\u044f",
+        "index": 202
+    },
+    {
+        "de": "Gern",
+        "en": "Gladly",
+        "ru": "\u0421 \u0423\u0434\u043e\u0432\u043e\u043b\u044c\u0441\u0442\u0432\u0438\u0435\u043c",
+        "index": 203
+    },
+    {
+        "de": "Die Etage",
+        "en": "Floor / Story",
+        "ru": "\u042d\u0442\u0430\u0436",
+        "index": 204
+    },
+    {
+        "de": "Der Aufzug",
+        "en": "Elevator",
+        "ru": "\u041b\u0438\u0444\u0442",
+        "index": 205
+    },
+    {
+        "de": "Die Treppe",
+        "en": "Stairs",
+        "ru": "\u041b\u0435\u0441\u0442\u043d\u0438\u0446\u0430",
+        "index": 206
+    },
+    {
+        "de": "Links",
+        "en": "Left",
+        "ru": "\u0421\u043b\u0435\u0432\u0430",
+        "index": 207
+    },
+    {
+        "de": "Rechts",
+        "en": "Right",
+        "ru": "\u0421\u043f\u0440\u0430\u0432\u0430",
+        "index": 208
+    },
+    {
+        "de": "Oben",
+        "en": "Up / Above",
+        "ru": "\u041d\u0430\u0432\u0435\u0440\u0445\u0443",
+        "index": 209
+    },
+    {
+        "de": "Unten",
+        "en": "Down / Below",
+        "ru": "\u0412\u043d\u0438\u0437\u0443",
+        "index": 210
+    },
+    {
+        "de": "Vorne",
+        "en": "Front",
+        "ru": "\u0421\u043f\u0435\u0440\u0435\u0434\u0438",
+        "index": 211
+    },
+    {
+        "de": "Hinten",
+        "en": "Back",
+        "ru": "\u0421\u0437\u0430\u0434\u0438",
+        "index": 212
+    },
+    {
+        "de": "Fertig",
+        "en": "Finished",
+        "ru": "\u0413\u043e\u0442\u043e\u0432\u043e",
+        "index": 213
+    },
+    {
+        "de": "Bereit",
+        "en": "Ready",
+        "ru": "\u0413\u043e\u0442\u043e\u0432",
+        "index": 214
+    },
+    {
+        "de": "Die T\u00fcr",
+        "en": "Door",
+        "ru": "\u0414\u0432\u0435\u0440\u044c",
+        "index": 215
+    },
+    {
+        "de": "Der Flur",
+        "en": "Corridor / Hallway",
+        "ru": "\u041a\u043e\u0440\u0438\u0434\u043e\u0440",
+        "index": 216
+    },
+    {
+        "de": "Der Eingang",
+        "en": "Entrance",
+        "ru": "\u0412\u0445\u043e\u0434",
+        "index": 217
+    },
+    {
+        "de": "Der Ausgang",
+        "en": "Exit",
+        "ru": "\u0412\u044b\u0445\u043e\u0434",
+        "index": 218
+    },
+    {
+        "de": "Der Notausgang",
+        "en": "Emergency Exit",
+        "ru": "\u0417\u0430\u043f\u0430\u0441\u043d\u043e\u0439 \u0412\u044b\u0445\u043e\u0434",
+        "index": 219
+    },
+    {
+        "de": "Die Toilette",
+        "en": "Toilet",
+        "ru": "\u0422\u0443\u0430\u043b\u0435\u0442",
+        "index": 220
+    },
+    {
+        "de": "Geschlossen",
+        "en": "Closed",
+        "ru": "\u0417\u0430\u043a\u0440\u044b\u0442\u043e",
+        "index": 221
+    },
+    {
+        "de": "Ge\u00f6ffnet",
+        "en": "Open",
+        "ru": "\u041e\u0442\u043a\u0440\u044b\u0442\u043e",
+        "index": 222
+    },
+    {
+        "de": "Die Terminbest\u00e4tigung",
+        "en": "Appointment Confirmation",
+        "ru": "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435 \u0417\u0430\u043f\u0438\u0441\u0438",
+        "index": 223
+    },
+    {
+        "de": "Die P\u00fcnktlichkeit",
+        "en": "Punctuality",
+        "ru": "\u041f\u0443\u043d\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u044c",
+        "index": 224
+    },
+    {
+        "de": "Die Versp\u00e4tung",
+        "en": "Delay",
+        "ru": "\u041e\u043f\u043e\u0437\u0434\u0430\u043d\u0438\u0435",
+        "index": 225
+    },
+    {
+        "de": "Das Sprachniveau",
+        "en": "Language Level",
+        "ru": "\u0423\u0440\u043e\u0432\u0435\u043d\u044c \u042f\u0437\u044b\u043a\u0430",
+        "index": 226
+    },
+    {
+        "de": "Die Integration",
+        "en": "Integration",
+        "ru": "\u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f",
+        "index": 227
+    },
+    {
+        "de": "Die Gesellschaft",
+        "en": "Society",
+        "ru": "\u041e\u0431\u0449\u0435\u0441\u0442\u0432\u043e",
+        "index": 228
+    },
+    {
+        "de": "Die Kultur",
+        "en": "Culture",
+        "ru": "\u041a\u0443\u043b\u044c\u0442\u0443\u0440\u0430",
+        "index": 229
+    },
+    {
+        "de": "Die Demokratie",
+        "en": "Democracy",
+        "ru": "\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u044f",
+        "index": 230
+    },
+    {
+        "de": "Die Freiheit",
+        "en": "Freedom",
+        "ru": "\u0421\u0432\u043e\u0431\u043e\u0434\u0430",
+        "index": 231
+    },
+    {
+        "de": "Die Gleichberechtigung",
+        "en": "Equality",
+        "ru": "\u0420\u0430\u0432\u043d\u043e\u043f\u0440\u0430\u0432\u0438\u0435",
+        "index": 232
+    },
+    {
+        "de": "Die Werte",
+        "en": "Values",
+        "ru": "\u0426\u0435\u043d\u043d\u043e\u0441\u0442\u0438",
+        "index": 233
+    },
+    {
+        "de": "Akzeptieren",
+        "en": "To Accept",
+        "ru": "\u041f\u0440\u0438\u043d\u0438\u043c\u0430\u0442\u044c",
+        "index": 234
+    },
+    {
+        "de": "Respektieren",
+        "en": "To Respect",
+        "ru": "\u0423\u0432\u0430\u0436\u0430\u0442\u044c",
+        "index": 235
+    },
+    {
+        "de": "Die Bekenntnisurkunde",
+        "en": "Deed Of Commitment",
+        "ru": "\u0413\u0440\u0430\u043c\u043e\u0442\u0430 \u041e \u041f\u0440\u0438\u0437\u043d\u0430\u043d\u0438\u0438",
+        "index": 236
+    },
+    {
+        "de": "Die Feierlichkeit",
+        "en": "Ceremony / Festivity",
+        "ru": "\u0422\u043e\u0440\u0436\u0435\u0441\u0442\u0432\u043e",
+        "index": 237
+    },
+    {
+        "de": "Der B\u00fcrger",
+        "en": "Citizen (Male)",
+        "ru": "\u0413\u0440\u0430\u0436\u0434\u0430\u043d\u0438\u043d",
+        "index": 238
+    },
+    {
+        "de": "Die B\u00fcrgerin",
+        "en": "Citizen (Female)",
+        "ru": "\u0413\u0440\u0430\u0436\u0434\u0430\u043d\u043a\u0430",
+        "index": 239
+    },
+    {
+        "de": "Der Staatsb\u00fcrger",
+        "en": "National / Citizen",
+        "ru": "\u0413\u0440\u0430\u0436\u0434\u0430\u043d\u0438\u043d \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0430",
+        "index": 240
+    },
+    {
+        "de": "Die Mehrstaatigkeit",
+        "en": "Multiple Nationality",
+        "ru": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0413\u0440\u0430\u0436\u0434\u0430\u043d\u0441\u0442\u0432\u043e",
+        "index": 241
+    },
+    {
+        "de": "Der Doppelpass",
+        "en": "Dual Passport",
+        "ru": "\u0414\u0432\u043e\u0439\u043d\u043e\u0439 \u041f\u0430\u0441\u043f\u043e\u0440\u0442 (\u0413\u0440\u0430\u0436\u0434\u0430\u043d\u0441\u0442\u0432\u043e)",
+        "index": 242
+    },
+    {
+        "de": "Der Passverlust",
+        "en": "Loss Of Passport",
+        "ru": "\u0423\u0442\u0435\u0440\u044f \u041f\u0430\u0441\u043f\u043e\u0440\u0442\u0430",
+        "index": 243
+    },
+    {
+        "de": "Die Einb\u00fcrgerungsbeh\u00f6rde",
+        "en": "Naturalization Authority",
+        "ru": "\u041e\u0440\u0433\u0430\u043d \u041f\u043e \u041d\u0430\u0442\u0443\u0440\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438",
+        "index": 244
+    },
+    {
+        "de": "Der Sachbearbeiter",
+        "en": "Clerk / Case Worker (Male)",
+        "ru": "\u041e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+        "index": 245
+    },
+    {
+        "de": "Die Sachbearbeiterin",
+        "en": "Clerk / Case Worker (Female)",
+        "ru": "\u041e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f \u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u0446\u0430",
+        "index": 246
+    },
+    {
+        "de": "Der Vorgang",
+        "en": "Process / Procedure",
+        "ru": "\u041f\u0440\u043e\u0446\u0435\u0441\u0441 / \u0414\u0435\u043b\u043e",
+        "index": 247
+    },
+    {
+        "de": "Die Akte",
+        "en": "File",
+        "ru": "\u0414\u0435\u043b\u043e (\u041f\u0430\u043f\u043a\u0430 \u0421 \u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u043c\u0438)",
+        "index": 248
+    },
+    {
+        "de": "Das Archiv",
+        "en": "Archive",
+        "ru": "\u0410\u0440\u0445\u0438\u0432",
+        "index": 249
+    },
+    {
+        "de": "Die Zukunft",
+        "en": "Future",
+        "ru": "\u0411\u0443\u0434\u0443\u0449\u0435\u0435",
+        "index": 250
+    }
+]

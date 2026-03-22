@@ -1,0 +1,13 @@
+groups:
+  - title: "Nouns"
+    assetPath: "data/nouns.json"
+    dbKey: "nouns"
+  - title: "Verbs"
+    assetPath: "data/verbs.json"
+    dbKey: "verbs"
+  - title: "Objectives"
+    assetPath: "data/objectives.json"
+    dbKey: "objectives"
+  - title: "Naturalization"
+    assetPath: "data/naturalization.json"
+    dbKey: "naturalization"
