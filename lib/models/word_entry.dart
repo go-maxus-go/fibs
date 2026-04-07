@@ -29,6 +29,15 @@ class WordEntry {
 
   String get enRu => '$en ($ru)';
 
+  String getText(String lang) {
+    switch (lang) {
+      case 'EN': return en;
+      case 'DE': return de;
+      case 'RU': return ru;
+      default: return '';
+    }
+  }
+
   factory WordEntry.fromJson(Map<String, dynamic> json) {
     return WordEntry(
       index: (json['index'] as int?) ?? -1,

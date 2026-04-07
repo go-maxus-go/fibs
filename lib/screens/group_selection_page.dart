@@ -29,6 +29,8 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
   List<WordGroup> _groups = <WordGroup>[];
   final Map<WordGroup, int> _learnedCounts = <WordGroup, int>{};
   final Map<WordGroup, int> _totalCounts = <WordGroup, int>{};
+  final List<String> _availableLanguages = <String>['EN', 'DE', 'RU'];
+  final Set<String> _selectedLanguages = <String>{'DE', 'EN'};
 
   @override
   void initState() {
@@ -84,9 +86,15 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
   }
 
   Future<void> _navigateToQuiz(WordGroup group) async {
+    if (_selectedLanguages.length != 2) return;
+    final List<String> langs = _selectedLanguages.toList();
     await Navigator.of(context).push(
       MaterialPageRoute<void>(
-        builder: (_) => QuizPage(group: group),
+        builder: (_) => QuizPage(
+          group: group,
+          lang1: langs[0],
+          lang2: langs[1],
+        ),
       ),
     );
     if (!mounted) {
@@ -143,59 +151,93 @@ class _GroupSelectionViewState extends State<_GroupSelectionView> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Choose Word Group'),
-        actions: <Widget>[
-          IconButton(
-            icon: const Icon(Icons.refresh),
-            tooltip: 'Reset Progress',
-            onPressed: () async {
-              final bool? confirm = await showDialog<bool>(
-                context: context,
-                builder: (BuildContext context) {
-                  return AlertDialog(
-                    title: const Text('Reset Progress'),
-                    content: const Text('Are you sure you want to wipe all progress?'),
-                    actions: <Widget>[
-                      TextButton(
-                        onPressed: () => Navigator.of(context).pop(false),
-                        child: const Text('Cancel'),
-                      ),
-                      TextButton(
-                        onPressed: () => Navigator.of(context).pop(true),
-                        child: const Text('Reset'),
-                      ),
-                    ],
-                  );
-                },
-              );
-
-              if (confirm == true && mounted) {
-                setState(() {
-                  _isPreparing = true;
-                });
-                await QuizDatabase.instance.resetDatabase();
-                await _prepareDatabase();
-              }
-            },
-          ),
-        ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: _groups.map((WordGroup group) {
-            return Padding(
-              padding: const EdgeInsets.only(bottom: 12),
-              child: _GroupButton(
-                label: group.title,
-                group: group,
-                learnedCount: _learnedCounts[group] ?? 0,
-                totalCount: _totalCounts[group] ?? 0,
-                onPressed: () => _navigateToQuiz(group),
+          children: <Widget>[
+            const Text(
+              'Select exactly 2 languages:',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 8),
+            Wrap(
+              spacing: 8,
+              children: _availableLanguages.map((String lang) {
+                return FilterChip(
+                  label: Text(lang),
+                  selected: _selectedLanguages.contains(lang),
+                  onSelected: (bool selected) {
+                    setState(() {
+                      if (selected) {
+                        if (_selectedLanguages.length == 2) {
+                          _selectedLanguages.remove(_selectedLanguages.first);
+                        }
+                        _selectedLanguages.add(lang);
+                      } else {
+                        _selectedLanguages.remove(lang);
+                      }
+                    });
+                  },
+                );
+              }).toList(),
+            ),
+            const SizedBox(height: 16),
+            if (_selectedLanguages.length != 2)
+              const Text(
+                'Please select exactly 2 languages to continue.',
+                style: TextStyle(color: Colors.red),
               ),
-            );
-          }).toList(),
+            const SizedBox(height: 16),
+            Expanded(
+              child: ListView(
+                children: _groups.map((WordGroup group) {
+                  return Padding(
+                    padding: const EdgeInsets.only(bottom: 12),
+                    child: _GroupButton(
+                      label: group.title,
+                      group: group,
+                      learnedCount: _learnedCounts[group] ?? 0,
+                      totalCount: _totalCounts[group] ?? 0,
+                      onPressed: _selectedLanguages.length == 2
+                          ? () => _navigateToQuiz(group)
+                          : null,
+                      onReset: () async {
+                        final bool? confirm = await showDialog<bool>(
+                          context: context,
+                          builder: (BuildContext context) {
+                            return AlertDialog(
+                              title: const Text('Reset Group'),
+                              content: Text('Are you sure you want to wipe all progress for "${group.title}"?'),
+                              actions: <Widget>[
+                                TextButton(
+                                  onPressed: () => Navigator.of(context).pop(false),
+                                  child: const Text('Cancel'),
+                                ),
+                                TextButton(
+                                  onPressed: () => Navigator.of(context).pop(true),
+                                  child: const Text('Reset'),
+                                ),
+                              ],
+                            );
+                          },
+                        );
+
+                        if (confirm == true && mounted) {
+                          setState(() {
+                            _isPreparing = true;
+                          });
+                          await QuizDatabase.instance.resetGroup(group);
+                          await _prepareDatabase();
+                        }
+                      },
+                    ),
+                  );
+                }).toList(),
+              ),
+            ),
+          ],
         ),
       ),
     );
@@ -209,43 +251,57 @@ class _GroupButton extends StatelessWidget {
     required this.learnedCount,
     required this.totalCount,
     required this.onPressed,
+    required this.onReset,
   });
 
   final String label;
   final WordGroup group;
   final int learnedCount;
   final int totalCount;
-  final VoidCallback onPressed;
+  final VoidCallback? onPressed;
+  final VoidCallback onReset;
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(
-      onPressed: onPressed,
-      style: ElevatedButton.styleFrom(
-        padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 16),
-      ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: <Widget>[
-          Text(label),
-          if (totalCount > 0)
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-              decoration: BoxDecoration(
-                color: Colors.green.withOpacity(0.2),
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: Text(
-                'learned $learnedCount/$totalCount',
-                style: const TextStyle(
-                  fontSize: 12,
-                  color: Colors.green,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
+    return Row(
+      children: <Widget>[
+        Expanded(
+          child: ElevatedButton(
+            onPressed: onPressed,
+            style: ElevatedButton.styleFrom(
+              padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 16),
             ),
-        ],
-      ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                Text(label),
+                if (totalCount > 0)
+                  Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                    decoration: BoxDecoration(
+                      color: Colors.green.withOpacity(0.2),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Text(
+                      'learned $learnedCount/$totalCount',
+                      style: const TextStyle(
+                        fontSize: 12,
+                        color: Colors.green,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+          ),
+        ),
+        const SizedBox(width: 8),
+        IconButton(
+          icon: const Icon(Icons.restart_alt),
+          tooltip: 'Reset Group Progress',
+          onPressed: onReset,
+        ),
+      ],
     );
   }
 }

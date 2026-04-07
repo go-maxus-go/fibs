@@ -5,15 +5,21 @@ import 'dart:math';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import '../database/quiz_database.dart';
-import '../models/quiz_direction.dart';
 import '../models/word_entry.dart';
 import '../models/word_group.dart';
 import '../utils/word_utils.dart';
 
 class QuizPage extends StatefulWidget {
-  const QuizPage({super.key, required this.group});
+  const QuizPage({
+    super.key,
+    required this.group,
+    required this.lang1,
+    required this.lang2,
+  });
 
   final WordGroup group;
+  final String lang1;
+  final String lang2;
 
   @override
   State<QuizPage> createState() => _QuizPageState();
@@ -32,7 +38,7 @@ class _QuizPageState extends State<QuizPage> {
   String? _currentCorrectAnswer;
   WordEntry? _currentWord;
   List<String> _options = <String>[];
-  QuizDirection? _direction;
+  String? _currentPromptLang;
   int _correctStreak = 0;
   bool _isLoading = true;
   bool _isChecking = false;
@@ -58,15 +64,19 @@ class _QuizPageState extends State<QuizPage> {
     super.dispose();
   }
 
-  Future<void> _pronounce(String text, QuizDirection direction) async {
-    String lang = 'de-DE';
-    String spdLang = 'de';
-    String textToSpeak = text;
-    if (direction == QuizDirection.enRuToGerman) {
-      lang = 'en-US';
-      spdLang = 'en';
-      textToSpeak = text.split('(').first.trim();
+  Future<void> _pronounce(String text, String lang) async {
+    String ttsLang = 'en-US';
+    String spdLang = 'en';
+    
+    if (lang == 'DE') {
+      ttsLang = 'de-DE';
+      spdLang = 'de';
+    } else if (lang == 'RU') {
+      ttsLang = 'ru-RU';
+      spdLang = 'ru';
     }
+
+    String textToSpeak = text.split('(').first.trim();
 
     if (Platform.isLinux) {
       try {
@@ -75,7 +85,7 @@ class _QuizPageState extends State<QuizPage> {
         debugPrint('Could not run spd-say: $e');
       }
     } else {
-      await _flutterTts.setLanguage(lang);
+      await _flutterTts.setLanguage(ttsLang);
       await _flutterTts.speak(textToSpeak);
     }
   }
@@ -143,21 +153,16 @@ class _QuizPageState extends State<QuizPage> {
     }
 
     final WordEntry chosen = _activeQueue.first;
-    final QuizDirection direction = _random.nextBool()
-        ? QuizDirection.germanToEnRu
-        : QuizDirection.enRuToGerman;
-    final String correctAnswer = direction == QuizDirection.germanToEnRu
-        ? chosen.enRu
-        : chosen.de;
+    final bool firstLangPrompt = _random.nextBool();
+    final String promptLang = firstLangPrompt ? widget.lang1 : widget.lang2;
+    final String answerLang = firstLangPrompt ? widget.lang2 : widget.lang1;
+    
+    final String correctAnswer = chosen.getText(answerLang);
     final Set<String> options = <String>{correctAnswer};
 
     while (options.length < 4) {
       final WordEntry distractor = _words[_random.nextInt(_words.length)];
-      options.add(
-        direction == QuizDirection.germanToEnRu
-            ? distractor.enRu
-            : distractor.de,
-      );
+      options.add(distractor.getText(answerLang));
     }
 
     final List<String> shuffled = options.toList()..shuffle(_random);
@@ -169,10 +174,8 @@ class _QuizPageState extends State<QuizPage> {
       return;
     }
     setState(() {
-      _direction = direction;
-      _currentPrompt = direction == QuizDirection.germanToEnRu
-          ? chosen.de
-          : chosen.enRu;
+      _currentPromptLang = promptLang;
+      _currentPrompt = chosen.getText(promptLang);
       _currentWord = chosen.copyWith(seenCount: chosen.seenCount + 1);
       _currentCorrectAnswer = correctAnswer;
       _options = optionsWithIdk;
@@ -183,8 +186,8 @@ class _QuizPageState extends State<QuizPage> {
       _correctSelection = null;
     });
 
-    if (_isWordHidden && _currentPrompt != null && _direction != null) {
-      _pronounce(_currentPrompt!, _direction!);
+    if (_isWordHidden && _currentPrompt != null && _currentPromptLang != null) {
+      _pronounce(_currentPrompt!, _currentPromptLang!);
     }
   }
 
@@ -287,13 +290,13 @@ class _QuizPageState extends State<QuizPage> {
     }
 
     final String? promptWord = _currentPrompt;
-    final QuizDirection? direction = _direction;
-    if (promptWord == null || direction == null) {
+    final String? promptLang = _currentPromptLang;
+    if (promptWord == null || promptLang == null) {
       return const Scaffold(body: Center(child: Text('No word available.')));
     }
 
     return Scaffold(
-      appBar: AppBar(title: Text('German ${widget.group.title} Quiz')),
+      appBar: AppBar(title: Text('${widget.lang1}-${widget.lang2} ${widget.group.title} Quiz')),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -391,8 +394,8 @@ class _QuizPageState extends State<QuizPage> {
                         });
                         if (_isWordHidden &&
                             _currentPrompt != null &&
-                            _direction != null) {
-                          _pronounce(_currentPrompt!, _direction!);
+                            _currentPromptLang != null) {
+                          _pronounce(_currentPrompt!, _currentPromptLang!);
                         }
                       },
                     ),
@@ -429,7 +432,7 @@ class _QuizPageState extends State<QuizPage> {
                     IconButton(
                       icon: const Icon(Icons.volume_up, size: 24),
                       tooltip: 'Pronounce word',
-                      onPressed: () => _pronounce(promptWord, direction),
+                      onPressed: () => _pronounce(promptWord, promptLang),
                     ),
                   ],
                 ),

@@ -1,6 +1,5 @@
 import 'package:path/path.dart' as path;
 import 'package:sqflite/sqflite.dart';
-import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 import '../models/word_entry.dart';
 import '../models/word_group.dart';
 
@@ -23,11 +22,17 @@ class QuizDatabase {
       },
       onUpgrade: (Database db, int oldVersion, int newVersion) async {
         if (oldVersion < 2) {
-          await db.execute('ALTER TABLE words ADD COLUMN streak INTEGER NOT NULL DEFAULT 0');
-          await db.execute('ALTER TABLE words ADD COLUMN queue_index INTEGER NOT NULL DEFAULT 0');
+          await db.execute(
+            'ALTER TABLE words ADD COLUMN streak INTEGER NOT NULL DEFAULT 0',
+          );
+          await db.execute(
+            'ALTER TABLE words ADD COLUMN queue_index INTEGER NOT NULL DEFAULT 0',
+          );
         }
         if (oldVersion < 3) {
-          await db.execute('ALTER TABLE words ADD COLUMN status INTEGER NOT NULL DEFAULT 0');
+          await db.execute(
+            'ALTER TABLE words ADD COLUMN status INTEGER NOT NULL DEFAULT 0',
+          );
         }
       },
     );
@@ -63,6 +68,20 @@ class QuizDatabase {
     await db.execute('DROP TABLE IF EXISTS group_stats');
     await db.execute('DROP TABLE IF EXISTS words');
     await _createTables(db);
+  }
+
+  Future<void> resetGroup(WordGroup group) async {
+    final Database db = await database;
+    await db.delete(
+      'group_stats',
+      where: 'group_name = ?',
+      whereArgs: <Object>[group.dbKey],
+    );
+    await db.delete(
+      'words',
+      where: 'group_name = ?',
+      whereArgs: <Object>[group.dbKey],
+    );
   }
 
   Future<List<WordEntry>> upsertAndLoadWords(
@@ -118,7 +137,11 @@ class QuizDatabase {
     }).toList();
   }
 
-  Future<void> setWordStatus(WordGroup group, int wordIndex, WordStatus status) async {
+  Future<void> setWordStatus(
+    WordGroup group,
+    int wordIndex,
+    WordStatus status,
+  ) async {
     final Database db = await database;
     await db.rawUpdate(
       '''
