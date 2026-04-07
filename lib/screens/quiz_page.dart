@@ -67,7 +67,7 @@ class _QuizPageState extends State<QuizPage> {
   Future<void> _pronounce(String text, String lang) async {
     String ttsLang = 'en-US';
     String spdLang = 'en';
-    
+
     if (lang == 'DE') {
       ttsLang = 'de-DE';
       spdLang = 'de';
@@ -156,7 +156,7 @@ class _QuizPageState extends State<QuizPage> {
     final bool firstLangPrompt = _random.nextBool();
     final String promptLang = firstLangPrompt ? widget.lang1 : widget.lang2;
     final String answerLang = firstLangPrompt ? widget.lang2 : widget.lang1;
-    
+
     final String correctAnswer = chosen.getText(answerLang);
     final Set<String> options = <String>{correctAnswer};
 
@@ -296,14 +296,18 @@ class _QuizPageState extends State<QuizPage> {
     }
 
     return Scaffold(
-      appBar: AppBar(title: Text('${widget.lang1}-${widget.lang2} ${widget.group.title} Quiz')),
+      appBar: AppBar(
+        title: Text(
+          '${widget.lang1}-${widget.lang2} ${widget.group.title} Quiz',
+        ),
+      ),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Text(
-              'Streak: $_correctStreak',
+              'Streak: $_correctStreak ${'🔥' * (_correctStreak ~/ 50)}',
               style: Theme.of(context).textTheme.titleMedium,
               textAlign: TextAlign.center,
             ),
@@ -341,9 +345,8 @@ class _QuizPageState extends State<QuizPage> {
                           icon: const Icon(Icons.fitness_center),
                           color: _currentWord!.status == WordStatus.hard
                               ? Colors.red
-                              : Theme.of(
-                                  context,
-                                ).colorScheme.onSurfaceVariant.withOpacity(0.5),
+                              : Theme.of(context).colorScheme.onSurfaceVariant
+                                    .withValues(alpha: 0.5),
                           tooltip: 'Mark as Hard',
                           onPressed: () {
                             _setStatus(
@@ -358,9 +361,8 @@ class _QuizPageState extends State<QuizPage> {
                           icon: const Icon(Icons.eco),
                           color: _currentWord!.status == WordStatus.easy
                               ? Colors.green
-                              : Theme.of(
-                                  context,
-                                ).colorScheme.onSurfaceVariant.withOpacity(0.5),
+                              : Theme.of(context).colorScheme.onSurfaceVariant
+                                    .withValues(alpha: 0.5),
                           tooltip: 'Mark as Easy',
                           onPressed: () {
                             _setStatus(
